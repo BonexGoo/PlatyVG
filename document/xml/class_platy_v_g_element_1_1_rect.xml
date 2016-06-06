@@ -1,0 +1,492 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_platy_v_g_element_1_1_rect" kind="class" language="C++" prot="public">
+    <compoundname>PlatyVGElement::Rect</compoundname>
+    <includes refid="rect_8hpp" local="no">rect.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_platy_v_g_element_1_1_rect_1a79fbcbafc921bb19aad23f561fdfbb48" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlatyVGElement::Rect::l</definition>
+        <argsstring></argsstring>
+        <name>l</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.hpp" line="40" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.hpp" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_element_1_1_rect_1a3c08d04aa14dd103461cc905295c92ab" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlatyVGElement::Rect::t</definition>
+        <argsstring></argsstring>
+        <name>t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.hpp" line="41" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.hpp" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_element_1_1_rect_1a19731304d5489e52a2f39b672958a919" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlatyVGElement::Rect::r</definition>
+        <argsstring></argsstring>
+        <name>r</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.hpp" line="42" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.hpp" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_element_1_1_rect_1aad0335efeefa6cf75082d0095c647ec1" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlatyVGElement::Rect::b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.hpp" line="43" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.hpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_rect_1a1cda6eb22e7f707f633fa496445b93d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::Rect::Rect</definition>
+        <argsstring>()</argsstring>
+        <name>Rect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.hpp" line="13" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.cpp" bodystart="6" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_rect_1a2cba1ebf9223cec7801074acbb6675d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::Rect::Rect</definition>
+        <argsstring>(const Rect &amp;rhs)</argsstring>
+        <name>Rect</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_rect" kindref="compound">Rect</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.hpp" line="14" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.cpp" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_rect_1acf96a2eb1c12c966f964e677dcfea7a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::Rect::Rect</definition>
+        <argsstring>(const Point point, const Size size)</argsstring>
+        <name>Rect</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_point" kindref="compound">Point</ref></type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_size" kindref="compound">Size</ref></type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.hpp" line="15" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.cpp" bodystart="19" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_rect_1a5cd235caa6babd6022dba9998e1533ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::Rect::Rect</definition>
+        <argsstring>(float l, float t, float r, float b)</argsstring>
+        <name>Rect</name>
+        <param>
+          <type>float</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.hpp" line="16" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.cpp" bodystart="27" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_rect_1ae1f193e6d3cd5f79ad0b159d5d8cebeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::Rect::~Rect</definition>
+        <argsstring>()</argsstring>
+        <name>~Rect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.hpp" line="17" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.cpp" bodystart="35" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_rect_1ab87a8692fd3a37ec63bc75b5c68d0fdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_platy_v_g_element_1_1_rect" kindref="compound">Rect</ref> &amp;</type>
+        <definition>Rect &amp; PlatyVGElement::Rect::operator=</definition>
+        <argsstring>(const Rect &amp;rhs)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_rect" kindref="compound">Rect</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.hpp" line="19" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.cpp" bodystart="39" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_rect_1af67b59be745ee2cfb9e98a093e1033df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_platy_v_g_element_1_1_rect" kindref="compound">Rect</ref> &amp;</type>
+        <definition>Rect &amp; PlatyVGElement::Rect::operator+=</definition>
+        <argsstring>(const Point &amp;rhs)</argsstring>
+        <name>operator+=</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_point" kindref="compound">Point</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.hpp" line="20" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.cpp" bodystart="48" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_rect_1a69db00a2fe2764acfa95ffc8609de57a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_platy_v_g_element_1_1_rect" kindref="compound">Rect</ref></type>
+        <definition>Rect PlatyVGElement::Rect::operator+</definition>
+        <argsstring>(const Point &amp;rhs) const </argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_point" kindref="compound">Point</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.hpp" line="21" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.cpp" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_rect_1a0ea94bc0a07e222cd7282fcd632d4a98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_platy_v_g_element_1_1_rect" kindref="compound">Rect</ref> &amp;</type>
+        <definition>Rect &amp; PlatyVGElement::Rect::operator-=</definition>
+        <argsstring>(const Point &amp;rhs)</argsstring>
+        <name>operator-=</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_point" kindref="compound">Point</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.hpp" line="22" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.cpp" bodystart="62" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_rect_1a9d4004a897ee44d7d1e39e4e8d0cf1a9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_platy_v_g_element_1_1_rect" kindref="compound">Rect</ref></type>
+        <definition>Rect PlatyVGElement::Rect::operator-</definition>
+        <argsstring>(const Point &amp;rhs) const </argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_point" kindref="compound">Point</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.hpp" line="23" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.cpp" bodystart="71" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_rect_1a44b233a720f5f18e247875d25d0ab6c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_platy_v_g_element_1_1_rect" kindref="compound">Rect</ref> &amp;</type>
+        <definition>Rect &amp; PlatyVGElement::Rect::operator*=</definition>
+        <argsstring>(const Zoom &amp;rhs)</argsstring>
+        <name>operator*=</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_zoom" kindref="compound">Zoom</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.hpp" line="24" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.cpp" bodystart="76" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_rect_1aa1b20781d9a4ba4103d02457b1b8dc6e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_platy_v_g_element_1_1_rect" kindref="compound">Rect</ref></type>
+        <definition>Rect PlatyVGElement::Rect::operator*</definition>
+        <argsstring>(const Zoom &amp;rhs) const </argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_zoom" kindref="compound">Zoom</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.hpp" line="25" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.cpp" bodystart="87" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_rect_1ac4b2f61dce27c40d81c00167f15f4752" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_platy_v_g_element_1_1_rect" kindref="compound">Rect</ref> &amp;</type>
+        <definition>Rect &amp; PlatyVGElement::Rect::operator/=</definition>
+        <argsstring>(const Zoom &amp;rhs)</argsstring>
+        <name>operator/=</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_zoom" kindref="compound">Zoom</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.hpp" line="26" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.cpp" bodystart="92" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_rect_1aa8280e1818246f629480434660424c51" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_platy_v_g_element_1_1_rect" kindref="compound">Rect</ref></type>
+        <definition>Rect PlatyVGElement::Rect::operator/</definition>
+        <argsstring>(const Zoom &amp;rhs) const </argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_zoom" kindref="compound">Zoom</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.hpp" line="27" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.cpp" bodystart="103" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_rect_1a3bcc89c7d561bdb0d3557066818cfdf8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const float</type>
+        <definition>const float PlatyVGElement::Rect::Width</definition>
+        <argsstring>() const </argsstring>
+        <name>Width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.hpp" line="29" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.cpp" bodystart="108" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_rect_1a91fa17a4600caf36d3c05739dfe7d799" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const float</type>
+        <definition>const float PlatyVGElement::Rect::Height</definition>
+        <argsstring>() const </argsstring>
+        <name>Height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.hpp" line="30" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.cpp" bodystart="113" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_rect_1af471f7dc593c39f506dc19dc5872b632" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const float</type>
+        <definition>const float PlatyVGElement::Rect::CenterX</definition>
+        <argsstring>() const </argsstring>
+        <name>CenterX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.hpp" line="31" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.cpp" bodystart="118" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_rect_1afb8cbf5447652c2d131964cdd87b2850" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const float</type>
+        <definition>const float PlatyVGElement::Rect::CenterY</definition>
+        <argsstring>() const </argsstring>
+        <name>CenterY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.hpp" line="32" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.cpp" bodystart="123" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_rect_1a3ba43aecfdc6c26d2a0d3aa6a4c0a558" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const bool</type>
+        <definition>const bool PlatyVGElement::Rect::PtInRect</definition>
+        <argsstring>(const Point point) const </argsstring>
+        <name>PtInRect</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_point" kindref="compound">Point</ref></type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.hpp" line="33" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.cpp" bodystart="128" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_rect_1a342f62ed92c63703cfb667d476a0e08c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const bool</type>
+        <definition>const bool PlatyVGElement::Rect::PtInRect</definition>
+        <argsstring>(const float x, const float y) const </argsstring>
+        <name>PtInRect</name>
+        <param>
+          <type>const float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.hpp" line="34" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.cpp" bodystart="133" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_rect_1aadc4e58e1103ac53a2525c7e2a8f9936" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const bool</type>
+        <definition>const bool PlatyVGElement::Rect::ContactTest</definition>
+        <argsstring>(const Rect rect) const </argsstring>
+        <name>ContactTest</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_rect" kindref="compound">Rect</ref></type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.hpp" line="35" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.cpp" bodystart="138" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_rect_1ab369f4588780f1613c38b82ab82c1ed7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_platy_v_g_element_1_1_rect" kindref="compound">Rect</ref></type>
+        <definition>Rect PlatyVGElement::Rect::Inflate</definition>
+        <argsstring>(const float x, const float y) const </argsstring>
+        <name>Inflate</name>
+        <param>
+          <type>const float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.hpp" line="36" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.cpp" bodystart="143" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_rect_1a679061e3adf7dab18c76a938333694fa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_platy_v_g_element_1_1_rect" kindref="compound">Rect</ref></type>
+        <definition>Rect PlatyVGElement::Rect::Deflate</definition>
+        <argsstring>(const float x, const float y) const </argsstring>
+        <name>Deflate</name>
+        <param>
+          <type>const float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.hpp" line="37" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.cpp" bodystart="148" bodyend="151"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>2D영역 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.hpp" line="11" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.hpp" bodystart="10" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_platy_v_g_element_1_1_rect_1aad0335efeefa6cf75082d0095c647ec1" prot="public" virt="non-virtual"><scope>PlatyVGElement::Rect</scope><name>b</name></member>
+      <member refid="class_platy_v_g_element_1_1_rect_1af471f7dc593c39f506dc19dc5872b632" prot="public" virt="non-virtual"><scope>PlatyVGElement::Rect</scope><name>CenterX</name></member>
+      <member refid="class_platy_v_g_element_1_1_rect_1afb8cbf5447652c2d131964cdd87b2850" prot="public" virt="non-virtual"><scope>PlatyVGElement::Rect</scope><name>CenterY</name></member>
+      <member refid="class_platy_v_g_element_1_1_rect_1aadc4e58e1103ac53a2525c7e2a8f9936" prot="public" virt="non-virtual"><scope>PlatyVGElement::Rect</scope><name>ContactTest</name></member>
+      <member refid="class_platy_v_g_element_1_1_rect_1a679061e3adf7dab18c76a938333694fa" prot="public" virt="non-virtual"><scope>PlatyVGElement::Rect</scope><name>Deflate</name></member>
+      <member refid="class_platy_v_g_element_1_1_rect_1a91fa17a4600caf36d3c05739dfe7d799" prot="public" virt="non-virtual"><scope>PlatyVGElement::Rect</scope><name>Height</name></member>
+      <member refid="class_platy_v_g_element_1_1_rect_1ab369f4588780f1613c38b82ab82c1ed7" prot="public" virt="non-virtual"><scope>PlatyVGElement::Rect</scope><name>Inflate</name></member>
+      <member refid="class_platy_v_g_element_1_1_rect_1a79fbcbafc921bb19aad23f561fdfbb48" prot="public" virt="non-virtual"><scope>PlatyVGElement::Rect</scope><name>l</name></member>
+      <member refid="class_platy_v_g_element_1_1_rect_1aa1b20781d9a4ba4103d02457b1b8dc6e" prot="public" virt="non-virtual"><scope>PlatyVGElement::Rect</scope><name>operator*</name></member>
+      <member refid="class_platy_v_g_element_1_1_rect_1a44b233a720f5f18e247875d25d0ab6c0" prot="public" virt="non-virtual"><scope>PlatyVGElement::Rect</scope><name>operator*=</name></member>
+      <member refid="class_platy_v_g_element_1_1_rect_1a69db00a2fe2764acfa95ffc8609de57a" prot="public" virt="non-virtual"><scope>PlatyVGElement::Rect</scope><name>operator+</name></member>
+      <member refid="class_platy_v_g_element_1_1_rect_1af67b59be745ee2cfb9e98a093e1033df" prot="public" virt="non-virtual"><scope>PlatyVGElement::Rect</scope><name>operator+=</name></member>
+      <member refid="class_platy_v_g_element_1_1_rect_1a9d4004a897ee44d7d1e39e4e8d0cf1a9" prot="public" virt="non-virtual"><scope>PlatyVGElement::Rect</scope><name>operator-</name></member>
+      <member refid="class_platy_v_g_element_1_1_rect_1a0ea94bc0a07e222cd7282fcd632d4a98" prot="public" virt="non-virtual"><scope>PlatyVGElement::Rect</scope><name>operator-=</name></member>
+      <member refid="class_platy_v_g_element_1_1_rect_1aa8280e1818246f629480434660424c51" prot="public" virt="non-virtual"><scope>PlatyVGElement::Rect</scope><name>operator/</name></member>
+      <member refid="class_platy_v_g_element_1_1_rect_1ac4b2f61dce27c40d81c00167f15f4752" prot="public" virt="non-virtual"><scope>PlatyVGElement::Rect</scope><name>operator/=</name></member>
+      <member refid="class_platy_v_g_element_1_1_rect_1ab87a8692fd3a37ec63bc75b5c68d0fdf" prot="public" virt="non-virtual"><scope>PlatyVGElement::Rect</scope><name>operator=</name></member>
+      <member refid="class_platy_v_g_element_1_1_rect_1a3ba43aecfdc6c26d2a0d3aa6a4c0a558" prot="public" virt="non-virtual"><scope>PlatyVGElement::Rect</scope><name>PtInRect</name></member>
+      <member refid="class_platy_v_g_element_1_1_rect_1a342f62ed92c63703cfb667d476a0e08c" prot="public" virt="non-virtual"><scope>PlatyVGElement::Rect</scope><name>PtInRect</name></member>
+      <member refid="class_platy_v_g_element_1_1_rect_1a19731304d5489e52a2f39b672958a919" prot="public" virt="non-virtual"><scope>PlatyVGElement::Rect</scope><name>r</name></member>
+      <member refid="class_platy_v_g_element_1_1_rect_1a1cda6eb22e7f707f633fa496445b93d9" prot="public" virt="non-virtual"><scope>PlatyVGElement::Rect</scope><name>Rect</name></member>
+      <member refid="class_platy_v_g_element_1_1_rect_1a2cba1ebf9223cec7801074acbb6675d2" prot="public" virt="non-virtual"><scope>PlatyVGElement::Rect</scope><name>Rect</name></member>
+      <member refid="class_platy_v_g_element_1_1_rect_1acf96a2eb1c12c966f964e677dcfea7a1" prot="public" virt="non-virtual"><scope>PlatyVGElement::Rect</scope><name>Rect</name></member>
+      <member refid="class_platy_v_g_element_1_1_rect_1a5cd235caa6babd6022dba9998e1533ee" prot="public" virt="non-virtual"><scope>PlatyVGElement::Rect</scope><name>Rect</name></member>
+      <member refid="class_platy_v_g_element_1_1_rect_1a3c08d04aa14dd103461cc905295c92ab" prot="public" virt="non-virtual"><scope>PlatyVGElement::Rect</scope><name>t</name></member>
+      <member refid="class_platy_v_g_element_1_1_rect_1a3bcc89c7d561bdb0d3557066818cfdf8" prot="public" virt="non-virtual"><scope>PlatyVGElement::Rect</scope><name>Width</name></member>
+      <member refid="class_platy_v_g_element_1_1_rect_1ae1f193e6d3cd5f79ad0b159d5d8cebeb" prot="public" virt="non-virtual"><scope>PlatyVGElement::Rect</scope><name>~Rect</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="struct_bitmap_info" kind="struct" language="C++" prot="public">
+    <compoundname>BitmapInfo</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_bitmap_info_1a11b693da102957cfed19d5924c80c68b" prot="public" static="no" mutable="no">
+        <type>uint32</type>
+        <definition>uint32 BitmapInfo::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" line="7" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_bitmap_info_1a61e51e76268ca85920671aec9e8b3730" prot="public" static="no" mutable="no">
+        <type>sint32</type>
+        <definition>sint32 BitmapInfo::width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" line="7" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_bitmap_info_1a5be13de5c6cc84fa0d3ae87d8e440885" prot="public" static="no" mutable="no">
+        <type>sint32</type>
+        <definition>sint32 BitmapInfo::height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" line="7" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_bitmap_info_1ac133dabfc03c4ee5dffc227eb810343f" prot="public" static="no" mutable="no">
+        <type>uint16</type>
+        <definition>uint16 BitmapInfo::planes</definition>
+        <argsstring></argsstring>
+        <name>planes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" line="7" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_bitmap_info_1ac1092ee7064a6c746dcf90da82126feb" prot="public" static="no" mutable="no">
+        <type>uint16</type>
+        <definition>uint16 BitmapInfo::bitcount</definition>
+        <argsstring></argsstring>
+        <name>bitcount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" line="7" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_bitmap_info_1aa2d5023d22f88a642bffd1167935aeaf" prot="public" static="no" mutable="no">
+        <type>uint32</type>
+        <definition>uint32 BitmapInfo::compression</definition>
+        <argsstring></argsstring>
+        <name>compression</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" line="7" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_bitmap_info_1a5c254b1ed730f1b1b8b16310a3096bc2" prot="public" static="no" mutable="no">
+        <type>uint32</type>
+        <definition>uint32 BitmapInfo::size_image</definition>
+        <argsstring></argsstring>
+        <name>size_image</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" line="8" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_bitmap_info_1ad7167aa9be993dbed1cb319467c01c74" prot="public" static="no" mutable="no">
+        <type>sint32</type>
+        <definition>sint32 BitmapInfo::xpels_meter</definition>
+        <argsstring></argsstring>
+        <name>xpels_meter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" line="8" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_bitmap_info_1abc514263448fca7f802c6b39b92a4265" prot="public" static="no" mutable="no">
+        <type>sint32</type>
+        <definition>sint32 BitmapInfo::ypels_meter</definition>
+        <argsstring></argsstring>
+        <name>ypels_meter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" line="8" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_bitmap_info_1ade9c0b10a3dee0276592500d321e2167" prot="public" static="no" mutable="no">
+        <type>uint32</type>
+        <definition>uint32 BitmapInfo::color_used</definition>
+        <argsstring></argsstring>
+        <name>color_used</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" line="8" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_bitmap_info_1aeda037d112ca438b324ac73f7fbb7517" prot="public" static="no" mutable="no">
+        <type>uint32</type>
+        <definition>uint32 BitmapInfo::color_important</definition>
+        <argsstring></argsstring>
+        <name>color_important</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" line="8" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" line="7" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" bodystart="7" bodyend="8"/>
+    <listofallmembers>
+      <member refid="struct_bitmap_info_1ac1092ee7064a6c746dcf90da82126feb" prot="public" virt="non-virtual"><scope>BitmapInfo</scope><name>bitcount</name></member>
+      <member refid="struct_bitmap_info_1aeda037d112ca438b324ac73f7fbb7517" prot="public" virt="non-virtual"><scope>BitmapInfo</scope><name>color_important</name></member>
+      <member refid="struct_bitmap_info_1ade9c0b10a3dee0276592500d321e2167" prot="public" virt="non-virtual"><scope>BitmapInfo</scope><name>color_used</name></member>
+      <member refid="struct_bitmap_info_1aa2d5023d22f88a642bffd1167935aeaf" prot="public" virt="non-virtual"><scope>BitmapInfo</scope><name>compression</name></member>
+      <member refid="struct_bitmap_info_1a5be13de5c6cc84fa0d3ae87d8e440885" prot="public" virt="non-virtual"><scope>BitmapInfo</scope><name>height</name></member>
+      <member refid="struct_bitmap_info_1ac133dabfc03c4ee5dffc227eb810343f" prot="public" virt="non-virtual"><scope>BitmapInfo</scope><name>planes</name></member>
+      <member refid="struct_bitmap_info_1a11b693da102957cfed19d5924c80c68b" prot="public" virt="non-virtual"><scope>BitmapInfo</scope><name>size</name></member>
+      <member refid="struct_bitmap_info_1a5c254b1ed730f1b1b8b16310a3096bc2" prot="public" virt="non-virtual"><scope>BitmapInfo</scope><name>size_image</name></member>
+      <member refid="struct_bitmap_info_1a61e51e76268ca85920671aec9e8b3730" prot="public" virt="non-virtual"><scope>BitmapInfo</scope><name>width</name></member>
+      <member refid="struct_bitmap_info_1ad7167aa9be993dbed1cb319467c01c74" prot="public" virt="non-virtual"><scope>BitmapInfo</scope><name>xpels_meter</name></member>
+      <member refid="struct_bitmap_info_1abc514263448fca7f802c6b39b92a4265" prot="public" virt="non-virtual"><scope>BitmapInfo</scope><name>ypels_meter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.9.1">
+  <compound refid="struct__iobuf" kind="struct"><name>_iobuf</name>
+    <member refid="struct__iobuf_1a05420aba482fff180c475c5fd29c892c" kind="variable"><name>_ptr</name></member>
+    <member refid="struct__iobuf_1a4a9e10920e99b837b0dd9b7bb1c164b5" kind="variable"><name>_cnt</name></member>
+    <member refid="struct__iobuf_1aff44fb42fb755e07144f64b2310ed8a4" kind="variable"><name>_base</name></member>
+    <member refid="struct__iobuf_1a91fe8fc76ef7b970522c96bdc9c843cf" kind="variable"><name>_flag</name></member>
+    <member refid="struct__iobuf_1a8c02e2aa48f797154518ec4daac2e026" kind="variable"><name>_file</name></member>
+    <member refid="struct__iobuf_1a3304634683fffee8022d0d9ecaebb903" kind="variable"><name>_charbuf</name></member>
+    <member refid="struct__iobuf_1aeb67e1186cdbbb61f2130649d11a1198" kind="variable"><name>_bufsiz</name></member>
+    <member refid="struct__iobuf_1ac484cc3a7b966fad6ef05ac5071912ad" kind="variable"><name>_tmpfname</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_element_1_1_action" kind="class"><name>PlatyVGElement::Action</name>
+    <member refid="class_platy_v_g_element_1_1_action_1a47e62996cde156a807c4326fb77bdbe6" kind="function"><name>Action</name></member>
+    <member refid="class_platy_v_g_element_1_1_action_1a578800451cf4d6fc707aa285b28c4482" kind="function"><name>Action</name></member>
+    <member refid="class_platy_v_g_element_1_1_action_1aec18f8a6f73fa152421a1f933c4d32b3" kind="function"><name>~Action</name></member>
+    <member refid="class_platy_v_g_element_1_1_action_1a7d2be3f48a3e546723ff459b87f3b2f2" kind="function"><name>operator=</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_element_1_1_action_color" kind="class"><name>PlatyVGElement::ActionColor</name>
+    <member refid="class_platy_v_g_element_1_1_action_color_1a153041db064e10e1ab4b7f3281925a00" kind="variable"><name>saved_shapeid</name></member>
+    <member refid="class_platy_v_g_element_1_1_action_color_1ad08c93d74e7c9f23bbbb619219186c9f" kind="variable"><name>saved_color</name></member>
+    <member refid="class_platy_v_g_element_1_1_action_color_1a060523613af868d4a0f381ceed421d5f" kind="function"><name>ActionColor</name></member>
+    <member refid="class_platy_v_g_element_1_1_action_color_1a226cf6b06a64d077945f8e9f81a43cd5" kind="function"><name>ActionColor</name></member>
+    <member refid="class_platy_v_g_element_1_1_action_color_1a7a887101910856e491ffb86499ae83ba" kind="function"><name>ActionColor</name></member>
+    <member refid="class_platy_v_g_element_1_1_action_color_1a813f9cc9e72738d405fb0e80b0a8b1cd" kind="function"><name>~ActionColor</name></member>
+    <member refid="class_platy_v_g_element_1_1_action_color_1ad46cccd58958d899f9922df2044733a5" kind="function"><name>operator=</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_element_1_1_action_create" kind="class"><name>PlatyVGElement::ActionCreate</name>
+    <member refid="class_platy_v_g_element_1_1_action_create_1a7ae0e64cdf1f3daf7673d8720d6c9cc1" kind="variable"><name>saved_shapeid</name></member>
+    <member refid="class_platy_v_g_element_1_1_action_create_1abe149eb8d694fecc09ce080545ba791f" kind="function"><name>ActionCreate</name></member>
+    <member refid="class_platy_v_g_element_1_1_action_create_1a1725fa0148d9e186a4aadc60284f3f50" kind="function"><name>ActionCreate</name></member>
+    <member refid="class_platy_v_g_element_1_1_action_create_1a0c227ea2c1c2187d87fac200d8960c45" kind="function"><name>ActionCreate</name></member>
+    <member refid="class_platy_v_g_element_1_1_action_create_1a3882d533d4916df6aeae60774918d93d" kind="function"><name>~ActionCreate</name></member>
+    <member refid="class_platy_v_g_element_1_1_action_create_1aee31f8c6b6ca0ac67b6295b553a82d3f" kind="function"><name>operator=</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_element_1_1_action_matrix" kind="class"><name>PlatyVGElement::ActionMatrix</name>
+    <member refid="class_platy_v_g_element_1_1_action_matrix_1afcd6e54d832f00bc8a80224eedb12ef5" kind="variable"><name>saved_shapeid</name></member>
+    <member refid="class_platy_v_g_element_1_1_action_matrix_1a0d0197fd8dbc2e778f6f17b1fe5a9771" kind="variable"><name>saved_matrix</name></member>
+    <member refid="class_platy_v_g_element_1_1_action_matrix_1a7d73c8f7605a2547287ce582602d6052" kind="function"><name>ActionMatrix</name></member>
+    <member refid="class_platy_v_g_element_1_1_action_matrix_1aa889d9df5f900418b1da9a99d58f18a4" kind="function"><name>ActionMatrix</name></member>
+    <member refid="class_platy_v_g_element_1_1_action_matrix_1a4d955996cfa040b269cc6f8ad71ac2eb" kind="function"><name>ActionMatrix</name></member>
+    <member refid="class_platy_v_g_element_1_1_action_matrix_1a1db856ac11960dcb030c2fe82102fae2" kind="function"><name>~ActionMatrix</name></member>
+    <member refid="class_platy_v_g_element_1_1_action_matrix_1aa1bb5cc28cff49056c19017b223891fb" kind="function"><name>operator=</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_element_1_1_action_remove" kind="class"><name>PlatyVGElement::ActionRemove</name>
+    <member refid="class_platy_v_g_element_1_1_action_remove_1a97c71541c36137f75e267c9b405d44a8" kind="variable"><name>saved_shapeid</name></member>
+    <member refid="class_platy_v_g_element_1_1_action_remove_1a20d656fa02da3359e7f01d78256b5248" kind="function"><name>ActionRemove</name></member>
+    <member refid="class_platy_v_g_element_1_1_action_remove_1a0704d9be25b3a79c49c28ca55a14409a" kind="function"><name>ActionRemove</name></member>
+    <member refid="class_platy_v_g_element_1_1_action_remove_1aba3e34971ffc3344800cc23d856c4e17" kind="function"><name>ActionRemove</name></member>
+    <member refid="class_platy_v_g_element_1_1_action_remove_1a9d7c52159cb846d57bf1df677e1aa636" kind="function"><name>~ActionRemove</name></member>
+    <member refid="class_platy_v_g_element_1_1_action_remove_1a2090fc511480ff0d4e25541ec399fd88" kind="function"><name>operator=</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_element_1_1_action_thick" kind="class"><name>PlatyVGElement::ActionThick</name>
+    <member refid="class_platy_v_g_element_1_1_action_thick_1aa6e03c5e02e9c7829981e77804237572" kind="variable"><name>saved_shapeid</name></member>
+    <member refid="class_platy_v_g_element_1_1_action_thick_1ab421e2ddc692058724a4fadef478daa2" kind="variable"><name>saved_thick</name></member>
+    <member refid="class_platy_v_g_element_1_1_action_thick_1a0591e33acb60f683cc24c9bc965b0181" kind="function"><name>ActionThick</name></member>
+    <member refid="class_platy_v_g_element_1_1_action_thick_1a1af58bb2878c5158b806c3f864eb24e6" kind="function"><name>ActionThick</name></member>
+    <member refid="class_platy_v_g_element_1_1_action_thick_1ad73991ce91006e55e4212c652e7e06ba" kind="function"><name>ActionThick</name></member>
+    <member refid="class_platy_v_g_element_1_1_action_thick_1a6bc42205ead87b0f338f6a7ffa208979" kind="function"><name>~ActionThick</name></member>
+    <member refid="class_platy_v_g_element_1_1_action_thick_1a542f471cc91e7d7f1200ad24627c81f3" kind="function"><name>operator=</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_api_1_1_adapter" kind="class"><name>PlatyVGApi::Adapter</name>
+    <member refid="class_platy_v_g_api_1_1_adapter_1a352170f1f2dcf7340fc06ce556c8f9c9" kind="function"><name>GetDocumentLink</name></member>
+    <member refid="class_platy_v_g_api_1_1_adapter_1a17ef044d59ad5f29120910d96cbff6d0" kind="function"><name>GetLayerCount</name></member>
+    <member refid="class_platy_v_g_api_1_1_adapter_1ac274106103544d960607229da53029b2" kind="function"><name>GetLayerLink</name></member>
+    <member refid="class_platy_v_g_api_1_1_adapter_1a9f1d18ebcf12b05970423462ffecec84" kind="function"><name>GetShapeCount</name></member>
+    <member refid="class_platy_v_g_api_1_1_adapter_1afcb8971b225b6ff483b8d1bae49b1cb5" kind="function"><name>GetShapeLink</name></member>
+    <member refid="class_platy_v_g_api_1_1_adapter_1a73136acfdf36e84553831aa479982f40" kind="function"><name>IsLayerVisibled</name></member>
+    <member refid="class_platy_v_g_api_1_1_adapter_1a512288abac41117e67074e58d42361e8" kind="function"><name>IsShapeSelected</name></member>
+    <member refid="class_platy_v_g_api_1_1_adapter_1abd2560f84d255c5b2b2807b17a014574" kind="function"><name>GetShapeColorRed</name></member>
+    <member refid="class_platy_v_g_api_1_1_adapter_1a89f1360cd36b39a78ce255caf372d88f" kind="function"><name>GetShapeColorGreen</name></member>
+    <member refid="class_platy_v_g_api_1_1_adapter_1af0c4dac5c3f9ec6270a79c8854cbb403" kind="function"><name>GetShapeColorBlue</name></member>
+    <member refid="class_platy_v_g_api_1_1_adapter_1acd6096d22b9e854f3bc005af2bb00b34" kind="function"><name>GetShapeColorAlpha</name></member>
+    <member refid="class_platy_v_g_api_1_1_adapter_1a73a5ed12f6fa5d3d91cd317a7f977a89" kind="function"><name>GetShapeColorAqua</name></member>
+    <member refid="class_platy_v_g_api_1_1_adapter_1a35016ac4afbbca89118d2347e65008c6" kind="function"><name>GetShapeMatrixM11</name></member>
+    <member refid="class_platy_v_g_api_1_1_adapter_1a0e3f67f1bbb542a9a7de92ebb7d39de2" kind="function"><name>GetShapeMatrixM12</name></member>
+    <member refid="class_platy_v_g_api_1_1_adapter_1ac66d060ddf82ad7ef617ed7f77ece123" kind="function"><name>GetShapeMatrixM21</name></member>
+    <member refid="class_platy_v_g_api_1_1_adapter_1aac04a7aa496740a2420267ca493b3ca6" kind="function"><name>GetShapeMatrixM22</name></member>
+    <member refid="class_platy_v_g_api_1_1_adapter_1ae2c02588e6ebb45e5ab46063b3e31997" kind="function"><name>GetShapeMatrixDx</name></member>
+    <member refid="class_platy_v_g_api_1_1_adapter_1a6a78f0ead58f4416601f22c9bb7c5775" kind="function"><name>GetShapeMatrixDy</name></member>
+    <member refid="class_platy_v_g_api_1_1_adapter_1a1a5c6672ed18b83d6f3a07d103c342c5" kind="function"><name>GetShapeMeshType</name></member>
+    <member refid="class_platy_v_g_api_1_1_adapter_1a6993784d83bf10ab0166d6f4c240afa6" kind="function"><name>GetShapeMeshCount</name></member>
+    <member refid="class_platy_v_g_api_1_1_adapter_1a6b1d51261041f1b47e1c00de916de953" kind="function"><name>GetShapeMeshArray</name></member>
+    <member refid="class_platy_v_g_api_1_1_adapter_1a347418910ad024df55da1917f7c22a2f" kind="function"><name>GetShapeBufferSize</name></member>
+    <member refid="class_platy_v_g_api_1_1_adapter_1a2e8c316c6b4515e4bc38df8875f8cb31" kind="function"><name>GetShapeBuffer</name></member>
+    <member refid="class_platy_v_g_api_1_1_adapter_1a391c2ced09fd77d0cf92fafc75961ff3" kind="function"><name>RenderDIB</name></member>
+  </compound>
+  <compound refid="class_px_1_1_array" kind="class"><name>Px::Array</name>
+    <member refid="class_px_1_1_array_1a9d2321216437576e4a29688de4c6d6d4" kind="variable"><name>share</name></member>
+    <member refid="class_px_1_1_array_1a2724dcb3cad4f6a4d46fa014274a9a52" kind="function"><name>Array</name></member>
+    <member refid="class_px_1_1_array_1ade08fd35bbae0c698cd24782a9677ea2" kind="function"><name>Array</name></member>
+    <member refid="class_px_1_1_array_1ac950bc115bbcafec5e257741455b8c6f" kind="function"><name>Array</name></member>
+    <member refid="class_px_1_1_array_1a9f009fa3ebd551eb1ea9e308e2f85368" kind="function"><name>~Array</name></member>
+    <member refid="class_px_1_1_array_1aa0ddc439e186162b6907647281e94980" kind="function"><name>Clear</name></member>
+    <member refid="class_px_1_1_array_1ad242cb75516acfd1a1568a03abc0c2dc" kind="function"><name>operator const ArrayShare</name></member>
+    <member refid="class_px_1_1_array_1af70726fdab12d2f8e3d73e38c5d5589e" kind="function"><name>operator=</name></member>
+    <member refid="class_px_1_1_array_1aefdddaea83ec1ff24274c6ae37b0e17e" kind="function"><name>operator[]</name></member>
+    <member refid="class_px_1_1_array_1a2eb53c8e4c3761558a1b64cae2336189" kind="function"><name>At</name></member>
+    <member refid="class_px_1_1_array_1a16683d7ddd43efcf9334d094bfcfc749" kind="function"><name>AtAdding</name></member>
+    <member refid="class_px_1_1_array_1aa578b098f4c31d3b259ac73e8712ad54" kind="function"><name>AtWherever</name></member>
+    <member refid="class_px_1_1_array_1a3dfa5983e64b7a7ef2612857f74afbfb" kind="function"><name>Subtraction</name></member>
+    <member refid="class_px_1_1_array_1a761685bf155e6fcb3176a216ad10a378" kind="function"><name>Type</name></member>
+    <member refid="class_px_1_1_array_1ab0002d07743eee641bc62e3b0f115c52" kind="function"><name>Count</name></member>
+    <member refid="class_px_1_1_array_1a041f15be3e2f0c52db1941f5b1059697" kind="function"><name>_Sample</name></member>
+  </compound>
+  <compound refid="class_px_1_1_array_share" kind="class"><name>Px::ArrayShare</name>
+    <member refid="class_px_1_1_array_share_1af6c9efb9da5e23c0e64725e878bc8373" kind="variable"><name>share</name></member>
+    <member refid="class_px_1_1_array_share_1ab82e5cbae76cb209d056a82100a40f8b" kind="function"><name>ArrayShare</name></member>
+    <member refid="class_px_1_1_array_share_1a86468fc7a954e0982ab0e0230d0d6519" kind="function"><name>~ArrayShare</name></member>
+    <member refid="class_px_1_1_array_share_1a4ced3169ce4989956488f42f1255201f" kind="function"><name>Clone</name></member>
+  </compound>
+  <compound refid="struct_bitmap_file" kind="struct"><name>BitmapFile</name>
+    <member refid="struct_bitmap_file_1aab229ed0d17c3565e5f8b86d97f480b3" kind="variable"><name>size</name></member>
+    <member refid="struct_bitmap_file_1abeac96373b824b04ed2a8000636c9151" kind="variable"><name>param1</name></member>
+    <member refid="struct_bitmap_file_1a615e1d27b048d9f9f659fe4e1aa7c371" kind="variable"><name>param2</name></member>
+    <member refid="struct_bitmap_file_1aafb0d717d50eeceb62c089649c8b37da" kind="variable"><name>offbits</name></member>
+  </compound>
+  <compound refid="struct_bitmap_info" kind="struct"><name>BitmapInfo</name>
+    <member refid="struct_bitmap_info_1a11b693da102957cfed19d5924c80c68b" kind="variable"><name>size</name></member>
+    <member refid="struct_bitmap_info_1a61e51e76268ca85920671aec9e8b3730" kind="variable"><name>width</name></member>
+    <member refid="struct_bitmap_info_1a5be13de5c6cc84fa0d3ae87d8e440885" kind="variable"><name>height</name></member>
+    <member refid="struct_bitmap_info_1ac133dabfc03c4ee5dffc227eb810343f" kind="variable"><name>planes</name></member>
+    <member refid="struct_bitmap_info_1ac1092ee7064a6c746dcf90da82126feb" kind="variable"><name>bitcount</name></member>
+    <member refid="struct_bitmap_info_1aa2d5023d22f88a642bffd1167935aeaf" kind="variable"><name>compression</name></member>
+    <member refid="struct_bitmap_info_1a5c254b1ed730f1b1b8b16310a3096bc2" kind="variable"><name>size_image</name></member>
+    <member refid="struct_bitmap_info_1ad7167aa9be993dbed1cb319467c01c74" kind="variable"><name>xpels_meter</name></member>
+    <member refid="struct_bitmap_info_1abc514263448fca7f802c6b39b92a4265" kind="variable"><name>ypels_meter</name></member>
+    <member refid="struct_bitmap_info_1ade9c0b10a3dee0276592500d321e2167" kind="variable"><name>color_used</name></member>
+    <member refid="struct_bitmap_info_1aeda037d112ca438b324ac73f7fbb7517" kind="variable"><name>color_important</name></member>
+  </compound>
+  <compound refid="class_px_1_1_buffer" kind="class"><name>Px::Buffer</name>
+    <member refid="class_px_1_1_buffer_1a5173a21ad0371ba490e1c710e5cc2d0b" kind="typedef"><name>_AssignorCB</name></member>
+    <member refid="class_px_1_1_buffer_1a706cc5f11ce53c7c78d0dec9bf7622c2" kind="function"><name>Alloc</name></member>
+    <member refid="class_px_1_1_buffer_1a569634f9d7c5899741487662669be869" kind="function"><name>AllocBySample</name></member>
+    <member refid="class_px_1_1_buffer_1a5729c012b7491be06ad6dba8a6ed6b8c" kind="function"><name>Realloc</name></member>
+    <member refid="class_px_1_1_buffer_1acd05ebbf9dd44cb5806e270d9d83c4ab" kind="function"><name>Free</name></member>
+    <member refid="class_px_1_1_buffer_1a453d7995686842cd386096297af82712" kind="function"><name>Copy</name></member>
+    <member refid="class_px_1_1_buffer_1afe6bd86527d6d9fe6365ea09243c9bb6" kind="function"><name>CountOf</name></member>
+    <member refid="class_px_1_1_buffer_1ad0e1f7aaea5896955df0217bb4c7267d" kind="function"><name>SizeOf</name></member>
+    <member refid="class_px_1_1_buffer_1af0325801ad185aa83670d1d231b25bc0" kind="function"><name>TypeOf</name></member>
+    <member refid="class_px_1_1_buffer_1a108775f2c98457691287088fd159e926" kind="function"><name>NameOf</name></member>
+    <member refid="class_px_1_1_buffer_1ac1ab6da2b7284d5fbbc1a6f9d77b04ea" kind="function"><name>At</name></member>
+    <member refid="class_px_1_1_buffer_1afa4ac0013039eac758ae07c73978e831" kind="function"><name>Reset</name></member>
+    <member refid="class_px_1_1_buffer_1a45a991bfb7492d8bdb538f8ef2f05ee7" kind="function"><name>DebugPrint</name></member>
+    <member refid="class_px_1_1_buffer_1a0d74665754f9dd2ac45418e18e572221" kind="function"><name>_Assignor</name></member>
+    <member refid="class_px_1_1_buffer_1a5f93d90889703ad3301e2ed53298b1cb" kind="function"><name>_Alloc</name></member>
+    <member refid="class_px_1_1_buffer_1a8040872b583a243747a9c6efc9211184" kind="function"><name>_Free</name></member>
+    <member refid="class_px_1_1_buffer_1a4260149cb52664809a5a5b8c611656eb" kind="function"><name>_Convert</name></member>
+    <member refid="class_px_1_1_buffer_1af2f8a29b746cb73441a8cf723e889fc6" kind="function"><name>_SizeOf</name></member>
+    <member refid="class_px_1_1_buffer_1abda9344a551b0c487a60f3df3fed0e34" kind="function"><name>_NameOf</name></member>
+    <member refid="class_px_1_1_buffer_1a0ff1b050eab4f15bfc500d2a4c52f926" kind="function"><name>_At</name></member>
+    <member refid="class_px_1_1_buffer_1a6dcee501d1653fe943b75e6e8129f588" kind="function"><name>_Mutex</name></member>
+    <member refid="class_px_1_1_buffer_1a0b6ad0be4dac682bffbcb29e50b4abe6" kind="function"><name>_DebugAttach</name></member>
+    <member refid="class_px_1_1_buffer_1ab53214d53394af7d42b76c0f7812e50e" kind="function"><name>_DebugDetach</name></member>
+    <member refid="class_px_1_1_buffer_1a580c428d9c9aa7af450b6bab65552671" kind="function"><name>_DebugLink</name></member>
+  </compound>
+  <compound refid="class_px_1_1_byte_array_for_platform" kind="class"><name>Px::ByteArrayForPlatform</name>
+    <member refid="class_px_1_1_byte_array_for_platform_1adf2de16f57d2ee2f07806dc60263ad27" kind="variable"><name>Bytes</name></member>
+    <member refid="class_px_1_1_byte_array_for_platform_1a49c91f34132211040036b610ec56eebd" kind="variable"><name>Env</name></member>
+    <member refid="class_px_1_1_byte_array_for_platform_1a7366f0a0ee1f5adbfc90789b3bdc5baa" kind="variable"><name>Brr</name></member>
+    <member refid="class_px_1_1_byte_array_for_platform_1a008d005c0c716263f33836bb08806236" kind="function"><name>ByteArrayForPlatform</name></member>
+    <member refid="class_px_1_1_byte_array_for_platform_1af7a9d4aaef6759b98aca7f9ab982d3ff" kind="function"><name>~ByteArrayForPlatform</name></member>
+    <member refid="class_px_1_1_byte_array_for_platform_1ab311529e048da4ef67aaf240ab572a2d" kind="function"><name>operator bytes</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_api_1_1_command_1_1_canvas" kind="class"><name>PlatyVGApi::Command::Canvas</name>
+    <member refid="class_platy_v_g_api_1_1_command_1_1_canvas_1aec9576973b0171fec3c32e335b13a7f2" kind="function"><name>Create</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1_1_canvas_1a5464d31bdc82557017ed77db748e4cda" kind="function"><name>Remove</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1_1_canvas_1aaf541c3e744f5a75154ed13542e7858a" kind="function"><name>Update</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1_1_canvas_1abdc36cf982fcaa303fd2ebf3e6671247" kind="function"><name>UpdateBy</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1_1_canvas_1ad0c06dae19e78902a678a3fbb35bb26a" kind="function"><name>SetName</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1_1_canvas_1ae0133935857f88141ceec1ddc02a1ae5" kind="function"><name>GetName</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1_1_canvas_1a78bbb32e80fb3168560bc3b5833922f2" kind="function"><name>SetArea</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1_1_canvas_1af7da0709d54ea5dc2d77c19d805bf2a7" kind="function"><name>GetArea</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1_1_canvas_1a84dd048234622d441333d5439bf2a148" kind="function"><name>SetZoom</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1_1_canvas_1af9bec792d068b9c71b6d03af0a01d6a0" kind="function"><name>SetZoomInRect</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1_1_canvas_1afb6782b7ad594a5817087afe305a9b1a" kind="function"><name>GetZoom</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1_1_canvas_1affcc98766dbee207156ab7c9e0bab415" kind="function"><name>SetFocus</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1_1_canvas_1a4f4bd53326104df72c833c4de3e4d4c4" kind="function"><name>GetFocus</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1_1_canvas_1af5c2e26ad26613286f1634083120c147" kind="function"><name>GetDocumentCount</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1_1_canvas_1a830a543783b3f253ac133d4b4457c2da" kind="function"><name>GetDocument</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1_1_canvas_1a9ae4432dc2898d7b3264277017273976" kind="function"><name>GetDocumentBy</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1_1_canvas_1a765bb9685394b065b4b3dec4b30c6205" kind="function"><name>GetTimeOfLastDrawing</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1_1_canvas_1a6437f6065634c987c113c183ec7bc695" kind="function"><name>Snapshot</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_element_1_1_color" kind="class"><name>PlatyVGElement::Color</name>
+    <member refid="class_platy_v_g_element_1_1_color_1a070fa97356ac46c6692c2dbf32082d35" kind="variable"><name>rgba</name></member>
+    <member refid="class_platy_v_g_element_1_1_color_1acfcee3228fa890e4fbbc2ebd3f322799" kind="variable"><name>r</name></member>
+    <member refid="class_platy_v_g_element_1_1_color_1ac7525fa3bf7ab0952b58e862d69d2b6c" kind="variable"><name>g</name></member>
+    <member refid="class_platy_v_g_element_1_1_color_1a50c1f09173769c63931a6ecfa94556da" kind="variable"><name>b</name></member>
+    <member refid="class_platy_v_g_element_1_1_color_1a2b602dd99f4a131bce3fac53c13724ab" kind="variable"><name>a</name></member>
+    <member refid="class_platy_v_g_element_1_1_color_1ada9d9aa2e376f5c8afa4d96911ab47c7" kind="variable"><name>@3</name></member>
+    <member refid="class_platy_v_g_element_1_1_color_1a8d59db7d188751ead274261104455012" kind="variable"><name>aqua</name></member>
+    <member refid="class_platy_v_g_element_1_1_color_1a202bbeffd1bb78c9f9a540cc6bfbc5f2" kind="function"><name>Color</name></member>
+    <member refid="class_platy_v_g_element_1_1_color_1a6b075af38e746fc396a51c7f88e33733" kind="function"><name>Color</name></member>
+    <member refid="class_platy_v_g_element_1_1_color_1ad681b016c40ea0418270e78c5e1880f0" kind="function"><name>Color</name></member>
+    <member refid="class_platy_v_g_element_1_1_color_1ab14b0f0bb13e2b3ac6f5adea606fa515" kind="function"><name>Color</name></member>
+    <member refid="class_platy_v_g_element_1_1_color_1a6b212c357c3eead0a9ce8b83d93578f4" kind="function"><name>~Color</name></member>
+    <member refid="class_platy_v_g_element_1_1_color_1aa3bbab9fbb8b268be0cfe7de1e7cceb8" kind="function"><name>operator=</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_api_1_1_command" kind="class"><name>PlatyVGApi::Command</name>
+    <member refid="class_platy_v_g_api_1_1_command_1ac8e076f7a2f02ab823966cd9cdc9ffda" kind="function"><name>GetShapeCount</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1a7cd33773a3c4e0f434049f4f6b581ca0" kind="function"><name>ClearShapes</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1a41f63f2c6fb0b5cb5eac6c1440148cc7" kind="function"><name>ClearSelects</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1a1ebb82bffcdcff845e04500fc99f1016" kind="function"><name>RemoveSelects</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1acd17505868be87ca6ef53171f76daee9" kind="function"><name>ChangeSelects</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1a7dab159ae31b8c2991611a4b6f89b7a4" kind="function"><name>SetStrokeBy</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1a1126d6939d595e7c03c2f8e3fa3380db" kind="function"><name>SetSelectBy</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1a1635f11c5cffeceb5361a87d37f3dc7e" kind="function"><name>SetColor</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1abda0fcd36665bd02d6a0c8c4233ebcf7" kind="function"><name>GetColor</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1a1accd7685fa22bba4fdf369803d17dd3" kind="function"><name>GetColorBy</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1a5680aee3f9085fac8afd2c61bf426136" kind="function"><name>SetThick</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1aa0980e7926824bae704202a0e45884f0" kind="function"><name>GetThick</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1ad8b6538496407b5115e394b65d0e9c10" kind="function"><name>SetViewRadius</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1a159819d62f3d8bb317a02bfba05c75c9" kind="function"><name>GetViewRadius</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1a23f30fe7553af5115859b49c6df72f88" kind="function"><name>SetLayerVisible</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1ad827dbb9fb55adea019d5486565534cd" kind="function"><name>GetLayerVisible</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1a22091395e47a81f830683bd86b709939" kind="function"><name>SetCurrentTime</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1a5026d89a6a0d41784bf18fd7ba170896" kind="function"><name>Undo</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1aff875b1887ef22e458f90bee7d2789cf" kind="function"><name>Redo</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1ac1953aad23cecb13db86543be0fde322" kind="function"><name>CanUndo</name></member>
+    <member refid="class_platy_v_g_api_1_1_command_1a04883390fd4d72980999c04d7b483e4c" kind="function"><name>CanRedo</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_element_1_1_context" kind="class"><name>PlatyVGElement::Context</name>
+    <member refid="class_platy_v_g_element_1_1_context_1ae8c4d854a814f96270e1d228aabc734f" kind="variable"><name>color</name></member>
+    <member refid="class_platy_v_g_element_1_1_context_1a7c7983bcd726a309a6e19e0ad830b9de" kind="variable"><name>thick</name></member>
+    <member refid="class_platy_v_g_element_1_1_context_1a6932063f7d1318226bcfc9ea57369a1e" kind="function"><name>Context</name></member>
+    <member refid="class_platy_v_g_element_1_1_context_1ad08f932aab3dde520e5b0e48e35c1946" kind="function"><name>Context</name></member>
+    <member refid="class_platy_v_g_element_1_1_context_1a2f6a6cf347d6b305e174390b2ba27501" kind="function"><name>Context</name></member>
+    <member refid="class_platy_v_g_element_1_1_context_1a32fcbc3bb87ed0768c0d302d79ffcd98" kind="function"><name>~Context</name></member>
+    <member refid="class_platy_v_g_element_1_1_context_1a488e312d495eeffaaec007833f0f79ce" kind="function"><name>operator=</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_element_1_1_coord" kind="class"><name>PlatyVGElement::Coord</name>
+    <member refid="class_platy_v_g_element_1_1_coord_1ae34145dfa274d8daaaa402a0fc26bd67" kind="variable"><name>x</name></member>
+    <member refid="class_platy_v_g_element_1_1_coord_1a31c9414fded2adec486c212bb8ad1e9e" kind="variable"><name>y</name></member>
+    <member refid="class_platy_v_g_element_1_1_coord_1a3a9635e0b5d4b718ea284a93f067d808" kind="variable"><name>force</name></member>
+    <member refid="class_platy_v_g_element_1_1_coord_1a28b05e465ec0beecbea6c9d5221a693e" kind="function"><name>Coord</name></member>
+    <member refid="class_platy_v_g_element_1_1_coord_1a354005f7974236fc37d32144e009d548" kind="function"><name>Coord</name></member>
+    <member refid="class_platy_v_g_element_1_1_coord_1abad869f2e47f8f638d3d9c71ca5b2da6" kind="function"><name>Coord</name></member>
+    <member refid="class_platy_v_g_element_1_1_coord_1ac09435ce3ca169ea20c6fc78cd2910fc" kind="function"><name>~Coord</name></member>
+    <member refid="class_platy_v_g_element_1_1_coord_1a8e7f03c333d13f1c5e9a6c5c500ae3be" kind="function"><name>operator=</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_core_1_1_device" kind="class"><name>PlatyVGCore::Device</name>
+    <member refid="class_platy_v_g_core_1_1_device_1ab6493abff8ab6c84d10f7b78721dff7f" kind="variable"><name>IsZoomEnabled</name></member>
+    <member refid="class_platy_v_g_core_1_1_device_1a25ed011963046064e00a76ad1a204bef" kind="variable"><name>IsOutsideDown</name></member>
+    <member refid="class_platy_v_g_core_1_1_device_1a23fc1e0b58b7f68f954d55bcd3ac44eb" kind="variable"><name>IsGlobalZoomEnabled</name></member>
+    <member refid="class_platy_v_g_core_1_1_device_1aed7b51ca87c1597ad1d30922855ec466" kind="variable"><name>InputFlag</name></member>
+    <member refid="class_platy_v_g_core_1_1_device_1a09f5e093602f20e02e3ef4464b69f5fa" kind="variable"><name>Gesture</name></member>
+    <member refid="class_platy_v_g_core_1_1_device_1a4b61fcabed419bc0a8ecbab9ffe8e7d2" kind="variable"><name>InputCoords</name></member>
+    <member refid="class_platy_v_g_core_1_1_device_1a77aaa7662576ec42f9a7dae37e662153" kind="variable"><name>InputLocked</name></member>
+    <member refid="class_platy_v_g_core_1_1_device_1aeb9ac10330e0a1839c9ed6e57405b480" kind="variable"><name>InputSensitivity</name></member>
+    <member refid="class_platy_v_g_core_1_1_device_1a6778bb81fc9ae105a3d2c859bf5300e5" kind="variable"><name>InputBaseDistanceByMS</name></member>
+    <member refid="class_platy_v_g_core_1_1_device_1a90445f053d4a5c2241f38dfe6e16df32" kind="variable"><name>CurrentSpeedyForce</name></member>
+    <member refid="class_platy_v_g_core_1_1_device_1a5d4a42a2d496bf75120f1a9d561cd2aa" kind="variable"><name>OldXForSpeedyForce</name></member>
+    <member refid="class_platy_v_g_core_1_1_device_1ae03f0b89504bce8cc482fce624ca719c" kind="variable"><name>OldYForSpeedyForce</name></member>
+    <member refid="class_platy_v_g_core_1_1_device_1a8c8068bf33206af7d17dcd8763b718f2" kind="variable"><name>OldMSForSpeedyForce</name></member>
+    <member refid="class_platy_v_g_core_1_1_device_1a2c0214249d2dbe6d1063c5b1e8cbcf27" kind="function"><name>Device</name></member>
+    <member refid="class_platy_v_g_core_1_1_device_1a8981187ba6763afc2c87345eca306254" kind="function"><name>~Device</name></member>
+    <member refid="class_platy_v_g_core_1_1_device_1a4e66bb01bd4fe3daab91419e3dab3150" kind="function"><name>GetSpeedyForce</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_core_1_1_document" kind="class"><name>PlatyVGCore::Document</name>
+    <member refid="class_platy_v_g_core_1_1_document_1aca55a08b0917c124fa1069156f951d81" kind="variable"><name>ID</name></member>
+    <member refid="class_platy_v_g_core_1_1_document_1ab5f577368c7a86015bf7c405e7d84371" kind="variable"><name>Focusable</name></member>
+    <member refid="class_platy_v_g_core_1_1_document_1a7e40bc0cb7ffe09d88ed2d04029da5f8" kind="variable"><name>Name</name></member>
+    <member refid="class_platy_v_g_core_1_1_document_1a2f5cae1769a19d740b530af21c6acf11" kind="variable"><name>Area</name></member>
+    <member refid="class_platy_v_g_core_1_1_document_1af4d7233467a080f83577f61e3c30823a" kind="variable"><name>Transform</name></member>
+    <member refid="class_platy_v_g_core_1_1_document_1aaba6ba9d012a194ab4325df3db9cdd1e" kind="variable"><name>AllLayers</name></member>
+    <member refid="class_platy_v_g_core_1_1_document_1a87540dd1146bd7da954ce5feb9447586" kind="variable"><name>ShapeRec</name></member>
+    <member refid="class_platy_v_g_core_1_1_document_1aa5eee735cea66e22c8097e58ddd1b1fe" kind="variable"><name>LastMS</name></member>
+    <member refid="class_platy_v_g_core_1_1_document_1a80b9d96f626b09fd0aff18f9f379de85" kind="variable"><name>Next</name></member>
+    <member refid="class_platy_v_g_core_1_1_document_1a751a5e4c80948ad6fdbb27c5de9fff40" kind="function"><name>Document</name></member>
+    <member refid="class_platy_v_g_core_1_1_document_1af18492e10aaf228aa0bb62fb9cad1743" kind="function"><name>~Document</name></member>
+    <member refid="class_platy_v_g_core_1_1_document_1ac90d8e481dec501a9ee47d8c0342b7f4" kind="function"><name>UpdateLayers</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_element_1_1_edge" kind="class"><name>PlatyVGElement::Edge</name>
+    <member refid="class_platy_v_g_element_1_1_edge_1a49a2cff7098543cef5faba3130a13699" kind="function"><name>Edge</name></member>
+    <member refid="class_platy_v_g_element_1_1_edge_1a9cf2d03730b1c5a829a7f449bf4643e6" kind="function"><name>Edge</name></member>
+    <member refid="class_platy_v_g_element_1_1_edge_1aab7ed1b48292f4848614c6e9e237f53a" kind="function"><name>~Edge</name></member>
+    <member refid="class_platy_v_g_element_1_1_edge_1a2d3767fde60a2b311f45d0382343165f" kind="function"><name>operator=</name></member>
+    <member refid="class_platy_v_g_element_1_1_edge_1a4776ca32a1af70a283775136ee9c3351" kind="function"><name>IsValid</name></member>
+    <member refid="class_platy_v_g_element_1_1_edge_1a959e10f7f1499060ef0165ef491afa74" kind="function"><name>ValidPoint</name></member>
+    <member refid="class_platy_v_g_element_1_1_edge_1a6a24b2618aa7e326f311f64b9fa6cdb6" kind="function"><name>LengthOfWrite</name></member>
+    <member refid="class_platy_v_g_element_1_1_edge_1a8829c79e99c561cd3fb2f13bc2bfe120" kind="function"><name>Write</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_element_1_1_edge_spline" kind="class"><name>PlatyVGElement::EdgeSpline</name>
+    <member refid="class_platy_v_g_element_1_1_edge_spline_1af2f6443f891fe2704f94be1c6434c1d0" kind="variable"><name>x</name></member>
+    <member refid="class_platy_v_g_element_1_1_edge_spline_1a2bee419e84885caaf30f9974db8f0357" kind="variable"><name>y</name></member>
+    <member refid="class_platy_v_g_element_1_1_edge_spline_1a0af25bef82ff289a2f5c0fc3603ed7df" kind="function"><name>EdgeSpline</name></member>
+    <member refid="class_platy_v_g_element_1_1_edge_spline_1ad4e35c204a27e2df3d1cae5a42c69668" kind="function"><name>EdgeSpline</name></member>
+    <member refid="class_platy_v_g_element_1_1_edge_spline_1a41b91d004902f2476b3b1710817ed7c7" kind="function"><name>EdgeSpline</name></member>
+    <member refid="class_platy_v_g_element_1_1_edge_spline_1aabcc4432bebe58746f658222531e7aab" kind="function"><name>EdgeSpline</name></member>
+    <member refid="class_platy_v_g_element_1_1_edge_spline_1aad92e69497d44e3bdcdf1e3703005cdd" kind="function"><name>~EdgeSpline</name></member>
+    <member refid="class_platy_v_g_element_1_1_edge_spline_1a879ff02793b7ec259e1094b05e81e370" kind="function"><name>operator=</name></member>
+    <member refid="class_platy_v_g_element_1_1_edge_spline_1a4af03834754237b16833fbaf2ade6d20" kind="function"><name>IsValid</name></member>
+    <member refid="class_platy_v_g_element_1_1_edge_spline_1a20e5d93fedb524d33b35bf303a9c2efe" kind="function"><name>ValidPoint</name></member>
+    <member refid="class_platy_v_g_element_1_1_edge_spline_1afd5213ec3f30380539f0e09d1240cb87" kind="function"><name>LengthOfWrite</name></member>
+    <member refid="class_platy_v_g_element_1_1_edge_spline_1aa43949de5cc37892bf5ebbbd1e83e1a0" kind="function"><name>Write</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_element_1_1_edge_tube" kind="class"><name>PlatyVGElement::EdgeTube</name>
+    <member refid="class_platy_v_g_element_1_1_edge_tube_1a9b65f3fb28bdc9a87329f1e601bdc45c" kind="variable"><name>endmark</name></member>
+    <member refid="class_platy_v_g_element_1_1_edge_tube_1a8b57b95cafa69f5618f073110d41318b" kind="variable"><name>force</name></member>
+    <member refid="class_platy_v_g_element_1_1_edge_tube_1acbdeb058c312042f8d95300ff93ba277" kind="variable"><name>lx</name></member>
+    <member refid="class_platy_v_g_element_1_1_edge_tube_1ab9f1f7f86ae572b4482ca7165c22ab3b" kind="variable"><name>ly</name></member>
+    <member refid="class_platy_v_g_element_1_1_edge_tube_1a40ebe02e408d6aff6d6b3421b7a63238" kind="variable"><name>rx</name></member>
+    <member refid="class_platy_v_g_element_1_1_edge_tube_1abcbfd0513876cab7213de486a3a2ac81" kind="variable"><name>ry</name></member>
+    <member refid="class_platy_v_g_element_1_1_edge_tube_1af257618720d22693349dd4ce6d7831cc" kind="function"><name>EdgeTube</name></member>
+    <member refid="class_platy_v_g_element_1_1_edge_tube_1a5db84bc1708b2471ff3306e2bc4fdc81" kind="function"><name>EdgeTube</name></member>
+    <member refid="class_platy_v_g_element_1_1_edge_tube_1a4197ef8f1eb2512604dc7f05573a10a8" kind="function"><name>EdgeTube</name></member>
+    <member refid="class_platy_v_g_element_1_1_edge_tube_1acb8e242b3ddbfa0c4aa7071719ae2e3a" kind="function"><name>EdgeTube</name></member>
+    <member refid="class_platy_v_g_element_1_1_edge_tube_1a39fddc7892bd8c8886f5763911dba055" kind="function"><name>~EdgeTube</name></member>
+    <member refid="class_platy_v_g_element_1_1_edge_tube_1a32d944df43e349db0bd8706dc6b5ddc4" kind="function"><name>operator=</name></member>
+    <member refid="class_platy_v_g_element_1_1_edge_tube_1a165a58745d82f6637373c632ffccd235" kind="function"><name>IsValid</name></member>
+    <member refid="class_platy_v_g_element_1_1_edge_tube_1abf9ac08acf095c43ead7a64901fcecbd" kind="function"><name>ValidPoint</name></member>
+    <member refid="class_platy_v_g_element_1_1_edge_tube_1a49536b9e6d2ce57e103fef97bfbcb0c0" kind="function"><name>LengthOfWrite</name></member>
+    <member refid="class_platy_v_g_element_1_1_edge_tube_1a068d61df52264401bd61b6010856fef7" kind="function"><name>Write</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_api_1_1_export" kind="class"><name>PlatyVGApi::Export</name>
+    <member refid="class_platy_v_g_api_1_1_export_1a694da5326c3cff7da4c87387704dd70c" kind="function"><name>Load</name></member>
+    <member refid="class_platy_v_g_api_1_1_export_1ad0ee03db19dce17f43d74dfa8817ba26" kind="function"><name>LoadShape</name></member>
+    <member refid="class_platy_v_g_api_1_1_export_1aa35a347280a09ab944756a72fa32bb86" kind="function"><name>LoadVG</name></member>
+    <member refid="class_platy_v_g_api_1_1_export_1a563cc90cf9c8dc54472ac132ed80e072" kind="function"><name>Save</name></member>
+    <member refid="class_platy_v_g_api_1_1_export_1a0e01590ad5bc6a781e7664e8e5180e9f" kind="function"><name>MergeSkin</name></member>
+  </compound>
+  <compound refid="class_px_1_1_file" kind="class"><name>Px::File</name>
+    <member refid="class_px_1_1_file_1a76ad1d3174f2b34c0964e6822cbe1718" kind="function"><name>OpenForRead</name></member>
+    <member refid="class_px_1_1_file_1ad7cdd12d60a2faa7c1c14d5c2757c668" kind="function"><name>OpenForWrite</name></member>
+    <member refid="class_px_1_1_file_1a36ae7f3111a18f7dd68700e48dd2c1ec" kind="function"><name>Close</name></member>
+    <member refid="class_px_1_1_file_1ab2dc8c4d4639b826b0cbe19e594d6b25" kind="function"><name>GetSize</name></member>
+    <member refid="class_px_1_1_file_1abd77dd916952abba115515d792cd88b0" kind="function"><name>Read</name></member>
+    <member refid="class_px_1_1_file_1a09ccf251ed55ba707f417479a61a5b6d" kind="function"><name>Write</name></member>
+    <member refid="class_px_1_1_file_1a30d80475aa15f23d5cbc1dfa4e24133a" kind="function"><name>Skip</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_api_1_1_input" kind="class"><name>PlatyVGApi::Input</name>
+    <member refid="class_platy_v_g_api_1_1_input_1a3c08c25b192621cae6ca1c34dfb65204" kind="function"><name>ScreenDown</name></member>
+    <member refid="class_platy_v_g_api_1_1_input_1a3050dbd0632c2a9fa64c2139d2c533ee" kind="function"><name>ScreenDrag</name></member>
+    <member refid="class_platy_v_g_api_1_1_input_1a031f4cf1635f02e0c40343560ace8b55" kind="function"><name>ScreenUp</name></member>
+    <member refid="class_platy_v_g_api_1_1_input_1afabcc06d42a3e4754f262a577bdede17" kind="function"><name>CanvasDown</name></member>
+    <member refid="class_platy_v_g_api_1_1_input_1a8c3e93cb849c2ab0033a864ca3dac664" kind="function"><name>CanvasDrag</name></member>
+    <member refid="class_platy_v_g_api_1_1_input_1ac2e3529f372bc920da2506fde7282d4e" kind="function"><name>CanvasUp</name></member>
+    <member refid="class_platy_v_g_api_1_1_input_1af933735cba040e0c84efbf23db5a6395" kind="function"><name>SetDeviceSensitivity</name></member>
+    <member refid="class_platy_v_g_api_1_1_input_1a60b45f04dde286cb985d39413f795650" kind="function"><name>GetDeviceSensitivity</name></member>
+    <member refid="class_platy_v_g_api_1_1_input_1ad1b4356acfa46a7992be07fb5e1d174a" kind="function"><name>SetDeviceSpeedyForceOn</name></member>
+    <member refid="class_platy_v_g_api_1_1_input_1aab0fc9360279754f8536e7f0cfacc673" kind="function"><name>SetDeviceSpeedyForceOff</name></member>
+    <member refid="class_platy_v_g_api_1_1_input_1a76d313682aaa3581cdc0b98cc08b24d5" kind="function"><name>SetDeviceLayer</name></member>
+    <member refid="class_platy_v_g_api_1_1_input_1abdaa70325c22846f79e91d845fb5c57b" kind="function"><name>GetDeviceLayer</name></member>
+    <member refid="class_platy_v_g_api_1_1_input_1a6033bfa1e5b39b85edc30f6aebf52a32" kind="function"><name>GetDeviceCoordCount</name></member>
+    <member refid="class_platy_v_g_api_1_1_input_1accb3c7299e596618fb99aa569de3f4d6" kind="function"><name>GetDeviceCoordArray</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_core_1_1_layer" kind="class"><name>PlatyVGCore::Layer</name>
+    <member refid="class_platy_v_g_core_1_1_layer_1a2d9aa691ac4058cf66d45fb3a97d3ce3" kind="variable"><name>AllShapes</name></member>
+    <member refid="class_platy_v_g_core_1_1_layer_1a29072638bfc862ad271d8e9aebdb9d6c" kind="variable"><name>DynShapes</name></member>
+    <member refid="class_platy_v_g_core_1_1_layer_1a5e726279d6a23934ef68e8f5be7fd41b" kind="variable"><name>Visible</name></member>
+    <member refid="class_platy_v_g_core_1_1_layer_1aad91109ac4fce692e741e8d30198c2c7" kind="variable"><name>LockedFlag</name></member>
+    <member refid="class_platy_v_g_core_1_1_layer_1a2424d90b65979e8824e553712e0597ea" kind="function"><name>Layer</name></member>
+    <member refid="class_platy_v_g_core_1_1_layer_1ad545d179f9722c5a95b9356d50b6a6ea" kind="function"><name>~Layer</name></member>
+    <member refid="class_platy_v_g_core_1_1_layer_1a6da960edb5205a33338191193c02ee11" kind="function"><name>UpdateShapes</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_api_1_1_listener" kind="class"><name>PlatyVGApi::Listener</name>
+  </compound>
+  <compound refid="class_px_1_1_math" kind="class"><name>Px::Math</name>
+    <member refid="class_px_1_1_math_1ae8acd6d35af59f6171fb49a3bd9d8dd7" kind="function"><name>Abs</name></member>
+    <member refid="class_px_1_1_math_1a59f46ea2c5e3cef50edea36fb273beba" kind="function"><name>Min</name></member>
+    <member refid="class_px_1_1_math_1a21dcf2b07074a6b6b87ba375552d8fad" kind="function"><name>Max</name></member>
+    <member refid="class_px_1_1_math_1af7e79cb397673b2807e831573aa87d00" kind="function"><name>AbsF</name></member>
+    <member refid="class_px_1_1_math_1a73606b9c233c4f72328f6118c88d117d" kind="function"><name>MinF</name></member>
+    <member refid="class_px_1_1_math_1a834392cb469435f453c26b22e19f7da6" kind="function"><name>MaxF</name></member>
+    <member refid="class_px_1_1_math_1afbb7196deec09899e2a614e98505b525" kind="function"><name>Sqrt</name></member>
+    <member refid="class_px_1_1_math_1a2223bb2bc4eefba665fb691171d2e2b1" kind="function"><name>Cos</name></member>
+    <member refid="class_px_1_1_math_1aacc01c27ab2d5f0a2ba361a3ecfe7425" kind="function"><name>Sin</name></member>
+    <member refid="class_px_1_1_math_1a43db29ca6ad09585c3290b7f6b04bda4" kind="function"><name>Atan</name></member>
+    <member refid="class_px_1_1_math_1a45f39dc8bec82d07abce364a535c8ed3" kind="function"><name>Distance</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_element_1_1_matrix" kind="class"><name>PlatyVGElement::Matrix</name>
+    <member refid="class_platy_v_g_element_1_1_matrix_1a6623996613772933a3d39fc56ae3a3f5" kind="variable"><name>m11</name></member>
+    <member refid="class_platy_v_g_element_1_1_matrix_1a9dd09ac552c135aaa7b65b1ef3a5d690" kind="variable"><name>m12</name></member>
+    <member refid="class_platy_v_g_element_1_1_matrix_1a2f4f3ffa6f40275498763cb61eac8ce6" kind="variable"><name>m21</name></member>
+    <member refid="class_platy_v_g_element_1_1_matrix_1a482271687232fe23d0cda5201b01bf6d" kind="variable"><name>m22</name></member>
+    <member refid="class_platy_v_g_element_1_1_matrix_1ae7faf157b44e96c9c4b7f1090092610c" kind="variable"><name>dx</name></member>
+    <member refid="class_platy_v_g_element_1_1_matrix_1ac8f7ecabd0dcd4e05af9049f5628380a" kind="variable"><name>dy</name></member>
+    <member refid="class_platy_v_g_element_1_1_matrix_1afeef3effd10968f8f26b0085f5b5f244" kind="function"><name>Matrix</name></member>
+    <member refid="class_platy_v_g_element_1_1_matrix_1a1ff1f80c50d02d69cf97c7fdbed1c6a0" kind="function"><name>Matrix</name></member>
+    <member refid="class_platy_v_g_element_1_1_matrix_1a058a0abe71bb590a0149c08caba1a4e5" kind="function"><name>Matrix</name></member>
+    <member refid="class_platy_v_g_element_1_1_matrix_1a7957caec99b64bd21e0a05ec0b3494b1" kind="function"><name>~Matrix</name></member>
+    <member refid="class_platy_v_g_element_1_1_matrix_1af132e69ba113a792d3e2c02b2775cd91" kind="function"><name>operator=</name></member>
+    <member refid="class_platy_v_g_element_1_1_matrix_1af994b212b35b2a15fd9586635224f5f0" kind="function"><name>operator*=</name></member>
+    <member refid="class_platy_v_g_element_1_1_matrix_1ae853751f4969f7f0765f33a8dff0170d" kind="function"><name>operator*</name></member>
+    <member refid="class_platy_v_g_element_1_1_matrix_1a48b3a77b1b77f2b097bc980b81aaff5d" kind="function"><name>AddOffset</name></member>
+    <member refid="class_platy_v_g_element_1_1_matrix_1a897dbea6034ee8fe8fcd044256519505" kind="function"><name>AddRotate</name></member>
+    <member refid="class_platy_v_g_element_1_1_matrix_1aeaaa9fac11822d64b36695bc87196bc9" kind="function"><name>AddScale</name></member>
+    <member refid="class_platy_v_g_element_1_1_matrix_1a25ef71a88343257649884502ce5c6a8c" kind="function"><name>AddByTouch</name></member>
+  </compound>
+  <compound refid="class_px_1_1_memory" kind="class"><name>Px::Memory</name>
+    <member refid="class_px_1_1_memory_1aa03ce8f24965e7ab7b71b8ef18b9c705" kind="function"><name>Alloc</name></member>
+    <member refid="class_px_1_1_memory_1a988759ffc0914bc9368f37770c422d4b" kind="function"><name>Free</name></member>
+    <member refid="class_px_1_1_memory_1acf2dccecbd6043c2a717b94ac67c12a8" kind="function"><name>Set</name></member>
+    <member refid="class_px_1_1_memory_1af9691b1a34d8e8e4d5bfe312a19de938" kind="function"><name>Copy</name></member>
+    <member refid="class_px_1_1_memory_1ae5a6062d9de8d4565fe00b02cd42cc92" kind="function"><name>Compare</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_element_1_1_mesh" kind="class"><name>PlatyVGElement::Mesh</name>
+    <member refid="class_platy_v_g_element_1_1_mesh_1a4512ec0790962c2644d4811c00a8be6c" kind="function"><name>Mesh</name></member>
+    <member refid="class_platy_v_g_element_1_1_mesh_1a58a3b3b234034d89f99497bc889df693" kind="function"><name>Mesh</name></member>
+    <member refid="class_platy_v_g_element_1_1_mesh_1a96b1ad80a1afff1cd6027974a3ed1bed" kind="function"><name>~Mesh</name></member>
+    <member refid="class_platy_v_g_element_1_1_mesh_1a9f845fd2940a20e6092c822f23206289" kind="function"><name>operator=</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_element_1_1_mesh_aqua" kind="class"><name>PlatyVGElement::MeshAqua</name>
+    <member refid="class_platy_v_g_element_1_1_mesh_aqua_1a5854bcfdaa3626d76e00ed0dbb4e253c" kind="variable"><name>force</name></member>
+    <member refid="class_platy_v_g_element_1_1_mesh_aqua_1a6337e3bd13b6a037d533aecd5c905b71" kind="variable"><name>lx</name></member>
+    <member refid="class_platy_v_g_element_1_1_mesh_aqua_1a52f3ebe5b1e26fc59060e4a772ec0e0e" kind="variable"><name>ly</name></member>
+    <member refid="class_platy_v_g_element_1_1_mesh_aqua_1abfcda91cc102050cab1feb83149fad39" kind="variable"><name>rx</name></member>
+    <member refid="class_platy_v_g_element_1_1_mesh_aqua_1a21d32c1bd92fd84fcf26ace5c29616b5" kind="variable"><name>ry</name></member>
+    <member refid="class_platy_v_g_element_1_1_mesh_aqua_1ac7210ad119da8cfff4f0b584aa49ffe5" kind="function"><name>MeshAqua</name></member>
+    <member refid="class_platy_v_g_element_1_1_mesh_aqua_1a8854c2ef07980edc270e06e1e7a4f108" kind="function"><name>MeshAqua</name></member>
+    <member refid="class_platy_v_g_element_1_1_mesh_aqua_1ab8b3217391fbb8b5a0dd913f52f699da" kind="function"><name>MeshAqua</name></member>
+    <member refid="class_platy_v_g_element_1_1_mesh_aqua_1a279392fffeb0f3c402b7adeae74c774f" kind="function"><name>~MeshAqua</name></member>
+    <member refid="class_platy_v_g_element_1_1_mesh_aqua_1a28a9fdf355a6d367cb4b14f171639a89" kind="function"><name>operator=</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_element_1_1_mesh_spline" kind="class"><name>PlatyVGElement::MeshSpline</name>
+    <member refid="class_platy_v_g_element_1_1_mesh_spline_1aee726684ad87ce0ecbfbf84e661dcac0" kind="variable"><name>x</name></member>
+    <member refid="class_platy_v_g_element_1_1_mesh_spline_1a4b4739cddabf26c6a5e0d9ebeb92fc54" kind="variable"><name>y</name></member>
+    <member refid="class_platy_v_g_element_1_1_mesh_spline_1a5e0b3b242aca54aaf4dd4101d7970ebf" kind="function"><name>MeshSpline</name></member>
+    <member refid="class_platy_v_g_element_1_1_mesh_spline_1ad441252e66b7097dbd36e4c5c7b4dbfc" kind="function"><name>MeshSpline</name></member>
+    <member refid="class_platy_v_g_element_1_1_mesh_spline_1a0c5ddb4f9957cd825f30310a714de777" kind="function"><name>MeshSpline</name></member>
+    <member refid="class_platy_v_g_element_1_1_mesh_spline_1ade5b19ea7e3bad8f465ade7aa04be93d" kind="function"><name>~MeshSpline</name></member>
+    <member refid="class_platy_v_g_element_1_1_mesh_spline_1a6e15ac95bceef6f17bde931a6aa23eee" kind="function"><name>operator=</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_element_1_1_mesh_tube" kind="class"><name>PlatyVGElement::MeshTube</name>
+    <member refid="class_platy_v_g_element_1_1_mesh_tube_1a8aa9894ccb464e304231a0630542002b" kind="variable"><name>lx</name></member>
+    <member refid="class_platy_v_g_element_1_1_mesh_tube_1a3094069de9ad9fc55fa1b0ce6e7e9941" kind="variable"><name>ly</name></member>
+    <member refid="class_platy_v_g_element_1_1_mesh_tube_1a3b5fbb2f722d5ed3e43785153622946b" kind="variable"><name>rx</name></member>
+    <member refid="class_platy_v_g_element_1_1_mesh_tube_1abcda6cbbdeed59b41df6b1d0a542b101" kind="variable"><name>ry</name></member>
+    <member refid="class_platy_v_g_element_1_1_mesh_tube_1a072ad14ddb72ff9a6484fb266631efb0" kind="function"><name>MeshTube</name></member>
+    <member refid="class_platy_v_g_element_1_1_mesh_tube_1a1a2801b64fd7c432d1ae0f3927e60f87" kind="function"><name>MeshTube</name></member>
+    <member refid="class_platy_v_g_element_1_1_mesh_tube_1af61807a21f86a85c955025b4750ef33c" kind="function"><name>MeshTube</name></member>
+    <member refid="class_platy_v_g_element_1_1_mesh_tube_1ae29a96dda76037f8f1c1b2879f74d1ea" kind="function"><name>~MeshTube</name></member>
+    <member refid="class_platy_v_g_element_1_1_mesh_tube_1afba35b82b750436938392db392c54b26" kind="function"><name>operator=</name></member>
+  </compound>
+  <compound refid="class_n1_d7" kind="class"><name>N1D7</name>
+    <member refid="class_n1_d7_1a9fa353919a06c25cc240f5d608374844" kind="enum"><name>@1</name></member>
+    <member refid="class_n1_d7_1a9fa353919a06c25cc240f5d608374844a610180d309c18b20b4dae28ed31530b6" kind="enumvalue"><name>BitNum</name></member>
+    <member refid="class_n1_d7_1a9fa353919a06c25cc240f5d608374844a42051d30c9fbba6062028b2268440277" kind="enumvalue"><name>BitFlag</name></member>
+    <member refid="class_n1_d7_1ae7800b2c2edb07497d6688514e56bd71" kind="function"><name>WriteBinaries</name></member>
+    <member refid="class_n1_d7_1ad1cd5f023c11566c8d04039845739d0d" kind="function"><name>DecodeBinaries</name></member>
+    <member refid="class_n1_d7_1aabb87b24b7f2268299d928235cf8c678" kind="function"><name>CalcLength</name></member>
+  </compound>
+  <compound refid="class_px_1_1_parser" kind="class"><name>Px::Parser</name>
+    <member refid="class_px_1_1_parser_1a3e6f91b383e6e7b7e38809a91b9f9ba2" kind="variable"><name>pool</name></member>
+    <member refid="class_px_1_1_parser_1ab2d07a5a37a0639dc28a1165f4469ddd" kind="variable"><name>offset</name></member>
+    <member refid="class_px_1_1_parser_1a500ba52fbfae2ea04bbc3b1764f11555" kind="function"><name>Parser</name></member>
+    <member refid="class_px_1_1_parser_1ab4acb1046e3ac7926d95c194a3c42763" kind="function"><name>~Parser</name></member>
+    <member refid="class_px_1_1_parser_1a9389734a20cebf13ccf2d0316ad785af" kind="function"><name>SeekOf</name></member>
+    <member refid="class_px_1_1_parser_1a512f358b76432a3b568481a2d3de5ac3" kind="function"><name>ReadInt</name></member>
+    <member refid="class_px_1_1_parser_1a754e88a788ce241ed78e781553175358" kind="function"><name>ReadInts</name></member>
+    <member refid="class_px_1_1_parser_1a7eda1994f9c6513abcb6f6f78410d80b" kind="function"><name>ReadFloat</name></member>
+    <member refid="class_px_1_1_parser_1a3bef5ac0f3828b515e89256e78745a48" kind="function"><name>ReadFloats</name></member>
+    <member refid="class_px_1_1_parser_1a1d4ba343cd9abfbcc2c79271026d8f6d" kind="function"><name>ReadHex32</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_element_1_1_point" kind="class"><name>PlatyVGElement::Point</name>
+    <member refid="class_platy_v_g_element_1_1_point_1a63a90f5b999976f2c1af8e287ea417d7" kind="variable"><name>x</name></member>
+    <member refid="class_platy_v_g_element_1_1_point_1aa9e12a2463d72f879f3ee3fb2575f70e" kind="variable"><name>y</name></member>
+    <member refid="class_platy_v_g_element_1_1_point_1a020c29290d2c786f7375feaab415968b" kind="function"><name>Point</name></member>
+    <member refid="class_platy_v_g_element_1_1_point_1a9e2a90982017c6a59155c9227c042764" kind="function"><name>Point</name></member>
+    <member refid="class_platy_v_g_element_1_1_point_1a34f01c2fca7933f2e0917a43fb6e1a72" kind="function"><name>Point</name></member>
+    <member refid="class_platy_v_g_element_1_1_point_1a2434a4a11205133f9f0f3d67574cd5d1" kind="function"><name>~Point</name></member>
+    <member refid="class_platy_v_g_element_1_1_point_1a35d87868e93691ac46cad7ee91b0e910" kind="function"><name>operator=</name></member>
+    <member refid="class_platy_v_g_element_1_1_point_1a822d16450301dfe118acb6ef9750af8d" kind="function"><name>operator*=</name></member>
+    <member refid="class_platy_v_g_element_1_1_point_1a345285a1b2ce5dffdee606d13ceb7a79" kind="function"><name>operator*</name></member>
+    <member refid="class_platy_v_g_element_1_1_point_1ab8b88aad66ae0bc77b595f1057e25d70" kind="function"><name>operator==</name></member>
+    <member refid="class_platy_v_g_element_1_1_point_1ac8ae7157e69558e6cbf416ddf6e48820" kind="function"><name>operator!=</name></member>
+    <member refid="class_platy_v_g_element_1_1_point_1aca92fb57d20cc10c8856e91e5fcad40a" kind="function"><name>ClockwiseTest</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_core_1_1_record" kind="class"><name>PlatyVGCore::Record</name>
+    <member refid="class_platy_v_g_core_1_1_record_1aac86f4d70cb8054aef1f42532148f9b0" kind="variable"><name>AllActions</name></member>
+    <member refid="class_platy_v_g_core_1_1_record_1a738d8114830a390188d9be305334bbda" kind="variable"><name>ActionFocus</name></member>
+    <member refid="class_platy_v_g_core_1_1_record_1afa7c1bfb9f5a87db04ddab4f937422d8" kind="variable"><name>ActionLength</name></member>
+    <member refid="class_platy_v_g_core_1_1_record_1a6a6159100596e33312b2de20755ba153" kind="variable"><name>ActionLengthMax</name></member>
+    <member refid="class_platy_v_g_core_1_1_record_1a8b6b166bc8023a53657f660f3d2fff6c" kind="function"><name>Record</name></member>
+    <member refid="class_platy_v_g_core_1_1_record_1ad277217a94d091307a6497d04c446da5" kind="function"><name>~Record</name></member>
+    <member refid="class_platy_v_g_core_1_1_record_1a595623078bd207b98efe78a91f57d445" kind="function"><name>Commit</name></member>
+    <member refid="class_platy_v_g_core_1_1_record_1a6b39259e17b3b72a8851de3a4204c00b" kind="function"><name>Undo</name></member>
+    <member refid="class_platy_v_g_core_1_1_record_1ad8bf722191fa454039cdefbeb9936198" kind="function"><name>Redo</name></member>
+    <member refid="class_platy_v_g_core_1_1_record_1a45773750a0c677ec518e51979d8f9f4a" kind="function"><name>GetFocus</name></member>
+    <member refid="class_platy_v_g_core_1_1_record_1aba8196a1bd7d3872ac9d6747490ad1d1" kind="function"><name>GetCount</name></member>
+    <member refid="class_platy_v_g_core_1_1_record_1a2c07838b0db136f57d2632dc4ee6307a" kind="function"><name>SetCountMax</name></member>
+    <member refid="class_platy_v_g_core_1_1_record_1a3df14fe0828209fdc1e8262d480feb1e" kind="function"><name>GetCountMax</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_element_1_1_rect" kind="class"><name>PlatyVGElement::Rect</name>
+    <member refid="class_platy_v_g_element_1_1_rect_1a79fbcbafc921bb19aad23f561fdfbb48" kind="variable"><name>l</name></member>
+    <member refid="class_platy_v_g_element_1_1_rect_1a3c08d04aa14dd103461cc905295c92ab" kind="variable"><name>t</name></member>
+    <member refid="class_platy_v_g_element_1_1_rect_1a19731304d5489e52a2f39b672958a919" kind="variable"><name>r</name></member>
+    <member refid="class_platy_v_g_element_1_1_rect_1aad0335efeefa6cf75082d0095c647ec1" kind="variable"><name>b</name></member>
+    <member refid="class_platy_v_g_element_1_1_rect_1a1cda6eb22e7f707f633fa496445b93d9" kind="function"><name>Rect</name></member>
+    <member refid="class_platy_v_g_element_1_1_rect_1a2cba1ebf9223cec7801074acbb6675d2" kind="function"><name>Rect</name></member>
+    <member refid="class_platy_v_g_element_1_1_rect_1acf96a2eb1c12c966f964e677dcfea7a1" kind="function"><name>Rect</name></member>
+    <member refid="class_platy_v_g_element_1_1_rect_1a5cd235caa6babd6022dba9998e1533ee" kind="function"><name>Rect</name></member>
+    <member refid="class_platy_v_g_element_1_1_rect_1ae1f193e6d3cd5f79ad0b159d5d8cebeb" kind="function"><name>~Rect</name></member>
+    <member refid="class_platy_v_g_element_1_1_rect_1ab87a8692fd3a37ec63bc75b5c68d0fdf" kind="function"><name>operator=</name></member>
+    <member refid="class_platy_v_g_element_1_1_rect_1af67b59be745ee2cfb9e98a093e1033df" kind="function"><name>operator+=</name></member>
+    <member refid="class_platy_v_g_element_1_1_rect_1a69db00a2fe2764acfa95ffc8609de57a" kind="function"><name>operator+</name></member>
+    <member refid="class_platy_v_g_element_1_1_rect_1a0ea94bc0a07e222cd7282fcd632d4a98" kind="function"><name>operator-=</name></member>
+    <member refid="class_platy_v_g_element_1_1_rect_1a9d4004a897ee44d7d1e39e4e8d0cf1a9" kind="function"><name>operator-</name></member>
+    <member refid="class_platy_v_g_element_1_1_rect_1a44b233a720f5f18e247875d25d0ab6c0" kind="function"><name>operator*=</name></member>
+    <member refid="class_platy_v_g_element_1_1_rect_1aa1b20781d9a4ba4103d02457b1b8dc6e" kind="function"><name>operator*</name></member>
+    <member refid="class_platy_v_g_element_1_1_rect_1ac4b2f61dce27c40d81c00167f15f4752" kind="function"><name>operator/=</name></member>
+    <member refid="class_platy_v_g_element_1_1_rect_1aa8280e1818246f629480434660424c51" kind="function"><name>operator/</name></member>
+    <member refid="class_platy_v_g_element_1_1_rect_1a3bcc89c7d561bdb0d3557066818cfdf8" kind="function"><name>Width</name></member>
+    <member refid="class_platy_v_g_element_1_1_rect_1a91fa17a4600caf36d3c05739dfe7d799" kind="function"><name>Height</name></member>
+    <member refid="class_platy_v_g_element_1_1_rect_1af471f7dc593c39f506dc19dc5872b632" kind="function"><name>CenterX</name></member>
+    <member refid="class_platy_v_g_element_1_1_rect_1afb8cbf5447652c2d131964cdd87b2850" kind="function"><name>CenterY</name></member>
+    <member refid="class_platy_v_g_element_1_1_rect_1a3ba43aecfdc6c26d2a0d3aa6a4c0a558" kind="function"><name>PtInRect</name></member>
+    <member refid="class_platy_v_g_element_1_1_rect_1a342f62ed92c63703cfb667d476a0e08c" kind="function"><name>PtInRect</name></member>
+    <member refid="class_platy_v_g_element_1_1_rect_1aadc4e58e1103ac53a2525c7e2a8f9936" kind="function"><name>ContactTest</name></member>
+    <member refid="class_platy_v_g_element_1_1_rect_1ab369f4588780f1613c38b82ab82c1ed7" kind="function"><name>Inflate</name></member>
+    <member refid="class_platy_v_g_element_1_1_rect_1a679061e3adf7dab18c76a938333694fa" kind="function"><name>Deflate</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_element_1_1_selector" kind="class"><name>PlatyVGElement::Selector</name>
+    <member refid="class_platy_v_g_element_1_1_selector_1adc1d785a722705e57e61db1092e198b7" kind="variable"><name>coods</name></member>
+    <member refid="class_platy_v_g_element_1_1_selector_1a22bc5d437e0abc4cf1e4682ce43b4400" kind="variable"><name>rects</name></member>
+    <member refid="class_platy_v_g_element_1_1_selector_1af6c7a8b287ab750eef61a245002774f3" kind="variable"><name>points</name></member>
+    <member refid="class_platy_v_g_element_1_1_selector_1afa111d3de325fa06e15bda07b0f9f7ee" kind="variable"><name>tables</name></member>
+    <member refid="class_platy_v_g_element_1_1_selector_1a451e91cb17c6829fadd33def77328983" kind="variable"><name>tables_ymin</name></member>
+    <member refid="class_platy_v_g_element_1_1_selector_1ade9955e5e798ceafd5fcc174974c72f6" kind="function"><name>Selector</name></member>
+    <member refid="class_platy_v_g_element_1_1_selector_1aef363d6c860c5315093dc0166ca79c00" kind="function"><name>~Selector</name></member>
+    <member refid="class_platy_v_g_element_1_1_selector_1a4e343ac1423165bd767be347f9b4da0b" kind="function"><name>IsValid</name></member>
+    <member refid="class_platy_v_g_element_1_1_selector_1aefe9bf96de705392c0765269d0b6b2de" kind="function"><name>GetRect</name></member>
+    <member refid="class_platy_v_g_element_1_1_selector_1ad41d3f6f13ff3cf5d526f5a2efbb2fb0" kind="function"><name>GetRects</name></member>
+    <member refid="class_platy_v_g_element_1_1_selector_1a48525807be2c73e566525264379f5ce4" kind="function"><name>GetPoints</name></member>
+    <member refid="class_platy_v_g_element_1_1_selector_1ab3e6d3215dc6aa699794d214d204e5b2" kind="function"><name>GetTables</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_core_1_1_shape" kind="class"><name>PlatyVGCore::Shape</name>
+    <member refid="class_platy_v_g_core_1_1_shape_1af5c03ae0878703e53485cb068ad5225e" kind="variable"><name>context</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_1a6a834d9f3451ae5f905d707304534ed1" kind="variable"><name>matrix</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_1a9da89a94ba63b681b89d5935feaa3c4a" kind="variable"><name>selected</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_1a08b9c26c9ff497a29497e0076f7908ee" kind="function"><name>Shape</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_1a8f5773a1bca1aacba0a7b59bcb646492" kind="function"><name>Shape</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_1af835fa8df1549085b12740a96c7ba82a" kind="function"><name>~Shape</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_1ab8baea66d6c76cb7c5c6a3b81615e0a5" kind="function"><name>operator=</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_1a00a98c4a0ede958a9ac6e55f83fc6e10" kind="function"><name>Process</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_1aadec39df0fe157cd9b626e6e276f0def" kind="function"><name>Update</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_1ae4125529f36cf2cca152953c37b50164" kind="function"><name>Reset</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_1a8e2b9fb12bf8103ded964b4635c948cf" kind="function"><name>IsSelected</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_1a70e08dc3c5a56d5628146b6ec7edf811" kind="function"><name>Select</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_1ab32a2529bb40ea38ec97ed7e23bbd185" kind="function"><name>Select</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_1a7019decbc3092917753a11e16bf92f4e" kind="function"><name>SelectTest</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_1acff51668901c19e7dcaaef4e175b4892" kind="function"><name>Unselect</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_1ab3995fea0508f21c76d8e125a314abd0" kind="function"><name>ChangeRGB</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_1a0e910a1467bf6d1c45852617974fc41e" kind="function"><name>ChangeAlpha</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_1aca8e357fe409c48f413b81f71e1220e4" kind="function"><name>ChangeAlpha</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_1a5934d52583beb1b69dcfaa7503c4b05e" kind="function"><name>ChangeAqua</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_1ae4a96f2e920d039796d041e629bcef8a" kind="function"><name>ChangeMatrix</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_1a18b6062d7af6e7657a969990efb7bd86" kind="function"><name>SetContext</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_1a4bf8dc98b455b811a80d5629c430373e" kind="function"><name>GetContext</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_1a1e38cf9666e0546ac03894bc1842463e" kind="function"><name>GetMatrix</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_1a2447261b7d64a8a0466e03017be24e78" kind="function"><name>GetEdgeType</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_1a7f477419be0b1359a72d4add46279fd6" kind="function"><name>GetEdgeCount</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_1a76873e5e9a20a4a08e83e6ce06827641" kind="function"><name>GetEdge</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_1ac2a9c6bf6237555fc6a73d7796671fb7" kind="function"><name>AddEdge</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_1a564db6b52f8885b1a38f2220084839d6" kind="function"><name>GetMeshType</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_1a0891d8ddcc1edc547e8079ce1cb4d7c8" kind="function"><name>GetMeshCount</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_1ae9becb51798220c960e8e897117fe1a2" kind="function"><name>GetMesh</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_core_1_1_shape_spline" kind="class"><name>PlatyVGCore::ShapeSpline</name>
+    <member refid="class_platy_v_g_core_1_1_shape_spline_1aa9ca0ee8bf81761df8c803fcf10daf2f" kind="variable"><name>edges</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_spline_1a3c25476d2ea50b35531697bfb18a5dd4" kind="variable"><name>meshes</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_spline_1ad1a5a6de3026beec2b19f42a8db9b4dc" kind="function"><name>ShapeSpline</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_spline_1a3e187508d47ba80ee50bb026feeb1d2c" kind="function"><name>ShapeSpline</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_spline_1a29d6777ce25f3ed164ef4630da176adb" kind="function"><name>~ShapeSpline</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_spline_1a7083120121302ed429f72f37f505576f" kind="function"><name>operator=</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_spline_1ab5a32fe0e5ecf3bee0c31b40909c9910" kind="function"><name>Init</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_spline_1a308096ffa361e1dc67a598463b2628e9" kind="function"><name>Process</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_spline_1a93a1279e4b02d55db7ad71ccc72fa42f" kind="function"><name>Update</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_spline_1a5b1433e9cf465b6b26d843f66510cd37" kind="function"><name>Reset</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_spline_1a3b60ce8849f458849ef8a334fea02415" kind="function"><name>GetEdgeType</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_spline_1af03c467af772dd7e109842f687f260cc" kind="function"><name>GetEdgeCount</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_spline_1a91a15a417131fd9eec2bfe00de87719e" kind="function"><name>GetEdge</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_spline_1a36180a6883e860a138e77ffeba0f4994" kind="function"><name>AddEdge</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_spline_1a1b14fc7a972151d9b1aee890bb24f4f8" kind="function"><name>GetMeshType</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_spline_1ab12d3576e12fb5d3c71efd19abae3113" kind="function"><name>GetMeshCount</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_spline_1a08f7d197b2c16075072ee6b2ad26a117" kind="function"><name>GetMesh</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_core_1_1_shape_tube" kind="class"><name>PlatyVGCore::ShapeTube</name>
+    <member refid="class_platy_v_g_core_1_1_shape_tube_1ae4d8084f9b937bf3c248133ac4b24528" kind="variable"><name>edges</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_tube_1a2a4cef80e4f81a96b81755506b9ea107" kind="variable"><name>meshes</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_tube_1acb0316b76a011d03cb82ce5ec27da095" kind="function"><name>ShapeTube</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_tube_1af6c6c76c2d3661900894fe8c610f8b77" kind="function"><name>ShapeTube</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_tube_1a32c0d081fee7b9bad27f29c817509d72" kind="function"><name>~ShapeTube</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_tube_1a5dd6e5bc0546cfbad4f095b98f3790fc" kind="function"><name>operator=</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_tube_1a77c097d5a3a0aa0363530308fb59929d" kind="function"><name>Init</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_tube_1a448e65bf469fa5bfdcf6e45b0b0a33db" kind="function"><name>Process</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_tube_1a6e9f246a9ccbba27576c7236885d3ef4" kind="function"><name>Update</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_tube_1a55ad2cf815a556501e50f3e2e5d0f9cc" kind="function"><name>Reset</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_tube_1a64e53b3695d7acbbd67e55d92c2a0e8f" kind="function"><name>GetEdgeType</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_tube_1a1c897aaf5aad3b63c64e129a54e6336f" kind="function"><name>GetEdgeCount</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_tube_1adec9c29c571069c36c51c2a592001f3e" kind="function"><name>GetEdge</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_tube_1aaf336afc7f71491e2db7ac409532ad80" kind="function"><name>AddEdge</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_tube_1a5b27c5039b76f63190203f3ed2a08626" kind="function"><name>GetMeshType</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_tube_1a1325995e0970317dd477f13613c7d75b" kind="function"><name>GetMeshCount</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_tube_1a27c71e9860daf86a9effe3f8652cf121" kind="function"><name>GetMesh</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_core_1_1_shape_tube_aqua" kind="class"><name>PlatyVGCore::ShapeTubeAqua</name>
+    <member refid="class_platy_v_g_core_1_1_shape_tube_aqua_1ac173251e133c535184c511e0b358fea3" kind="variable"><name>meshes2</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_tube_aqua_1a460c2c3ad78db4efba4d3138ca82e6b5" kind="function"><name>ShapeTubeAqua</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_tube_aqua_1a3959d5dd368ed02e1d1923654abaa491" kind="function"><name>ShapeTubeAqua</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_tube_aqua_1ad3125288a5eb3a81c0ee1785a44bbcde" kind="function"><name>~ShapeTubeAqua</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_tube_aqua_1ae273c55a526e704176fd2d8b40b502d8" kind="function"><name>operator=</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_tube_aqua_1a179c3d4aa091a662268ea0453d5323d0" kind="function"><name>Update</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_tube_aqua_1ac6256b5f2b1702ec2a32bbb344bbb3ed" kind="function"><name>Reset</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_tube_aqua_1a1f8a81699c9c0d05bdd5bbe965a9e353" kind="function"><name>GetMeshType</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_tube_aqua_1aa7b03c77de6a15c1dbc99a05aac75e44" kind="function"><name>GetMeshCount</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_tube_aqua_1a03e320751b94ae712e8f074b1b966e68" kind="function"><name>GetMesh</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_tube_aqua_1a205de10b9ced485e1430c7916f4ee86e" kind="function"><name>GetCubicSpline</name></member>
+    <member refid="class_platy_v_g_core_1_1_shape_tube_aqua_1ac1fcc2edf69c9fb483bde45204156396" kind="function"><name>Collect</name></member>
+  </compound>
+  <compound refid="class_px_1_1_share" kind="class"><name>Px::Share</name>
+    <member refid="class_px_1_1_share_1a1faf896b49d325c9ec71895d6bf4b14a" kind="variable"><name>sharecount</name></member>
+    <member refid="class_px_1_1_share_1a43e85ae673939a01451f1d5d4f767228" kind="variable"><name>validcount</name></member>
+    <member refid="class_px_1_1_share_1a1c25b70d899bd53a67c64303656e487f" kind="variable"><name>data</name></member>
+    <member refid="class_px_1_1_share_1aaf4ead09a627b9898e00bc33762f4775" kind="function"><name>Create</name></member>
+    <member refid="class_px_1_1_share_1a9055335694fc89cdbd8da1cb4023c91f" kind="function"><name>Create</name></member>
+    <member refid="class_px_1_1_share_1ae41e9279f2837f644bfeb41a66c29994" kind="function"><name>CopyOnWrite</name></member>
+    <member refid="class_px_1_1_share_1a057832107de92b2bce37bf260ca04a3e" kind="function"><name>Remove</name></member>
+    <member refid="class_px_1_1_share_1a41f2b293f5ec0470003761e52545b18b" kind="function"><name>DebugPrint</name></member>
+    <member refid="class_px_1_1_share_1aee72a12e65c3bf8339436c28da1b6460" kind="function"><name>Type</name></member>
+    <member refid="class_px_1_1_share_1aa66c94750b4e2867b116f22beb636fd7" kind="function"><name>Clone</name></member>
+    <member refid="class_px_1_1_share_1a96b68c16a687bd990fd73f3354aa7ef5" kind="function"><name>Count</name></member>
+    <member refid="class_px_1_1_share_1ab6034c0b91c212396bc4f25d51d3989e" kind="function"><name>At</name></member>
+    <member refid="class_px_1_1_share_1a73e23a6774146d2b14fdbe68b6cbd90c" kind="function"><name>CopiedBuffer</name></member>
+    <member refid="class_px_1_1_share_1aa069296f652401dc3f256d62c59f17ef" kind="function"><name>Share</name></member>
+    <member refid="class_px_1_1_share_1aa9f2765729d5f93291f9ca593afbd6f0" kind="function"><name>Share</name></member>
+    <member refid="class_px_1_1_share_1a9173e8ca28cdd9a78b3f84be350e8d69" kind="function"><name>Share</name></member>
+    <member refid="class_px_1_1_share_1ad75cbf8607b5407c594011150b0934f5" kind="function"><name>~Share</name></member>
+    <member refid="class_px_1_1_share_1ae910135e3ff069bffcc547db395b054a" kind="function"><name>_DebugShareCount</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_element_1_1_size" kind="class"><name>PlatyVGElement::Size</name>
+    <member refid="class_platy_v_g_element_1_1_size_1a2e6e0d52859ce53062799c8ed84e88a8" kind="variable"><name>w</name></member>
+    <member refid="class_platy_v_g_element_1_1_size_1a4f142cf2ddd49becac08a2d6d6f98a49" kind="variable"><name>h</name></member>
+    <member refid="class_platy_v_g_element_1_1_size_1a8c937151c1b0c85d1c89a193c175d416" kind="function"><name>Size</name></member>
+    <member refid="class_platy_v_g_element_1_1_size_1ab1ef0f07d59b52a3bddc8a925db35914" kind="function"><name>Size</name></member>
+    <member refid="class_platy_v_g_element_1_1_size_1a64dccb4e3644b65b897433d7f33b7489" kind="function"><name>Size</name></member>
+    <member refid="class_platy_v_g_element_1_1_size_1a3ae228785bce9ff5651606aed1b679f4" kind="function"><name>~Size</name></member>
+    <member refid="class_platy_v_g_element_1_1_size_1ac8c0ae10eae576444b50a7e820144877" kind="function"><name>operator=</name></member>
+  </compound>
+  <compound refid="class_px_1_1_string" kind="class"><name>Px::String</name>
+    <member refid="class_px_1_1_string_1a9789ad77f468c81bb9005a67a2a874cb" kind="variable"><name>words</name></member>
+    <member refid="class_px_1_1_string_1a7d7eb9a6aba602afa9186f557000f856" kind="function"><name>String</name></member>
+    <member refid="class_px_1_1_string_1ae09bc192c01a0f4b11b469b5ed4cffb8" kind="function"><name>String</name></member>
+    <member refid="class_px_1_1_string_1a0b84b8fc85c0dca4145cc3ace462900c" kind="function"><name>String</name></member>
+    <member refid="class_px_1_1_string_1a91ebc09fff552a47ccd4b2e390770be3" kind="function"><name>String</name></member>
+    <member refid="class_px_1_1_string_1ae40fb81560cbb7f36ccd2113a1ca7d7e" kind="function"><name>~String</name></member>
+    <member refid="class_px_1_1_string_1afbd8fa067ed5fdfd71faeb2b64728d6f" kind="function"><name>operator=</name></member>
+    <member refid="class_px_1_1_string_1a97635bce1b085cbee81155dc882c85f8" kind="function"><name>operator=</name></member>
+    <member refid="class_px_1_1_string_1a2a8aa56a2035b69b606d592060b47c10" kind="function"><name>operator==</name></member>
+    <member refid="class_px_1_1_string_1ad4fc84a2913bb88a85706dde5f9a6731" kind="function"><name>operator==</name></member>
+    <member refid="class_px_1_1_string_1aa27114d6a55411da2d0fb9f163f808c2" kind="function"><name>operator!=</name></member>
+    <member refid="class_px_1_1_string_1a9cf1e6ee0c855cd4a4ecefdfeff88afa" kind="function"><name>operator!=</name></member>
+    <member refid="class_px_1_1_string_1a1fa0546ea8e2614397c7ca5b9e9a9377" kind="function"><name>operator chars</name></member>
+    <member refid="class_px_1_1_string_1a340c730f5c1f05313ae9c9fa11112116" kind="function"><name>Empty</name></member>
+    <member refid="class_px_1_1_string_1af9d5531db2956b33874cf207373d05fa" kind="function"><name>operator[]</name></member>
+    <member refid="class_px_1_1_string_1abc000093830a711318247017aee2a8cd" kind="function"><name>Length</name></member>
+    <member refid="class_px_1_1_string_1a5cc7dde27a2acc2f69376a4563d48c6a" kind="function"><name>Compare</name></member>
+    <member refid="class_px_1_1_string_1a8d1041632824889426de5017e3d9d092" kind="function"><name>_Const</name></member>
+  </compound>
+  <compound refid="class_px_1_1_string_for_platform" kind="class"><name>Px::StringForPlatform</name>
+    <member refid="class_px_1_1_string_for_platform_1a555b118cb63c350f32ce2ebeb84feaa8" kind="variable"><name>Utf8</name></member>
+    <member refid="class_px_1_1_string_for_platform_1a7dfd61153cf9de5406dcaa85fcbbf0ea" kind="variable"><name>Env</name></member>
+    <member refid="class_px_1_1_string_for_platform_1a2adf99514ed3b309fee6cddb4f3c557b" kind="variable"><name>Str</name></member>
+    <member refid="class_px_1_1_string_for_platform_1ac6fe1cb6ada0080765cee796c0005dda" kind="function"><name>StringForPlatform</name></member>
+    <member refid="class_px_1_1_string_for_platform_1a106f72f15bc171af079e7ea844a95222" kind="function"><name>~StringForPlatform</name></member>
+    <member refid="class_px_1_1_string_for_platform_1acd2ecc54329e29ad807ee65176d3069b" kind="function"><name>operator chars</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_element_1_1_table" kind="class"><name>PlatyVGElement::Table</name>
+    <member refid="class_platy_v_g_element_1_1_table_1aaf2c66b160e325fb7786837b3b080363" kind="variable"><name>row</name></member>
+    <member refid="class_platy_v_g_element_1_1_table_1afd384ff6fe4f64f4068796a1d2440739" kind="function"><name>Table</name></member>
+    <member refid="class_platy_v_g_element_1_1_table_1a622f2fede9b618fe7b7841cdb7c3e120" kind="function"><name>Table</name></member>
+    <member refid="class_platy_v_g_element_1_1_table_1aefc9e4bbbc72e78c589b53d8577f4aaf" kind="function"><name>~Table</name></member>
+    <member refid="class_platy_v_g_element_1_1_table_1a44847e0321f3f2a69aee54fb4b721a6e" kind="function"><name>operator=</name></member>
+  </compound>
+  <compound refid="class_px_1_1_parser_1_1_tag" kind="class"><name>Px::Parser::Tag</name>
+    <member refid="class_px_1_1_parser_1_1_tag_1ad9ae334621bb5d674629bb4d03f3c19a" kind="variable"><name>key</name></member>
+    <member refid="class_px_1_1_parser_1_1_tag_1aa7837c250c81254401355adafe8b2fe4" kind="variable"><name>map</name></member>
+    <member refid="class_px_1_1_parser_1_1_tag_1a2dd059bb2da6280a8515234f998ba8c7" kind="function"><name>Tag</name></member>
+    <member refid="class_px_1_1_parser_1_1_tag_1a225ddcb2bce6e7d9807bcbd5f3c3b273" kind="function"><name>~Tag</name></member>
+  </compound>
+  <compound refid="class_temp_buffer" kind="class"><name>TempBuffer</name>
+    <member refid="class_temp_buffer_1ad2e62f6f72e0a178e9e883601861498d" kind="variable"><name>Buffer</name></member>
+    <member refid="class_temp_buffer_1adb843d69be157b28f724fcb17db38250" kind="variable"><name>Size</name></member>
+    <member refid="class_temp_buffer_1ad80b0dcdb456a6176ae506296519c874" kind="function"><name>TempBuffer</name></member>
+    <member refid="class_temp_buffer_1a4f2f3bcf51638cf6f9a1a64b59f20caa" kind="function"><name>~TempBuffer</name></member>
+    <member refid="class_temp_buffer_1a8e2d580c1a68a1756f92a7436e52f64a" kind="function"><name>ValidBuffer</name></member>
+  </compound>
+  <compound refid="class_px_1_1_union" kind="class"><name>Px::Union</name>
+    <member refid="class_px_1_1_union_1af5e0cb87d4af27d3539a9eb5b7f6af3d" kind="variable"><name>share</name></member>
+    <member refid="class_px_1_1_union_1a90d464536e08cbf828c7e85e2f4c8f00" kind="function"><name>Union</name></member>
+    <member refid="class_px_1_1_union_1a304fbd03c93828cd6eb060839f7e6d4b" kind="function"><name>Union</name></member>
+    <member refid="class_px_1_1_union_1a9d4b8dbc1f8257a134538f8d8eaa7167" kind="function"><name>~Union</name></member>
+    <member refid="class_px_1_1_union_1a4b388d51a5b34c860a2b8c8cb9489b57" kind="function"><name>operator=</name></member>
+    <member refid="class_px_1_1_union_1a930d805d515db08b86458e50f7d651da" kind="function"><name>operator=</name></member>
+    <member refid="class_px_1_1_union_1a780f4c1fe25f9ef2e026d647aa7f34dc" kind="function"><name>operator-&gt;</name></member>
+    <member refid="class_px_1_1_union_1aff927bab543a95a5c9944029f4aae4c7" kind="function"><name>operator-&gt;</name></member>
+    <member refid="class_px_1_1_union_1abcc7dd1cfbb693766762839061154c5c" kind="function"><name>ptr</name></member>
+    <member refid="class_px_1_1_union_1a5eaf39972adc0c09767b57f5eaa58e72" kind="function"><name>ptr_const</name></member>
+    <member refid="class_px_1_1_union_1add7d3e795305561c516864ec267e036d" kind="function"><name>copied_buffer</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_core_1_1_view" kind="class"><name>PlatyVGCore::View</name>
+    <member refid="class_platy_v_g_core_1_1_view_1aea62cf6e48f6010b2f71956a82f02c19" kind="variable"><name>DocumentRoot</name></member>
+    <member refid="class_platy_v_g_core_1_1_view_1a685d80d226f8381129cc9388e0dd67f8" kind="variable"><name>DocumentFocus</name></member>
+    <member refid="class_platy_v_g_core_1_1_view_1a32146f08265ba9123c2f01bde8f4e28e" kind="variable"><name>OptionStrokeBy</name></member>
+    <member refid="class_platy_v_g_core_1_1_view_1aff7fda625bf31918fdd0722bfcef98c9" kind="variable"><name>OptionSelectBy</name></member>
+    <member refid="class_platy_v_g_core_1_1_view_1a3def836c44df7fbf752ff2fa969cd2e5" kind="variable"><name>OptionContext</name></member>
+    <member refid="class_platy_v_g_core_1_1_view_1addf9d52810d9985e89451b0cac11cb26" kind="variable"><name>OptionRadius</name></member>
+    <member refid="class_platy_v_g_core_1_1_view_1aafd3b2a0788f1ad69eb518d730957bf9" kind="variable"><name>OptionMS</name></member>
+    <member refid="class_platy_v_g_core_1_1_view_1ae62c3a176e71af1c102e02d0dc15f4a0" kind="variable"><name>DeviceState</name></member>
+    <member refid="class_platy_v_g_core_1_1_view_1a6c8bedd5c461d11f1515a8d595793b49" kind="variable"><name>DeviceLayer</name></member>
+    <member refid="class_platy_v_g_core_1_1_view_1aafb8fd1ff6b47ec7a02152c9d242306b" kind="function"><name>View</name></member>
+    <member refid="class_platy_v_g_core_1_1_view_1a5c7f2dc1a7272018e481078974cd83ad" kind="function"><name>~View</name></member>
+    <member refid="class_platy_v_g_core_1_1_view_1adbfef0a3a46eadf9c1159b70f41abc63" kind="function"><name>GetDocument</name></member>
+    <member refid="class_platy_v_g_core_1_1_view_1a6963901d8059d428c4a8d9edcc03c987" kind="function"><name>LockDynShape</name></member>
+    <member refid="class_platy_v_g_core_1_1_view_1a2935155fb09a39a7ce5c44dde553c0e4" kind="function"><name>UnlockDynShape</name></member>
+    <member refid="class_platy_v_g_core_1_1_view_1ab9da32a499e7ee5b8adfab4b655427e1" kind="function"><name>GetDynShape</name></member>
+    <member refid="class_platy_v_g_core_1_1_view_1ace0cab4e080b95fc7e952d386fe50bc9" kind="function"><name>AddCoordSensitivity</name></member>
+    <member refid="class_platy_v_g_core_1_1_view_1a366178c72ae21e6a29b25a3fc916d5a5" kind="function"><name>Currently</name></member>
+  </compound>
+  <compound refid="class_platy_v_g_element_1_1_zoom" kind="class"><name>PlatyVGElement::Zoom</name>
+    <member refid="class_platy_v_g_element_1_1_zoom_1a67202a26e0ac4e36b4d04d4731b78f8d" kind="variable"><name>offset</name></member>
+    <member refid="class_platy_v_g_element_1_1_zoom_1a2e0a9d0d9544e30525c7587688254aba" kind="variable"><name>scale</name></member>
+    <member refid="class_platy_v_g_element_1_1_zoom_1ab756d24482b547f8940f92a4755fd33d" kind="function"><name>Zoom</name></member>
+    <member refid="class_platy_v_g_element_1_1_zoom_1ab31015ca6f300f1939a2cc636d5c50bc" kind="function"><name>Zoom</name></member>
+    <member refid="class_platy_v_g_element_1_1_zoom_1a69ce3524da2b24c2a45c1cefa22ac489" kind="function"><name>Zoom</name></member>
+    <member refid="class_platy_v_g_element_1_1_zoom_1a8a08fa779987daa2353502874ad21068" kind="function"><name>~Zoom</name></member>
+    <member refid="class_platy_v_g_element_1_1_zoom_1a5431a0fdf19a6525a001952c103505a1" kind="function"><name>operator=</name></member>
+    <member refid="class_platy_v_g_element_1_1_zoom_1ac0d78e1c1e829e05a7dd7696437fbbd1" kind="function"><name>operator==</name></member>
+    <member refid="class_platy_v_g_element_1_1_zoom_1a77c7cb83c42cb3833a8ae067c3f0fd8c" kind="function"><name>operator!=</name></member>
+    <member refid="class_platy_v_g_element_1_1_zoom_1a2b9534c9ff804f249b1274fc51216441" kind="function"><name>ToView</name></member>
+    <member refid="class_platy_v_g_element_1_1_zoom_1a613e247cb67f1c170951da3f24fb0651" kind="function"><name>ToView</name></member>
+    <member refid="class_platy_v_g_element_1_1_zoom_1a672d5b5dcdc949e3ca94859e68029072" kind="function"><name>ToDocument</name></member>
+    <member refid="class_platy_v_g_element_1_1_zoom_1a30b59ab21843051c51b2310c61c91c43" kind="function"><name>ToDocument</name></member>
+    <member refid="class_platy_v_g_element_1_1_zoom_1ad45ff868d526ff7a53770eb90a4b283e" kind="function"><name>UpdateBy</name></member>
+    <member refid="class_platy_v_g_element_1_1_zoom_1a139018a832c0bf7a45a9fbb8118c84bd" kind="function"><name>UpdateBy</name></member>
+  </compound>
+  <compound refid="namespace_platy_v_g_api" kind="namespace"><name>PlatyVGApi</name>
+    <member refid="namespace_platy_v_g_api_1aaf901061e7fb65303b4805b63918794f" kind="enum"><name>DeviceBy</name></member>
+    <member refid="namespace_platy_v_g_api_1aaf901061e7fb65303b4805b63918794fabf9e6e603c1df7cd88ca8120c6c9d970" kind="enumvalue"><name>DeviceByTouch</name></member>
+    <member refid="namespace_platy_v_g_api_1aaf901061e7fb65303b4805b63918794fa9291625f2a7e74dc267892774f728bb9" kind="enumvalue"><name>DeviceByTablet</name></member>
+    <member refid="namespace_platy_v_g_api_1aaf901061e7fb65303b4805b63918794fa6a41e7e331d465c24d0da26946515273" kind="enumvalue"><name>DeviceByPen</name></member>
+    <member refid="namespace_platy_v_g_api_1aaf901061e7fb65303b4805b63918794fa4cbd6e4456689eba931124f0a706401a" kind="enumvalue"><name>LengthOfDevice</name></member>
+    <member refid="namespace_platy_v_g_api_1aaf9cda34313e3370bd072f0ba3534d99" kind="enum"><name>StrokeBy</name></member>
+    <member refid="namespace_platy_v_g_api_1aaf9cda34313e3370bd072f0ba3534d99a2868ac9b244b4a492b671bb2e83900be" kind="enumvalue"><name>StrokeBySpline</name></member>
+    <member refid="namespace_platy_v_g_api_1aaf9cda34313e3370bd072f0ba3534d99ae15dc5b2131954f62112717d1e5c11b3" kind="enumvalue"><name>StrokeByTube</name></member>
+    <member refid="namespace_platy_v_g_api_1aaf9cda34313e3370bd072f0ba3534d99a06a4024b281e025f7f9f82790c5c28e3" kind="enumvalue"><name>StrokeByAqua</name></member>
+    <member refid="namespace_platy_v_g_api_1aaf9cda34313e3370bd072f0ba3534d99a4f16e7007e5ea4ecab8fb804c6e5e899" kind="enumvalue"><name>StrokeByErase</name></member>
+    <member refid="namespace_platy_v_g_api_1aaf9cda34313e3370bd072f0ba3534d99a636bb75be856ed53541477d39020f739" kind="enumvalue"><name>StrokeBySelect</name></member>
+    <member refid="namespace_platy_v_g_api_1aaf9cda34313e3370bd072f0ba3534d99ac44bb5f7994eb69326b4a81a25586db4" kind="enumvalue"><name>StrokeByHand</name></member>
+    <member refid="namespace_platy_v_g_api_1aaf9cda34313e3370bd072f0ba3534d99a3d5aa0de0e4673070a83c8f91d37d193" kind="enumvalue"><name>StrokeBySpoid</name></member>
+    <member refid="namespace_platy_v_g_api_1aaf9cda34313e3370bd072f0ba3534d99a379f7b1ebd11b532f763fc75553fbc3e" kind="enumvalue"><name>LengthOfStroke</name></member>
+    <member refid="namespace_platy_v_g_api_1a8af7d9c32cd7e2d4b2617b9a6dea7420" kind="enum"><name>SelectBy</name></member>
+    <member refid="namespace_platy_v_g_api_1a8af7d9c32cd7e2d4b2617b9a6dea7420a3ce66730fdd503fde99f30295023a372" kind="enumvalue"><name>SelectByRect</name></member>
+    <member refid="namespace_platy_v_g_api_1a8af7d9c32cd7e2d4b2617b9a6dea7420a91188b5e8f69a5f0043741eab6a3aecb" kind="enumvalue"><name>SelectByDrag</name></member>
+    <member refid="namespace_platy_v_g_api_1a8af7d9c32cd7e2d4b2617b9a6dea7420a5d9b883ad8a46021358b8bb581133c4f" kind="enumvalue"><name>SelectByArea</name></member>
+    <member refid="namespace_platy_v_g_api_1a8af7d9c32cd7e2d4b2617b9a6dea7420acab94ae43da57bc2a46132ddb4115e0d" kind="enumvalue"><name>LengthOfSelect</name></member>
+    <member refid="namespace_platy_v_g_api_1a9908f336231ed78487b4054c182ad1ea" kind="enum"><name>MergeBy</name></member>
+    <member refid="namespace_platy_v_g_api_1a9908f336231ed78487b4054c182ad1eaa8e01a7a919d614b00ede59e47f58ac99" kind="enumvalue"><name>MergeByPlus</name></member>
+    <member refid="namespace_platy_v_g_api_1a9908f336231ed78487b4054c182ad1eaaea04c053579964a4e9350b20cba81444" kind="enumvalue"><name>MergeByMinus</name></member>
+    <member refid="namespace_platy_v_g_api_1a9908f336231ed78487b4054c182ad1eaa768b98cb8c01dec1985bca89609b2785" kind="enumvalue"><name>MergeByReverse</name></member>
+    <member refid="namespace_platy_v_g_api_1a9908f336231ed78487b4054c182ad1eaab5c30a4e58e78b730a27911f45c91e23" kind="enumvalue"><name>LengthOfMerge</name></member>
+    <member refid="namespace_platy_v_g_api_1aaddafad2742a44a2551b2e78cffbed90" kind="enum"><name>BoundBy</name></member>
+    <member refid="namespace_platy_v_g_api_1aaddafad2742a44a2551b2e78cffbed90a5171c4084c165a0511ccc1b20c120bf0" kind="enumvalue"><name>BoundByWidth</name></member>
+    <member refid="namespace_platy_v_g_api_1aaddafad2742a44a2551b2e78cffbed90a2434530c4da8ad4c3baabe278770a058" kind="enumvalue"><name>BoundByHeight</name></member>
+    <member refid="namespace_platy_v_g_api_1aaddafad2742a44a2551b2e78cffbed90a8d6aa41c7c763f839d8aa885e9422e42" kind="enumvalue"><name>BoundByInner</name></member>
+    <member refid="namespace_platy_v_g_api_1aaddafad2742a44a2551b2e78cffbed90ae26d5ec0eb78d7d89f17e9003468f301" kind="enumvalue"><name>BoundByOuter</name></member>
+    <member refid="namespace_platy_v_g_api_1aaddafad2742a44a2551b2e78cffbed90a33abb99b90bf17ff7be721d996d8902e" kind="enumvalue"><name>LengthOfBound</name></member>
+    <member refid="namespace_platy_v_g_api_1a06fd7bbaf430012486e2976e8e69a675" kind="enum"><name>ChangeColorBy</name></member>
+    <member refid="namespace_platy_v_g_api_1a06fd7bbaf430012486e2976e8e69a675a962d6050398a86c4741b4b6ff44f9bef" kind="enumvalue"><name>ChangeColorByRGB</name></member>
+    <member refid="namespace_platy_v_g_api_1a06fd7bbaf430012486e2976e8e69a675a952c459f3cc777749fe1d0eccec956e0" kind="enumvalue"><name>ChangeColorByAlpha</name></member>
+    <member refid="namespace_platy_v_g_api_1a06fd7bbaf430012486e2976e8e69a675a6fb36bf9583ed8030a9ccf62cce89786" kind="enumvalue"><name>ChangeColorByAqua</name></member>
+    <member refid="namespace_platy_v_g_api_1a06fd7bbaf430012486e2976e8e69a675aaf0bfd131c0360c5ac4db7741b5deaaa" kind="enumvalue"><name>ChangeColorByRGBAlpha</name></member>
+    <member refid="namespace_platy_v_g_api_1a06fd7bbaf430012486e2976e8e69a675aae1a82be52d0649966aa849e1451f940" kind="enumvalue"><name>ChangeColorByRGBAqua</name></member>
+    <member refid="namespace_platy_v_g_api_1a06fd7bbaf430012486e2976e8e69a675aae6532761f0080949ab996f27f1afc77" kind="enumvalue"><name>ChangeColorByAlphaAqua</name></member>
+    <member refid="namespace_platy_v_g_api_1a06fd7bbaf430012486e2976e8e69a675a3ee07931ed9be101a28529a4245829ce" kind="enumvalue"><name>ChangeColorByRGBAlphaAqua</name></member>
+    <member refid="namespace_platy_v_g_api_1a06fd7bbaf430012486e2976e8e69a675a72aaf2266ffd99ff56a746e72646063f" kind="enumvalue"><name>LengthOfChangeColor</name></member>
+    <member refid="namespace_platy_v_g_api_1aba2379b8bc6caca8e932e88ba345e62b" kind="variable"><name>l</name></member>
+    <member refid="namespace_platy_v_g_api_1af34c6f0902e8b5c74ddc848d85e81d76" kind="variable"><name>t</name></member>
+    <member refid="namespace_platy_v_g_api_1abeabb9486e0a371bb1dc1ddaa24d84ca" kind="variable"><name>r</name></member>
+    <member refid="namespace_platy_v_g_api_1adbe6d0d09524648846310fef0d557ddf" kind="variable"><name>x</name></member>
+    <member refid="namespace_platy_v_g_api_1ad65ec3a6ee1823e8338d2b35e073e2a5" kind="variable"><name>y</name></member>
+    <member refid="namespace_platy_v_g_api_1a5b1b200969be234e8dbcf31688cb33c9" kind="variable"><name>rgba</name></member>
+    <member refid="namespace_platy_v_g_api_1af4d3f53f251ac99bc8228cf77a6b4928" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a9b699823dd117d1e69ad623a400ba0e5" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a10d1f05df1b976fe85388b8577d7f6af" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1adbbc4103f2fe90a86b641a2600ea51fc" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a4febfb8b1b4cddc29934bb9716b2fb40" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a9899a398a2f5a8da1690d1e958f2a225" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a800582c84b052389ac85078734cfe1e2" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a4a7956b09d2089b944b4fe95a38c53d0" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1aeec5cdc224e5887ccedcd33f34f05c07" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a4b84198153ea181eca2fc2b13f026d9e" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a6c52aed900e209dc016428f50935870f" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a7f87ccc6782056e89339d87dcab758a4" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a44532cc33969476645eeee2a44e7674c" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1ad889ae38f56e92892396d00fa737aa6d" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1af4ebd52e6a4ec43e671983e4b58400f2" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a05b72e1860707516a973e9d5364d4250" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a456f3a8229ffa8454c16f111a9689bff" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a85773199f9e63e55a5a3d1e8663ab868" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a9fa5dd42554b11b61596715aa8c75b15" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a9906a47a9f24108a9cf6ef3a54cf5df5" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a6fe3f9085435c6b2a84b2b3c720c7f31" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a3b0009d79125990d13f7471809dada71" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1abba9e4a35072c54ef53baf5f0dc49a14" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1aa2fa18dfc75ac212843ea3f84cc50806" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a6431c1a9f295d2dbfd1c2d339a7d5568" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1ad0662914a53f7ce6b27ea1b8426bc7cf" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a041f73d6a3ac71ceb8fbadda94829b44" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a50f851e52489d7e3cc254ec8044703a0" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a2d264fe2549e467d0af1510ed3889a53" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1acde9743f679fd7a0a66ec16a498b83b4" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1ad592da8c65421a4dec8ee9f9f17a05ce" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a936fa6c238ad8924380d4fac4760a5be" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a0f180944d5afc973096f064c7be35a7b" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1ac2d8da4dc99d6c1bcaddaf464f8b436e" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1ae3f0cd348641cf4848fc80fc18018b3f" kind="function"><name>PX_API_VOID</name></member>
+    <member refid="namespace_platy_v_g_api_1ab76601b1c6bdd0736490ce28c415b2c6" kind="function"><name>PX_API_VOID</name></member>
+    <member refid="namespace_platy_v_g_api_1aa69073800af711a96e911ef401f66803" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a739be79309212fa9702419ad3861b0e3" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1aacd1b039f90ea4e9ed9097b93e660243" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a3a6153eca4d3665a7b3da3221dd636ec" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1ac35e79f98787c2b3f2dd91e63e892efb" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a7a0f9ce1c8d3c4175abd8441704dbd59" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a8ec201d44dbe3a576489c48585a641da" kind="function"><name>PX_API_VOID</name></member>
+    <member refid="namespace_platy_v_g_api_1afbbcf6622d48798df1e3b915b89112e8" kind="function"><name>PX_API_VOID</name></member>
+    <member refid="namespace_platy_v_g_api_1a4233a3638647f91acd7508180ec0c542" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1afeac7e531f20f272560926935111923d" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1ac2d55540608bc7ae85bb6dc9df6acb48" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a38561a1e60831aa1f826549c8c47b4ca" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1aca399843f0c47acae5098b1da9c4ee0a" kind="function"><name>PX_API_VOID</name></member>
+    <member refid="namespace_platy_v_g_api_1ae925e2c6ad922149d8ac7625a878729a" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1ac2b2dd5bfe2df0750ad6f8c1473a4f7b" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a43df2c125855115bf8701d512928ec00" kind="function"><name>PX_API_VOID</name></member>
+    <member refid="namespace_platy_v_g_api_1afff7a308035047fa64f926fd5b0de119" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1ad7724cfaf52bd968af1babfb79d73169" kind="function"><name>PX_API_VOID</name></member>
+    <member refid="namespace_platy_v_g_api_1aed4c02d241b98ff703ecb0e5ce554c52" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1ab9fee18eecd9e6e4cbef758366c3278e" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1ae2b7de81937309e7be89eac1a72ddb2b" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a260736418857ab99567db748dc823fb7" kind="function"><name>PX_API_VOID</name></member>
+    <member refid="namespace_platy_v_g_api_1ac6e82580c33f33110f0b5aa2eff0a670" kind="function"><name>PX_API_VOID</name></member>
+    <member refid="namespace_platy_v_g_api_1a89b8047d3b563177f5c186b19f978202" kind="function"><name>PX_API_VOID</name></member>
+    <member refid="namespace_platy_v_g_api_1a8e68fb485eaa586da229e066d32777a0" kind="function"><name>PX_API_VOID</name></member>
+    <member refid="namespace_platy_v_g_api_1a52aab695fcaa2ec24423e09c53a8d611" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a99100c5549d28ae61541e7546e7d7b87" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a321805ba9b44fe8bdf721c1c6eb419f2" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a364a3d82f167a95a30a0e5d3e439f5da" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1ada10835625485cfe6cb5636fcb21ad9c" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1aaeee8c39391c1caa9ffb43af4ba768a8" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a30ec4479f1aae99e306187ed2b35b4ed" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a10f7e1de0c97fe2db88e1d8472b0dc41" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a233ec0dcf0885b710892f9c04073fae1" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1acd8c960e7bd5886707e3cccb7ac4ce97" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a63a183ef9c7412fe0274db75c746c604" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a0ece203793e17d7c41dd230d0511ae08" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a32137a1621c834485488c94447a208cf" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a33ea3f370a3d7eaec21e86547b993c29" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a093f8a07ee471a28954ce539330f4739" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a37476fa33764b208755545427c68eeaa" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1a6302990b38a7e22dc09d9cc373432506" kind="function"><name>PX_API</name></member>
+    <member refid="namespace_platy_v_g_api_1aca02cd496beb2240877c041f0f644556" kind="function"><name>PX_API</name></member>
+  </compound>
+  <compound refid="namespace_platy_v_g_core" kind="namespace"><name>PlatyVGCore</name>
+    <member refid="namespace_platy_v_g_core_1a9b5bb56f294d4bb4cccaf7531af4e7ec" kind="typedef"><name>Documents</name></member>
+    <member refid="namespace_platy_v_g_core_1adcbbd63a0d576079f8d1528284b3d559" kind="typedef"><name>Layers</name></member>
+    <member refid="namespace_platy_v_g_core_1a40bdb722fed6a6db4f5df9f36a2a6fd0" kind="typedef"><name>UnionShape</name></member>
+    <member refid="namespace_platy_v_g_core_1afce9fdd66121b4f7a6da21dc0cc39078" kind="typedef"><name>UnionShapes</name></member>
+  </compound>
+  <compound refid="namespace_platy_v_g_element" kind="namespace"><name>PlatyVGElement</name>
+    <member refid="namespace_platy_v_g_element_1a73dacacae0dea9a4d35fba45538aab86" kind="typedef"><name>UnionAction</name></member>
+    <member refid="namespace_platy_v_g_element_1a39f31a5333b80baeab535410d5050fa0" kind="typedef"><name>UnionActions</name></member>
+    <member refid="namespace_platy_v_g_element_1ae22d66664c8dc52349db5586d14bd422" kind="typedef"><name>Coords</name></member>
+    <member refid="namespace_platy_v_g_element_1a3e289143b43b5470acc5a1dae60e6ede" kind="typedef"><name>EdgeSplines</name></member>
+    <member refid="namespace_platy_v_g_element_1affe7fea78508375c5be5d129178073a6" kind="typedef"><name>EdgeTubes</name></member>
+    <member refid="namespace_platy_v_g_element_1ad2847f440c0277a0b2cbae9a80d47049" kind="typedef"><name>MeshSplines</name></member>
+    <member refid="namespace_platy_v_g_element_1a9e4c44fe802a55d6bd2c0172c39d722d" kind="typedef"><name>MeshTubes</name></member>
+    <member refid="namespace_platy_v_g_element_1a562d5b84fb5726e71bf370c35f95ef41" kind="typedef"><name>MeshAquas</name></member>
+    <member refid="namespace_platy_v_g_element_1abfa0436e4796dfd489a343d9be33e8fb" kind="typedef"><name>Points</name></member>
+    <member refid="namespace_platy_v_g_element_1ae2d236b6764362b894923de3dac5b362" kind="typedef"><name>Rects</name></member>
+    <member refid="namespace_platy_v_g_element_1abe11ce7a7be79cb6a77b9203d7bb6d43" kind="typedef"><name>Tables</name></member>
+  </compound>
+  <compound refid="namespace_px" kind="namespace"><name>Px</name>
+    <member refid="namespace_px_1a6aa4b208d71c9c48f2cfbe5178f8a105" kind="typedef"><name>sint08s</name></member>
+    <member refid="namespace_px_1ad692a24f83b785a68a7d4f404825e2bc" kind="typedef"><name>uint08s</name></member>
+    <member refid="namespace_px_1a14ef9b416910b414065cee1d1b79a688" kind="typedef"><name>sint16s</name></member>
+    <member refid="namespace_px_1ab244bef928314fce41671f4436d0a8c4" kind="typedef"><name>uint16s</name></member>
+    <member refid="namespace_px_1aebc5ac8d436c400bcf1abcdd24cf14fa" kind="typedef"><name>sint32s</name></member>
+    <member refid="namespace_px_1ab5fd79c2fea37339863e886f9f1c3285" kind="typedef"><name>uint32s</name></member>
+    <member refid="namespace_px_1aec08576cef5507e2f7f6f26527d56a97" kind="typedef"><name>sint64s</name></member>
+    <member refid="namespace_px_1a160e2e2497f37aa699c98db2ca32fc26" kind="typedef"><name>uint64s</name></member>
+    <member refid="namespace_px_1af9ea2d20d7823761e839dc1cdf88a65e" kind="typedef"><name>floats</name></member>
+    <member refid="namespace_px_1a4d6e25ad83749f7b5731a9d490ed2e96" kind="typedef"><name>sint08</name></member>
+    <member refid="namespace_px_1a7d9c8924f7d9bc303a50295285ffbe86" kind="typedef"><name>uint08</name></member>
+    <member refid="namespace_px_1ada62abcd5cdc4e1198001e12509a3e4b" kind="typedef"><name>sint16</name></member>
+    <member refid="namespace_px_1ad9178550e635c272060e3cd5beddc076" kind="typedef"><name>uint16</name></member>
+    <member refid="namespace_px_1ae7f3bd38b8a6a3d6a66262cfb45bb83e" kind="typedef"><name>sint32</name></member>
+    <member refid="namespace_px_1a7b90ee2958f793857735924df565cca9" kind="typedef"><name>uint32</name></member>
+    <member refid="namespace_px_1a14b7b165bfd3a30f84ecce95afb496cd" kind="typedef"><name>sint64</name></member>
+    <member refid="namespace_px_1a730a31046464287bd84e241186ad1164" kind="typedef"><name>uint64</name></member>
+    <member refid="namespace_px_1abd8d495fa5b408d573f1c00e539e5d32" kind="typedef"><name>chars</name></member>
+    <member refid="namespace_px_1af9e920e09ff559a8905437cb7e21df87" kind="typedef"><name>bytes</name></member>
+    <member refid="namespace_px_1a3015fff55340d33513859f331576676b" kind="typedef"><name>linkstep1</name></member>
+    <member refid="namespace_px_1a79d5bdf66c8a48fbfeeb137ad363576e" kind="typedef"><name>linkstep2</name></member>
+    <member refid="namespace_px_1a45508c31922957c8b8b15e32583be335" kind="typedef"><name>linkstep3</name></member>
+    <member refid="namespace_px_1a38ae694d0d075e324148d5868b595a67" kind="typedef"><name>linkstep4</name></member>
+    <member refid="namespace_px_1a7bcb8ca47b8c0450f41098a6768587aa" kind="typedef"><name>linkstep5</name></member>
+    <member refid="namespace_px_1a5d7774ac66c661fc1eff0de0a8b43b0a" kind="typedef"><name>linkstep6</name></member>
+    <member refid="namespace_px_1abdc9654be17aac101ec7cdd9c25d594f" kind="typedef"><name>linkstep7</name></member>
+    <member refid="namespace_px_1aaf27d94b170d87ee0d9a2ccd734e07d9" kind="typedef"><name>linkstep8</name></member>
+    <member refid="namespace_px_1ab5da259d430544e324b51ee6c64ddd1d" kind="typedef"><name>linkstep9</name></member>
+    <member refid="namespace_px_1a775828baca72b00c741b9f5ff972ec16" kind="typedef"><name>sblock</name></member>
+    <member refid="namespace_px_1a2c98cc3660d8761f3a6ce14652280be4" kind="typedef"><name>ublock</name></member>
+    <member refid="namespace_px_1a7424d7261ce9a1d2f90d1bd3bc091cbc" kind="typedef"><name>nakedbuffer</name></member>
+    <member refid="namespace_px_1a3e2abeba9e1c25422bfae0d7dbb7b331" kind="typedef"><name>buffer</name></member>
+    <member refid="namespace_px_1a1dc2ece846fb535dc0c9b4564134dd42" kind="typedef"><name>api_autorun</name></member>
+    <member refid="namespace_px_1aabf21bc4ed5b57cb898e5f4dddda9d97" kind="typedef"><name>api_int</name></member>
+    <member refid="namespace_px_1a004b945c1ec6bc72735fbbf070ac7e15" kind="typedef"><name>api_uint</name></member>
+    <member refid="namespace_px_1aa39b313caee0b5e682dddf2250c15f89" kind="typedef"><name>api_flag</name></member>
+    <member refid="namespace_px_1af637c09eeb477e237ac23a35476d960e" kind="typedef"><name>api_enum</name></member>
+    <member refid="namespace_px_1aadef21dd16cef05b0ec7f08b402c7ed2" kind="typedef"><name>api_long</name></member>
+    <member refid="namespace_px_1ab936829a9b9b51e645a6c1c0b10dd979" kind="typedef"><name>api_float</name></member>
+    <member refid="namespace_px_1a009829fb9c8208373a8d68283a555185" kind="typedef"><name>api_string</name></member>
+    <member refid="namespace_px_1a6b435a6b01adf9a4c3167851f87304e4" kind="typedef"><name>api_bytes</name></member>
+    <member refid="namespace_px_1a151a44a94605e9a164a00a4abc56494f" kind="typedef"><name>api_floats</name></member>
+    <member refid="namespace_px_1a71902d042b73825490c9a6e97f67359c" kind="typedef"><name>api_results</name></member>
+    <member refid="namespace_px_1a746e38f603c544745c03f2e5e545c216" kind="function"><name>CollectForPlatform</name></member>
+    <member refid="namespace_px_1ab07da4a4fbe8df15cee1ec72148a0b3d" kind="function"><name>ReadyForPlatform</name></member>
+    <member refid="namespace_px_1a6e3adbdd8fa9a306798e02ef46eb79b4" kind="function"><name>ReturnForPlatform</name></member>
+    <member refid="namespace_px_1a63723fae1fa306bd30d997f723d2eee4" kind="function"><name>ReturnForPlatform</name></member>
+    <member refid="namespace_px_1a3743b0bcbddcd6d1620c926cff32b5ec" kind="function"><name>ResultsForPlatform</name></member>
+    <member refid="namespace_px_1a2a5b1165494337394ec7106e8f5a1df0" kind="function"><name>ResultsForPlatform</name></member>
+    <member refid="namespace_px_1a2c20dc0fb80df6105440d464364d59fe" kind="function"><name>ResultsForPlatform</name></member>
+  </compound>
+  <compound refid="action_8cpp" kind="file"><name>action.cpp</name>
+  </compound>
+  <compound refid="action_8hpp" kind="file"><name>action.hpp</name>
+  </compound>
+  <compound refid="adapter_8cpp" kind="file"><name>adapter.cpp</name>
+    <member refid="adapter_8cpp_1aba6c3f5bc76e10d8b2185f1b9f561fb1" kind="define"><name>PROCLOOP64</name></member>
+    <member refid="adapter_8cpp_1aef3cacb2b8c8c8966689fc790ad9336a" kind="function"><name>PolyProc</name></member>
+    <member refid="adapter_8cpp_1a26966f8a48c5f0cccfc437dfb5c97c22" kind="function"><name>PolyDraw</name></member>
+    <member refid="adapter_8cpp_1a7a4194e88899524226ffd1084a415f97" kind="function"><name>GetOpacityR</name></member>
+    <member refid="adapter_8cpp_1ac5bcf7177c1e3a0dd311a45ec0133d9d" kind="function"><name>GetOpacityG</name></member>
+    <member refid="adapter_8cpp_1aa989e5a5d3bd3b84f3f5116488177de2" kind="function"><name>GetOpacityB</name></member>
+    <member refid="adapter_8cpp_1a3e91578ac3ebd4eead7ffa995ef17faf" kind="function"><name>GetDstOpacityTable</name></member>
+    <member refid="adapter_8cpp_1af463815d5dfad7f2f596bafbebc302f5" kind="function"><name>BitmapRender</name></member>
+  </compound>
+  <compound refid="adapter_8hpp" kind="file"><name>adapter.hpp</name>
+  </compound>
+  <compound refid="array_8cpp" kind="file"><name>array.cpp</name>
+  </compound>
+  <compound refid="array_8hpp" kind="file"><name>array.hpp</name>
+  </compound>
+  <compound refid="buffer_8cpp" kind="file"><name>buffer.cpp</name>
+    <member refid="buffer_8cpp_1af7b639e42c30d39d10cf5ae4073f8e8e" kind="define"><name>INCLUDED_SIZE_T</name></member>
+    <member refid="buffer_8cpp_1a9a974e4caa0215b6dac5d6135458415d" kind="define"><name>MUTEX_ID</name></member>
+    <member refid="buffer_8cpp_1a96be0bfc33e7e113099c7546798bec99" kind="define"><name>MUTEX_INIT</name></member>
+    <member refid="buffer_8cpp_1afee3358d67ca47184b07072e4659e8d0" kind="define"><name>MUTEX_DESTROY</name></member>
+    <member refid="buffer_8cpp_1a052717f79499a2b7882c65d09a426b97" kind="define"><name>MUTEX_LOCK</name></member>
+    <member refid="buffer_8cpp_1a54d483bbc206710069dff267b5a9a04e" kind="define"><name>MUTEX_UNLOCK</name></member>
+    <member refid="buffer_8cpp_1a37fea720a975ea14e879df2e54c9ff3a" kind="define"><name>CALC_BLOCK_LEN</name></member>
+    <member refid="buffer_8cpp_1aa1ca35f9f3cbe90896f6eec950dc7e44" kind="define"><name>CALC_BYTES_LEN</name></member>
+    <member refid="buffer_8cpp_1aa504a622908c4022a308dcb2f659e887" kind="define"><name>NO_CHANGE_FLAG</name></member>
+    <member refid="buffer_8cpp_1aa09a49dff8a08d9113055065a11e8044" kind="define"><name>LINK_L</name></member>
+    <member refid="buffer_8cpp_1a61ad6bb68cba0a0afd4d501e2f87ee87" kind="define"><name>LINK_R</name></member>
+    <member refid="buffer_8cpp_1afca649faf038473762d1aea87db838bf" kind="define"><name>SIZE_OF_DEBUGINFO</name></member>
+    <member refid="buffer_8cpp_1a980997855ffb71dbd689763b02f8aca3" kind="typedef"><name>size_t</name></member>
+  </compound>
+  <compound refid="buffer_8hpp" kind="file"><name>buffer.hpp</name>
+  </compound>
+  <compound refid="color_8cpp" kind="file"><name>color.cpp</name>
+  </compound>
+  <compound refid="color_8hpp" kind="file"><name>color.hpp</name>
+  </compound>
+  <compound refid="command_8cpp" kind="file"><name>command.cpp</name>
+  </compound>
+  <compound refid="command_8hpp" kind="file"><name>command.hpp</name>
+  </compound>
+  <compound refid="context_8cpp" kind="file"><name>context.cpp</name>
+  </compound>
+  <compound refid="context_8hpp" kind="file"><name>context.hpp</name>
+  </compound>
+  <compound refid="coord_8cpp" kind="file"><name>coord.cpp</name>
+  </compound>
+  <compound refid="coord_8hpp" kind="file"><name>coord.hpp</name>
+  </compound>
+  <compound refid="device_8cpp" kind="file"><name>device.cpp</name>
+  </compound>
+  <compound refid="device_8hpp" kind="file"><name>device.hpp</name>
+  </compound>
+  <compound refid="document_8cpp" kind="file"><name>document.cpp</name>
+    <member refid="document_8cpp_1aebc9c03041c7a7ebec7b2440e00e88f1" kind="variable"><name>LastID</name></member>
+  </compound>
+  <compound refid="document_8hpp" kind="file"><name>document.hpp</name>
+  </compound>
+  <compound refid="edge_8cpp" kind="file"><name>edge.cpp</name>
+  </compound>
+  <compound refid="edge_8hpp" kind="file"><name>edge.hpp</name>
+  </compound>
+  <compound refid="export_8cpp" kind="file"><name>export.cpp</name>
+    <member refid="export_8cpp_1a06fc87d81c62e9abb8790b6e5713c55b" kind="enum"><name>@0</name></member>
+    <member refid="export_8cpp_1a06fc87d81c62e9abb8790b6e5713c55babadeab5273c76412aba9c2210ee60141" kind="enumvalue"><name>BytesPerPixel</name></member>
+    <member refid="export_8cpp_1a06fc87d81c62e9abb8790b6e5713c55bafe05412f94ee97e87866314a2a9f2578" kind="enumvalue"><name>BitsWidth</name></member>
+    <member refid="export_8cpp_1a06fc87d81c62e9abb8790b6e5713c55ba0c02174ea1f5d0ca4a4107a0c31d9726" kind="enumvalue"><name>BitsHeight</name></member>
+    <member refid="export_8cpp_1aa885c672dfdc6a4726a2d1f48b6feba2" kind="function"><name>WriteChunkString</name></member>
+    <member refid="export_8cpp_1aef565ac86c48de3a4be6a64ce139a617" kind="function"><name>WriteChunkNumber</name></member>
+    <member refid="export_8cpp_1aa30be43f4244f76b5ba6bb08d214b424" kind="function"><name>DecodeChunk</name></member>
+    <member refid="export_8cpp_1a2acab7b83eab46225aaffe3b0871f930" kind="function"><name>ParseNumber</name></member>
+    <member refid="export_8cpp_1a146a88a1cb144df65a09ca68f19c989b" kind="function"><name>IsChunk</name></member>
+  </compound>
+  <compound refid="export_8hpp" kind="file"><name>export.hpp</name>
+  </compound>
+  <compound refid="file_8cpp" kind="file"><name>file.cpp</name>
+    <member refid="file_8cpp_1a4c8d0b76b470ba65a43ca46a88320f39" kind="define"><name>SEEK_CUR</name></member>
+    <member refid="file_8cpp_1ad2a2e6c114780c3071efd24f16c7f7d8" kind="define"><name>SEEK_END</name></member>
+    <member refid="file_8cpp_1a0d112bae8fd35be772185b6ec6bcbe64" kind="define"><name>SEEK_SET</name></member>
+    <member refid="file_8cpp_1aa1b8508c273683f186eeb480ddfc3234" kind="define"><name>PX_OPEN</name></member>
+    <member refid="file_8cpp_1ad6a485208cb337740ce966d40915534c" kind="define"><name>PX_CLOSE</name></member>
+    <member refid="file_8cpp_1aeba064fcd32da2900671d7e811d44a50" kind="define"><name>PX_GETSIZE</name></member>
+    <member refid="file_8cpp_1a82337357d7754808e4ea26f89eae4e46" kind="define"><name>PX_READ</name></member>
+    <member refid="file_8cpp_1a850bc32c9f763ed89a68006c321a7dc8" kind="define"><name>PX_WRITE</name></member>
+    <member refid="file_8cpp_1a272e6b32b9127bff4fb12af3f64306ed" kind="define"><name>PX_SKIP</name></member>
+    <member refid="file_8cpp_1a69bbd87477f4787ac5761b7412f6d63f" kind="typedef"><name>FILE</name></member>
+    <member refid="file_8cpp_1a7a783dc33bb2be5460b8f3e619994241" kind="function"><name>fopen</name></member>
+    <member refid="file_8cpp_1a6441bf0a1040701d1ba906b64f348daf" kind="function"><name>fclose</name></member>
+    <member refid="file_8cpp_1a1844939701ba30c5a01bd551998881db" kind="function"><name>ftell</name></member>
+    <member refid="file_8cpp_1aa5abe9ec811717191768b7819bf004bd" kind="function"><name>fread</name></member>
+    <member refid="file_8cpp_1ae0589b76a36b092189f43de78f103bb8" kind="function"><name>fwrite</name></member>
+    <member refid="file_8cpp_1a71f44bc63869da8cdd9b60e3d086d21d" kind="function"><name>fseek</name></member>
+    <member refid="file_8cpp_1a28bf3c3d27f9f524e3be19bdb05d9e89" kind="function"><name>fgetsize</name></member>
+  </compound>
+  <compound refid="file_8hpp" kind="file"><name>file.hpp</name>
+  </compound>
+  <compound refid="input_8cpp" kind="file"><name>input.cpp</name>
+  </compound>
+  <compound refid="input_8hpp" kind="file"><name>input.hpp</name>
+  </compound>
+  <compound refid="layer_8cpp" kind="file"><name>layer.cpp</name>
+  </compound>
+  <compound refid="layer_8hpp" kind="file"><name>layer.hpp</name>
+  </compound>
+  <compound refid="listener_8cpp" kind="file"><name>listener.cpp</name>
+  </compound>
+  <compound refid="listener_8hpp" kind="file"><name>listener.hpp</name>
+  </compound>
+  <compound refid="math_8cpp" kind="file"><name>math.cpp</name>
+  </compound>
+  <compound refid="math_8hpp" kind="file"><name>math.hpp</name>
+  </compound>
+  <compound refid="matrix_8cpp" kind="file"><name>matrix.cpp</name>
+  </compound>
+  <compound refid="matrix_8hpp" kind="file"><name>matrix.hpp</name>
+  </compound>
+  <compound refid="memory_8cpp" kind="file"><name>memory.cpp</name>
+    <member refid="memory_8cpp_1a4a1c38eacfd02b9442dae708f6cca4ae" kind="define"><name>PX_ALLOC</name></member>
+    <member refid="memory_8cpp_1a339dbdd8f83e691222d9edf2ce2c384c" kind="define"><name>PX_FREE</name></member>
+    <member refid="memory_8cpp_1ae697427a157e32e8ae1d31baec431691" kind="define"><name>PX_MEMSET</name></member>
+    <member refid="memory_8cpp_1a4fa26e8cb1dc86f4c55682202f9f6adc" kind="define"><name>PX_MEMCPY</name></member>
+    <member refid="memory_8cpp_1aa22fab9c8f3d816907d464c7cc70c436" kind="define"><name>PX_MEMCMP</name></member>
+    <member refid="memory_8cpp_1a54cc981edd405148ba514ea48706cddc" kind="function"><name>malloc</name></member>
+    <member refid="memory_8cpp_1af07d89f5ceaea0c7c8252cc41fd75f37" kind="function"><name>free</name></member>
+    <member refid="memory_8cpp_1abc24a12d4181bc41229db9405cca96c4" kind="function"><name>memset</name></member>
+    <member refid="memory_8cpp_1a7eec74f9c4668b0a07519e0120a7d179" kind="function"><name>memcpy</name></member>
+    <member refid="memory_8cpp_1a402dfc734430e08065c0c32afe1597df" kind="function"><name>memcmp</name></member>
+  </compound>
+  <compound refid="memory_8hpp" kind="file"><name>memory.hpp</name>
+  </compound>
+  <compound refid="mesh_8cpp" kind="file"><name>mesh.cpp</name>
+  </compound>
+  <compound refid="mesh_8hpp" kind="file"><name>mesh.hpp</name>
+  </compound>
+  <compound refid="parser_8cpp" kind="file"><name>parser.cpp</name>
+  </compound>
+  <compound refid="parser_8hpp" kind="file"><name>parser.hpp</name>
+  </compound>
+  <compound refid="platyvg_8cpp" kind="file"><name>platyvg.cpp</name>
+  </compound>
+  <compound refid="platyvg_8hpp" kind="file"><name>platyvg.hpp</name>
+  </compound>
+  <compound refid="point_8cpp" kind="file"><name>point.cpp</name>
+  </compound>
+  <compound refid="point_8hpp" kind="file"><name>point.hpp</name>
+  </compound>
+  <compound refid="px_8cpp" kind="file"><name>px.cpp</name>
+    <member refid="px_8cpp_1a4fa26e8cb1dc86f4c55682202f9f6adc" kind="define"><name>PX_MEMCPY</name></member>
+    <member refid="px_8cpp_1abf77736646d0b11ec88a18760de59cce" kind="define"><name>PX_PRINTF</name></member>
+    <member refid="px_8cpp_1a802f0d88abc78319c941231b93dc8bfb" kind="define"><name>PX_SPRINTF</name></member>
+    <member refid="px_8cpp_1a7eec74f9c4668b0a07519e0120a7d179" kind="function"><name>memcpy</name></member>
+    <member refid="px_8cpp_1ad3275c2da349019932874fbf31fd91c6" kind="function"><name>printf</name></member>
+    <member refid="px_8cpp_1ace00d1cce35296d166681cc4e42b4bad" kind="function"><name>sprintf</name></member>
+  </compound>
+  <compound refid="px_8hpp" kind="file"><name>px.hpp</name>
+    <member refid="px_8hpp_1abb7ba484fe866e26bb41286285f632ff" kind="define"><name>NEEDS</name></member>
+    <member refid="px_8hpp_1ac84c3c4d5e70daaaf452cd30d5563357" kind="define"><name>NEEDS_DBG_PRM</name></member>
+    <member refid="px_8hpp_1aa5d626f3c9b7bf907259fe25f4dac00f" kind="define"><name>NEEDS_DBG_VAL</name></member>
+    <member refid="px_8hpp_1a20ed31297d4aa9f0c301c8af0b43e8e2" kind="define"><name>NEEDS_DBG_INT</name></member>
+    <member refid="px_8hpp_1a58767cd74a685348b2164e737ec0fb24" kind="define"><name>NEEDS_DBG_ARG</name></member>
+    <member refid="px_8hpp_1ab2e4216763879f2fde9e27ea29c1ee36" kind="define"><name>NEEDS_DBG_FILE</name></member>
+    <member refid="px_8hpp_1a5ba03653024e66cf63bbb9e938e1c885" kind="define"><name>NEEDS_DBG_LINE</name></member>
+    <member refid="px_8hpp_1a095b739cc1c21cb42d377a86510754bd" kind="define"><name>NEEDS_DBG_FUNC</name></member>
+    <member refid="px_8hpp_1ac55a57b740a18e2e50e810481a95fca5" kind="define"><name>PX_API</name></member>
+    <member refid="px_8hpp_1ab5158ee0645b9a28787980b5dd02999d" kind="define"><name>PX_API_VOID</name></member>
+    <member refid="px_8hpp_1abf9eaf191093fd93becbff4ebd93fe55" kind="define"><name>PX_API_IMPL</name></member>
+    <member refid="px_8hpp_1ae3651b93f7b7279e1d23e31a3ba35f42" kind="define"><name>PX_API_IMPL_RETURN</name></member>
+    <member refid="px_8hpp_1ac894180e9c178f0e4c17c688ea374197" kind="define"><name>PX_API_IMPL_RESULTS</name></member>
+    <member refid="px_8hpp_1aa6b336d59fd0ceb434b49abaed66eb7c" kind="define"><name>PTR_TO_SBLOCK</name></member>
+    <member refid="px_8hpp_1af1f5f668b061af269cc935bb7a46a03f" kind="define"><name>__SIZE_T__</name></member>
+    <member refid="px_8hpp_1a0547ce31be2118f777f7a5cc049da313" kind="define"><name>PX_ASSERT</name></member>
+    <member refid="px_8hpp_1a3cf56b81f40c30dc7ab59656da5282b6" kind="define"><name>PX_TRACE</name></member>
+    <member refid="px_8hpp_1a3f98cda95f4eceaeac53c13f97aec230" kind="function"><name>operator new</name></member>
+    <member refid="px_8hpp_1a834fc5f7c0d872ee2d3ded3618cb84f9" kind="function"><name>operator new[]</name></member>
+    <member refid="px_8hpp_1a67efa27cc9c18b43560c84c0ea22812a" kind="function"><name>operator delete</name></member>
+    <member refid="px_8hpp_1a3558c6b75083054c422955db78a94bb8" kind="function"><name>operator delete[]</name></member>
+  </compound>
+  <compound refid="record_8cpp" kind="file"><name>record.cpp</name>
+  </compound>
+  <compound refid="record_8hpp" kind="file"><name>record.hpp</name>
+  </compound>
+  <compound refid="rect_8cpp" kind="file"><name>rect.cpp</name>
+  </compound>
+  <compound refid="rect_8hpp" kind="file"><name>rect.hpp</name>
+  </compound>
+  <compound refid="selector_8cpp" kind="file"><name>selector.cpp</name>
+  </compound>
+  <compound refid="selector_8hpp" kind="file"><name>selector.hpp</name>
+  </compound>
+  <compound refid="shape_8cpp" kind="file"><name>shape.cpp</name>
+    <member refid="shape_8cpp_1a30ab9da60435727bc80839d416461b8f" kind="define"><name>R0</name></member>
+    <member refid="shape_8cpp_1a35f78a61848522afc2a83acdfa914026" kind="define"><name>R90</name></member>
+    <member refid="shape_8cpp_1ab5e1618928b798049a70f9eea202e5fd" kind="define"><name>R180</name></member>
+    <member refid="shape_8cpp_1a6f61d0c185cbbd2b36da5e112749834b" kind="define"><name>R270</name></member>
+    <member refid="shape_8cpp_1ae8c69b1fc5737f659928500b2ea62c8d" kind="define"><name>R360</name></member>
+  </compound>
+  <compound refid="shape_8hpp" kind="file"><name>shape.hpp</name>
+  </compound>
+  <compound refid="share_8cpp" kind="file"><name>share.cpp</name>
+  </compound>
+  <compound refid="share_8hpp" kind="file"><name>share.hpp</name>
+  </compound>
+  <compound refid="size_8cpp" kind="file"><name>size.cpp</name>
+  </compound>
+  <compound refid="size_8hpp" kind="file"><name>size.hpp</name>
+  </compound>
+  <compound refid="string_8cpp" kind="file"><name>string.cpp</name>
+    <member refid="string_8cpp_1ae2ebdb652f167e192812ec8abb408e70" kind="define"><name>PX_STRSAME</name></member>
+    <member refid="string_8cpp_1a21e4788b4a0ae39b11aa32e9a1079f98" kind="function"><name>strcmp</name></member>
+  </compound>
+  <compound refid="string_8hpp" kind="file"><name>string.hpp</name>
+    <member refid="string_8hpp_1ac0a5cd1ccec354e0ec49e3b2af6f5f9f" kind="define"><name>CONST_STRING</name></member>
+  </compound>
+  <compound refid="table_8cpp" kind="file"><name>table.cpp</name>
+  </compound>
+  <compound refid="table_8hpp" kind="file"><name>table.hpp</name>
+  </compound>
+  <compound refid="view_8cpp" kind="file"><name>view.cpp</name>
+  </compound>
+  <compound refid="view_8hpp" kind="file"><name>view.hpp</name>
+  </compound>
+  <compound refid="zoom_8cpp" kind="file"><name>zoom.cpp</name>
+  </compound>
+  <compound refid="zoom_8hpp" kind="file"><name>zoom.hpp</name>
+  </compound>
+  <compound refid="dir_ec7d085ec77f69a826fd0e2fbdff6456" kind="dir"><name>api</name>
+  </compound>
+  <compound refid="dir_0d27ce74e9bd514c31e1d63efab6b388" kind="dir"><name>core</name>
+  </compound>
+  <compound refid="dir_4ff98dac17b5d1dcfb853b9d0d36de29" kind="dir"><name>element</name>
+  </compound>
+  <compound refid="dir_07b81c5cfffb5c56539e12c2a7b14683" kind="dir"><name>px</name>
+  </compound>
+  <compound refid="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b" kind="dir"><name>source</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

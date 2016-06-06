@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_px_1_1_array_share" kind="class" language="C++" prot="public">
+    <compoundname>Px::ArrayShare</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_px_1_1_array_share_1af6c9efb9da5e23c0e64725e878bc8373" prot="private" static="no" mutable="no">
+        <type>const <ref refid="class_px_1_1_share" kindref="compound">Share</ref> *</type>
+        <definition>const Share* Px::ArrayShare::share</definition>
+        <argsstring></argsstring>
+        <name>share</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="14" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_px_1_1_array_share_1ab82e5cbae76cb209d056a82100a40f8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Px::ArrayShare::ArrayShare</definition>
+        <argsstring>(const Share *share)</argsstring>
+        <name>ArrayShare</name>
+        <param>
+          <type>const <ref refid="class_px_1_1_share" kindref="compound">Share</ref> *</type>
+          <declname>share</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="9" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.cpp" bodystart="5" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_array_share_1a86468fc7a954e0982ab0e0230d0d6519" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Px::ArrayShare::~ArrayShare</definition>
+        <argsstring>()</argsstring>
+        <name>~ArrayShare</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="10" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.cpp" bodystart="9" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_array_share_1a4ced3169ce4989956488f42f1255201f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_px_1_1_share" kindref="compound">Share</ref> *</type>
+        <definition>const Share * Px::ArrayShare::Clone</definition>
+        <argsstring>() const </argsstring>
+        <name>Clone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="11" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.cpp" bodystart="13" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="7" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="6" bodyend="15"/>
+    <listofallmembers>
+      <member refid="class_px_1_1_array_share_1ab82e5cbae76cb209d056a82100a40f8b" prot="public" virt="non-virtual"><scope>Px::ArrayShare</scope><name>ArrayShare</name></member>
+      <member refid="class_px_1_1_array_share_1a4ced3169ce4989956488f42f1255201f" prot="public" virt="non-virtual"><scope>Px::ArrayShare</scope><name>Clone</name></member>
+      <member refid="class_px_1_1_array_share_1af6c9efb9da5e23c0e64725e878bc8373" prot="private" virt="non-virtual"><scope>Px::ArrayShare</scope><name>share</name></member>
+      <member refid="class_px_1_1_array_share_1a86468fc7a954e0982ab0e0230d0d6519" prot="public" virt="non-virtual"><scope>Px::ArrayShare</scope><name>~ArrayShare</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

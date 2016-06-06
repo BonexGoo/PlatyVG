@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_07b81c5cfffb5c56539e12c2a7b14683" kind="dir">
+    <compoundname>px</compoundname>
+    <innerfile refid="array_8cpp">array.cpp</innerfile>
+    <innerfile refid="array_8hpp">array.hpp</innerfile>
+    <innerfile refid="buffer_8cpp">buffer.cpp</innerfile>
+    <innerfile refid="buffer_8hpp">buffer.hpp</innerfile>
+    <innerfile refid="file_8cpp">file.cpp</innerfile>
+    <innerfile refid="file_8hpp">file.hpp</innerfile>
+    <innerfile refid="math_8cpp">math.cpp</innerfile>
+    <innerfile refid="math_8hpp">math.hpp</innerfile>
+    <innerfile refid="memory_8cpp">memory.cpp</innerfile>
+    <innerfile refid="memory_8hpp">memory.hpp</innerfile>
+    <innerfile refid="parser_8cpp">parser.cpp</innerfile>
+    <innerfile refid="parser_8hpp">parser.hpp</innerfile>
+    <innerfile refid="px_8cpp">px.cpp</innerfile>
+    <innerfile refid="px_8hpp">px.hpp</innerfile>
+    <innerfile refid="share_8cpp">share.cpp</innerfile>
+    <innerfile refid="share_8hpp">share.hpp</innerfile>
+    <innerfile refid="string_8cpp">string.cpp</innerfile>
+    <innerfile refid="string_8hpp">string.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/"/>
+  </compounddef>
+</doxygen>

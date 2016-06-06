@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="action_8hpp" kind="file" language="C++">
+    <compoundname>action.hpp</compoundname>
+    <includes refid="platyvg_8hpp" local="no">platyvg.hpp</includes>
+    <includes refid="color_8hpp" local="yes">../element/color.hpp</includes>
+    <includes refid="point_8hpp" local="yes">../element/point.hpp</includes>
+    <includedby refid="record_8hpp" local="yes">record.hpp</includedby>
+    <includedby refid="action_8cpp" local="yes">action.cpp</includedby>
+    <incdepgraph>
+      <node id="28">
+        <label>../element/point.hpp</label>
+        <link refid="point_8hpp_source"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>platyvg.hpp</label>
+        <link refid="platyvg_8hpp_source"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>../px/share.hpp</label>
+        <link refid="share_8hpp_source"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>../px/array.hpp</label>
+        <link refid="array_8hpp_source"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>action.hpp</label>
+        <link refid="action.hpp"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>../px/parser.hpp</label>
+        <link refid="parser_8hpp_source"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>../px/px.hpp</label>
+        <link refid="px_8hpp_source"/>
+      </node>
+      <node id="27">
+        <label>../element/color.hpp</label>
+        <link refid="color_8hpp_source"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>../px/file.hpp</label>
+        <link refid="file_8hpp_source"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>../element/matrix.hpp</label>
+        <link refid="matrix_8hpp_source"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>../px/string.hpp</label>
+        <link refid="string_8hpp_source"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>../px/memory.hpp</label>
+        <link refid="memory_8hpp_source"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>../px/math.hpp</label>
+        <link refid="math_8hpp_source"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>../px/buffer.hpp</label>
+        <link refid="buffer_8hpp_source"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="33">
+        <label>view.hpp</label>
+        <link refid="view_8hpp_source"/>
+      </node>
+      <node id="30">
+        <label>action.hpp</label>
+        <link refid="action.hpp"/>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>record.hpp</label>
+        <link refid="record_8hpp_source"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>document.hpp</label>
+        <link refid="document_8hpp_source"/>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_platy_v_g_element_1_1_action" prot="public">PlatyVGElement::Action</innerclass>
+    <innerclass refid="class_platy_v_g_element_1_1_action_create" prot="public">PlatyVGElement::ActionCreate</innerclass>
+    <innerclass refid="class_platy_v_g_element_1_1_action_remove" prot="public">PlatyVGElement::ActionRemove</innerclass>
+    <innerclass refid="class_platy_v_g_element_1_1_action_matrix" prot="public">PlatyVGElement::ActionMatrix</innerclass>
+    <innerclass refid="class_platy_v_g_element_1_1_action_color" prot="public">PlatyVGElement::ActionColor</innerclass>
+    <innerclass refid="class_platy_v_g_element_1_1_action_thick" prot="public">PlatyVGElement::ActionThick</innerclass>
+    <innernamespace refid="namespace_platy_v_g_element">PlatyVGElement</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;platyvg.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../element/color.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../element/point.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_platy_v_g_element" kindref="compound">PlatyVGElement</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9" refid="class_platy_v_g_element_1_1_action" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_platy_v_g_element_1_1_action" kindref="compound">Action</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_element_1_1_action" kindref="compound">Action</ref>();</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_element_1_1_action" kindref="compound">Action</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_element_1_1_action" kindref="compound">Action</ref>&amp;<sp/>rhs);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="class_platy_v_g_element_1_1_action" kindref="compound">Action</ref>();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_element_1_1_action" kindref="compound">Action</ref>&amp;<sp/>operator=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_element_1_1_action" kindref="compound">Action</ref>&amp;<sp/>rhs);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="class_px_1_1_union" kindref="compound">Union&lt;Action&gt;</ref><sp/><ref refid="class_px_1_1_union" kindref="compound">UnionAction</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="class_px_1_1_array" kindref="compound">Array&lt;UnionAction&gt;</ref><sp/><ref refid="class_px_1_1_array" kindref="compound">UnionActions</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_platy_v_g_element_1_1_action_create" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_platy_v_g_element_1_1_action_create" kindref="compound">ActionCreate</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_element_1_1_action" kindref="compound">Action</ref></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_element_1_1_action_create" kindref="compound">ActionCreate</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_element_1_1_action_create" kindref="compound">ActionCreate</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_element_1_1_action_create" kindref="compound">ActionCreate</ref>&amp;<sp/>rhs);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_element_1_1_action_create" kindref="compound">ActionCreate</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>shapeid);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="class_platy_v_g_element_1_1_action_create" kindref="compound">ActionCreate</ref>();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_element_1_1_action_create" kindref="compound">ActionCreate</ref>&amp;<sp/>operator=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_element_1_1_action_create" kindref="compound">ActionCreate</ref>&amp;<sp/>rhs);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sint32<sp/>saved_shapeid;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="class_platy_v_g_element_1_1_action_remove" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_platy_v_g_element_1_1_action_remove" kindref="compound">ActionRemove</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_element_1_1_action" kindref="compound">Action</ref></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_element_1_1_action_remove" kindref="compound">ActionRemove</ref>();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_element_1_1_action_remove" kindref="compound">ActionRemove</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_element_1_1_action_remove" kindref="compound">ActionRemove</ref>&amp;<sp/>rhs);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_element_1_1_action_remove" kindref="compound">ActionRemove</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>shapeid);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="class_platy_v_g_element_1_1_action_remove" kindref="compound">ActionRemove</ref>();</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_element_1_1_action_remove" kindref="compound">ActionRemove</ref>&amp;<sp/>operator=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_element_1_1_action_remove" kindref="compound">ActionRemove</ref>&amp;<sp/>rhs);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sint32<sp/>saved_shapeid;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="class_platy_v_g_element_1_1_action_matrix" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_platy_v_g_element_1_1_action_matrix" kindref="compound">ActionMatrix</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_element_1_1_action" kindref="compound">Action</ref></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_element_1_1_action_matrix" kindref="compound">ActionMatrix</ref>();</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_element_1_1_action_matrix" kindref="compound">ActionMatrix</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_element_1_1_action_matrix" kindref="compound">ActionMatrix</ref>&amp;<sp/>rhs);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_element_1_1_action_matrix" kindref="compound">ActionMatrix</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>shapeid,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_element_1_1_matrix" kindref="compound">Matrix</ref>&amp;<sp/>matrix);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="class_platy_v_g_element_1_1_action_matrix" kindref="compound">ActionMatrix</ref>();</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_element_1_1_action_matrix" kindref="compound">ActionMatrix</ref>&amp;<sp/>operator=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_element_1_1_action_matrix" kindref="compound">ActionMatrix</ref>&amp;<sp/>rhs);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sint32<sp/>saved_shapeid;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_element_1_1_matrix" kindref="compound">Matrix</ref><sp/>saved_matrix;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="class_platy_v_g_element_1_1_action_color" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_platy_v_g_element_1_1_action_color" kindref="compound">ActionColor</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_element_1_1_action" kindref="compound">Action</ref></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_element_1_1_action_color" kindref="compound">ActionColor</ref>();</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_element_1_1_action_color" kindref="compound">ActionColor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_element_1_1_action_color" kindref="compound">ActionColor</ref>&amp;<sp/>rhs);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_element_1_1_action_color" kindref="compound">ActionColor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>shapeid,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_element_1_1_color" kindref="compound">Color</ref>&amp;<sp/>color);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="class_platy_v_g_element_1_1_action_color" kindref="compound">ActionColor</ref>();</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_element_1_1_action_color" kindref="compound">ActionColor</ref>&amp;<sp/>operator=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_element_1_1_action_color" kindref="compound">ActionColor</ref>&amp;<sp/>rhs);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sint32<sp/>saved_shapeid;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_element_1_1_color" kindref="compound">Color</ref><sp/>saved_color;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="class_platy_v_g_element_1_1_action_thick" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_platy_v_g_element_1_1_action_thick" kindref="compound">ActionThick</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_element_1_1_action" kindref="compound">Action</ref></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_element_1_1_action_thick" kindref="compound">ActionThick</ref>();</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_element_1_1_action_thick" kindref="compound">ActionThick</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_element_1_1_action_thick" kindref="compound">ActionThick</ref>&amp;<sp/>rhs);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_element_1_1_action_thick" kindref="compound">ActionThick</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>shapeid,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>thick);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="class_platy_v_g_element_1_1_action_thick" kindref="compound">ActionThick</ref>();</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_element_1_1_action_thick" kindref="compound">ActionThick</ref>&amp;<sp/>operator=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_element_1_1_action_thick" kindref="compound">ActionThick</ref>&amp;<sp/>rhs);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sint32<sp/>saved_shapeid;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>saved_thick;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.hpp"/>
+  </compounddef>
+</doxygen>

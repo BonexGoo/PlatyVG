@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="selector_8cpp" kind="file" language="C++">
+    <compoundname>selector.cpp</compoundname>
+    <includes refid="platyvg_8hpp" local="no">platyvg.hpp</includes>
+    <includes refid="selector_8hpp" local="yes">selector.hpp</includes>
+    <incdepgraph>
+      <node id="1045">
+        <label>selector.cpp</label>
+        <link refid="selector.cpp"/>
+        <childnode refid="1046" relation="include">
+        </childnode>
+        <childnode refid="1056" relation="include">
+        </childnode>
+      </node>
+      <node id="1058">
+        <label>../element/point.hpp</label>
+        <link refid="point_8hpp_source"/>
+        <childnode refid="1046" relation="include">
+        </childnode>
+        <childnode refid="1059" relation="include">
+        </childnode>
+      </node>
+      <node id="1061">
+        <label>../element/size.hpp</label>
+        <link refid="size_8hpp_source"/>
+        <childnode refid="1046" relation="include">
+        </childnode>
+      </node>
+      <node id="1046">
+        <label>platyvg.hpp</label>
+        <link refid="platyvg_8hpp_source"/>
+        <childnode refid="1047" relation="include">
+        </childnode>
+        <childnode refid="1048" relation="include">
+        </childnode>
+        <childnode refid="1050" relation="include">
+        </childnode>
+        <childnode refid="1052" relation="include">
+        </childnode>
+        <childnode refid="1053" relation="include">
+        </childnode>
+        <childnode refid="1051" relation="include">
+        </childnode>
+        <childnode refid="1054" relation="include">
+        </childnode>
+        <childnode refid="1049" relation="include">
+        </childnode>
+        <childnode refid="1055" relation="include">
+        </childnode>
+      </node>
+      <node id="1049">
+        <label>../px/share.hpp</label>
+        <link refid="share_8hpp_source"/>
+        <childnode refid="1050" relation="include">
+        </childnode>
+      </node>
+      <node id="1060">
+        <label>../element/rect.hpp</label>
+        <link refid="rect_8hpp_source"/>
+        <childnode refid="1046" relation="include">
+        </childnode>
+        <childnode refid="1058" relation="include">
+        </childnode>
+        <childnode refid="1061" relation="include">
+        </childnode>
+        <childnode refid="1062" relation="include">
+        </childnode>
+      </node>
+      <node id="1048">
+        <label>../px/array.hpp</label>
+        <link refid="array_8hpp_source"/>
+        <childnode refid="1049" relation="include">
+        </childnode>
+      </node>
+      <node id="1054">
+        <label>../px/parser.hpp</label>
+        <link refid="parser_8hpp_source"/>
+        <childnode refid="1055" relation="include">
+        </childnode>
+      </node>
+      <node id="1047">
+        <label>../px/px.hpp</label>
+        <link refid="px_8hpp_source"/>
+      </node>
+      <node id="1052">
+        <label>../px/file.hpp</label>
+        <link refid="file_8hpp_source"/>
+        <childnode refid="1047" relation="include">
+        </childnode>
+      </node>
+      <node id="1059">
+        <label>../element/matrix.hpp</label>
+        <link refid="matrix_8hpp_source"/>
+        <childnode refid="1046" relation="include">
+        </childnode>
+      </node>
+      <node id="1055">
+        <label>../px/string.hpp</label>
+        <link refid="string_8hpp_source"/>
+        <childnode refid="1048" relation="include">
+        </childnode>
+      </node>
+      <node id="1051">
+        <label>../px/memory.hpp</label>
+        <link refid="memory_8hpp_source"/>
+        <childnode refid="1047" relation="include">
+        </childnode>
+      </node>
+      <node id="1053">
+        <label>../px/math.hpp</label>
+        <link refid="math_8hpp_source"/>
+        <childnode refid="1047" relation="include">
+        </childnode>
+      </node>
+      <node id="1062">
+        <label>../element/zoom.hpp</label>
+        <link refid="zoom_8hpp_source"/>
+        <childnode refid="1046" relation="include">
+        </childnode>
+        <childnode refid="1058" relation="include">
+        </childnode>
+      </node>
+      <node id="1056">
+        <label>selector.hpp</label>
+        <link refid="selector_8hpp_source"/>
+        <childnode refid="1046" relation="include">
+        </childnode>
+        <childnode refid="1057" relation="include">
+        </childnode>
+        <childnode refid="1058" relation="include">
+        </childnode>
+        <childnode refid="1060" relation="include">
+        </childnode>
+        <childnode refid="1063" relation="include">
+        </childnode>
+      </node>
+      <node id="1063">
+        <label>../element/table.hpp</label>
+        <link refid="table_8hpp_source"/>
+        <childnode refid="1046" relation="include">
+        </childnode>
+      </node>
+      <node id="1050">
+        <label>../px/buffer.hpp</label>
+        <link refid="buffer_8hpp_source"/>
+        <childnode refid="1051" relation="include">
+        </childnode>
+      </node>
+      <node id="1057">
+        <label>../element/coord.hpp</label>
+        <link refid="coord_8hpp_source"/>
+        <childnode refid="1046" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespace_platy_v_g_element">PlatyVGElement</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;platyvg.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;selector.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_platy_v_g_element" kindref="compound">PlatyVGElement</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>Selector::Selector(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_px_1_1_array" kindref="compound">Coords</ref><sp/>coods)<sp/>:<sp/>coods(coods)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tables_ymin<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>Selector::~Selector()</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Selector::IsValid()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="16"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(1<sp/>&lt;<sp/>coods.<ref refid="class_px_1_1_array_1ab0002d07743eee641bc62e3b0f115c52" kindref="member">Count</ref>());</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_element_1_1_rect" kindref="compound">Rect</ref><sp/>Selector::GetRect()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="21"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!IsValid())<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_element_1_1_rect" kindref="compound">Rect</ref>();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_element_1_1_rect" kindref="compound">Rect</ref>(coods[0].x,<sp/>coods[0].y,<sp/>coods[-1].x,<sp/>coods[-1].y);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_px_1_1_array" kindref="compound">Rects</ref><sp/>Selector::GetRects()</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(IsValid()<sp/>&amp;&amp;<sp/>rects.<ref refid="class_px_1_1_array_1ab0002d07743eee641bc62e3b0f115c52" kindref="member">Count</ref>()<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(sint32<sp/>i<sp/>=<sp/>0,<sp/>iend<sp/>=<sp/>coods.<ref refid="class_px_1_1_array_1ab0002d07743eee641bc62e3b0f115c52" kindref="member">Count</ref>()<sp/>-<sp/>1;<sp/>i<sp/>&lt;<sp/>iend;<sp/>++i)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rects.<ref refid="class_px_1_1_array_1a16683d7ddd43efcf9334d094bfcfc749" kindref="member">AtAdding</ref>()<sp/>=<sp/><ref refid="class_platy_v_g_element_1_1_rect" kindref="compound">Rect</ref>(coods[i].x,<sp/>coods[i].y,<sp/>coods[i<sp/>+<sp/>1].x,<sp/>coods[i<sp/>+<sp/>1].y);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>rects;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_px_1_1_array" kindref="compound">Points</ref><sp/>Selector::GetPoints()</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(IsValid()<sp/>&amp;&amp;<sp/>points.<ref refid="class_px_1_1_array_1ab0002d07743eee641bc62e3b0f115c52" kindref="member">Count</ref>()<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(sint32<sp/>i<sp/>=<sp/>0,<sp/>iend<sp/>=<sp/>coods.<ref refid="class_px_1_1_array_1ab0002d07743eee641bc62e3b0f115c52" kindref="member">Count</ref>();<sp/>i<sp/>&lt;<sp/>iend;<sp/>++i)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>points.<ref refid="class_px_1_1_array_1a16683d7ddd43efcf9334d094bfcfc749" kindref="member">AtAdding</ref>()<sp/>=<sp/><ref refid="class_platy_v_g_element_1_1_point" kindref="compound">Point</ref>(coods[i].x,<sp/>coods[i].y);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>points;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_px_1_1_array" kindref="compound">Tables</ref><sp/>Selector::GetTables(sint32*<sp/>ymin)</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(IsValid()<sp/>&amp;&amp;<sp/>tables.<ref refid="class_px_1_1_array_1ab0002d07743eee641bc62e3b0f115c52" kindref="member">Count</ref>()<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tables_ymin<sp/>=<sp/>(sint32)<sp/>coods[0].y;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(sint32<sp/>i<sp/>=<sp/>1,<sp/>iend<sp/>=<sp/>coods.<ref refid="class_px_1_1_array_1ab0002d07743eee641bc62e3b0f115c52" kindref="member">Count</ref>();<sp/>i<sp/>&lt;<sp/>iend;<sp/>++i)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tables_ymin<sp/>=<sp/>Math::Min(tables_ymin,<sp/>(sint32)<sp/>coods[i].y);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(sint32<sp/>i<sp/>=<sp/>0,<sp/>iend<sp/>=<sp/>coods.<ref refid="class_px_1_1_array_1ab0002d07743eee641bc62e3b0f115c52" kindref="member">Count</ref>();<sp/>i<sp/>&lt;<sp/>iend;<sp/>++i)</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>X1<sp/>=<sp/>(sint32)<sp/>coods[i].x;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>Y1<sp/>=<sp/>(sint32)<sp/>coods[i].y;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>X2<sp/>=<sp/>(sint32)<sp/>coods[(i<sp/>+<sp/>1)<sp/>%<sp/>iend].x;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>Y2<sp/>=<sp/>(sint32)<sp/>coods[(i<sp/>+<sp/>1)<sp/>%<sp/>iend].y;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>IsAscend<sp/>=<sp/>(Y1<sp/>&lt;<sp/>Y2);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>XB<sp/>=<sp/>(IsAscend)?<sp/>X1<sp/>:<sp/>X2;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>YB<sp/>=<sp/>(IsAscend)?<sp/>Y1<sp/>:<sp/>Y2;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>XE<sp/>=<sp/>X1<sp/>+<sp/>X2<sp/>-<sp/>XB;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>YE<sp/>=<sp/>Y1<sp/>+<sp/>Y2<sp/>-<sp/>YB;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>VectorX<sp/>=<sp/>XE<sp/>-<sp/>XB;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>VectorY<sp/>=<sp/>YE<sp/>-<sp/>YB;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(sint32<sp/>y<sp/>=<sp/>YB;<sp/>y<sp/>&lt;<sp/>YE;<sp/>++y)</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tables.<ref refid="class_px_1_1_array_1aa578b098f4c31d3b259ac73e8712ad54" kindref="member">AtWherever</ref>(y<sp/>-<sp/>tables_ymin).row.<ref refid="class_px_1_1_array_1a16683d7ddd43efcf9334d094bfcfc749" kindref="member">AtAdding</ref>()</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>XB<sp/>+<sp/>VectorX<sp/>*<sp/>(y<sp/>-<sp/>YB<sp/>+<sp/>1)<sp/>/<sp/>(VectorY<sp/>+<sp/>1);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(ymin)<sp/>*ymin<sp/>=<sp/>tables_ymin;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>tables;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/selector.cpp"/>
+  </compounddef>
+</doxygen>

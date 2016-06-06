@@ -1,0 +1,665 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="input_8cpp" kind="file" language="C++">
+    <compoundname>input.cpp</compoundname>
+    <includes refid="platyvg_8hpp" local="no">platyvg.hpp</includes>
+    <includes refid="command_8hpp" local="yes">command.hpp</includes>
+    <includes refid="input_8hpp" local="yes">input.hpp</includes>
+    <includes refid="document_8hpp" local="yes">../core/document.hpp</includes>
+    <includes refid="view_8hpp" local="yes">../core/view.hpp</includes>
+    <includes refid="selector_8hpp" local="yes">../element/selector.hpp</includes>
+    <incdepgraph>
+      <node id="542">
+        <label>../api/adapter.hpp</label>
+        <link refid="adapter_8hpp_source"/>
+        <childnode refid="520" relation="include">
+        </childnode>
+        <childnode refid="531" relation="include">
+        </childnode>
+        <childnode refid="538" relation="include">
+        </childnode>
+        <childnode refid="534" relation="include">
+        </childnode>
+        <childnode refid="543" relation="include">
+        </childnode>
+        <childnode refid="536" relation="include">
+        </childnode>
+      </node>
+      <node id="543">
+        <label>../element/mesh.hpp</label>
+        <link refid="mesh_8hpp_source"/>
+        <childnode refid="520" relation="include">
+        </childnode>
+      </node>
+      <node id="533">
+        <label>../element/point.hpp</label>
+        <link refid="point_8hpp_source"/>
+        <childnode refid="520" relation="include">
+        </childnode>
+        <childnode refid="534" relation="include">
+        </childnode>
+      </node>
+      <node id="550">
+        <label>../core/view.hpp</label>
+        <link refid="view_8hpp_source"/>
+        <childnode refid="520" relation="include">
+        </childnode>
+        <childnode refid="551" relation="include">
+        </childnode>
+        <childnode refid="539" relation="include">
+        </childnode>
+        <childnode refid="541" relation="include">
+        </childnode>
+        <childnode refid="544" relation="include">
+        </childnode>
+        <childnode refid="538" relation="include">
+        </childnode>
+        <childnode refid="533" relation="include">
+        </childnode>
+        <childnode refid="535" relation="include">
+        </childnode>
+      </node>
+      <node id="535">
+        <label>../element/size.hpp</label>
+        <link refid="size_8hpp_source"/>
+        <childnode refid="520" relation="include">
+        </childnode>
+      </node>
+      <node id="520">
+        <label>platyvg.hpp</label>
+        <link refid="platyvg_8hpp_source"/>
+        <childnode refid="521" relation="include">
+        </childnode>
+        <childnode refid="522" relation="include">
+        </childnode>
+        <childnode refid="524" relation="include">
+        </childnode>
+        <childnode refid="526" relation="include">
+        </childnode>
+        <childnode refid="527" relation="include">
+        </childnode>
+        <childnode refid="525" relation="include">
+        </childnode>
+        <childnode refid="528" relation="include">
+        </childnode>
+        <childnode refid="523" relation="include">
+        </childnode>
+        <childnode refid="529" relation="include">
+        </childnode>
+      </node>
+      <node id="551">
+        <label>../core/device.hpp</label>
+        <link refid="device_8hpp_source"/>
+        <childnode refid="520" relation="include">
+        </childnode>
+        <childnode refid="538" relation="include">
+        </childnode>
+        <childnode refid="533" relation="include">
+        </childnode>
+      </node>
+      <node id="523">
+        <label>../px/share.hpp</label>
+        <link refid="share_8hpp_source"/>
+        <childnode refid="524" relation="include">
+        </childnode>
+      </node>
+      <node id="532">
+        <label>../element/rect.hpp</label>
+        <link refid="rect_8hpp_source"/>
+        <childnode refid="520" relation="include">
+        </childnode>
+        <childnode refid="533" relation="include">
+        </childnode>
+        <childnode refid="535" relation="include">
+        </childnode>
+        <childnode refid="536" relation="include">
+        </childnode>
+      </node>
+      <node id="522">
+        <label>../px/array.hpp</label>
+        <link refid="array_8hpp_source"/>
+        <childnode refid="523" relation="include">
+        </childnode>
+      </node>
+      <node id="549">
+        <label>../element/action.hpp</label>
+        <link refid="action_8hpp_source"/>
+        <childnode refid="520" relation="include">
+        </childnode>
+        <childnode refid="531" relation="include">
+        </childnode>
+        <childnode refid="533" relation="include">
+        </childnode>
+      </node>
+      <node id="528">
+        <label>../px/parser.hpp</label>
+        <link refid="parser_8hpp_source"/>
+        <childnode refid="529" relation="include">
+        </childnode>
+      </node>
+      <node id="541">
+        <label>../core/shape.hpp</label>
+        <link refid="shape_8hpp_source"/>
+        <childnode refid="520" relation="include">
+        </childnode>
+        <childnode refid="542" relation="include">
+        </childnode>
+        <childnode refid="544" relation="include">
+        </childnode>
+        <childnode refid="538" relation="include">
+        </childnode>
+        <childnode refid="545" relation="include">
+        </childnode>
+        <childnode refid="534" relation="include">
+        </childnode>
+        <childnode refid="543" relation="include">
+        </childnode>
+        <childnode refid="533" relation="include">
+        </childnode>
+        <childnode refid="546" relation="include">
+        </childnode>
+        <childnode refid="535" relation="include">
+        </childnode>
+        <childnode refid="536" relation="include">
+        </childnode>
+      </node>
+      <node id="521">
+        <label>../px/px.hpp</label>
+        <link refid="px_8hpp_source"/>
+      </node>
+      <node id="531">
+        <label>../element/color.hpp</label>
+        <link refid="color_8hpp_source"/>
+        <childnode refid="520" relation="include">
+        </childnode>
+      </node>
+      <node id="544">
+        <label>../element/context.hpp</label>
+        <link refid="context_8hpp_source"/>
+        <childnode refid="520" relation="include">
+        </childnode>
+        <childnode refid="531" relation="include">
+        </childnode>
+      </node>
+      <node id="540">
+        <label>../core/layer.hpp</label>
+        <link refid="layer_8hpp_source"/>
+        <childnode refid="520" relation="include">
+        </childnode>
+        <childnode refid="541" relation="include">
+        </childnode>
+        <childnode refid="536" relation="include">
+        </childnode>
+      </node>
+      <node id="526">
+        <label>../px/file.hpp</label>
+        <link refid="file_8hpp_source"/>
+        <childnode refid="521" relation="include">
+        </childnode>
+      </node>
+      <node id="534">
+        <label>../element/matrix.hpp</label>
+        <link refid="matrix_8hpp_source"/>
+        <childnode refid="520" relation="include">
+        </childnode>
+      </node>
+      <node id="529">
+        <label>../px/string.hpp</label>
+        <link refid="string_8hpp_source"/>
+        <childnode refid="522" relation="include">
+        </childnode>
+      </node>
+      <node id="548">
+        <label>../core/record.hpp</label>
+        <link refid="record_8hpp_source"/>
+        <childnode refid="520" relation="include">
+        </childnode>
+        <childnode refid="549" relation="include">
+        </childnode>
+      </node>
+      <node id="519">
+        <label>input.cpp</label>
+        <link refid="input.cpp"/>
+        <childnode refid="520" relation="include">
+        </childnode>
+        <childnode refid="530" relation="include">
+        </childnode>
+        <childnode refid="537" relation="include">
+        </childnode>
+        <childnode refid="539" relation="include">
+        </childnode>
+        <childnode refid="550" relation="include">
+        </childnode>
+        <childnode refid="546" relation="include">
+        </childnode>
+      </node>
+      <node id="525">
+        <label>../px/memory.hpp</label>
+        <link refid="memory_8hpp_source"/>
+        <childnode refid="521" relation="include">
+        </childnode>
+      </node>
+      <node id="530">
+        <label>command.hpp</label>
+        <link refid="command_8hpp_source"/>
+        <childnode refid="520" relation="include">
+        </childnode>
+        <childnode refid="531" relation="include">
+        </childnode>
+        <childnode refid="532" relation="include">
+        </childnode>
+        <childnode refid="535" relation="include">
+        </childnode>
+        <childnode refid="536" relation="include">
+        </childnode>
+      </node>
+      <node id="527">
+        <label>../px/math.hpp</label>
+        <link refid="math_8hpp_source"/>
+        <childnode refid="521" relation="include">
+        </childnode>
+      </node>
+      <node id="539">
+        <label>../core/document.hpp</label>
+        <link refid="document_8hpp_source"/>
+        <childnode refid="520" relation="include">
+        </childnode>
+        <childnode refid="540" relation="include">
+        </childnode>
+        <childnode refid="548" relation="include">
+        </childnode>
+        <childnode refid="532" relation="include">
+        </childnode>
+        <childnode refid="536" relation="include">
+        </childnode>
+      </node>
+      <node id="536">
+        <label>../element/zoom.hpp</label>
+        <link refid="zoom_8hpp_source"/>
+        <childnode refid="520" relation="include">
+        </childnode>
+        <childnode refid="533" relation="include">
+        </childnode>
+      </node>
+      <node id="546">
+        <label>../element/selector.hpp</label>
+        <link refid="selector_8hpp_source"/>
+        <childnode refid="520" relation="include">
+        </childnode>
+        <childnode refid="538" relation="include">
+        </childnode>
+        <childnode refid="533" relation="include">
+        </childnode>
+        <childnode refid="532" relation="include">
+        </childnode>
+        <childnode refid="547" relation="include">
+        </childnode>
+      </node>
+      <node id="547">
+        <label>../element/table.hpp</label>
+        <link refid="table_8hpp_source"/>
+        <childnode refid="520" relation="include">
+        </childnode>
+      </node>
+      <node id="524">
+        <label>../px/buffer.hpp</label>
+        <link refid="buffer_8hpp_source"/>
+        <childnode refid="525" relation="include">
+        </childnode>
+      </node>
+      <node id="545">
+        <label>../element/edge.hpp</label>
+        <link refid="edge_8hpp_source"/>
+        <childnode refid="520" relation="include">
+        </childnode>
+        <childnode refid="533" relation="include">
+        </childnode>
+      </node>
+      <node id="538">
+        <label>../element/coord.hpp</label>
+        <link refid="coord_8hpp_source"/>
+        <childnode refid="520" relation="include">
+        </childnode>
+      </node>
+      <node id="537">
+        <label>input.hpp</label>
+        <link refid="input_8hpp_source"/>
+        <childnode refid="520" relation="include">
+        </childnode>
+        <childnode refid="538" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespace_platy_v_g_api">PlatyVGApi</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;platyvg.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;command.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;input.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../core/document.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../core/view.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../element/selector.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_platy_v_g_api" kindref="compound">PlatyVGApi</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">,<sp/>Input_ScreenDown,<sp/>api_uint<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>api_float<sp/>x,<sp/>api_float<sp/>y,<sp/>api_float<sp/>force,<sp/>api_enum<sp/>deviceby)</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API_IMPL(<ref refid="class_platy_v_g_api_1_1_input_1a3c08c25b192621cae6ca1c34dfb65204" kindref="member">Input::ScreenDown</ref>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>x,<sp/>y,<sp/>force,<sp/>(DeviceBy)<sp/>deviceby))</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_input_1a3c08c25b192621cae6ca1c34dfb65204" kindref="member">Input::ScreenDown</ref>(uint32<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>force,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DeviceBy<sp/>deviceby)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_view" kindref="compound">View</ref>*<sp/>view<sp/>=<sp/>View::Currently();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_device" kindref="compound">Device</ref>*<sp/>device<sp/>=<sp/>&amp;view-&gt;DeviceState[deviceby];</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>device-&gt;InputFlag<sp/>|=<sp/>1<sp/>&lt;&lt;<sp/>id;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>&lt;<sp/>2)<sp/>device-&gt;Gesture[id]<sp/>=<sp/><ref refid="class_platy_v_g_element_1_1_point" kindref="compound">Point</ref>(x,<sp/>y);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref>*<sp/>doc<sp/>=<sp/>view-&gt;DocumentFocus;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(doc)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((device-&gt;InputFlag<sp/>&amp;<sp/>0x3)<sp/>==<sp/>0x3)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>device-&gt;IsZoomEnabled<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>device-&gt;IsOutsideDown<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>device-&gt;InputCoords.<ref refid="class_px_1_1_array_1aa0ddc439e186162b6907647281e94980" kindref="member">Clear</ref>();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>view-&gt;<ref refid="class_platy_v_g_core_1_1_view_1a2935155fb09a39a7ce5c44dde553c0e4" kindref="member">UnlockDynShape</ref>(doc,<sp/>deviceby,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!device-&gt;IsZoomEnabled<sp/>&amp;&amp;<sp/>!device-&gt;IsOutsideDown)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((doc-&gt;Area<sp/>*<sp/>doc-&gt;Transform).PtInRect(x,<sp/>y))</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>device-&gt;InputCoords.<ref refid="class_px_1_1_array_1aa0ddc439e186162b6907647281e94980" kindref="member">Clear</ref>();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>view-&gt;<ref refid="class_platy_v_g_core_1_1_view_1a2935155fb09a39a7ce5c44dde553c0e4" kindref="member">UnlockDynShape</ref>(doc,<sp/>deviceby,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);<sp/></highlight><highlight class="comment">//<sp/>Case<sp/>of<sp/>lost<sp/>up-event</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>view-&gt;<ref refid="class_platy_v_g_core_1_1_view_1a6963901d8059d428c4a8d9edcc03c987" kindref="member">LockDynShape</ref>(doc,<sp/>deviceby,<sp/>view-&gt;OptionStrokeBy);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_api_1_1_input_1a3050dbd0632c2a9fa64c2139d2c533ee" kindref="member">ScreenDrag</ref>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>x,<sp/>y,<sp/>force,<sp/>deviceby);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>뷰포커싱</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>device-&gt;IsOutsideDown<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">,<sp/>Input_ScreenDrag,<sp/>api_uint<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>api_float<sp/>x,<sp/>api_float<sp/>y,<sp/>api_float<sp/>force,<sp/>api_enum<sp/>deviceby)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API_IMPL(<ref refid="class_platy_v_g_api_1_1_input_1a3050dbd0632c2a9fa64c2139d2c533ee" kindref="member">Input::ScreenDrag</ref>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>x,<sp/>y,<sp/>force,<sp/>(DeviceBy)<sp/>deviceby))</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_input_1a3050dbd0632c2a9fa64c2139d2c533ee" kindref="member">Input::ScreenDrag</ref>(uint32<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>force,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DeviceBy<sp/>deviceby)</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_view" kindref="compound">View</ref>*<sp/>view<sp/>=<sp/>View::Currently();</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_device" kindref="compound">Device</ref>*<sp/>device<sp/>=<sp/>&amp;view-&gt;DeviceState[deviceby];</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_element_1_1_point" kindref="compound">Point</ref><sp/>NewGesture[2]<sp/>=<sp/>{device-&gt;Gesture[0],<sp/>device-&gt;Gesture[1]};</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>&lt;<sp/>2)<sp/>NewGesture[id]<sp/>=<sp/><ref refid="class_platy_v_g_element_1_1_point" kindref="compound">Point</ref>(x,<sp/>y);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref>*<sp/>doc<sp/>=<sp/>view-&gt;DocumentFocus;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(doc)</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((device-&gt;InputFlag<sp/>&amp;<sp/>0x3)<sp/>==<sp/>0x3)</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>IsAnybodySelected<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(view-&gt;OptionStrokeBy<sp/>==<sp/>StrokeBySelect)</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(sint32<sp/>l<sp/>=<sp/>0,<sp/>lend<sp/>=<sp/>doc-&gt;AllLayers.<ref refid="class_px_1_1_array_1ab0002d07743eee641bc62e3b0f115c52" kindref="member">Count</ref>();<sp/>l<sp/>&lt;<sp/>lend;<sp/>++l)</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(sint32<sp/>i<sp/>=<sp/>0,<sp/>iend<sp/>=<sp/>doc-&gt;AllLayers[l].AllShapes.<ref refid="class_px_1_1_array_1ab0002d07743eee641bc62e3b0f115c52" kindref="member">Count</ref>();<sp/>i<sp/>&lt;<sp/>iend;<sp/>++i)</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*<sp/>CurShape<sp/>=<sp/>doc-&gt;AllLayers.<ref refid="class_px_1_1_array_1a2eb53c8e4c3761558a1b64cae2336189" kindref="member">At</ref>(l).AllShapes.<ref refid="class_px_1_1_array_1a2eb53c8e4c3761558a1b64cae2336189" kindref="member">At</ref>(i).ptr();</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(CurShape-&gt;IsSelected())</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IsAnybodySelected<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurShape-&gt;ChangeMatrix(device-&gt;Gesture,<sp/>NewGesture,<sp/>doc-&gt;Transform);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!IsAnybodySelected)</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>doc-&gt;Transform.UpdateBy(device-&gt;Gesture,<sp/>NewGesture);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!device-&gt;IsZoomEnabled<sp/>&amp;&amp;<sp/>!device-&gt;IsOutsideDown)</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>view-&gt;<ref refid="class_platy_v_g_core_1_1_view_1ace0cab4e080b95fc7e952d386fe50bc9" kindref="member">AddCoordSensitivity</ref>(deviceby,</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x<sp/>/<sp/>doc-&gt;Transform.scale<sp/>-<sp/>doc-&gt;Transform.offset.x,</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>y<sp/>/<sp/>doc-&gt;Transform.scale<sp/>-<sp/>doc-&gt;Transform.offset.y,</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>force<sp/>*<sp/>device-&gt;GetSpeedyForce(x,<sp/>y,<sp/>view-&gt;OptionMS));</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*<sp/>CurDynShape<sp/>=<sp/>view-&gt;<ref refid="class_platy_v_g_core_1_1_view_1ab9da32a499e7ee5b8adfab4b655427e1" kindref="member">GetDynShape</ref>(doc,<sp/>deviceby);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(CurDynShape)</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_element_1_1_context" kindref="compound">Context</ref><sp/>ScreenContext<sp/>=<sp/><ref refid="class_platy_v_g_element_1_1_context" kindref="compound">Context</ref>(view-&gt;OptionContext.color,</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>view-&gt;OptionContext.thick<sp/>/<sp/>doc-&gt;Transform.scale);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurDynShape-&gt;Process(ScreenContext,<sp/>device-&gt;InputCoords);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurDynShape-&gt;Update(doc-&gt;Transform.offset,<sp/>doc-&gt;Transform.scale,<sp/>view-&gt;OptionRadius);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(view-&gt;OptionStrokeBy<sp/>==<sp/>StrokeByErase<sp/>&amp;&amp;<sp/>1<sp/>&lt;<sp/>device-&gt;InputCoords.<ref refid="class_px_1_1_array_1ab0002d07743eee641bc62e3b0f115c52" kindref="member">Count</ref>())</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_px_1_1_array" kindref="compound">Coords</ref><sp/>EraseCoords;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EraseCoords.<ref refid="class_px_1_1_array_1a16683d7ddd43efcf9334d094bfcfc749" kindref="member">AtAdding</ref>()<sp/>=<sp/>device-&gt;InputCoords[-2];</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EraseCoords.<ref refid="class_px_1_1_array_1a16683d7ddd43efcf9334d094bfcfc749" kindref="member">AtAdding</ref>()<sp/>=<sp/>device-&gt;InputCoords[-1];</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_element_1_1_selector" kindref="compound">Selector</ref><sp/>EraseSelector<sp/>=<sp/><ref refid="class_platy_v_g_element_1_1_selector" kindref="compound">Selector</ref>(EraseCoords);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(sint32<sp/>l<sp/>=<sp/>doc-&gt;AllLayers.<ref refid="class_px_1_1_array_1ab0002d07743eee641bc62e3b0f115c52" kindref="member">Count</ref>()<sp/>-<sp/>1;<sp/>0<sp/>&lt;=<sp/>l;<sp/>--l)</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!doc-&gt;AllLayers[l].Visible)<sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(sint32<sp/>i<sp/>=<sp/>doc-&gt;AllLayers[l].AllShapes.<ref refid="class_px_1_1_array_1ab0002d07743eee641bc62e3b0f115c52" kindref="member">Count</ref>()<sp/>-<sp/>1;<sp/>0<sp/>&lt;=<sp/>i;<sp/>--i)</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*<sp/>CurShape<sp/>=<sp/>doc-&gt;AllLayers.<ref refid="class_px_1_1_array_1a2eb53c8e4c3761558a1b64cae2336189" kindref="member">At</ref>(l).AllShapes.<ref refid="class_px_1_1_array_1a2eb53c8e4c3761558a1b64cae2336189" kindref="member">At</ref>(i).ptr();</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(CurShape-&gt;SelectTest(SelectByDrag,<sp/>EraseSelector))</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurShape-&gt;Reset();</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>doc-&gt;LastMS<sp/>=<sp/>view-&gt;OptionMS;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>l<sp/>=<sp/>i<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(view-&gt;OptionStrokeBy<sp/>==<sp/>StrokeByHand)</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>doc-&gt;Transform.UpdateBy(device-&gt;Gesture[</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">],<sp/>NewGesture[</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">],<sp/>1);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(view-&gt;OptionStrokeBy<sp/>==<sp/>StrokeBySpoid)</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_element_1_1_color" kindref="compound">Color</ref><sp/>SpoidColor<sp/>=<sp/><ref refid="class_platy_v_g_api_1_1_command_1a1accd7685fa22bba4fdf369803d17dd3" kindref="member">Command::GetColorBy</ref>(<ref refid="class_platy_v_g_element_1_1_point" kindref="compound">Point</ref>(</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x<sp/>/<sp/>doc-&gt;Transform.scale<sp/>-<sp/>doc-&gt;Transform.offset.x,</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>y<sp/>/<sp/>doc-&gt;Transform.scale<sp/>-<sp/>doc-&gt;Transform.offset.y),</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_element_1_1_color" kindref="compound">Color</ref>(255,<sp/>255,<sp/>255,<sp/>255,<sp/>0));</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>view-&gt;OptionContext.color.r<sp/>=<sp/>SpoidColor.r;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>view-&gt;OptionContext.color.g<sp/>=<sp/>SpoidColor.g;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>view-&gt;OptionContext.color.b<sp/>=<sp/>SpoidColor.b;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((device-&gt;InputFlag<sp/>&amp;<sp/>0x3)<sp/>==<sp/>0x3)</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>device-&gt;IsGlobalZoomEnabled<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>doc<sp/>=<sp/>&amp;view-&gt;DocumentRoot;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(doc<sp/>=<sp/>doc-&gt;Next)</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>doc-&gt;Transform.UpdateBy(device-&gt;Gesture,<sp/>NewGesture);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(view-&gt;OptionStrokeBy<sp/>==<sp/>StrokeByHand)</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>doc<sp/>=<sp/>&amp;view-&gt;DocumentRoot;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(doc<sp/>=<sp/>doc-&gt;Next)</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>doc-&gt;Transform.UpdateBy(device-&gt;Gesture[</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">],<sp/>NewGesture[</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">],<sp/>1);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>device-&gt;Gesture[id]<sp/>=<sp/>NewGesture[id];</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">,<sp/>Input_ScreenUp,<sp/>api_uint<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>api_enum<sp/>deviceby)</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API_IMPL(<ref refid="class_platy_v_g_api_1_1_input_1a031f4cf1635f02e0c40343560ace8b55" kindref="member">Input::ScreenUp</ref>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>(DeviceBy)<sp/>deviceby))</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_input_1a031f4cf1635f02e0c40343560ace8b55" kindref="member">Input::ScreenUp</ref>(uint32<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DeviceBy<sp/>deviceby)</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_view" kindref="compound">View</ref>*<sp/>view<sp/>=<sp/>View::Currently();</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_device" kindref="compound">Device</ref>*<sp/>device<sp/>=<sp/>&amp;view-&gt;DeviceState[deviceby];</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>device-&gt;InputFlag<sp/>&amp;=<sp/>~(1<sp/>&lt;&lt;<sp/>id);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((device-&gt;InputFlag<sp/>&amp;<sp/>0x3)<sp/>==<sp/>0x0)</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref>*<sp/>doc<sp/>=<sp/>view-&gt;DocumentFocus;</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(doc)</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(device-&gt;IsZoomEnabled)</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>device-&gt;IsZoomEnabled<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>doc-&gt;UpdateLayers(view-&gt;OptionRadius);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(view-&gt;OptionStrokeBy<sp/>==<sp/>StrokeBySelect)</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_element_1_1_selector" kindref="compound">Selector</ref><sp/>LastSelector<sp/>=<sp/><ref refid="class_platy_v_g_element_1_1_selector" kindref="compound">Selector</ref>(device-&gt;InputCoords);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(sint32<sp/>l<sp/>=<sp/>0,<sp/>lend<sp/>=<sp/>doc-&gt;AllLayers.<ref refid="class_px_1_1_array_1ab0002d07743eee641bc62e3b0f115c52" kindref="member">Count</ref>();<sp/>l<sp/>&lt;<sp/>lend;<sp/>++l)</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!doc-&gt;AllLayers[l].Visible)<sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(sint32<sp/>i<sp/>=<sp/>0,<sp/>iend<sp/>=<sp/>doc-&gt;AllLayers[l].AllShapes.<ref refid="class_px_1_1_array_1ab0002d07743eee641bc62e3b0f115c52" kindref="member">Count</ref>();<sp/>i<sp/>&lt;<sp/>iend;<sp/>++i)</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*<sp/>CurShape<sp/>=<sp/>doc-&gt;AllLayers.<ref refid="class_px_1_1_array_1a2eb53c8e4c3761558a1b64cae2336189" kindref="member">At</ref>(l).AllShapes.<ref refid="class_px_1_1_array_1a2eb53c8e4c3761558a1b64cae2336189" kindref="member">At</ref>(i).ptr();</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurShape-&gt;Select(view-&gt;OptionSelectBy,<sp/>LastSelector,<sp/>MergeByPlus);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(view-&gt;OptionStrokeBy<sp/>==<sp/>StrokeByHand)</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>doc-&gt;UpdateLayers(view-&gt;OptionRadius);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>뷰포커싱</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(device-&gt;IsOutsideDown)</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>device-&gt;IsOutsideDown<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sint32<sp/>DocID<sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>doc<sp/>=<sp/>&amp;view-&gt;DocumentRoot;</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(doc<sp/>=<sp/>doc-&gt;Next)</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(doc-&gt;Focusable<sp/>&amp;&amp;<sp/>(doc-&gt;Area<sp/>*<sp/>doc-&gt;Transform).PtInRect(device-&gt;Gesture[0]))</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DocID<sp/>=<sp/>doc-&gt;ID;</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_api_1_1_command_1_1_canvas_1affcc98766dbee207156ab7c9e0bab415" kindref="member">Command::Canvas::SetFocus</ref>(DocID);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>device-&gt;InputCoords.<ref refid="class_px_1_1_array_1aa0ddc439e186162b6907647281e94980" kindref="member">Clear</ref>();</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(view-&gt;<ref refid="class_platy_v_g_core_1_1_view_1a2935155fb09a39a7ce5c44dde553c0e4" kindref="member">UnlockDynShape</ref>(doc,<sp/>deviceby,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>doc-&gt;LastMS<sp/>=<sp/>view-&gt;OptionMS;</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(device-&gt;IsGlobalZoomEnabled)</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>device-&gt;IsGlobalZoomEnabled<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>doc<sp/>=<sp/>&amp;view-&gt;DocumentRoot;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(doc<sp/>=<sp/>doc-&gt;Next)</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>doc-&gt;UpdateLayers(view-&gt;OptionRadius);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sint32<sp/>DocID<sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>doc<sp/>=<sp/>&amp;view-&gt;DocumentRoot;</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(doc<sp/>=<sp/>doc-&gt;Next)</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(doc-&gt;Focusable<sp/>&amp;&amp;<sp/>(doc-&gt;Area<sp/>*<sp/>doc-&gt;Transform).PtInRect(device-&gt;Gesture[0]))</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DocID<sp/>=<sp/>doc-&gt;ID;</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_api_1_1_command_1_1_canvas_1affcc98766dbee207156ab7c9e0bab415" kindref="member">Command::Canvas::SetFocus</ref>(DocID);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">,<sp/>Input_CanvasDown,<sp/>api_float<sp/>x,<sp/>api_float<sp/>y,<sp/>api_float<sp/>force,<sp/>api_enum<sp/>deviceby)</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API_IMPL(<ref refid="class_platy_v_g_api_1_1_input_1afabcc06d42a3e4754f262a577bdede17" kindref="member">Input::CanvasDown</ref>(x,<sp/>y,<sp/>force,<sp/>(DeviceBy)<sp/>deviceby))</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_input_1afabcc06d42a3e4754f262a577bdede17" kindref="member">Input::CanvasDown</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>force,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DeviceBy<sp/>deviceby)</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_view" kindref="compound">View</ref>*<sp/>view<sp/>=<sp/>View::Currently();</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref>*<sp/>doc<sp/>=<sp/>view-&gt;DocumentFocus;</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(doc)</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>view-&gt;DeviceState[deviceby].InputCoords.<ref refid="class_px_1_1_array_1aa0ddc439e186162b6907647281e94980" kindref="member">Clear</ref>();</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>view-&gt;<ref refid="class_platy_v_g_core_1_1_view_1a2935155fb09a39a7ce5c44dde553c0e4" kindref="member">UnlockDynShape</ref>(doc,<sp/>deviceby,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);<sp/></highlight><highlight class="comment">//<sp/>Case<sp/>of<sp/>lost<sp/>up-event</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>view-&gt;<ref refid="class_platy_v_g_core_1_1_view_1a6963901d8059d428c4a8d9edcc03c987" kindref="member">LockDynShape</ref>(doc,<sp/>deviceby,<sp/>StrokeByAqua);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_api_1_1_input_1a8c3e93cb849c2ab0033a864ca3dac664" kindref="member">CanvasDrag</ref>(x,<sp/>y,<sp/>force,<sp/>deviceby);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">,<sp/>Input_CanvasDrag,<sp/>api_float<sp/>x,<sp/>api_float<sp/>y,<sp/>api_float<sp/>force,<sp/>api_enum<sp/>deviceby)</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API_IMPL(<ref refid="class_platy_v_g_api_1_1_input_1a8c3e93cb849c2ab0033a864ca3dac664" kindref="member">Input::CanvasDrag</ref>(x,<sp/>y,<sp/>force,<sp/>(DeviceBy)<sp/>deviceby))</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_input_1a8c3e93cb849c2ab0033a864ca3dac664" kindref="member">Input::CanvasDrag</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>force,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DeviceBy<sp/>deviceby)</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_view" kindref="compound">View</ref>*<sp/>view<sp/>=<sp/>View::Currently();</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref>*<sp/>doc<sp/>=<sp/>view-&gt;DocumentFocus;</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(doc)</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*<sp/>CurDynShape<sp/>=<sp/>view-&gt;<ref refid="class_platy_v_g_core_1_1_view_1ab9da32a499e7ee5b8adfab4b655427e1" kindref="member">GetDynShape</ref>(doc,<sp/>deviceby);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(CurDynShape)</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_device" kindref="compound">Device</ref>*<sp/>device<sp/>=<sp/>&amp;view-&gt;DeviceState[deviceby];</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>view-&gt;<ref refid="class_platy_v_g_core_1_1_view_1ace0cab4e080b95fc7e952d386fe50bc9" kindref="member">AddCoordSensitivity</ref>(deviceby,<sp/>x,<sp/>y,</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>force<sp/>*<sp/>device-&gt;GetSpeedyForce(x,<sp/>y,<sp/>view-&gt;OptionMS));</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurDynShape-&gt;Process(view-&gt;OptionContext,<sp/>device-&gt;InputCoords);</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurDynShape-&gt;Update(doc-&gt;Transform.offset,<sp/>doc-&gt;Transform.scale,<sp/>view-&gt;OptionRadius);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">,<sp/>Input_CanvasUp,<sp/>api_enum<sp/>deviceby)</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API_IMPL(<ref refid="class_platy_v_g_api_1_1_input_1ac2e3529f372bc920da2506fde7282d4e" kindref="member">Input::CanvasUp</ref>((DeviceBy)<sp/>deviceby))</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_input_1ac2e3529f372bc920da2506fde7282d4e" kindref="member">Input::CanvasUp</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DeviceBy<sp/>deviceby)</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_view" kindref="compound">View</ref>*<sp/>view<sp/>=<sp/>View::Currently();</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref>*<sp/>doc<sp/>=<sp/>view-&gt;DocumentFocus;</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(doc)</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>view-&gt;DeviceState[deviceby].InputCoords.<ref refid="class_px_1_1_array_1aa0ddc439e186162b6907647281e94980" kindref="member">Clear</ref>();</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(view-&gt;<ref refid="class_platy_v_g_core_1_1_view_1a2935155fb09a39a7ce5c44dde553c0e4" kindref="member">UnlockDynShape</ref>(doc,<sp/>deviceby,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>doc-&gt;LastMS<sp/>=<sp/>view-&gt;OptionMS;</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">,<sp/>Input_SetDeviceSensitivity,<sp/>api_enum<sp/>deviceby,<sp/>api_float<sp/>sensitivity)</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API_IMPL(<ref refid="class_platy_v_g_api_1_1_input_1af933735cba040e0c84efbf23db5a6395" kindref="member">Input::SetDeviceSensitivity</ref>((DeviceBy)<sp/>deviceby,<sp/>sensitivity))</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/><ref refid="class_platy_v_g_api_1_1_input" kindref="compound">Input</ref>::SetDeviceSensitivity(const<sp/>DeviceBy<sp/>deviceby,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>sensitivity)</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_view" kindref="compound">View</ref>*<sp/>view<sp/>=<sp/>View::Currently();</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>view-&gt;DeviceState[deviceby].InputSensitivity<sp/>=<sp/>sensitivity;</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API(api_float,<sp/>Input_GetDeviceSensitivity,<sp/>api_enum<sp/>deviceby)</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API_IMPL(</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_input_1a60b45f04dde286cb985d39413f795650" kindref="member">Input::GetDeviceSensitivity</ref>((DeviceBy)<sp/>deviceby))</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_input_1a60b45f04dde286cb985d39413f795650" kindref="member">Input::GetDeviceSensitivity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DeviceBy<sp/>deviceby)</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_view" kindref="compound">View</ref>*<sp/>view<sp/>=<sp/>View::Currently();</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>view-&gt;DeviceState[deviceby].InputSensitivity;</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">,<sp/>Input_SetDeviceSpeedyForceOn,<sp/>api_enum<sp/>deviceby,<sp/>api_float<sp/>distancebysecond)</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API_IMPL(<ref refid="class_platy_v_g_api_1_1_input_1ad1b4356acfa46a7992be07fb5e1d174a" kindref="member">Input::SetDeviceSpeedyForceOn</ref>((DeviceBy)<sp/>deviceby,<sp/>distancebysecond))</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/><ref refid="class_platy_v_g_api_1_1_input" kindref="compound">Input</ref>::SetDeviceSpeedyForceOn(const<sp/>DeviceBy<sp/>deviceby,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>distancebysecond)</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_view" kindref="compound">View</ref>*<sp/>view<sp/>=<sp/>View::Currently();</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>view-&gt;DeviceState[deviceby].InputBaseDistanceByMS<sp/>=<sp/>distancebysecond<sp/>/<sp/>1000;</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">,<sp/>Input_SetDeviceSpeedyForceOff,<sp/>api_enum<sp/>deviceby)</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API_IMPL(<ref refid="class_platy_v_g_api_1_1_input_1aab0fc9360279754f8536e7f0cfacc673" kindref="member">Input::SetDeviceSpeedyForceOff</ref>((DeviceBy)<sp/>deviceby))</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_input_1aab0fc9360279754f8536e7f0cfacc673" kindref="member">Input::SetDeviceSpeedyForceOff</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DeviceBy<sp/>deviceby)</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_view" kindref="compound">View</ref>*<sp/>view<sp/>=<sp/>View::Currently();</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>view-&gt;DeviceState[deviceby].InputBaseDistanceByMS<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">,<sp/>Input_SetDeviceLayer,<sp/>api_enum<sp/>deviceby,<sp/>api_int<sp/>layer)</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API_IMPL(<ref refid="class_platy_v_g_api_1_1_input_1a76d313682aaa3581cdc0b98cc08b24d5" kindref="member">Input::SetDeviceLayer</ref>((DeviceBy)<sp/>deviceby,<sp/>layer))</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/><ref refid="class_platy_v_g_api_1_1_input" kindref="compound">Input</ref>::SetDeviceLayer(const<sp/>DeviceBy<sp/>deviceby,<sp/>const<sp/>sint32<sp/>layer)</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_view" kindref="compound">View</ref>*<sp/>view<sp/>=<sp/>View::Currently();</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>view-&gt;DeviceLayer[deviceby]<sp/>=<sp/>layer;</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"></highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API(api_int,<sp/>Input_GetDeviceLayer,<sp/>api_enum<sp/>deviceby)</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API_IMPL(</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_input_1abdaa70325c22846f79e91d845fb5c57b" kindref="member">Input::GetDeviceLayer</ref>((DeviceBy)<sp/>deviceby))</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/><ref refid="class_platy_v_g_api_1_1_input_1abdaa70325c22846f79e91d845fb5c57b" kindref="member">Input::GetDeviceLayer</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DeviceBy<sp/>deviceby)</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_view" kindref="compound">View</ref>*<sp/>view<sp/>=<sp/>View::Currently();</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>view-&gt;DeviceLayer[deviceby];</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"></highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API(api_int,<sp/>Input_GetDeviceCoordCount,<sp/>api_enum<sp/>deviceby)</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API_IMPL(</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_input_1a6033bfa1e5b39b85edc30f6aebf52a32" kindref="member">Input::GetDeviceCoordCount</ref>((DeviceBy)<sp/>deviceby))</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/><ref refid="class_platy_v_g_api_1_1_input_1a6033bfa1e5b39b85edc30f6aebf52a32" kindref="member">Input::GetDeviceCoordCount</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DeviceBy<sp/>deviceby)</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_view" kindref="compound">View</ref>*<sp/>view<sp/>=<sp/>View::Currently();</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>view-&gt;DeviceState[deviceby].InputCoords.<ref refid="class_px_1_1_array_1ab0002d07743eee641bc62e3b0f115c52" kindref="member">Count</ref>();</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"></highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API(api_floats,<sp/>Input_GetDeviceCoordArray,<sp/>api_enum<sp/>deviceby)</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API_IMPL_RETURN(<ref refid="class_platy_v_g_api_1_1_input_1accb3c7299e596618fb99aa569de3f4d6" kindref="member">Input::GetDeviceCoordArray</ref>((DeviceBy)<sp/>deviceby),<sp/><ref refid="class_platy_v_g_api_1_1_input_1a6033bfa1e5b39b85edc30f6aebf52a32" kindref="member">Input::GetDeviceCoordCount</ref>((DeviceBy)<sp/>deviceby))</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/><ref refid="class_platy_v_g_api_1_1_input_1accb3c7299e596618fb99aa569de3f4d6" kindref="member">Input::GetDeviceCoordArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DeviceBy<sp/>deviceby)</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_view" kindref="compound">View</ref>*<sp/>view<sp/>=<sp/>View::Currently();</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;view-&gt;DeviceState[deviceby].InputCoords[0].x;</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="351"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/input.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_platy_v_g_element_1_1_color" kind="class" language="C++" prot="public">
+    <compoundname>PlatyVGElement::Color</compoundname>
+    <includes refid="color_8hpp" local="no">color.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_platy_v_g_element_1_1_color_1a070fa97356ac46c6692c2dbf32082d35" prot="public" static="no" mutable="no">
+        <type>uint32</type>
+        <definition>uint32 PlatyVGElement::Color::rgba</definition>
+        <argsstring></argsstring>
+        <name>rgba</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/color.hpp" line="20" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/color.hpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_element_1_1_color_1acfcee3228fa890e4fbbc2ebd3f322799" prot="public" static="no" mutable="no">
+        <type>uint08</type>
+        <definition>uint08 PlatyVGElement::Color::r</definition>
+        <argsstring></argsstring>
+        <name>r</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/color.hpp" line="23" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/color.hpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_element_1_1_color_1ac7525fa3bf7ab0952b58e862d69d2b6c" prot="public" static="no" mutable="no">
+        <type>uint08</type>
+        <definition>uint08 PlatyVGElement::Color::g</definition>
+        <argsstring></argsstring>
+        <name>g</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/color.hpp" line="24" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/color.hpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_element_1_1_color_1a50c1f09173769c63931a6ecfa94556da" prot="public" static="no" mutable="no">
+        <type>uint08</type>
+        <definition>uint08 PlatyVGElement::Color::b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/color.hpp" line="25" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/color.hpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_element_1_1_color_1a2b602dd99f4a131bce3fac53c13724ab" prot="public" static="no" mutable="no">
+        <type>uint08</type>
+        <definition>uint08 PlatyVGElement::Color::a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/color.hpp" line="26" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/color.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_element_1_1_color_1ada9d9aa2e376f5c8afa4d96911ab47c7" prot="public" static="no" mutable="no">
+        <type>union PlatyVGElement::Color::@2</type>
+        <definition>union PlatyVGElement::Color::@2 PlatyVGElement::Color::@3</definition>
+        <argsstring></argsstring>
+        <name>@3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/color.hpp" line="28" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_element_1_1_color_1a8d59db7d188751ead274261104455012" prot="public" static="no" mutable="no">
+        <type>uint32</type>
+        <definition>uint32 PlatyVGElement::Color::aqua</definition>
+        <argsstring></argsstring>
+        <name>aqua</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/color.hpp" line="29" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/color.hpp" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_color_1a202bbeffd1bb78c9f9a540cc6bfbc5f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::Color::Color</definition>
+        <argsstring>()</argsstring>
+        <name>Color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/color.hpp" line="10" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/color.cpp" bodystart="6" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_color_1a6b075af38e746fc396a51c7f88e33733" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::Color::Color</definition>
+        <argsstring>(const Color &amp;rhs)</argsstring>
+        <name>Color</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_color" kindref="compound">Color</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/color.hpp" line="11" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/color.cpp" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_color_1ad681b016c40ea0418270e78c5e1880f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::Color::Color</definition>
+        <argsstring>(uint32 rgba, uint32 aqua)</argsstring>
+        <name>Color</name>
+        <param>
+          <type>uint32</type>
+          <declname>rgba</declname>
+        </param>
+        <param>
+          <type>uint32</type>
+          <declname>aqua</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/color.hpp" line="12" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/color.cpp" bodystart="17" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_color_1ab14b0f0bb13e2b3ac6f5adea606fa515" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::Color::Color</definition>
+        <argsstring>(uint08 r, uint08 g, uint08 b, uint08 a, uint32 aqua)</argsstring>
+        <name>Color</name>
+        <param>
+          <type>uint08</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>uint08</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>uint08</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>uint08</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>uint32</type>
+          <declname>aqua</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/color.hpp" line="13" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/color.cpp" bodystart="23" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_color_1a6b212c357c3eead0a9ce8b83d93578f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::Color::~Color</definition>
+        <argsstring>()</argsstring>
+        <name>~Color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/color.hpp" line="14" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/color.cpp" bodystart="32" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_color_1aa3bbab9fbb8b268be0cfe7de1e7cceb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_platy_v_g_element_1_1_color" kindref="compound">Color</ref> &amp;</type>
+        <definition>Color &amp; PlatyVGElement::Color::operator=</definition>
+        <argsstring>(const Color &amp;rhs)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_color" kindref="compound">Color</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/color.hpp" line="15" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/color.cpp" bodystart="36" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>색상정보 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/color.hpp" line="8" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/color.hpp" bodystart="7" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_platy_v_g_element_1_1_color_1a2b602dd99f4a131bce3fac53c13724ab" prot="public" virt="non-virtual"><scope>PlatyVGElement::Color</scope><name>a</name></member>
+      <member refid="class_platy_v_g_element_1_1_color_1a8d59db7d188751ead274261104455012" prot="public" virt="non-virtual"><scope>PlatyVGElement::Color</scope><name>aqua</name></member>
+      <member refid="class_platy_v_g_element_1_1_color_1a50c1f09173769c63931a6ecfa94556da" prot="public" virt="non-virtual"><scope>PlatyVGElement::Color</scope><name>b</name></member>
+      <member refid="class_platy_v_g_element_1_1_color_1a202bbeffd1bb78c9f9a540cc6bfbc5f2" prot="public" virt="non-virtual"><scope>PlatyVGElement::Color</scope><name>Color</name></member>
+      <member refid="class_platy_v_g_element_1_1_color_1a6b075af38e746fc396a51c7f88e33733" prot="public" virt="non-virtual"><scope>PlatyVGElement::Color</scope><name>Color</name></member>
+      <member refid="class_platy_v_g_element_1_1_color_1ad681b016c40ea0418270e78c5e1880f0" prot="public" virt="non-virtual"><scope>PlatyVGElement::Color</scope><name>Color</name></member>
+      <member refid="class_platy_v_g_element_1_1_color_1ab14b0f0bb13e2b3ac6f5adea606fa515" prot="public" virt="non-virtual"><scope>PlatyVGElement::Color</scope><name>Color</name></member>
+      <member refid="class_platy_v_g_element_1_1_color_1ac7525fa3bf7ab0952b58e862d69d2b6c" prot="public" virt="non-virtual"><scope>PlatyVGElement::Color</scope><name>g</name></member>
+      <member refid="class_platy_v_g_element_1_1_color_1aa3bbab9fbb8b268be0cfe7de1e7cceb8" prot="public" virt="non-virtual"><scope>PlatyVGElement::Color</scope><name>operator=</name></member>
+      <member refid="class_platy_v_g_element_1_1_color_1acfcee3228fa890e4fbbc2ebd3f322799" prot="public" virt="non-virtual"><scope>PlatyVGElement::Color</scope><name>r</name></member>
+      <member refid="class_platy_v_g_element_1_1_color_1a070fa97356ac46c6692c2dbf32082d35" prot="public" virt="non-virtual"><scope>PlatyVGElement::Color</scope><name>rgba</name></member>
+      <member refid="class_platy_v_g_element_1_1_color_1a6b212c357c3eead0a9ce8b83d93578f4" prot="public" virt="non-virtual"><scope>PlatyVGElement::Color</scope><name>~Color</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

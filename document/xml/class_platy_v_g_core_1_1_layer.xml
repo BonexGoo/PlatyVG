@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_platy_v_g_core_1_1_layer" kind="class" language="C++" prot="public">
+    <compoundname>PlatyVGCore::Layer</compoundname>
+    <includes refid="layer_8hpp" local="no">layer.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_layer_1a2d9aa691ac4058cf66d45fb3a97d3ce3" prot="public" static="no" mutable="no">
+        <type><ref refid="class_px_1_1_array" kindref="compound">UnionShapes</ref></type>
+        <definition>UnionShapes PlatyVGCore::Layer::AllShapes</definition>
+        <argsstring></argsstring>
+        <name>AllShapes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/layer.hpp" line="19" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/layer.hpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_layer_1a29072638bfc862ad271d8e9aebdb9d6c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_px_1_1_array" kindref="compound">UnionShapes</ref></type>
+        <definition>UnionShapes PlatyVGCore::Layer::DynShapes</definition>
+        <argsstring></argsstring>
+        <name>DynShapes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/layer.hpp" line="20" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/layer.hpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_layer_1a5e726279d6a23934ef68e8f5be7fd41b" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PlatyVGCore::Layer::Visible</definition>
+        <argsstring></argsstring>
+        <name>Visible</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/layer.hpp" line="21" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/layer.hpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_layer_1aad91109ac4fce692e741e8d30198c2c7" prot="public" static="no" mutable="no">
+        <type>uint32</type>
+        <definition>uint32 PlatyVGCore::Layer::LockedFlag</definition>
+        <argsstring></argsstring>
+        <name>LockedFlag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/layer.hpp" line="22" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/layer.hpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_layer_1a2424d90b65979e8824e553712e0597ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGCore::Layer::Layer</definition>
+        <argsstring>()</argsstring>
+        <name>Layer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/layer.hpp" line="12" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/layer.cpp" bodystart="6" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_layer_1ad545d179f9722c5a95b9356d50b6a6ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGCore::Layer::~Layer</definition>
+        <argsstring>()</argsstring>
+        <name>~Layer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/layer.hpp" line="13" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/layer.cpp" bodystart="12" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_layer_1a6da960edb5205a33338191193c02ee11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlatyVGCore::Layer::UpdateShapes</definition>
+        <argsstring>(const Zoom &amp;transform, const float radius)</argsstring>
+        <name>UpdateShapes</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_zoom" kindref="compound">Zoom</ref> &amp;</type>
+          <declname>transform</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/layer.hpp" line="16" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/layer.cpp" bodystart="16" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>레이어관리 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="89">
+        <label>Px::Array&lt; UnionShape &gt;</label>
+        <link refid="class_px_1_1_array"/>
+      </node>
+      <node id="88">
+        <label>PlatyVGCore::Layer</label>
+        <link refid="class_platy_v_g_core_1_1_layer"/>
+        <childnode refid="89" relation="usage">
+          <edgelabel>AllShapes</edgelabel>
+          <edgelabel>DynShapes</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/layer.hpp" line="10" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/layer.hpp" bodystart="9" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_platy_v_g_core_1_1_layer_1a2d9aa691ac4058cf66d45fb3a97d3ce3" prot="public" virt="non-virtual"><scope>PlatyVGCore::Layer</scope><name>AllShapes</name></member>
+      <member refid="class_platy_v_g_core_1_1_layer_1a29072638bfc862ad271d8e9aebdb9d6c" prot="public" virt="non-virtual"><scope>PlatyVGCore::Layer</scope><name>DynShapes</name></member>
+      <member refid="class_platy_v_g_core_1_1_layer_1a2424d90b65979e8824e553712e0597ea" prot="public" virt="non-virtual"><scope>PlatyVGCore::Layer</scope><name>Layer</name></member>
+      <member refid="class_platy_v_g_core_1_1_layer_1aad91109ac4fce692e741e8d30198c2c7" prot="public" virt="non-virtual"><scope>PlatyVGCore::Layer</scope><name>LockedFlag</name></member>
+      <member refid="class_platy_v_g_core_1_1_layer_1a6da960edb5205a33338191193c02ee11" prot="public" virt="non-virtual"><scope>PlatyVGCore::Layer</scope><name>UpdateShapes</name></member>
+      <member refid="class_platy_v_g_core_1_1_layer_1a5e726279d6a23934ef68e8f5be7fd41b" prot="public" virt="non-virtual"><scope>PlatyVGCore::Layer</scope><name>Visible</name></member>
+      <member refid="class_platy_v_g_core_1_1_layer_1ad545d179f9722c5a95b9356d50b6a6ea" prot="public" virt="non-virtual"><scope>PlatyVGCore::Layer</scope><name>~Layer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

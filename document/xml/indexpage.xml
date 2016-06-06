@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="indexpage" kind="page">
+    <compoundname>index</compoundname>
+    <title>PlatyVG Libraries</title>
+    <detaileddescription>
+<sect1 id="index_1information">
+<title>information</title>
+<para><itemizedlist>
+<listitem><para>필압/색상/투명도/수분조절까지 가능한 고차원 벡터그래픽스</para></listitem><listitem><para>크로스플랫폼(WIN/MAC/IPHONE/ANDROID...)기반 라이브러리(dll/so/a)</para></listitem><listitem><para>OpenVG 비의존적 벡터그래픽스(OpenGLES 2.0이상) </para></listitem></itemizedlist>
+</para></sect1>
+<sect1 id="index_1advanced">
+<title>advanced</title>
+<para><itemizedlist>
+<listitem><para>입출력<orderedlist>
+<listitem><para>터치스크린/타블렛/전자펜을 동시-드로잉할 수 있는 입력시스템</para></listitem><listitem><para>스크린좌표계/캔버스좌표계의 선택 및 민감도조절이 가능</para></listitem><listitem><para>간략보기가 가능한 PNG포맷으로 벡터정보를 저장 및 SVG저장</para></listitem></orderedlist>
+</para></listitem><listitem><para>작업환경<orderedlist>
+<listitem><para>포토샾과 같이 전문가용 드로잉작업을 위한 다중레이어시스템</para></listitem><listitem><para>여러 캔버스를 함께 열고 복사작업등 할 수 있는 다중캔버스시스템</para></listitem><listitem><para>편집모드를 위한 3가지 선택도구(드래그라인/사각영역/자율영역)</para></listitem></orderedlist>
+</para></listitem><listitem><para>성능<orderedlist>
+<listitem><para>0.01%~100000%(1천만배차)까지 자유로운 줌시스템</para></listitem><listitem><para>줌/스크롤시 화면깜빡임현상(캐시버퍼-스케일링)이 전혀 없음</para></listitem><listitem><para>프로세싱분리로 줌/스크롤 속도저하가 기존 벡터엔진의 1/10 이하</para></listitem><listitem><para>공유자원시스템으로 메모리사용량이 기존 벡터엔진의 1/3 이하 </para></listitem></orderedlist>
+</para></listitem></itemizedlist>
+</para></sect1>
+<sect1 id="index_1developer">
+<title>developer</title>
+<para><itemizedlist>
+<listitem><para>Platy House, Inc </para></listitem></itemizedlist>
+</para></sect1>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

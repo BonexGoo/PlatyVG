@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_platy_v_g_element_1_1_action_matrix" kind="class" language="C++" prot="public">
+    <compoundname>PlatyVGElement::ActionMatrix</compoundname>
+    <basecompoundref refid="class_platy_v_g_element_1_1_action" prot="public" virt="non-virtual">PlatyVGElement::Action</basecompoundref>
+    <includes refid="action_8hpp" local="no">action.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_platy_v_g_element_1_1_action_matrix_1afcd6e54d832f00bc8a80224eedb12ef5" prot="public" static="no" mutable="no">
+        <type>sint32</type>
+        <definition>sint32 PlatyVGElement::ActionMatrix::saved_shapeid</definition>
+        <argsstring></argsstring>
+        <name>saved_shapeid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.hpp" line="59" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.hpp" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_element_1_1_action_matrix_1a0d0197fd8dbc2e778f6f17b1fe5a9771" prot="public" static="no" mutable="no">
+        <type><ref refid="class_platy_v_g_element_1_1_matrix" kindref="compound">Matrix</ref></type>
+        <definition>Matrix PlatyVGElement::ActionMatrix::saved_matrix</definition>
+        <argsstring></argsstring>
+        <name>saved_matrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.hpp" line="60" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.hpp" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_action_matrix_1a7d73c8f7605a2547287ce582602d6052" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::ActionMatrix::ActionMatrix</definition>
+        <argsstring>()</argsstring>
+        <name>ActionMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.hpp" line="52" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.cpp" bodystart="75" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_action_matrix_1aa889d9df5f900418b1da9a99d58f18a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::ActionMatrix::ActionMatrix</definition>
+        <argsstring>(const ActionMatrix &amp;rhs)</argsstring>
+        <name>ActionMatrix</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_action_matrix" kindref="compound">ActionMatrix</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.hpp" line="53" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.cpp" bodystart="79" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_action_matrix_1a4d955996cfa040b269cc6f8ad71ac2eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::ActionMatrix::ActionMatrix</definition>
+        <argsstring>(const sint32 shapeid, const Matrix &amp;matrix)</argsstring>
+        <name>ActionMatrix</name>
+        <param>
+          <type>const sint32</type>
+          <declname>shapeid</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_matrix" kindref="compound">Matrix</ref> &amp;</type>
+          <declname>matrix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.hpp" line="54" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.cpp" bodystart="84" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_action_matrix_1a1db856ac11960dcb030c2fe82102fae2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>PlatyVGElement::ActionMatrix::~ActionMatrix</definition>
+        <argsstring>()</argsstring>
+        <name>~ActionMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.hpp" line="55" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.cpp" bodystart="90" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_action_matrix_1aa1bb5cc28cff49056c19017b223891fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_platy_v_g_element_1_1_action_matrix" kindref="compound">ActionMatrix</ref> &amp;</type>
+        <definition>ActionMatrix &amp; PlatyVGElement::ActionMatrix::operator=</definition>
+        <argsstring>(const ActionMatrix &amp;rhs)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_action_matrix" kindref="compound">ActionMatrix</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.hpp" line="56" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.cpp" bodystart="94" bodyend="99"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>작업내역(선택-변형) </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="19">
+        <label>PlatyVGElement::Action</label>
+        <link refid="class_platy_v_g_element_1_1_action"/>
+      </node>
+      <node id="18">
+        <label>PlatyVGElement::ActionMatrix</label>
+        <link refid="class_platy_v_g_element_1_1_action_matrix"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="21">
+        <label>PlatyVGElement::Action</label>
+        <link refid="class_platy_v_g_element_1_1_action"/>
+      </node>
+      <node id="20">
+        <label>PlatyVGElement::ActionMatrix</label>
+        <link refid="class_platy_v_g_element_1_1_action_matrix"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+        <childnode refid="22" relation="usage">
+          <edgelabel>saved_matrix</edgelabel>
+        </childnode>
+      </node>
+      <node id="22">
+        <label>PlatyVGElement::Matrix</label>
+        <link refid="class_platy_v_g_element_1_1_matrix"/>
+      </node>
+    </collaborationgraph>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.hpp" line="50" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.hpp" bodystart="49" bodyend="61"/>
+    <listofallmembers>
+      <member refid="class_platy_v_g_element_1_1_action_1a47e62996cde156a807c4326fb77bdbe6" prot="public" virt="non-virtual"><scope>PlatyVGElement::ActionMatrix</scope><name>Action</name></member>
+      <member refid="class_platy_v_g_element_1_1_action_1a578800451cf4d6fc707aa285b28c4482" prot="public" virt="non-virtual"><scope>PlatyVGElement::ActionMatrix</scope><name>Action</name></member>
+      <member refid="class_platy_v_g_element_1_1_action_matrix_1a7d73c8f7605a2547287ce582602d6052" prot="public" virt="non-virtual"><scope>PlatyVGElement::ActionMatrix</scope><name>ActionMatrix</name></member>
+      <member refid="class_platy_v_g_element_1_1_action_matrix_1aa889d9df5f900418b1da9a99d58f18a4" prot="public" virt="non-virtual"><scope>PlatyVGElement::ActionMatrix</scope><name>ActionMatrix</name></member>
+      <member refid="class_platy_v_g_element_1_1_action_matrix_1a4d955996cfa040b269cc6f8ad71ac2eb" prot="public" virt="non-virtual"><scope>PlatyVGElement::ActionMatrix</scope><name>ActionMatrix</name></member>
+      <member refid="class_platy_v_g_element_1_1_action_matrix_1aa1bb5cc28cff49056c19017b223891fb" prot="public" virt="non-virtual"><scope>PlatyVGElement::ActionMatrix</scope><name>operator=</name></member>
+      <member refid="class_platy_v_g_element_1_1_action_1a7d2be3f48a3e546723ff459b87f3b2f2" prot="public" virt="non-virtual" ambiguityscope="PlatyVGElement::Action::"><scope>PlatyVGElement::ActionMatrix</scope><name>operator=</name></member>
+      <member refid="class_platy_v_g_element_1_1_action_matrix_1a0d0197fd8dbc2e778f6f17b1fe5a9771" prot="public" virt="non-virtual"><scope>PlatyVGElement::ActionMatrix</scope><name>saved_matrix</name></member>
+      <member refid="class_platy_v_g_element_1_1_action_matrix_1afcd6e54d832f00bc8a80224eedb12ef5" prot="public" virt="non-virtual"><scope>PlatyVGElement::ActionMatrix</scope><name>saved_shapeid</name></member>
+      <member refid="class_platy_v_g_element_1_1_action_1aec18f8a6f73fa152421a1f933c4d32b3" prot="public" virt="virtual"><scope>PlatyVGElement::ActionMatrix</scope><name>~Action</name></member>
+      <member refid="class_platy_v_g_element_1_1_action_matrix_1a1db856ac11960dcb030c2fe82102fae2" prot="public" virt="virtual"><scope>PlatyVGElement::ActionMatrix</scope><name>~ActionMatrix</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

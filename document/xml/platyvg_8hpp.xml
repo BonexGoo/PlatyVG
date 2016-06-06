@@ -1,0 +1,429 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="platyvg_8hpp" kind="file" language="C++">
+    <compoundname>platyvg.hpp</compoundname>
+    <includes refid="px_8hpp" local="yes">../px/px.hpp</includes>
+    <includes refid="array_8hpp" local="yes">../px/array.hpp</includes>
+    <includes refid="buffer_8hpp" local="yes">../px/buffer.hpp</includes>
+    <includes refid="file_8hpp" local="yes">../px/file.hpp</includes>
+    <includes refid="math_8hpp" local="yes">../px/math.hpp</includes>
+    <includes refid="memory_8hpp" local="yes">../px/memory.hpp</includes>
+    <includes refid="parser_8hpp" local="yes">../px/parser.hpp</includes>
+    <includes refid="share_8hpp" local="yes">../px/share.hpp</includes>
+    <includes refid="string_8hpp" local="yes">../px/string.hpp</includes>
+    <includedby refid="adapter_8cpp" local="no">adapter.cpp</includedby>
+    <includedby refid="adapter_8hpp" local="no">adapter.hpp</includedby>
+    <includedby refid="color_8hpp" local="no">color.hpp</includedby>
+    <includedby refid="coord_8hpp" local="no">coord.hpp</includedby>
+    <includedby refid="matrix_8hpp" local="no">matrix.hpp</includedby>
+    <includedby refid="mesh_8hpp" local="no">mesh.hpp</includedby>
+    <includedby refid="zoom_8hpp" local="no">zoom.hpp</includedby>
+    <includedby refid="point_8hpp" local="no">point.hpp</includedby>
+    <includedby refid="view_8hpp" local="no">view.hpp</includedby>
+    <includedby refid="device_8hpp" local="no">device.hpp</includedby>
+    <includedby refid="document_8hpp" local="no">document.hpp</includedby>
+    <includedby refid="layer_8hpp" local="no">layer.hpp</includedby>
+    <includedby refid="shape_8hpp" local="no">shape.hpp</includedby>
+    <includedby refid="context_8hpp" local="no">context.hpp</includedby>
+    <includedby refid="edge_8hpp" local="no">edge.hpp</includedby>
+    <includedby refid="selector_8hpp" local="no">selector.hpp</includedby>
+    <includedby refid="rect_8hpp" local="no">rect.hpp</includedby>
+    <includedby refid="size_8hpp" local="no">size.hpp</includedby>
+    <includedby refid="table_8hpp" local="no">table.hpp</includedby>
+    <includedby refid="record_8hpp" local="no">record.hpp</includedby>
+    <includedby refid="action_8hpp" local="no">action.hpp</includedby>
+    <includedby refid="command_8cpp" local="no">command.cpp</includedby>
+    <includedby refid="command_8hpp" local="no">command.hpp</includedby>
+    <includedby refid="export_8cpp" local="no">export.cpp</includedby>
+    <includedby refid="export_8hpp" local="no">export.hpp</includedby>
+    <includedby refid="input_8cpp" local="no">input.cpp</includedby>
+    <includedby refid="input_8hpp" local="no">input.hpp</includedby>
+    <includedby refid="listener_8cpp" local="no">listener.cpp</includedby>
+    <includedby refid="listener_8hpp" local="no">listener.hpp</includedby>
+    <includedby refid="platyvg_8cpp" local="no">platyvg.cpp</includedby>
+    <includedby refid="device_8cpp" local="no">device.cpp</includedby>
+    <includedby refid="document_8cpp" local="no">document.cpp</includedby>
+    <includedby refid="layer_8cpp" local="no">layer.cpp</includedby>
+    <includedby refid="record_8cpp" local="no">record.cpp</includedby>
+    <includedby refid="shape_8cpp" local="no">shape.cpp</includedby>
+    <includedby refid="view_8cpp" local="no">view.cpp</includedby>
+    <includedby refid="action_8cpp" local="no">action.cpp</includedby>
+    <includedby refid="color_8cpp" local="no">color.cpp</includedby>
+    <includedby refid="context_8cpp" local="no">context.cpp</includedby>
+    <includedby refid="coord_8cpp" local="no">coord.cpp</includedby>
+    <includedby refid="edge_8cpp" local="no">edge.cpp</includedby>
+    <includedby refid="matrix_8cpp" local="no">matrix.cpp</includedby>
+    <includedby refid="mesh_8cpp" local="no">mesh.cpp</includedby>
+    <includedby refid="point_8cpp" local="no">point.cpp</includedby>
+    <includedby refid="rect_8cpp" local="no">rect.cpp</includedby>
+    <includedby refid="selector_8cpp" local="no">selector.cpp</includedby>
+    <includedby refid="size_8cpp" local="no">size.cpp</includedby>
+    <includedby refid="table_8cpp" local="no">table.cpp</includedby>
+    <includedby refid="zoom_8cpp" local="no">zoom.cpp</includedby>
+    <incdepgraph>
+      <node id="839">
+        <label>platyvg.hpp</label>
+        <link refid="platyvg.hpp"/>
+        <childnode refid="840" relation="include">
+        </childnode>
+        <childnode refid="841" relation="include">
+        </childnode>
+        <childnode refid="843" relation="include">
+        </childnode>
+        <childnode refid="845" relation="include">
+        </childnode>
+        <childnode refid="846" relation="include">
+        </childnode>
+        <childnode refid="844" relation="include">
+        </childnode>
+        <childnode refid="847" relation="include">
+        </childnode>
+        <childnode refid="842" relation="include">
+        </childnode>
+        <childnode refid="848" relation="include">
+        </childnode>
+      </node>
+      <node id="842">
+        <label>../px/share.hpp</label>
+        <link refid="share_8hpp_source"/>
+        <childnode refid="843" relation="include">
+        </childnode>
+      </node>
+      <node id="841">
+        <label>../px/array.hpp</label>
+        <link refid="array_8hpp_source"/>
+        <childnode refid="842" relation="include">
+        </childnode>
+      </node>
+      <node id="847">
+        <label>../px/parser.hpp</label>
+        <link refid="parser_8hpp_source"/>
+        <childnode refid="848" relation="include">
+        </childnode>
+      </node>
+      <node id="840">
+        <label>../px/px.hpp</label>
+        <link refid="px_8hpp_source"/>
+      </node>
+      <node id="845">
+        <label>../px/file.hpp</label>
+        <link refid="file_8hpp_source"/>
+        <childnode refid="840" relation="include">
+        </childnode>
+      </node>
+      <node id="848">
+        <label>../px/string.hpp</label>
+        <link refid="string_8hpp_source"/>
+        <childnode refid="841" relation="include">
+        </childnode>
+      </node>
+      <node id="844">
+        <label>../px/memory.hpp</label>
+        <link refid="memory_8hpp_source"/>
+        <childnode refid="840" relation="include">
+        </childnode>
+      </node>
+      <node id="846">
+        <label>../px/math.hpp</label>
+        <link refid="math_8hpp_source"/>
+        <childnode refid="840" relation="include">
+        </childnode>
+      </node>
+      <node id="843">
+        <label>../px/buffer.hpp</label>
+        <link refid="buffer_8hpp_source"/>
+        <childnode refid="844" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="850">
+        <label>adapter.hpp</label>
+        <link refid="adapter_8hpp_source"/>
+        <childnode refid="851" relation="include">
+        </childnode>
+      </node>
+      <node id="869">
+        <label>mesh.hpp</label>
+        <link refid="mesh_8hpp_source"/>
+        <childnode refid="850" relation="include">
+        </childnode>
+        <childnode refid="851" relation="include">
+        </childnode>
+      </node>
+      <node id="865">
+        <label>point.hpp</label>
+        <link refid="point_8hpp_source"/>
+        <childnode refid="866" relation="include">
+        </childnode>
+        <childnode refid="861" relation="include">
+        </childnode>
+        <childnode refid="868" relation="include">
+        </childnode>
+        <childnode refid="851" relation="include">
+        </childnode>
+        <childnode refid="862" relation="include">
+        </childnode>
+        <childnode refid="867" relation="include">
+        </childnode>
+        <childnode refid="857" relation="include">
+        </childnode>
+        <childnode refid="854" relation="include">
+        </childnode>
+      </node>
+      <node id="854">
+        <label>view.hpp</label>
+        <link refid="view_8hpp_source"/>
+      </node>
+      <node id="870">
+        <label>size.hpp</label>
+        <link refid="size_8hpp_source"/>
+        <childnode refid="867" relation="include">
+        </childnode>
+        <childnode refid="851" relation="include">
+        </childnode>
+        <childnode refid="854" relation="include">
+        </childnode>
+        <childnode refid="859" relation="include">
+        </childnode>
+      </node>
+      <node id="872">
+        <label>export.hpp</label>
+        <link refid="export_8hpp_source"/>
+      </node>
+      <node id="849">
+        <label>platyvg.hpp</label>
+        <link refid="platyvg.hpp"/>
+        <childnode refid="850" relation="include">
+        </childnode>
+        <childnode refid="855" relation="include">
+        </childnode>
+        <childnode refid="860" relation="include">
+        </childnode>
+        <childnode refid="864" relation="include">
+        </childnode>
+        <childnode refid="869" relation="include">
+        </childnode>
+        <childnode refid="866" relation="include">
+        </childnode>
+        <childnode refid="865" relation="include">
+        </childnode>
+        <childnode refid="854" relation="include">
+        </childnode>
+        <childnode refid="861" relation="include">
+        </childnode>
+        <childnode refid="853" relation="include">
+        </childnode>
+        <childnode refid="852" relation="include">
+        </childnode>
+        <childnode refid="851" relation="include">
+        </childnode>
+        <childnode refid="856" relation="include">
+        </childnode>
+        <childnode refid="868" relation="include">
+        </childnode>
+        <childnode refid="862" relation="include">
+        </childnode>
+        <childnode refid="867" relation="include">
+        </childnode>
+        <childnode refid="870" relation="include">
+        </childnode>
+        <childnode refid="871" relation="include">
+        </childnode>
+        <childnode refid="858" relation="include">
+        </childnode>
+        <childnode refid="857" relation="include">
+        </childnode>
+        <childnode refid="859" relation="include">
+        </childnode>
+        <childnode refid="872" relation="include">
+        </childnode>
+        <childnode refid="863" relation="include">
+        </childnode>
+        <childnode refid="873" relation="include">
+        </childnode>
+      </node>
+      <node id="861">
+        <label>device.hpp</label>
+        <link refid="device_8hpp_source"/>
+        <childnode refid="854" relation="include">
+        </childnode>
+      </node>
+      <node id="867">
+        <label>rect.hpp</label>
+        <link refid="rect_8hpp_source"/>
+        <childnode refid="862" relation="include">
+        </childnode>
+        <childnode refid="853" relation="include">
+        </childnode>
+        <childnode refid="859" relation="include">
+        </childnode>
+      </node>
+      <node id="857">
+        <label>action.hpp</label>
+        <link refid="action_8hpp_source"/>
+        <childnode refid="858" relation="include">
+        </childnode>
+      </node>
+      <node id="851">
+        <label>shape.hpp</label>
+        <link refid="shape_8hpp_source"/>
+        <childnode refid="852" relation="include">
+        </childnode>
+        <childnode refid="854" relation="include">
+        </childnode>
+      </node>
+      <node id="855">
+        <label>color.hpp</label>
+        <link refid="color_8hpp_source"/>
+        <childnode refid="850" relation="include">
+        </childnode>
+        <childnode refid="856" relation="include">
+        </childnode>
+        <childnode refid="857" relation="include">
+        </childnode>
+        <childnode refid="859" relation="include">
+        </childnode>
+      </node>
+      <node id="856">
+        <label>context.hpp</label>
+        <link refid="context_8hpp_source"/>
+        <childnode refid="851" relation="include">
+        </childnode>
+        <childnode refid="854" relation="include">
+        </childnode>
+      </node>
+      <node id="852">
+        <label>layer.hpp</label>
+        <link refid="layer_8hpp_source"/>
+        <childnode refid="853" relation="include">
+        </childnode>
+      </node>
+      <node id="864">
+        <label>matrix.hpp</label>
+        <link refid="matrix_8hpp_source"/>
+        <childnode refid="850" relation="include">
+        </childnode>
+        <childnode refid="865" relation="include">
+        </childnode>
+        <childnode refid="851" relation="include">
+        </childnode>
+      </node>
+      <node id="858">
+        <label>record.hpp</label>
+        <link refid="record_8hpp_source"/>
+        <childnode refid="853" relation="include">
+        </childnode>
+      </node>
+      <node id="859">
+        <label>command.hpp</label>
+        <link refid="command_8hpp_source"/>
+      </node>
+      <node id="853">
+        <label>document.hpp</label>
+        <link refid="document_8hpp_source"/>
+        <childnode refid="854" relation="include">
+        </childnode>
+      </node>
+      <node id="866">
+        <label>zoom.hpp</label>
+        <link refid="zoom_8hpp_source"/>
+        <childnode refid="850" relation="include">
+        </childnode>
+        <childnode refid="867" relation="include">
+        </childnode>
+        <childnode refid="851" relation="include">
+        </childnode>
+        <childnode refid="852" relation="include">
+        </childnode>
+        <childnode refid="853" relation="include">
+        </childnode>
+        <childnode refid="859" relation="include">
+        </childnode>
+      </node>
+      <node id="862">
+        <label>selector.hpp</label>
+        <link refid="selector_8hpp_source"/>
+        <childnode refid="851" relation="include">
+        </childnode>
+      </node>
+      <node id="871">
+        <label>table.hpp</label>
+        <link refid="table_8hpp_source"/>
+        <childnode refid="862" relation="include">
+        </childnode>
+      </node>
+      <node id="868">
+        <label>edge.hpp</label>
+        <link refid="edge_8hpp_source"/>
+        <childnode refid="851" relation="include">
+        </childnode>
+      </node>
+      <node id="873">
+        <label>listener.hpp</label>
+        <link refid="listener_8hpp_source"/>
+      </node>
+      <node id="863">
+        <label>input.hpp</label>
+        <link refid="input_8hpp_source"/>
+      </node>
+      <node id="860">
+        <label>coord.hpp</label>
+        <link refid="coord_8hpp_source"/>
+        <childnode refid="850" relation="include">
+        </childnode>
+        <childnode refid="861" relation="include">
+        </childnode>
+        <childnode refid="851" relation="include">
+        </childnode>
+        <childnode refid="862" relation="include">
+        </childnode>
+        <childnode refid="854" relation="include">
+        </childnode>
+        <childnode refid="863" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespace_platy_v_g_api">PlatyVGApi</innernamespace>
+    <innernamespace refid="namespace_platy_v_g_core">PlatyVGCore</innernamespace>
+    <innernamespace refid="namespace_platy_v_g_element">PlatyVGElement</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="24"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../px/px.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../px/array.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../px/buffer.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../px/file.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../px/math.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../px/memory.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../px/parser.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../px/share.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../px/string.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_platy_v_g_api" kindref="compound">PlatyVGApi</ref><sp/>{}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_platy_v_g_core" kindref="compound">PlatyVGCore</ref><sp/>{}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_platy_v_g_element" kindref="compound">PlatyVGElement</ref><sp/>{}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_platy_v_g_api" kindref="compound">PlatyVGApi</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_platy_v_g_core" kindref="compound">PlatyVGCore</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_platy_v_g_element" kindref="compound">PlatyVGElement</ref>;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_platy_v_g_api" kindref="compound">PlatyVGApi</ref></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>DeviceBy:api_enum<sp/>{DeviceByTouch,<sp/>DeviceByTablet,<sp/>DeviceByPen,<sp/>LengthOfDevice};</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>StrokeBy:api_enum<sp/>{StrokeBySpline,<sp/>StrokeByTube,<sp/>StrokeByAqua,</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StrokeByErase,<sp/>StrokeBySelect,<sp/>StrokeByHand,<sp/>StrokeBySpoid,<sp/>LengthOfStroke};</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>SelectBy:api_enum<sp/>{SelectByRect,<sp/>SelectByDrag,<sp/>SelectByArea,<sp/>LengthOfSelect};</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>MergeBy:api_enum<sp/>{MergeByPlus,<sp/>MergeByMinus,<sp/>MergeByReverse,<sp/>LengthOfMerge};</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>BoundBy:api_enum<sp/>{BoundByWidth,<sp/>BoundByHeight,<sp/>BoundByInner,<sp/>BoundByOuter,<sp/>LengthOfBound};</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>ChangeColorBy:api_enum<sp/>{ChangeColorByRGB,<sp/>ChangeColorByAlpha,<sp/>ChangeColorByAqua,</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ChangeColorByRGBAlpha,<sp/>ChangeColorByRGBAqua,<sp/>ChangeColorByAlphaAqua,</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ChangeColorByRGBAlphaAqua,<sp/>LengthOfChangeColor};</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/platyvg.hpp"/>
+  </compounddef>
+</doxygen>

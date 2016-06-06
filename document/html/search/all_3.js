@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['canredo',['CanRedo',['../class_platy_v_g_api_1_1_command.html#a04883390fd4d72980999c04d7b483e4c',1,'PlatyVGApi::Command']]],
+  ['canundo',['CanUndo',['../class_platy_v_g_api_1_1_command.html#ac1953aad23cecb13db86543be0fde322',1,'PlatyVGApi::Command']]],
+  ['canvas',['Canvas',['../class_platy_v_g_api_1_1_command_1_1_canvas.html',1,'PlatyVGApi::Command']]],
+  ['canvasdown',['CanvasDown',['../class_platy_v_g_api_1_1_input.html#afabcc06d42a3e4754f262a577bdede17',1,'PlatyVGApi::Input']]],
+  ['canvasdrag',['CanvasDrag',['../class_platy_v_g_api_1_1_input.html#a8c3e93cb849c2ab0033a864ca3dac664',1,'PlatyVGApi::Input']]],
+  ['canvasup',['CanvasUp',['../class_platy_v_g_api_1_1_input.html#ac2e3529f372bc920da2506fde7282d4e',1,'PlatyVGApi::Input']]],
+  ['changeselects',['ChangeSelects',['../class_platy_v_g_api_1_1_command.html#acd17505868be87ca6ef53171f76daee9',1,'PlatyVGApi::Command']]],
+  ['clear',['Clear',['../class_px_1_1_array.html#aa0ddc439e186162b6907647281e94980',1,'Px::Array']]],
+  ['clearselects',['ClearSelects',['../class_platy_v_g_api_1_1_command.html#a41f63f2c6fb0b5cb5eac6c1440148cc7',1,'PlatyVGApi::Command']]],
+  ['clearshapes',['ClearShapes',['../class_platy_v_g_api_1_1_command.html#a7cd33773a3c4e0f434049f4f6b581ca0',1,'PlatyVGApi::Command']]],
+  ['close',['Close',['../class_px_1_1_file.html#a36ae7f3111a18f7dd68700e48dd2c1ec',1,'Px::File']]],
+  ['color',['Color',['../class_platy_v_g_element_1_1_color.html',1,'PlatyVGElement']]],
+  ['command',['Command',['../class_platy_v_g_api_1_1_command.html',1,'PlatyVGApi']]],
+  ['commit',['Commit',['../class_platy_v_g_core_1_1_record.html#a595623078bd207b98efe78a91f57d445',1,'PlatyVGCore::Record']]],
+  ['compare',['Compare',['../class_px_1_1_memory.html#ae5a6062d9de8d4565fe00b02cd42cc92',1,'Px::Memory::Compare()'],['../class_px_1_1_string.html#a5cc7dde27a2acc2f69376a4563d48c6a',1,'Px::String::Compare()']]],
+  ['context',['Context',['../class_platy_v_g_element_1_1_context.html',1,'PlatyVGElement']]],
+  ['coord',['Coord',['../class_platy_v_g_element_1_1_coord.html',1,'PlatyVGElement']]],
+  ['copy',['Copy',['../class_px_1_1_buffer.html#a453d7995686842cd386096297af82712',1,'Px::Buffer::Copy()'],['../class_px_1_1_memory.html#af9691b1a34d8e8e4d5bfe312a19de938',1,'Px::Memory::Copy()']]],
+  ['cos',['Cos',['../class_px_1_1_math.html#a2223bb2bc4eefba665fb691171d2e2b1',1,'Px::Math']]],
+  ['count',['Count',['../class_px_1_1_array.html#ab0002d07743eee641bc62e3b0f115c52',1,'Px::Array']]],
+  ['countof',['CountOf',['../class_px_1_1_buffer.html#afe6bd86527d6d9fe6365ea09243c9bb6',1,'Px::Buffer']]],
+  ['create',['Create',['../class_platy_v_g_api_1_1_command_1_1_canvas.html#aec9576973b0171fec3c32e335b13a7f2',1,'PlatyVGApi::Command::Canvas']]],
+  ['currently',['Currently',['../class_platy_v_g_core_1_1_view.html#a366178c72ae21e6a29b25a3fc916d5a5',1,'PlatyVGCore::View']]]
+];

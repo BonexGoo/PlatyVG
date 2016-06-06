@@ -1,0 +1,415 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="view_8cpp" kind="file" language="C++">
+    <compoundname>view.cpp</compoundname>
+    <includes refid="platyvg_8hpp" local="no">platyvg.hpp</includes>
+    <includes refid="view_8hpp" local="yes">view.hpp</includes>
+    <incdepgraph>
+      <node id="1306">
+        <label>../api/adapter.hpp</label>
+        <link refid="adapter_8hpp_source"/>
+        <childnode refid="1288" relation="include">
+        </childnode>
+        <childnode refid="1307" relation="include">
+        </childnode>
+        <childnode refid="1300" relation="include">
+        </childnode>
+        <childnode refid="1302" relation="include">
+        </childnode>
+        <childnode refid="1308" relation="include">
+        </childnode>
+        <childnode refid="1309" relation="include">
+        </childnode>
+      </node>
+      <node id="1308">
+        <label>../element/mesh.hpp</label>
+        <link refid="mesh_8hpp_source"/>
+        <childnode refid="1288" relation="include">
+        </childnode>
+      </node>
+      <node id="1301">
+        <label>../element/point.hpp</label>
+        <link refid="point_8hpp_source"/>
+        <childnode refid="1288" relation="include">
+        </childnode>
+        <childnode refid="1302" relation="include">
+        </childnode>
+      </node>
+      <node id="1298">
+        <label>view.hpp</label>
+        <link refid="view_8hpp_source"/>
+        <childnode refid="1288" relation="include">
+        </childnode>
+        <childnode refid="1299" relation="include">
+        </childnode>
+        <childnode refid="1303" relation="include">
+        </childnode>
+        <childnode refid="1305" relation="include">
+        </childnode>
+        <childnode refid="1310" relation="include">
+        </childnode>
+        <childnode refid="1300" relation="include">
+        </childnode>
+        <childnode refid="1301" relation="include">
+        </childnode>
+        <childnode refid="1314" relation="include">
+        </childnode>
+      </node>
+      <node id="1314">
+        <label>../element/size.hpp</label>
+        <link refid="size_8hpp_source"/>
+        <childnode refid="1288" relation="include">
+        </childnode>
+      </node>
+      <node id="1288">
+        <label>platyvg.hpp</label>
+        <link refid="platyvg_8hpp_source"/>
+        <childnode refid="1289" relation="include">
+        </childnode>
+        <childnode refid="1290" relation="include">
+        </childnode>
+        <childnode refid="1292" relation="include">
+        </childnode>
+        <childnode refid="1294" relation="include">
+        </childnode>
+        <childnode refid="1295" relation="include">
+        </childnode>
+        <childnode refid="1293" relation="include">
+        </childnode>
+        <childnode refid="1296" relation="include">
+        </childnode>
+        <childnode refid="1291" relation="include">
+        </childnode>
+        <childnode refid="1297" relation="include">
+        </childnode>
+      </node>
+      <node id="1299">
+        <label>../core/device.hpp</label>
+        <link refid="device_8hpp_source"/>
+        <childnode refid="1288" relation="include">
+        </childnode>
+        <childnode refid="1300" relation="include">
+        </childnode>
+        <childnode refid="1301" relation="include">
+        </childnode>
+      </node>
+      <node id="1291">
+        <label>../px/share.hpp</label>
+        <link refid="share_8hpp_source"/>
+        <childnode refid="1292" relation="include">
+        </childnode>
+      </node>
+      <node id="1313">
+        <label>../element/rect.hpp</label>
+        <link refid="rect_8hpp_source"/>
+        <childnode refid="1288" relation="include">
+        </childnode>
+        <childnode refid="1301" relation="include">
+        </childnode>
+        <childnode refid="1314" relation="include">
+        </childnode>
+        <childnode refid="1309" relation="include">
+        </childnode>
+      </node>
+      <node id="1290">
+        <label>../px/array.hpp</label>
+        <link refid="array_8hpp_source"/>
+        <childnode refid="1291" relation="include">
+        </childnode>
+      </node>
+      <node id="1317">
+        <label>../element/action.hpp</label>
+        <link refid="action_8hpp_source"/>
+        <childnode refid="1288" relation="include">
+        </childnode>
+        <childnode refid="1307" relation="include">
+        </childnode>
+        <childnode refid="1301" relation="include">
+        </childnode>
+      </node>
+      <node id="1296">
+        <label>../px/parser.hpp</label>
+        <link refid="parser_8hpp_source"/>
+        <childnode refid="1297" relation="include">
+        </childnode>
+      </node>
+      <node id="1305">
+        <label>../core/shape.hpp</label>
+        <link refid="shape_8hpp_source"/>
+        <childnode refid="1288" relation="include">
+        </childnode>
+        <childnode refid="1306" relation="include">
+        </childnode>
+        <childnode refid="1310" relation="include">
+        </childnode>
+        <childnode refid="1300" relation="include">
+        </childnode>
+        <childnode refid="1311" relation="include">
+        </childnode>
+        <childnode refid="1302" relation="include">
+        </childnode>
+        <childnode refid="1308" relation="include">
+        </childnode>
+        <childnode refid="1301" relation="include">
+        </childnode>
+        <childnode refid="1312" relation="include">
+        </childnode>
+        <childnode refid="1314" relation="include">
+        </childnode>
+        <childnode refid="1309" relation="include">
+        </childnode>
+      </node>
+      <node id="1289">
+        <label>../px/px.hpp</label>
+        <link refid="px_8hpp_source"/>
+      </node>
+      <node id="1307">
+        <label>../element/color.hpp</label>
+        <link refid="color_8hpp_source"/>
+        <childnode refid="1288" relation="include">
+        </childnode>
+      </node>
+      <node id="1310">
+        <label>../element/context.hpp</label>
+        <link refid="context_8hpp_source"/>
+        <childnode refid="1288" relation="include">
+        </childnode>
+        <childnode refid="1307" relation="include">
+        </childnode>
+      </node>
+      <node id="1304">
+        <label>../core/layer.hpp</label>
+        <link refid="layer_8hpp_source"/>
+        <childnode refid="1288" relation="include">
+        </childnode>
+        <childnode refid="1305" relation="include">
+        </childnode>
+        <childnode refid="1309" relation="include">
+        </childnode>
+      </node>
+      <node id="1294">
+        <label>../px/file.hpp</label>
+        <link refid="file_8hpp_source"/>
+        <childnode refid="1289" relation="include">
+        </childnode>
+      </node>
+      <node id="1302">
+        <label>../element/matrix.hpp</label>
+        <link refid="matrix_8hpp_source"/>
+        <childnode refid="1288" relation="include">
+        </childnode>
+      </node>
+      <node id="1297">
+        <label>../px/string.hpp</label>
+        <link refid="string_8hpp_source"/>
+        <childnode refid="1290" relation="include">
+        </childnode>
+      </node>
+      <node id="1316">
+        <label>../core/record.hpp</label>
+        <link refid="record_8hpp_source"/>
+        <childnode refid="1288" relation="include">
+        </childnode>
+        <childnode refid="1317" relation="include">
+        </childnode>
+      </node>
+      <node id="1293">
+        <label>../px/memory.hpp</label>
+        <link refid="memory_8hpp_source"/>
+        <childnode refid="1289" relation="include">
+        </childnode>
+      </node>
+      <node id="1295">
+        <label>../px/math.hpp</label>
+        <link refid="math_8hpp_source"/>
+        <childnode refid="1289" relation="include">
+        </childnode>
+      </node>
+      <node id="1303">
+        <label>../core/document.hpp</label>
+        <link refid="document_8hpp_source"/>
+        <childnode refid="1288" relation="include">
+        </childnode>
+        <childnode refid="1304" relation="include">
+        </childnode>
+        <childnode refid="1316" relation="include">
+        </childnode>
+        <childnode refid="1313" relation="include">
+        </childnode>
+        <childnode refid="1309" relation="include">
+        </childnode>
+      </node>
+      <node id="1309">
+        <label>../element/zoom.hpp</label>
+        <link refid="zoom_8hpp_source"/>
+        <childnode refid="1288" relation="include">
+        </childnode>
+        <childnode refid="1301" relation="include">
+        </childnode>
+      </node>
+      <node id="1312">
+        <label>../element/selector.hpp</label>
+        <link refid="selector_8hpp_source"/>
+        <childnode refid="1288" relation="include">
+        </childnode>
+        <childnode refid="1300" relation="include">
+        </childnode>
+        <childnode refid="1301" relation="include">
+        </childnode>
+        <childnode refid="1313" relation="include">
+        </childnode>
+        <childnode refid="1315" relation="include">
+        </childnode>
+      </node>
+      <node id="1315">
+        <label>../element/table.hpp</label>
+        <link refid="table_8hpp_source"/>
+        <childnode refid="1288" relation="include">
+        </childnode>
+      </node>
+      <node id="1287">
+        <label>view.cpp</label>
+        <link refid="view.cpp"/>
+        <childnode refid="1288" relation="include">
+        </childnode>
+        <childnode refid="1298" relation="include">
+        </childnode>
+      </node>
+      <node id="1292">
+        <label>../px/buffer.hpp</label>
+        <link refid="buffer_8hpp_source"/>
+        <childnode refid="1293" relation="include">
+        </childnode>
+      </node>
+      <node id="1311">
+        <label>../element/edge.hpp</label>
+        <link refid="edge_8hpp_source"/>
+        <childnode refid="1288" relation="include">
+        </childnode>
+        <childnode refid="1301" relation="include">
+        </childnode>
+      </node>
+      <node id="1300">
+        <label>../element/coord.hpp</label>
+        <link refid="coord_8hpp_source"/>
+        <childnode refid="1288" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespace_platy_v_g_core">PlatyVGCore</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;platyvg.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;view.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_platy_v_g_core" kindref="compound">PlatyVGCore</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>View::View()<sp/>:<sp/>DocumentRoot(false)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DocumentFocus<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>OptionStrokeBy<sp/>=<sp/>StrokeBySpline;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>OptionSelectBy<sp/>=<sp/>SelectByRect;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>OptionRadius<sp/>=<sp/>300;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>OptionMS<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_ASSERT(</highlight><highlight class="stringliteral">&quot;LengthOfDevice가<sp/>변경되었습니다&quot;</highlight><highlight class="normal">,<sp/>LengthOfDevice<sp/>==<sp/>3);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DeviceState[DeviceByTouch].InputSensitivity<sp/>=<sp/>0.05f;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DeviceState[DeviceByTablet].InputSensitivity<sp/>=<sp/>0.95f;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DeviceState[DeviceByPen].InputSensitivity<sp/>=<sp/>0.8f;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DeviceLayer[DeviceByTouch]<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DeviceLayer[DeviceByTablet]<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DeviceLayer[DeviceByPen]<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>View::~View()</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_view" kindref="compound">View</ref>*<sp/>View::Currently()</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_view" kindref="compound">View</ref><sp/>CurrentlyView;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;CurrentlyView;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref>*<sp/>View::GetDocument(sint32<sp/>doc)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref>*<sp/>CurDocument<sp/>=<sp/>&amp;DocumentRoot;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(CurDocument<sp/>=<sp/>CurDocument-&gt;Next)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(CurDocument-&gt;ID<sp/>!=<sp/>doc)<sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>CurDocument;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>View::LockDynShape(<ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref>*<sp/>doc,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DeviceBy<sp/>deviceby,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>StrokeBy<sp/>strokeby)</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_device" kindref="compound">Device</ref>*<sp/>device<sp/>=<sp/>&amp;DeviceState[deviceby];</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(device-&gt;InputLocked<sp/>!=<sp/>-1)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_layer" kindref="compound">Layer</ref>&amp;<sp/>CurLayer<sp/>=<sp/>doc-&gt;AllLayers.<ref refid="class_px_1_1_array_1aa578b098f4c31d3b259ac73e8712ad54" kindref="member">AtWherever</ref>(DeviceLayer[deviceby]);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(sint32<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>32;<sp/>++i)</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(CurLayer.LockedFlag<sp/>&amp;<sp/>(1<sp/>&lt;&lt;<sp/>i))<sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_px_1_1_union" kindref="compound">UnionShape</ref>&amp;<sp/>CurShape<sp/>=<sp/>CurLayer.DynShapes.<ref refid="class_px_1_1_array_1aa578b098f4c31d3b259ac73e8712ad54" kindref="member">AtWherever</ref>(i);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal">(strokeby)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>StrokeBySpline:<sp/>CurShape<sp/>=<sp/>Buffer::Alloc&lt;ShapeSpline&gt;(NEEDS<sp/>1);<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>StrokeByTube:<sp/>CurShape<sp/>=<sp/>Buffer::Alloc&lt;ShapeTube&gt;(NEEDS<sp/>1);<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>StrokeByAqua:<sp/>CurShape<sp/>=<sp/>Buffer::Alloc&lt;ShapeTubeAqua&gt;(NEEDS<sp/>1);<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurLayer.LockedFlag<sp/>|=<sp/>1<sp/>&lt;&lt;<sp/>i;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>device-&gt;InputLocked<sp/>=<sp/>i;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_ASSERT(</highlight><highlight class="stringliteral">&quot;동적도형을<sp/>확보하지<sp/>못했습니다&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>View::UnlockDynShape(<ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref>*<sp/>doc,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DeviceBy<sp/>deviceby,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>addition)</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_device" kindref="compound">Device</ref>*<sp/>device<sp/>=<sp/>&amp;DeviceState[deviceby];</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(device-&gt;InputLocked<sp/>==<sp/>-1)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_layer" kindref="compound">Layer</ref>&amp;<sp/>CurLayer<sp/>=<sp/>doc-&gt;AllLayers.<ref refid="class_px_1_1_array_1a2eb53c8e4c3761558a1b64cae2336189" kindref="member">At</ref>(DeviceLayer[deviceby]);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_px_1_1_union" kindref="compound">UnionShape</ref>&amp;<sp/>CurShape<sp/>=<sp/>CurLayer.DynShapes.<ref refid="class_px_1_1_array_1a2eb53c8e4c3761558a1b64cae2336189" kindref="member">At</ref>(device-&gt;InputLocked);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Result<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurLayer.LockedFlag<sp/>&amp;=<sp/>~(1<sp/>&lt;&lt;<sp/>device-&gt;InputLocked);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>device-&gt;InputLocked<sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(addition<sp/>&amp;&amp;<sp/>(Result<sp/>=<sp/>(0<sp/>&lt;<sp/>CurShape-&gt;GetEdgeCount())))</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurLayer.AllShapes.<ref refid="class_px_1_1_array_1a16683d7ddd43efcf9334d094bfcfc749" kindref="member">AtAdding</ref>()<sp/>=<sp/>CurShape.copied_buffer();</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurShape-&gt;Reset();</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Result;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*<sp/>View::GetDynShape(<ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref>*<sp/>doc,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DeviceBy<sp/>deviceby)</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_device" kindref="compound">Device</ref>*<sp/>device<sp/>=<sp/>&amp;DeviceState[deviceby];</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(device-&gt;InputLocked<sp/>==<sp/>-1)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_layer" kindref="compound">Layer</ref>&amp;<sp/>CurLayer<sp/>=<sp/>doc-&gt;AllLayers.<ref refid="class_px_1_1_array_1a2eb53c8e4c3761558a1b64cae2336189" kindref="member">At</ref>(DeviceLayer[deviceby]);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_px_1_1_union" kindref="compound">UnionShape</ref>&amp;<sp/>CurShape<sp/>=<sp/>CurLayer.DynShapes.<ref refid="class_px_1_1_array_1a2eb53c8e4c3761558a1b64cae2336189" kindref="member">At</ref>(device-&gt;InputLocked);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>CurShape.ptr();</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>View::AddCoordSensitivity(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DeviceBy<sp/>deviceby,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>force)</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_device" kindref="compound">Device</ref>*<sp/>device<sp/>=<sp/>&amp;DeviceState[deviceby];</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_px_1_1_array" kindref="compound">Coords</ref>&amp;<sp/>CurCoords<sp/>=<sp/>device-&gt;InputCoords;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(1<sp/>&lt;<sp/>CurCoords.<ref refid="class_px_1_1_array_1ab0002d07743eee641bc62e3b0f115c52" kindref="member">Count</ref>())</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>MiddleX<sp/>=<sp/>(x<sp/>+<sp/>CurCoords[-2].x)<sp/>/<sp/>2;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>MiddleY<sp/>=<sp/>(y<sp/>+<sp/>CurCoords[-2].y)<sp/>/<sp/>2;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>RevSensitivity<sp/>=<sp/>1<sp/>-<sp/>device-&gt;InputSensitivity;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurCoords.<ref refid="class_px_1_1_array_1a2eb53c8e4c3761558a1b64cae2336189" kindref="member">At</ref>(-1).x<sp/>=<sp/>CurCoords[-1].x<sp/>*<sp/>device-&gt;InputSensitivity<sp/>+<sp/>MiddleX<sp/>*<sp/>RevSensitivity;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurCoords.<ref refid="class_px_1_1_array_1a2eb53c8e4c3761558a1b64cae2336189" kindref="member">At</ref>(-1).y<sp/>=<sp/>CurCoords[-1].y<sp/>*<sp/>device-&gt;InputSensitivity<sp/>+<sp/>MiddleY<sp/>*<sp/>RevSensitivity;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurCoords.<ref refid="class_px_1_1_array_1a16683d7ddd43efcf9334d094bfcfc749" kindref="member">AtAdding</ref>()<sp/>=<sp/><ref refid="class_platy_v_g_element_1_1_coord" kindref="compound">Coord</ref>(x,<sp/>y,<sp/>force);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.cpp"/>
+  </compounddef>
+</doxygen>

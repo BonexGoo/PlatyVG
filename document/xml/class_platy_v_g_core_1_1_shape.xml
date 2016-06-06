@@ -1,0 +1,622 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_platy_v_g_core_1_1_shape" kind="class" language="C++" prot="public">
+    <compoundname>PlatyVGCore::Shape</compoundname>
+    <derivedcompoundref refid="class_platy_v_g_core_1_1_shape_spline" prot="public" virt="non-virtual">PlatyVGCore::ShapeSpline</derivedcompoundref>
+    <derivedcompoundref refid="class_platy_v_g_core_1_1_shape_tube" prot="public" virt="non-virtual">PlatyVGCore::ShapeTube</derivedcompoundref>
+    <includes refid="shape_8hpp" local="no">shape.hpp</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_shape_1af5c03ae0878703e53485cb068ad5225e" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_platy_v_g_element_1_1_context" kindref="compound">Context</ref></type>
+        <definition>Context PlatyVGCore::Shape::context</definition>
+        <argsstring></argsstring>
+        <name>context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" line="59" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_shape_1a6a834d9f3451ae5f905d707304534ed1" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_platy_v_g_element_1_1_matrix" kindref="compound">Matrix</ref></type>
+        <definition>Matrix PlatyVGCore::Shape::matrix</definition>
+        <argsstring></argsstring>
+        <name>matrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" line="60" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_shape_1a9da89a94ba63b681b89d5935feaa3c4a" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PlatyVGCore::Shape::selected</definition>
+        <argsstring></argsstring>
+        <name>selected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" line="61" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_shape_1a08b9c26c9ff497a29497e0076f7908ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGCore::Shape::Shape</definition>
+        <argsstring>()</argsstring>
+        <name>Shape</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" line="20" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.cpp" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_shape_1a8f5773a1bca1aacba0a7b59bcb646492" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGCore::Shape::Shape</definition>
+        <argsstring>(const Shape &amp;rhs)</argsstring>
+        <name>Shape</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" line="21" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.cpp" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_shape_1af835fa8df1549085b12740a96c7ba82a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>PlatyVGCore::Shape::~Shape</definition>
+        <argsstring>()</argsstring>
+        <name>~Shape</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" line="22" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.cpp" bodystart="24" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_shape_1ab8baea66d6c76cb7c5c6a3b81615e0a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref> &amp;</type>
+        <definition>Shape &amp; PlatyVGCore::Shape::operator=</definition>
+        <argsstring>(const Shape &amp;rhs)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" line="23" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.cpp" bodystart="28" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_shape_1a00a98c4a0ede958a9ac6e55f83fc6e10" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PlatyVGCore::Shape::Process</definition>
+        <argsstring>(const Context &amp;ctx, const Coords coods)</argsstring>
+        <name>Process</name>
+        <reimplementedby refid="class_platy_v_g_core_1_1_shape_spline_1a308096ffa361e1dc67a598463b2628e9">Process</reimplementedby>
+        <reimplementedby refid="class_platy_v_g_core_1_1_shape_tube_1a448e65bf469fa5bfdcf6e45b0b0a33db">Process</reimplementedby>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_context" kindref="compound">Context</ref> &amp;</type>
+          <declname>ctx</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_px_1_1_array" kindref="compound">Coords</ref></type>
+          <declname>coods</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" line="26" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.cpp" bodystart="36" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_shape_1aadec39df0fe157cd9b626e6e276f0def" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PlatyVGCore::Shape::Update</definition>
+        <argsstring>(const Point &amp;offset, const float scale, const float radius)</argsstring>
+        <name>Update</name>
+        <reimplementedby refid="class_platy_v_g_core_1_1_shape_spline_1a93a1279e4b02d55db7ad71ccc72fa42f">Update</reimplementedby>
+        <reimplementedby refid="class_platy_v_g_core_1_1_shape_tube_1a6e9f246a9ccbba27576c7236885d3ef4">Update</reimplementedby>
+        <reimplementedby refid="class_platy_v_g_core_1_1_shape_tube_aqua_1a179c3d4aa091a662268ea0453d5323d0">Update</reimplementedby>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_point" kindref="compound">Point</ref> &amp;</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>scale</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" line="27" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.cpp" bodystart="40" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_shape_1ae4125529f36cf2cca152953c37b50164" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PlatyVGCore::Shape::Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <reimplementedby refid="class_platy_v_g_core_1_1_shape_spline_1a5b1433e9cf465b6b26d843f66510cd37">Reset</reimplementedby>
+        <reimplementedby refid="class_platy_v_g_core_1_1_shape_tube_1a55ad2cf815a556501e50f3e2e5d0f9cc">Reset</reimplementedby>
+        <reimplementedby refid="class_platy_v_g_core_1_1_shape_tube_aqua_1ac6256b5f2b1702ec2a32bbb344bbb3ed">Reset</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" line="28" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.cpp" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_shape_1a8e2b9fb12bf8103ded964b4635c948cf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PlatyVGCore::Shape::IsSelected</definition>
+        <argsstring>() const </argsstring>
+        <name>IsSelected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" line="31" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.cpp" bodystart="49" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_shape_1a70e08dc3c5a56d5628146b6ec7edf811" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlatyVGCore::Shape::Select</definition>
+        <argsstring>()</argsstring>
+        <name>Select</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" line="32" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.cpp" bodystart="54" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_shape_1ab32a2529bb40ea38ec97ed7e23bbd185" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlatyVGCore::Shape::Select</definition>
+        <argsstring>(const SelectBy selectby, Selector &amp;selector, const MergeBy mergeby)</argsstring>
+        <name>Select</name>
+        <param>
+          <type>const SelectBy</type>
+          <declname>selectby</declname>
+        </param>
+        <param>
+          <type><ref refid="class_platy_v_g_element_1_1_selector" kindref="compound">Selector</ref> &amp;</type>
+          <declname>selector</declname>
+        </param>
+        <param>
+          <type>const MergeBy</type>
+          <declname>mergeby</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" line="33" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.cpp" bodystart="59" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_shape_1a7019decbc3092917753a11e16bf92f4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PlatyVGCore::Shape::SelectTest</definition>
+        <argsstring>(const SelectBy selectby, Selector &amp;selector)</argsstring>
+        <name>SelectTest</name>
+        <param>
+          <type>const SelectBy</type>
+          <declname>selectby</declname>
+        </param>
+        <param>
+          <type><ref refid="class_platy_v_g_element_1_1_selector" kindref="compound">Selector</ref> &amp;</type>
+          <declname>selector</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" line="34" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.cpp" bodystart="78" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_shape_1acff51668901c19e7dcaaef4e175b4892" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlatyVGCore::Shape::Unselect</definition>
+        <argsstring>()</argsstring>
+        <name>Unselect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" line="35" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.cpp" bodystart="202" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_shape_1ab3995fea0508f21c76d8e125a314abd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlatyVGCore::Shape::ChangeRGB</definition>
+        <argsstring>(const uint08 r, const uint08 g, const uint08 b)</argsstring>
+        <name>ChangeRGB</name>
+        <param>
+          <type>const uint08</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>const uint08</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>const uint08</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" line="38" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.cpp" bodystart="207" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_shape_1a0e910a1467bf6d1c45852617974fc41e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlatyVGCore::Shape::ChangeAlpha</definition>
+        <argsstring>(const uint08 alpha, const uint32 aqua)</argsstring>
+        <name>ChangeAlpha</name>
+        <param>
+          <type>const uint08</type>
+          <declname>alpha</declname>
+        </param>
+        <param>
+          <type>const uint32</type>
+          <declname>aqua</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_shape_1aca8e357fe409c48f413b81f71e1220e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlatyVGCore::Shape::ChangeAlpha</definition>
+        <argsstring>(const uint08 alpha)</argsstring>
+        <name>ChangeAlpha</name>
+        <param>
+          <type>const uint08</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" line="40" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.cpp" bodystart="214" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_shape_1a5934d52583beb1b69dcfaa7503c4b05e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlatyVGCore::Shape::ChangeAqua</definition>
+        <argsstring>(const uint32 aqua)</argsstring>
+        <name>ChangeAqua</name>
+        <param>
+          <type>const uint32</type>
+          <declname>aqua</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" line="41" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.cpp" bodystart="219" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_shape_1ae4a96f2e920d039796d041e629bcef8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlatyVGCore::Shape::ChangeMatrix</definition>
+        <argsstring>(const Point(&amp;oldpoint)[2], const Point(&amp;newpoint)[2], const Zoom zoom)</argsstring>
+        <name>ChangeMatrix</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_point" kindref="compound">Point</ref>(&amp;)</type>
+          <declname>oldpoint</declname>
+          <array>[2]</array>
+        </param>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_point" kindref="compound">Point</ref>(&amp;)</type>
+          <declname>newpoint</declname>
+          <array>[2]</array>
+        </param>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_zoom" kindref="compound">Zoom</ref></type>
+          <declname>zoom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" line="42" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.cpp" bodystart="224" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_shape_1a18b6062d7af6e7657a969990efb7bd86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlatyVGCore::Shape::SetContext</definition>
+        <argsstring>(const Context &amp;ctx)</argsstring>
+        <name>SetContext</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_context" kindref="compound">Context</ref> &amp;</type>
+          <declname>ctx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" line="45" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.cpp" bodystart="233" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_shape_1a4bf8dc98b455b811a80d5629c430373e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_platy_v_g_element_1_1_context" kindref="compound">Context</ref> &amp;</type>
+        <definition>const Context &amp; PlatyVGCore::Shape::GetContext</definition>
+        <argsstring>() const </argsstring>
+        <name>GetContext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" line="46" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.cpp" bodystart="238" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_shape_1a1e38cf9666e0546ac03894bc1842463e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_platy_v_g_element_1_1_matrix" kindref="compound">Matrix</ref> &amp;</type>
+        <definition>const Matrix &amp; PlatyVGCore::Shape::GetMatrix</definition>
+        <argsstring>() const </argsstring>
+        <name>GetMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" line="47" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.cpp" bodystart="243" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_shape_1a2447261b7d64a8a0466e03017be24e78" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>chars</type>
+        <definition>chars PlatyVGCore::Shape::GetEdgeType</definition>
+        <argsstring>() const </argsstring>
+        <name>GetEdgeType</name>
+        <reimplementedby refid="class_platy_v_g_core_1_1_shape_spline_1a3b60ce8849f458849ef8a334fea02415">GetEdgeType</reimplementedby>
+        <reimplementedby refid="class_platy_v_g_core_1_1_shape_tube_1a64e53b3695d7acbbd67e55d92c2a0e8f">GetEdgeType</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" line="49" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.cpp" bodystart="248" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_shape_1a7f477419be0b1359a72d4add46279fd6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>sint32</type>
+        <definition>sint32 PlatyVGCore::Shape::GetEdgeCount</definition>
+        <argsstring>() const </argsstring>
+        <name>GetEdgeCount</name>
+        <reimplementedby refid="class_platy_v_g_core_1_1_shape_spline_1af03c467af772dd7e109842f687f260cc">GetEdgeCount</reimplementedby>
+        <reimplementedby refid="class_platy_v_g_core_1_1_shape_tube_1a1c897aaf5aad3b63c64e129a54e6336f">GetEdgeCount</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" line="50" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.cpp" bodystart="253" bodyend="256"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_shape_1a76873e5e9a20a4a08e83e6ce06827641" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const <ref refid="class_platy_v_g_element_1_1_edge" kindref="compound">Edge</ref> *</type>
+        <definition>const Edge * PlatyVGCore::Shape::GetEdge</definition>
+        <argsstring>(sint32 index) const </argsstring>
+        <name>GetEdge</name>
+        <reimplementedby refid="class_platy_v_g_core_1_1_shape_spline_1a91a15a417131fd9eec2bfe00de87719e">GetEdge</reimplementedby>
+        <reimplementedby refid="class_platy_v_g_core_1_1_shape_tube_1adec9c29c571069c36c51c2a592001f3e">GetEdge</reimplementedby>
+        <param>
+          <type>sint32</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" line="51" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.cpp" bodystart="258" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_shape_1ac2a9c6bf6237555fc6a73d7796671fb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PlatyVGCore::Shape::AddEdge</definition>
+        <argsstring>(bytes edgebuffer)</argsstring>
+        <name>AddEdge</name>
+        <reimplementedby refid="class_platy_v_g_core_1_1_shape_spline_1a36180a6883e860a138e77ffeba0f4994">AddEdge</reimplementedby>
+        <reimplementedby refid="class_platy_v_g_core_1_1_shape_tube_1aaf336afc7f71491e2db7ac409532ad80">AddEdge</reimplementedby>
+        <param>
+          <type>bytes</type>
+          <declname>edgebuffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" line="52" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.cpp" bodystart="263" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_shape_1a564db6b52f8885b1a38f2220084839d6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>chars</type>
+        <definition>chars PlatyVGCore::Shape::GetMeshType</definition>
+        <argsstring>() const </argsstring>
+        <name>GetMeshType</name>
+        <reimplementedby refid="class_platy_v_g_core_1_1_shape_spline_1a1b14fc7a972151d9b1aee890bb24f4f8">GetMeshType</reimplementedby>
+        <reimplementedby refid="class_platy_v_g_core_1_1_shape_tube_1a5b27c5039b76f63190203f3ed2a08626">GetMeshType</reimplementedby>
+        <reimplementedby refid="class_platy_v_g_core_1_1_shape_tube_aqua_1a1f8a81699c9c0d05bdd5bbe965a9e353">GetMeshType</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" line="54" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.cpp" bodystart="267" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_shape_1a0891d8ddcc1edc547e8079ce1cb4d7c8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>sint32</type>
+        <definition>sint32 PlatyVGCore::Shape::GetMeshCount</definition>
+        <argsstring>() const </argsstring>
+        <name>GetMeshCount</name>
+        <reimplementedby refid="class_platy_v_g_core_1_1_shape_spline_1ab12d3576e12fb5d3c71efd19abae3113">GetMeshCount</reimplementedby>
+        <reimplementedby refid="class_platy_v_g_core_1_1_shape_tube_1a1325995e0970317dd477f13613c7d75b">GetMeshCount</reimplementedby>
+        <reimplementedby refid="class_platy_v_g_core_1_1_shape_tube_aqua_1aa7b03c77de6a15c1dbc99a05aac75e44">GetMeshCount</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" line="55" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.cpp" bodystart="272" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_shape_1ae9becb51798220c960e8e897117fe1a2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const <ref refid="class_platy_v_g_element_1_1_mesh" kindref="compound">Mesh</ref> *</type>
+        <definition>const Mesh * PlatyVGCore::Shape::GetMesh</definition>
+        <argsstring>(sint32 index) const </argsstring>
+        <name>GetMesh</name>
+        <reimplementedby refid="class_platy_v_g_core_1_1_shape_spline_1a08f7d197b2c16075072ee6b2ad26a117">GetMesh</reimplementedby>
+        <reimplementedby refid="class_platy_v_g_core_1_1_shape_tube_1a27c71e9860daf86a9effe3f8652cf121">GetMesh</reimplementedby>
+        <reimplementedby refid="class_platy_v_g_core_1_1_shape_tube_aqua_1a03e320751b94ae712e8f074b1b966e68">GetMesh</reimplementedby>
+        <param>
+          <type>sint32</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" line="56" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.cpp" bodystart="277" bodyend="280"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>좌표의 도형화 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="130">
+        <label>PlatyVGCore::ShapeTube</label>
+        <link refid="class_platy_v_g_core_1_1_shape_tube"/>
+        <childnode refid="128" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="131">
+        <label>PlatyVGCore::ShapeTubeAqua</label>
+        <link refid="class_platy_v_g_core_1_1_shape_tube_aqua"/>
+        <childnode refid="130" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="128">
+        <label>PlatyVGCore::Shape</label>
+        <link refid="class_platy_v_g_core_1_1_shape"/>
+      </node>
+      <node id="129">
+        <label>PlatyVGCore::ShapeSpline</label>
+        <link refid="class_platy_v_g_core_1_1_shape_spline"/>
+        <childnode refid="128" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="133">
+        <label>PlatyVGElement::Matrix</label>
+        <link refid="class_platy_v_g_element_1_1_matrix"/>
+      </node>
+      <node id="135">
+        <label>PlatyVGElement::Color</label>
+        <link refid="class_platy_v_g_element_1_1_color"/>
+      </node>
+      <node id="132">
+        <label>PlatyVGCore::Shape</label>
+        <link refid="class_platy_v_g_core_1_1_shape"/>
+        <childnode refid="133" relation="usage">
+          <edgelabel>matrix</edgelabel>
+        </childnode>
+        <childnode refid="134" relation="usage">
+          <edgelabel>context</edgelabel>
+        </childnode>
+      </node>
+      <node id="134">
+        <label>PlatyVGElement::Context</label>
+        <link refid="class_platy_v_g_element_1_1_context"/>
+        <childnode refid="135" relation="usage">
+          <edgelabel>color</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" line="18" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" bodystart="17" bodyend="62"/>
+    <listofallmembers>
+      <member refid="class_platy_v_g_core_1_1_shape_1ac2a9c6bf6237555fc6a73d7796671fb7" prot="public" virt="virtual"><scope>PlatyVGCore::Shape</scope><name>AddEdge</name></member>
+      <member refid="class_platy_v_g_core_1_1_shape_1a0e910a1467bf6d1c45852617974fc41e" prot="public" virt="non-virtual"><scope>PlatyVGCore::Shape</scope><name>ChangeAlpha</name></member>
+      <member refid="class_platy_v_g_core_1_1_shape_1aca8e357fe409c48f413b81f71e1220e4" prot="public" virt="non-virtual"><scope>PlatyVGCore::Shape</scope><name>ChangeAlpha</name></member>
+      <member refid="class_platy_v_g_core_1_1_shape_1a5934d52583beb1b69dcfaa7503c4b05e" prot="public" virt="non-virtual"><scope>PlatyVGCore::Shape</scope><name>ChangeAqua</name></member>
+      <member refid="class_platy_v_g_core_1_1_shape_1ae4a96f2e920d039796d041e629bcef8a" prot="public" virt="non-virtual"><scope>PlatyVGCore::Shape</scope><name>ChangeMatrix</name></member>
+      <member refid="class_platy_v_g_core_1_1_shape_1ab3995fea0508f21c76d8e125a314abd0" prot="public" virt="non-virtual"><scope>PlatyVGCore::Shape</scope><name>ChangeRGB</name></member>
+      <member refid="class_platy_v_g_core_1_1_shape_1af5c03ae0878703e53485cb068ad5225e" prot="protected" virt="non-virtual"><scope>PlatyVGCore::Shape</scope><name>context</name></member>
+      <member refid="class_platy_v_g_core_1_1_shape_1a4bf8dc98b455b811a80d5629c430373e" prot="public" virt="non-virtual"><scope>PlatyVGCore::Shape</scope><name>GetContext</name></member>
+      <member refid="class_platy_v_g_core_1_1_shape_1a76873e5e9a20a4a08e83e6ce06827641" prot="public" virt="virtual"><scope>PlatyVGCore::Shape</scope><name>GetEdge</name></member>
+      <member refid="class_platy_v_g_core_1_1_shape_1a7f477419be0b1359a72d4add46279fd6" prot="public" virt="virtual"><scope>PlatyVGCore::Shape</scope><name>GetEdgeCount</name></member>
+      <member refid="class_platy_v_g_core_1_1_shape_1a2447261b7d64a8a0466e03017be24e78" prot="public" virt="virtual"><scope>PlatyVGCore::Shape</scope><name>GetEdgeType</name></member>
+      <member refid="class_platy_v_g_core_1_1_shape_1a1e38cf9666e0546ac03894bc1842463e" prot="public" virt="non-virtual"><scope>PlatyVGCore::Shape</scope><name>GetMatrix</name></member>
+      <member refid="class_platy_v_g_core_1_1_shape_1ae9becb51798220c960e8e897117fe1a2" prot="public" virt="virtual"><scope>PlatyVGCore::Shape</scope><name>GetMesh</name></member>
+      <member refid="class_platy_v_g_core_1_1_shape_1a0891d8ddcc1edc547e8079ce1cb4d7c8" prot="public" virt="virtual"><scope>PlatyVGCore::Shape</scope><name>GetMeshCount</name></member>
+      <member refid="class_platy_v_g_core_1_1_shape_1a564db6b52f8885b1a38f2220084839d6" prot="public" virt="virtual"><scope>PlatyVGCore::Shape</scope><name>GetMeshType</name></member>
+      <member refid="class_platy_v_g_core_1_1_shape_1a8e2b9fb12bf8103ded964b4635c948cf" prot="public" virt="non-virtual"><scope>PlatyVGCore::Shape</scope><name>IsSelected</name></member>
+      <member refid="class_platy_v_g_core_1_1_shape_1a6a834d9f3451ae5f905d707304534ed1" prot="protected" virt="non-virtual"><scope>PlatyVGCore::Shape</scope><name>matrix</name></member>
+      <member refid="class_platy_v_g_core_1_1_shape_1ab8baea66d6c76cb7c5c6a3b81615e0a5" prot="public" virt="non-virtual"><scope>PlatyVGCore::Shape</scope><name>operator=</name></member>
+      <member refid="class_platy_v_g_core_1_1_shape_1a00a98c4a0ede958a9ac6e55f83fc6e10" prot="public" virt="virtual"><scope>PlatyVGCore::Shape</scope><name>Process</name></member>
+      <member refid="class_platy_v_g_core_1_1_shape_1ae4125529f36cf2cca152953c37b50164" prot="public" virt="virtual"><scope>PlatyVGCore::Shape</scope><name>Reset</name></member>
+      <member refid="class_platy_v_g_core_1_1_shape_1a70e08dc3c5a56d5628146b6ec7edf811" prot="public" virt="non-virtual"><scope>PlatyVGCore::Shape</scope><name>Select</name></member>
+      <member refid="class_platy_v_g_core_1_1_shape_1ab32a2529bb40ea38ec97ed7e23bbd185" prot="public" virt="non-virtual"><scope>PlatyVGCore::Shape</scope><name>Select</name></member>
+      <member refid="class_platy_v_g_core_1_1_shape_1a9da89a94ba63b681b89d5935feaa3c4a" prot="protected" virt="non-virtual"><scope>PlatyVGCore::Shape</scope><name>selected</name></member>
+      <member refid="class_platy_v_g_core_1_1_shape_1a7019decbc3092917753a11e16bf92f4e" prot="public" virt="non-virtual"><scope>PlatyVGCore::Shape</scope><name>SelectTest</name></member>
+      <member refid="class_platy_v_g_core_1_1_shape_1a18b6062d7af6e7657a969990efb7bd86" prot="public" virt="non-virtual"><scope>PlatyVGCore::Shape</scope><name>SetContext</name></member>
+      <member refid="class_platy_v_g_core_1_1_shape_1a08b9c26c9ff497a29497e0076f7908ee" prot="public" virt="non-virtual"><scope>PlatyVGCore::Shape</scope><name>Shape</name></member>
+      <member refid="class_platy_v_g_core_1_1_shape_1a8f5773a1bca1aacba0a7b59bcb646492" prot="public" virt="non-virtual"><scope>PlatyVGCore::Shape</scope><name>Shape</name></member>
+      <member refid="class_platy_v_g_core_1_1_shape_1acff51668901c19e7dcaaef4e175b4892" prot="public" virt="non-virtual"><scope>PlatyVGCore::Shape</scope><name>Unselect</name></member>
+      <member refid="class_platy_v_g_core_1_1_shape_1aadec39df0fe157cd9b626e6e276f0def" prot="public" virt="virtual"><scope>PlatyVGCore::Shape</scope><name>Update</name></member>
+      <member refid="class_platy_v_g_core_1_1_shape_1af835fa8df1549085b12740a96c7ba82a" prot="public" virt="virtual"><scope>PlatyVGCore::Shape</scope><name>~Shape</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

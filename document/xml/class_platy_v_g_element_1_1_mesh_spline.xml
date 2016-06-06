@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_platy_v_g_element_1_1_mesh_spline" kind="class" language="C++" prot="public">
+    <compoundname>PlatyVGElement::MeshSpline</compoundname>
+    <basecompoundref refid="class_platy_v_g_element_1_1_mesh" prot="public" virt="non-virtual">PlatyVGElement::Mesh</basecompoundref>
+    <includes refid="mesh_8hpp" local="no">mesh.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_platy_v_g_element_1_1_mesh_spline_1aee726684ad87ce0ecbfbf84e661dcac0" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlatyVGElement::MeshSpline::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/mesh.hpp" line="27" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/mesh.hpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_element_1_1_mesh_spline_1a4b4739cddabf26c6a5e0d9ebeb92fc54" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlatyVGElement::MeshSpline::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/mesh.hpp" line="28" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/mesh.hpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_mesh_spline_1a5e0b3b242aca54aaf4dd4101d7970ebf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::MeshSpline::MeshSpline</definition>
+        <argsstring>()</argsstring>
+        <name>MeshSpline</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/mesh.hpp" line="20" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/mesh.cpp" bodystart="25" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_mesh_spline_1ad441252e66b7097dbd36e4c5c7b4dbfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::MeshSpline::MeshSpline</definition>
+        <argsstring>(const MeshSpline &amp;rhs)</argsstring>
+        <name>MeshSpline</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_mesh_spline" kindref="compound">MeshSpline</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/mesh.hpp" line="21" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/mesh.cpp" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_mesh_spline_1a0c5ddb4f9957cd825f30310a714de777" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::MeshSpline::MeshSpline</definition>
+        <argsstring>(float x, float y)</argsstring>
+        <name>MeshSpline</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/mesh.hpp" line="22" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/mesh.cpp" bodystart="36" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_mesh_spline_1ade5b19ea7e3bad8f465ade7aa04be93d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::MeshSpline::~MeshSpline</definition>
+        <argsstring>()</argsstring>
+        <name>~MeshSpline</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/mesh.hpp" line="23" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/mesh.cpp" bodystart="42" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_mesh_spline_1a6e15ac95bceef6f17bde931a6aa23eee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_platy_v_g_element_1_1_mesh_spline" kindref="compound">MeshSpline</ref> &amp;</type>
+        <definition>MeshSpline &amp; PlatyVGElement::MeshSpline::operator=</definition>
+        <argsstring>(const MeshSpline &amp;rhs)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_mesh_spline" kindref="compound">MeshSpline</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/mesh.hpp" line="24" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/mesh.cpp" bodystart="46" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>메시좌표(Spline) </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="108">
+        <label>PlatyVGElement::Mesh</label>
+        <link refid="class_platy_v_g_element_1_1_mesh"/>
+      </node>
+      <node id="107">
+        <label>PlatyVGElement::MeshSpline</label>
+        <link refid="class_platy_v_g_element_1_1_mesh_spline"/>
+        <childnode refid="108" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="110">
+        <label>PlatyVGElement::Mesh</label>
+        <link refid="class_platy_v_g_element_1_1_mesh"/>
+      </node>
+      <node id="109">
+        <label>PlatyVGElement::MeshSpline</label>
+        <link refid="class_platy_v_g_element_1_1_mesh_spline"/>
+        <childnode refid="110" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/mesh.hpp" line="18" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/mesh.hpp" bodystart="17" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_platy_v_g_element_1_1_mesh_1a4512ec0790962c2644d4811c00a8be6c" prot="public" virt="non-virtual"><scope>PlatyVGElement::MeshSpline</scope><name>Mesh</name></member>
+      <member refid="class_platy_v_g_element_1_1_mesh_1a58a3b3b234034d89f99497bc889df693" prot="public" virt="non-virtual"><scope>PlatyVGElement::MeshSpline</scope><name>Mesh</name></member>
+      <member refid="class_platy_v_g_element_1_1_mesh_spline_1a5e0b3b242aca54aaf4dd4101d7970ebf" prot="public" virt="non-virtual"><scope>PlatyVGElement::MeshSpline</scope><name>MeshSpline</name></member>
+      <member refid="class_platy_v_g_element_1_1_mesh_spline_1ad441252e66b7097dbd36e4c5c7b4dbfc" prot="public" virt="non-virtual"><scope>PlatyVGElement::MeshSpline</scope><name>MeshSpline</name></member>
+      <member refid="class_platy_v_g_element_1_1_mesh_spline_1a0c5ddb4f9957cd825f30310a714de777" prot="public" virt="non-virtual"><scope>PlatyVGElement::MeshSpline</scope><name>MeshSpline</name></member>
+      <member refid="class_platy_v_g_element_1_1_mesh_spline_1a6e15ac95bceef6f17bde931a6aa23eee" prot="public" virt="non-virtual"><scope>PlatyVGElement::MeshSpline</scope><name>operator=</name></member>
+      <member refid="class_platy_v_g_element_1_1_mesh_1a9f845fd2940a20e6092c822f23206289" prot="public" virt="non-virtual" ambiguityscope="PlatyVGElement::Mesh::"><scope>PlatyVGElement::MeshSpline</scope><name>operator=</name></member>
+      <member refid="class_platy_v_g_element_1_1_mesh_spline_1aee726684ad87ce0ecbfbf84e661dcac0" prot="public" virt="non-virtual"><scope>PlatyVGElement::MeshSpline</scope><name>x</name></member>
+      <member refid="class_platy_v_g_element_1_1_mesh_spline_1a4b4739cddabf26c6a5e0d9ebeb92fc54" prot="public" virt="non-virtual"><scope>PlatyVGElement::MeshSpline</scope><name>y</name></member>
+      <member refid="class_platy_v_g_element_1_1_mesh_1a96b1ad80a1afff1cd6027974a3ed1bed" prot="public" virt="non-virtual"><scope>PlatyVGElement::MeshSpline</scope><name>~Mesh</name></member>
+      <member refid="class_platy_v_g_element_1_1_mesh_spline_1ade5b19ea7e3bad8f465ade7aa04be93d" prot="public" virt="non-virtual"><scope>PlatyVGElement::MeshSpline</scope><name>~MeshSpline</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

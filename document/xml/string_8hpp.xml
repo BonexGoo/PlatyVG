@@ -1,0 +1,387 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="string_8hpp" kind="file" language="C++">
+    <compoundname>string.hpp</compoundname>
+    <includes refid="array_8hpp" local="yes">../px/array.hpp</includes>
+    <includedby refid="parser_8hpp" local="yes">parser.hpp</includedby>
+    <includedby refid="platyvg_8hpp" local="yes">platyvg.hpp</includedby>
+    <includedby refid="px_8cpp" local="yes">px.cpp</includedby>
+    <includedby refid="share_8cpp" local="yes">share.cpp</includedby>
+    <includedby refid="string_8cpp" local="yes">string.cpp</includedby>
+    <incdepgraph>
+      <node id="1226">
+        <label>../px/share.hpp</label>
+        <link refid="share_8hpp_source"/>
+        <childnode refid="1227" relation="include">
+        </childnode>
+      </node>
+      <node id="1225">
+        <label>../px/array.hpp</label>
+        <link refid="array_8hpp_source"/>
+        <childnode refid="1226" relation="include">
+        </childnode>
+      </node>
+      <node id="1229">
+        <label>../px/px.hpp</label>
+        <link refid="px_8hpp_source"/>
+      </node>
+      <node id="1224">
+        <label>string.hpp</label>
+        <link refid="string.hpp"/>
+        <childnode refid="1225" relation="include">
+        </childnode>
+      </node>
+      <node id="1228">
+        <label>../px/memory.hpp</label>
+        <link refid="memory_8hpp_source"/>
+        <childnode refid="1229" relation="include">
+        </childnode>
+      </node>
+      <node id="1227">
+        <label>../px/buffer.hpp</label>
+        <link refid="buffer_8hpp_source"/>
+        <childnode refid="1228" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1233">
+        <label>adapter.hpp</label>
+        <link refid="adapter_8hpp_source"/>
+        <childnode refid="1234" relation="include">
+        </childnode>
+      </node>
+      <node id="1252">
+        <label>mesh.hpp</label>
+        <link refid="mesh_8hpp_source"/>
+        <childnode refid="1233" relation="include">
+        </childnode>
+        <childnode refid="1234" relation="include">
+        </childnode>
+      </node>
+      <node id="1248">
+        <label>point.hpp</label>
+        <link refid="point_8hpp_source"/>
+        <childnode refid="1249" relation="include">
+        </childnode>
+        <childnode refid="1244" relation="include">
+        </childnode>
+        <childnode refid="1251" relation="include">
+        </childnode>
+        <childnode refid="1234" relation="include">
+        </childnode>
+        <childnode refid="1245" relation="include">
+        </childnode>
+        <childnode refid="1250" relation="include">
+        </childnode>
+        <childnode refid="1240" relation="include">
+        </childnode>
+        <childnode refid="1237" relation="include">
+        </childnode>
+      </node>
+      <node id="1237">
+        <label>view.hpp</label>
+        <link refid="view_8hpp_source"/>
+      </node>
+      <node id="1253">
+        <label>size.hpp</label>
+        <link refid="size_8hpp_source"/>
+        <childnode refid="1250" relation="include">
+        </childnode>
+        <childnode refid="1234" relation="include">
+        </childnode>
+        <childnode refid="1237" relation="include">
+        </childnode>
+        <childnode refid="1242" relation="include">
+        </childnode>
+      </node>
+      <node id="1255">
+        <label>export.hpp</label>
+        <link refid="export_8hpp_source"/>
+      </node>
+      <node id="1232">
+        <label>platyvg.hpp</label>
+        <link refid="platyvg_8hpp_source"/>
+        <childnode refid="1233" relation="include">
+        </childnode>
+        <childnode refid="1238" relation="include">
+        </childnode>
+        <childnode refid="1243" relation="include">
+        </childnode>
+        <childnode refid="1247" relation="include">
+        </childnode>
+        <childnode refid="1252" relation="include">
+        </childnode>
+        <childnode refid="1249" relation="include">
+        </childnode>
+        <childnode refid="1248" relation="include">
+        </childnode>
+        <childnode refid="1237" relation="include">
+        </childnode>
+        <childnode refid="1244" relation="include">
+        </childnode>
+        <childnode refid="1236" relation="include">
+        </childnode>
+        <childnode refid="1235" relation="include">
+        </childnode>
+        <childnode refid="1234" relation="include">
+        </childnode>
+        <childnode refid="1239" relation="include">
+        </childnode>
+        <childnode refid="1251" relation="include">
+        </childnode>
+        <childnode refid="1245" relation="include">
+        </childnode>
+        <childnode refid="1250" relation="include">
+        </childnode>
+        <childnode refid="1253" relation="include">
+        </childnode>
+        <childnode refid="1254" relation="include">
+        </childnode>
+        <childnode refid="1241" relation="include">
+        </childnode>
+        <childnode refid="1240" relation="include">
+        </childnode>
+        <childnode refid="1242" relation="include">
+        </childnode>
+        <childnode refid="1255" relation="include">
+        </childnode>
+        <childnode refid="1246" relation="include">
+        </childnode>
+        <childnode refid="1256" relation="include">
+        </childnode>
+      </node>
+      <node id="1244">
+        <label>device.hpp</label>
+        <link refid="device_8hpp_source"/>
+        <childnode refid="1237" relation="include">
+        </childnode>
+      </node>
+      <node id="1250">
+        <label>rect.hpp</label>
+        <link refid="rect_8hpp_source"/>
+        <childnode refid="1245" relation="include">
+        </childnode>
+        <childnode refid="1236" relation="include">
+        </childnode>
+        <childnode refid="1242" relation="include">
+        </childnode>
+      </node>
+      <node id="1240">
+        <label>action.hpp</label>
+        <link refid="action_8hpp_source"/>
+        <childnode refid="1241" relation="include">
+        </childnode>
+      </node>
+      <node id="1231">
+        <label>parser.hpp</label>
+        <link refid="parser_8hpp_source"/>
+        <childnode refid="1232" relation="include">
+        </childnode>
+      </node>
+      <node id="1234">
+        <label>shape.hpp</label>
+        <link refid="shape_8hpp_source"/>
+        <childnode refid="1235" relation="include">
+        </childnode>
+        <childnode refid="1237" relation="include">
+        </childnode>
+      </node>
+      <node id="1238">
+        <label>color.hpp</label>
+        <link refid="color_8hpp_source"/>
+        <childnode refid="1233" relation="include">
+        </childnode>
+        <childnode refid="1239" relation="include">
+        </childnode>
+        <childnode refid="1240" relation="include">
+        </childnode>
+        <childnode refid="1242" relation="include">
+        </childnode>
+      </node>
+      <node id="1239">
+        <label>context.hpp</label>
+        <link refid="context_8hpp_source"/>
+        <childnode refid="1234" relation="include">
+        </childnode>
+        <childnode refid="1237" relation="include">
+        </childnode>
+      </node>
+      <node id="1235">
+        <label>layer.hpp</label>
+        <link refid="layer_8hpp_source"/>
+        <childnode refid="1236" relation="include">
+        </childnode>
+      </node>
+      <node id="1247">
+        <label>matrix.hpp</label>
+        <link refid="matrix_8hpp_source"/>
+        <childnode refid="1233" relation="include">
+        </childnode>
+        <childnode refid="1248" relation="include">
+        </childnode>
+        <childnode refid="1234" relation="include">
+        </childnode>
+      </node>
+      <node id="1230">
+        <label>string.hpp</label>
+        <link refid="string.hpp"/>
+        <childnode refid="1231" relation="include">
+        </childnode>
+        <childnode refid="1232" relation="include">
+        </childnode>
+      </node>
+      <node id="1241">
+        <label>record.hpp</label>
+        <link refid="record_8hpp_source"/>
+        <childnode refid="1236" relation="include">
+        </childnode>
+      </node>
+      <node id="1242">
+        <label>command.hpp</label>
+        <link refid="command_8hpp_source"/>
+      </node>
+      <node id="1236">
+        <label>document.hpp</label>
+        <link refid="document_8hpp_source"/>
+        <childnode refid="1237" relation="include">
+        </childnode>
+      </node>
+      <node id="1249">
+        <label>zoom.hpp</label>
+        <link refid="zoom_8hpp_source"/>
+        <childnode refid="1233" relation="include">
+        </childnode>
+        <childnode refid="1250" relation="include">
+        </childnode>
+        <childnode refid="1234" relation="include">
+        </childnode>
+        <childnode refid="1235" relation="include">
+        </childnode>
+        <childnode refid="1236" relation="include">
+        </childnode>
+        <childnode refid="1242" relation="include">
+        </childnode>
+      </node>
+      <node id="1245">
+        <label>selector.hpp</label>
+        <link refid="selector_8hpp_source"/>
+        <childnode refid="1234" relation="include">
+        </childnode>
+      </node>
+      <node id="1254">
+        <label>table.hpp</label>
+        <link refid="table_8hpp_source"/>
+        <childnode refid="1245" relation="include">
+        </childnode>
+      </node>
+      <node id="1251">
+        <label>edge.hpp</label>
+        <link refid="edge_8hpp_source"/>
+        <childnode refid="1234" relation="include">
+        </childnode>
+      </node>
+      <node id="1256">
+        <label>listener.hpp</label>
+        <link refid="listener_8hpp_source"/>
+      </node>
+      <node id="1246">
+        <label>input.hpp</label>
+        <link refid="input_8hpp_source"/>
+      </node>
+      <node id="1243">
+        <label>coord.hpp</label>
+        <link refid="coord_8hpp_source"/>
+        <childnode refid="1233" relation="include">
+        </childnode>
+        <childnode refid="1244" relation="include">
+        </childnode>
+        <childnode refid="1234" relation="include">
+        </childnode>
+        <childnode refid="1245" relation="include">
+        </childnode>
+        <childnode refid="1237" relation="include">
+        </childnode>
+        <childnode refid="1246" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_px_1_1_string" prot="public">Px::String</innerclass>
+    <innernamespace refid="namespace_px">Px</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="string_8hpp_1ac0a5cd1ccec354e0ec49e3b2af6f5f9f" prot="public" static="no">
+        <name>CONST_STRING</name>
+        <param><defname>STR</defname></param>
+        <initializer><ref refid="class_px_1_1_string_1a8d1041632824889426de5017e3d9d092" kindref="member">Px::String::_Const</ref>&lt;__COUNTER__ * 10000 + __LINE__&gt;(STR)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.hpp" line="4" column="9" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.hpp" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../px/array.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONST_STRING(STR)<sp/>Px::String::_Const&lt;__COUNTER__<sp/>*<sp/>10000<sp/>+<sp/>__LINE__&gt;(STR)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_px" kindref="compound">Px</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9" refid="class_px_1_1_string" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_px_1_1_string" kindref="compound">String</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_px_1_1_string_1a7d7eb9a6aba602afa9186f557000f856" kindref="member">String</ref>();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_px_1_1_string_1a7d7eb9a6aba602afa9186f557000f856" kindref="member">String</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_px_1_1_string" kindref="compound">String</ref>&amp;<sp/>rhs);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_px_1_1_string_1a7d7eb9a6aba602afa9186f557000f856" kindref="member">String</ref>(chars<sp/>rhs);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_px_1_1_string_1a7d7eb9a6aba602afa9186f557000f856" kindref="member">String</ref>(chars<sp/>rhs,<sp/>sint32<sp/>length);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_px_1_1_string_1ae40fb81560cbb7f36ccd2113a1ca7d7e" kindref="member">~String</ref>();</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_px_1_1_string" kindref="compound">String</ref>&amp;<sp/><ref refid="class_px_1_1_string_1afbd8fa067ed5fdfd71faeb2b64728d6f" kindref="member">operator=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_px_1_1_string" kindref="compound">String</ref>&amp;<sp/>rhs);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_px_1_1_string" kindref="compound">String</ref>&amp;<sp/><ref refid="class_px_1_1_string_1afbd8fa067ed5fdfd71faeb2b64728d6f" kindref="member">operator=</ref>(chars<sp/>rhs);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_px_1_1_string_1a2a8aa56a2035b69b606d592060b47c10" kindref="member">operator==</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_px_1_1_string" kindref="compound">String</ref>&amp;<sp/>rhs)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_px_1_1_string_1a2a8aa56a2035b69b606d592060b47c10" kindref="member">operator==</ref>(chars<sp/>rhs)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_px_1_1_string_1aa27114d6a55411da2d0fb9f163f808c2" kindref="member">operator!=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_px_1_1_string" kindref="compound">String</ref>&amp;<sp/>rhs)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_px_1_1_string_1aa27114d6a55411da2d0fb9f163f808c2" kindref="member">operator!=</ref>(chars<sp/>rhs)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/>chars()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_px_1_1_string_1a340c730f5c1f05313ae9c9fa11112116" kindref="member">Empty</ref>();</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint08<sp/><ref refid="class_px_1_1_string_1af9d5531db2956b33874cf207373d05fa" kindref="member">operator[]</ref>(sint32<sp/>index)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sint32<sp/><ref refid="class_px_1_1_string_1abc000093830a711318247017aee2a8cd" kindref="member">Length</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sint32<sp/><ref refid="class_px_1_1_string_1a5cc7dde27a2acc2f69376a4563d48c6a" kindref="member">Compare</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_px_1_1_string" kindref="compound">String</ref>&amp;<sp/>other,<sp/>sint32<sp/>offset)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>UNIQUE_VALUE&gt;</highlight></codeline>
+<codeline lineno="122" refid="class_px_1_1_string_1a8d1041632824889426de5017e3d9d092" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_px_1_1_string" kindref="compound">String</ref>&amp;<sp/><ref refid="class_px_1_1_string_1a8d1041632824889426de5017e3d9d092" kindref="member">_Const</ref>(chars<sp/>rhs)</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_px_1_1_string" kindref="compound">String</ref><sp/>ConstString(rhs);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ConstString;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_px_1_1_array" kindref="compound">sint08s</ref><sp/>words;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.hpp"/>
+  </compounddef>
+</doxygen>

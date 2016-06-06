@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="namespace_platy_v_g_core" kind="namespace" language="C++">
+    <compoundname>PlatyVGCore</compoundname>
+    <innerclass refid="class_platy_v_g_core_1_1_device" prot="public">PlatyVGCore::Device</innerclass>
+    <innerclass refid="class_platy_v_g_core_1_1_document" prot="public">PlatyVGCore::Document</innerclass>
+    <innerclass refid="class_platy_v_g_core_1_1_layer" prot="public">PlatyVGCore::Layer</innerclass>
+    <innerclass refid="class_platy_v_g_core_1_1_record" prot="public">PlatyVGCore::Record</innerclass>
+    <innerclass refid="class_platy_v_g_core_1_1_shape" prot="public">PlatyVGCore::Shape</innerclass>
+    <innerclass refid="class_platy_v_g_core_1_1_shape_spline" prot="public">PlatyVGCore::ShapeSpline</innerclass>
+    <innerclass refid="class_platy_v_g_core_1_1_shape_tube" prot="public">PlatyVGCore::ShapeTube</innerclass>
+    <innerclass refid="class_platy_v_g_core_1_1_shape_tube_aqua" prot="public">PlatyVGCore::ShapeTubeAqua</innerclass>
+    <innerclass refid="class_platy_v_g_core_1_1_view" prot="public">PlatyVGCore::View</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespace_platy_v_g_core_1a9b5bb56f294d4bb4cccaf7531af4e7ec" prot="public" static="no">
+        <type><ref refid="class_px_1_1_array" kindref="compound">Array</ref>&lt; <ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref> &gt;</type>
+        <definition>typedef Array&lt;Document&gt; PlatyVGCore::Documents</definition>
+        <argsstring></argsstring>
+        <name>Documents</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/document.hpp" line="31" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/document.hpp" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_platy_v_g_core_1adcbbd63a0d576079f8d1528284b3d559" prot="public" static="no">
+        <type><ref refid="class_px_1_1_array" kindref="compound">Array</ref>&lt; <ref refid="class_platy_v_g_core_1_1_layer" kindref="compound">Layer</ref> &gt;</type>
+        <definition>typedef Array&lt;Layer&gt; PlatyVGCore::Layers</definition>
+        <argsstring></argsstring>
+        <name>Layers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/layer.hpp" line="24" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/layer.hpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_platy_v_g_core_1a40bdb722fed6a6db4f5df9f36a2a6fd0" prot="public" static="no">
+        <type><ref refid="class_px_1_1_union" kindref="compound">Union</ref>&lt; <ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref> &gt;</type>
+        <definition>typedef Union&lt;Shape&gt; PlatyVGCore::UnionShape</definition>
+        <argsstring></argsstring>
+        <name>UnionShape</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" line="63" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_platy_v_g_core_1afce9fdd66121b4f7a6da21dc0cc39078" prot="public" static="no">
+        <type><ref refid="class_px_1_1_array" kindref="compound">Array</ref>&lt; <ref refid="class_px_1_1_union" kindref="compound">UnionShape</ref> &gt;</type>
+        <definition>typedef Array&lt;UnionShape&gt; PlatyVGCore::UnionShapes</definition>
+        <argsstring></argsstring>
+        <name>UnionShapes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" line="64" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/shape.hpp" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/platyvg.hpp" line="36" column="1"/>
+  </compounddef>
+</doxygen>

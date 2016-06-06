@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="record_8hpp" kind="file" language="C++">
+    <compoundname>record.hpp</compoundname>
+    <includes refid="platyvg_8hpp" local="no">platyvg.hpp</includes>
+    <includes refid="action_8hpp" local="yes">../element/action.hpp</includes>
+    <includedby refid="document_8hpp" local="yes">document.hpp</includedby>
+    <includedby refid="command_8cpp" local="yes">command.cpp</includedby>
+    <includedby refid="record_8cpp" local="yes">record.cpp</includedby>
+    <incdepgraph>
+      <node id="1001">
+        <label>../element/point.hpp</label>
+        <link refid="point_8hpp_source"/>
+        <childnode refid="989" relation="include">
+        </childnode>
+        <childnode refid="1002" relation="include">
+        </childnode>
+      </node>
+      <node id="989">
+        <label>platyvg.hpp</label>
+        <link refid="platyvg_8hpp_source"/>
+        <childnode refid="990" relation="include">
+        </childnode>
+        <childnode refid="991" relation="include">
+        </childnode>
+        <childnode refid="993" relation="include">
+        </childnode>
+        <childnode refid="995" relation="include">
+        </childnode>
+        <childnode refid="996" relation="include">
+        </childnode>
+        <childnode refid="994" relation="include">
+        </childnode>
+        <childnode refid="997" relation="include">
+        </childnode>
+        <childnode refid="992" relation="include">
+        </childnode>
+        <childnode refid="998" relation="include">
+        </childnode>
+      </node>
+      <node id="992">
+        <label>../px/share.hpp</label>
+        <link refid="share_8hpp_source"/>
+        <childnode refid="993" relation="include">
+        </childnode>
+      </node>
+      <node id="991">
+        <label>../px/array.hpp</label>
+        <link refid="array_8hpp_source"/>
+        <childnode refid="992" relation="include">
+        </childnode>
+      </node>
+      <node id="999">
+        <label>../element/action.hpp</label>
+        <link refid="action_8hpp_source"/>
+        <childnode refid="989" relation="include">
+        </childnode>
+        <childnode refid="1000" relation="include">
+        </childnode>
+        <childnode refid="1001" relation="include">
+        </childnode>
+      </node>
+      <node id="997">
+        <label>../px/parser.hpp</label>
+        <link refid="parser_8hpp_source"/>
+        <childnode refid="998" relation="include">
+        </childnode>
+      </node>
+      <node id="990">
+        <label>../px/px.hpp</label>
+        <link refid="px_8hpp_source"/>
+      </node>
+      <node id="1000">
+        <label>../element/color.hpp</label>
+        <link refid="color_8hpp_source"/>
+        <childnode refid="989" relation="include">
+        </childnode>
+      </node>
+      <node id="995">
+        <label>../px/file.hpp</label>
+        <link refid="file_8hpp_source"/>
+        <childnode refid="990" relation="include">
+        </childnode>
+      </node>
+      <node id="1002">
+        <label>../element/matrix.hpp</label>
+        <link refid="matrix_8hpp_source"/>
+        <childnode refid="989" relation="include">
+        </childnode>
+      </node>
+      <node id="998">
+        <label>../px/string.hpp</label>
+        <link refid="string_8hpp_source"/>
+        <childnode refid="991" relation="include">
+        </childnode>
+      </node>
+      <node id="988">
+        <label>record.hpp</label>
+        <link refid="record.hpp"/>
+        <childnode refid="989" relation="include">
+        </childnode>
+        <childnode refid="999" relation="include">
+        </childnode>
+      </node>
+      <node id="994">
+        <label>../px/memory.hpp</label>
+        <link refid="memory_8hpp_source"/>
+        <childnode refid="990" relation="include">
+        </childnode>
+      </node>
+      <node id="996">
+        <label>../px/math.hpp</label>
+        <link refid="math_8hpp_source"/>
+        <childnode refid="990" relation="include">
+        </childnode>
+      </node>
+      <node id="993">
+        <label>../px/buffer.hpp</label>
+        <link refid="buffer_8hpp_source"/>
+        <childnode refid="994" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1005">
+        <label>view.hpp</label>
+        <link refid="view_8hpp_source"/>
+      </node>
+      <node id="1003">
+        <label>record.hpp</label>
+        <link refid="record.hpp"/>
+        <childnode refid="1004" relation="include">
+        </childnode>
+      </node>
+      <node id="1004">
+        <label>document.hpp</label>
+        <link refid="document_8hpp_source"/>
+        <childnode refid="1005" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_platy_v_g_core_1_1_record" prot="public">PlatyVGCore::Record</innerclass>
+    <innernamespace refid="namespace_platy_v_g_core">PlatyVGCore</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;platyvg.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../element/action.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_platy_v_g_core" kindref="compound">PlatyVGCore</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_platy_v_g_core_1_1_record" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_platy_v_g_core_1_1_record" kindref="compound">Record</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_record" kindref="compound">Record</ref>();</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>~<ref refid="class_platy_v_g_core_1_1_record" kindref="compound">Record</ref>();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_record_1a595623078bd207b98efe78a91f57d445" kindref="member">Commit</ref>(<ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref>*<sp/>doc,<sp/>buffer<sp/>action);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>sint32<sp/><ref refid="class_platy_v_g_core_1_1_record_1a6b39259e17b3b72a8851de3a4204c00b" kindref="member">Undo</ref>(<ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref>*<sp/>doc);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>sint32<sp/><ref refid="class_platy_v_g_core_1_1_record_1ad8bf722191fa454039cdefbeb9936198" kindref="member">Redo</ref>(<ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref>*<sp/>doc);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>sint32<sp/><ref refid="class_platy_v_g_core_1_1_record_1a45773750a0c677ec518e51979d8f9f4a" kindref="member">GetFocus</ref>(<ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref>*<sp/>doc);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>sint32<sp/><ref refid="class_platy_v_g_core_1_1_record_1aba8196a1bd7d3872ac9d6747490ad1d1" kindref="member">GetCount</ref>(<ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref>*<sp/>doc);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_record_1a2c07838b0db136f57d2632dc4ee6307a" kindref="member">SetCountMax</ref>(<ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref>*<sp/>doc,<sp/>sint32<sp/>value);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>sint32<sp/><ref refid="class_platy_v_g_core_1_1_record_1a3df14fe0828209fdc1e8262d480feb1e" kindref="member">GetCountMax</ref>(<ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref>*<sp/>doc);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_px_1_1_array" kindref="compound">UnionActions</ref><sp/>AllActions;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sint32<sp/>ActionFocus;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sint32<sp/>ActionLength;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sint32<sp/>ActionLengthMax;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/record.hpp"/>
+  </compounddef>
+</doxygen>

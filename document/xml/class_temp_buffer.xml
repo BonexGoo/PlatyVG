@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_temp_buffer" kind="class" language="C++" prot="public">
+    <compoundname>TempBuffer</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_temp_buffer_1ad2e62f6f72e0a178e9e883601861498d" prot="private" static="no" mutable="no">
+        <type>uint08 *</type>
+        <definition>uint08* TempBuffer::Buffer</definition>
+        <argsstring></argsstring>
+        <name>Buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.cpp" line="237" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.cpp" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_temp_buffer_1adb843d69be157b28f724fcb17db38250" prot="private" static="no" mutable="no">
+        <type>sint32</type>
+        <definition>sint32 TempBuffer::Size</definition>
+        <argsstring></argsstring>
+        <name>Size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.cpp" line="238" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.cpp" bodystart="238" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_temp_buffer_1ad80b0dcdb456a6176ae506296519c874" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TempBuffer::TempBuffer</definition>
+        <argsstring>()</argsstring>
+        <name>TempBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.cpp" line="241" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.cpp" bodystart="241" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="class_temp_buffer_1a4f2f3bcf51638cf6f9a1a64b59f20caa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TempBuffer::~TempBuffer</definition>
+        <argsstring>()</argsstring>
+        <name>~TempBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.cpp" line="242" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.cpp" bodystart="242" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="class_temp_buffer_1a8e2d580c1a68a1756f92a7436e52f64a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint08 *</type>
+        <definition>uint08* TempBuffer::ValidBuffer</definition>
+        <argsstring>(const sint32 size)</argsstring>
+        <name>ValidBuffer</name>
+        <param>
+          <type>const sint32</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.cpp" line="244" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.cpp" bodystart="244" bodyend="252"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.cpp" line="236" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.cpp" bodystart="235" bodyend="253"/>
+    <listofallmembers>
+      <member refid="class_temp_buffer_1ad2e62f6f72e0a178e9e883601861498d" prot="private" virt="non-virtual"><scope>TempBuffer</scope><name>Buffer</name></member>
+      <member refid="class_temp_buffer_1adb843d69be157b28f724fcb17db38250" prot="private" virt="non-virtual"><scope>TempBuffer</scope><name>Size</name></member>
+      <member refid="class_temp_buffer_1ad80b0dcdb456a6176ae506296519c874" prot="public" virt="non-virtual"><scope>TempBuffer</scope><name>TempBuffer</name></member>
+      <member refid="class_temp_buffer_1a8e2d580c1a68a1756f92a7436e52f64a" prot="public" virt="non-virtual"><scope>TempBuffer</scope><name>ValidBuffer</name></member>
+      <member refid="class_temp_buffer_1a4f2f3bcf51638cf6f9a1a64b59f20caa" prot="public" virt="non-virtual"><scope>TempBuffer</scope><name>~TempBuffer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

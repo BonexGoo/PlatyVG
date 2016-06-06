@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_platy_v_g_element_1_1_size" kind="class" language="C++" prot="public">
+    <compoundname>PlatyVGElement::Size</compoundname>
+    <includes refid="size_8hpp" local="no">size.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_platy_v_g_element_1_1_size_1a2e6e0d52859ce53062799c8ed84e88a8" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlatyVGElement::Size::w</definition>
+        <argsstring></argsstring>
+        <name>w</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/size.hpp" line="17" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/size.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_element_1_1_size_1a4f142cf2ddd49becac08a2d6d6f98a49" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlatyVGElement::Size::h</definition>
+        <argsstring></argsstring>
+        <name>h</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/size.hpp" line="18" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/size.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_size_1a8c937151c1b0c85d1c89a193c175d416" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::Size::Size</definition>
+        <argsstring>()</argsstring>
+        <name>Size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/size.hpp" line="10" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/size.cpp" bodystart="6" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_size_1ab1ef0f07d59b52a3bddc8a925db35914" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::Size::Size</definition>
+        <argsstring>(const Size &amp;rhs)</argsstring>
+        <name>Size</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_size" kindref="compound">Size</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/size.hpp" line="11" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/size.cpp" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_size_1a64dccb4e3644b65b897433d7f33b7489" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::Size::Size</definition>
+        <argsstring>(float w, float h)</argsstring>
+        <name>Size</name>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/size.hpp" line="12" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/size.cpp" bodystart="17" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_size_1a3ae228785bce9ff5651606aed1b679f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::Size::~Size</definition>
+        <argsstring>()</argsstring>
+        <name>~Size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/size.hpp" line="13" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/size.cpp" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_size_1ac8c0ae10eae576444b50a7e820144877" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_platy_v_g_element_1_1_size" kindref="compound">Size</ref> &amp;</type>
+        <definition>Size &amp; PlatyVGElement::Size::operator=</definition>
+        <argsstring>(const Size &amp;rhs)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_size" kindref="compound">Size</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/size.hpp" line="14" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/size.cpp" bodystart="27" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>2D구간 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/size.hpp" line="8" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/size.hpp" bodystart="7" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_platy_v_g_element_1_1_size_1a4f142cf2ddd49becac08a2d6d6f98a49" prot="public" virt="non-virtual"><scope>PlatyVGElement::Size</scope><name>h</name></member>
+      <member refid="class_platy_v_g_element_1_1_size_1ac8c0ae10eae576444b50a7e820144877" prot="public" virt="non-virtual"><scope>PlatyVGElement::Size</scope><name>operator=</name></member>
+      <member refid="class_platy_v_g_element_1_1_size_1a8c937151c1b0c85d1c89a193c175d416" prot="public" virt="non-virtual"><scope>PlatyVGElement::Size</scope><name>Size</name></member>
+      <member refid="class_platy_v_g_element_1_1_size_1ab1ef0f07d59b52a3bddc8a925db35914" prot="public" virt="non-virtual"><scope>PlatyVGElement::Size</scope><name>Size</name></member>
+      <member refid="class_platy_v_g_element_1_1_size_1a64dccb4e3644b65b897433d7f33b7489" prot="public" virt="non-virtual"><scope>PlatyVGElement::Size</scope><name>Size</name></member>
+      <member refid="class_platy_v_g_element_1_1_size_1a2e6e0d52859ce53062799c8ed84e88a8" prot="public" virt="non-virtual"><scope>PlatyVGElement::Size</scope><name>w</name></member>
+      <member refid="class_platy_v_g_element_1_1_size_1a3ae228785bce9ff5651606aed1b679f4" prot="public" virt="non-virtual"><scope>PlatyVGElement::Size</scope><name>~Size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

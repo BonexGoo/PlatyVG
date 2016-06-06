@@ -1,0 +1,1099 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="adapter_8cpp" kind="file" language="C++">
+    <compoundname>adapter.cpp</compoundname>
+    <includes refid="platyvg_8hpp" local="no">platyvg.hpp</includes>
+    <includes refid="adapter_8hpp" local="yes">adapter.hpp</includes>
+    <includes refid="view_8hpp" local="yes">../core/view.hpp</includes>
+    <incdepgraph>
+      <node id="45">
+        <label>adapter.hpp</label>
+        <link refid="adapter_8hpp_source"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>../element/mesh.hpp</label>
+        <link refid="mesh_8hpp_source"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>../element/point.hpp</label>
+        <link refid="point_8hpp_source"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>../core/view.hpp</label>
+        <link refid="view_8hpp_source"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+      </node>
+      <node id="61">
+        <label>../element/size.hpp</label>
+        <link refid="size_8hpp_source"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>platyvg.hpp</label>
+        <link refid="platyvg_8hpp_source"/>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+      </node>
+      <node id="53">
+        <label>../core/device.hpp</label>
+        <link refid="device_8hpp_source"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>../px/share.hpp</label>
+        <link refid="share_8hpp_source"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="60">
+        <label>../element/rect.hpp</label>
+        <link refid="rect_8hpp_source"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>../px/array.hpp</label>
+        <link refid="array_8hpp_source"/>
+        <childnode refid="38" relation="include">
+        </childnode>
+      </node>
+      <node id="64">
+        <label>../element/action.hpp</label>
+        <link refid="action_8hpp_source"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>../px/parser.hpp</label>
+        <link refid="parser_8hpp_source"/>
+        <childnode refid="44" relation="include">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>../core/shape.hpp</label>
+        <link refid="shape_8hpp_source"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>../px/px.hpp</label>
+        <link refid="px_8hpp_source"/>
+      </node>
+      <node id="46">
+        <label>../element/color.hpp</label>
+        <link refid="color_8hpp_source"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="57">
+        <label>../element/context.hpp</label>
+        <link refid="context_8hpp_source"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>../core/layer.hpp</label>
+        <link refid="layer_8hpp_source"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>../px/file.hpp</label>
+        <link refid="file_8hpp_source"/>
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>../element/matrix.hpp</label>
+        <link refid="matrix_8hpp_source"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>../px/string.hpp</label>
+        <link refid="string_8hpp_source"/>
+        <childnode refid="37" relation="include">
+        </childnode>
+      </node>
+      <node id="63">
+        <label>../core/record.hpp</label>
+        <link refid="record_8hpp_source"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>adapter.cpp</label>
+        <link refid="adapter.cpp"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>../px/memory.hpp</label>
+        <link refid="memory_8hpp_source"/>
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>../px/math.hpp</label>
+        <link refid="math_8hpp_source"/>
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>../core/document.hpp</label>
+        <link refid="document_8hpp_source"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>../element/zoom.hpp</label>
+        <link refid="zoom_8hpp_source"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>../element/selector.hpp</label>
+        <link refid="selector_8hpp_source"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>../element/table.hpp</label>
+        <link refid="table_8hpp_source"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>../px/buffer.hpp</label>
+        <link refid="buffer_8hpp_source"/>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
+      <node id="58">
+        <label>../element/edge.hpp</label>
+        <link refid="edge_8hpp_source"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>../element/coord.hpp</label>
+        <link refid="coord_8hpp_source"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="class_temp_buffer" prot="public">TempBuffer</innerclass>
+    <innernamespace refid="namespace_platy_v_g_api">PlatyVGApi</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="adapter_8cpp_1aba6c3f5bc76e10d8b2185f1b9f561fb1" prot="public" static="no">
+        <name>PROCLOOP64</name>
+        <param><defname>CODE</defname></param>
+        <initializer>{ \
+	case 0x00: CODE case 0x01: CODE case 0x02: CODE case 0x03: CODE \
+	case 0x04: CODE case 0x05: CODE case 0x06: CODE case 0x07: CODE \
+	case 0x08: CODE case 0x09: CODE case 0x0A: CODE case 0x0B: CODE \
+	case 0x0C: CODE case 0x0D: CODE case 0x0E: CODE case 0x0F: CODE \
+	case 0x10: CODE case 0x11: CODE case 0x12: CODE case 0x13: CODE \
+	case 0x14: CODE case 0x15: CODE case 0x16: CODE case 0x17: CODE \
+	case 0x18: CODE case 0x19: CODE case 0x1A: CODE case 0x1B: CODE \
+	case 0x1C: CODE case 0x1D: CODE case 0x1E: CODE case 0x1F: CODE \
+	case 0x20: CODE case 0x21: CODE case 0x22: CODE case 0x23: CODE \
+	case 0x24: CODE case 0x25: CODE case 0x26: CODE case 0x27: CODE \
+	case 0x28: CODE case 0x29: CODE case 0x2A: CODE case 0x2B: CODE \
+	case 0x2C: CODE case 0x2D: CODE case 0x2E: CODE case 0x2F: CODE \
+	case 0x30: CODE case 0x31: CODE case 0x32: CODE case 0x33: CODE \
+	case 0x34: CODE case 0x35: CODE case 0x36: CODE case 0x37: CODE \
+	case 0x38: CODE case 0x39: CODE case 0x3A: CODE case 0x3B: CODE \
+	case 0x3C: CODE case 0x3D: CODE case 0x3E: CODE case 0x3F: CODE}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.cpp" line="5" column="9" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.cpp" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="adapter_8cpp_1aef3cacb2b8c8c8966689fc790ad9336a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename PROC</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>static bool PolyProc</definition>
+        <argsstring>(const sint32 x0, const sint32 y0, const sint32 x1, const sint32 y1, const sint32 x2, const sint32 y2, PROC proc)</argsstring>
+        <name>PolyProc</name>
+        <param>
+          <type>const sint32</type>
+          <declname>x0</declname>
+        </param>
+        <param>
+          <type>const sint32</type>
+          <declname>y0</declname>
+        </param>
+        <param>
+          <type>const sint32</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>const sint32</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>const sint32</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>const sint32</type>
+          <declname>y2</declname>
+        </param>
+        <param>
+          <type>PROC</type>
+          <declname>proc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.cpp" line="24" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.cpp" bodystart="24" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="adapter_8cpp_1a26966f8a48c5f0cccfc437dfb5c97c22" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename PROC</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>static bool PolyDraw</definition>
+        <argsstring>(const sint32 xa, const sint32 ya, const sint32 xb, const sint32 yb, const sint32 xc, const sint32 yc, PROC proc)</argsstring>
+        <name>PolyDraw</name>
+        <param>
+          <type>const sint32</type>
+          <declname>xa</declname>
+        </param>
+        <param>
+          <type>const sint32</type>
+          <declname>ya</declname>
+        </param>
+        <param>
+          <type>const sint32</type>
+          <declname>xb</declname>
+        </param>
+        <param>
+          <type>const sint32</type>
+          <declname>yb</declname>
+        </param>
+        <param>
+          <type>const sint32</type>
+          <declname>xc</declname>
+        </param>
+        <param>
+          <type>const sint32</type>
+          <declname>yc</declname>
+        </param>
+        <param>
+          <type>PROC</type>
+          <declname>proc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.cpp" line="72" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.cpp" bodystart="72" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="adapter_8cpp_1a7a4194e88899524226ffd1084a415f97" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const uint32</type>
+        <definition>static const uint32 GetOpacityR</definition>
+        <argsstring>(const uint32 value, const uint32 opacity)</argsstring>
+        <name>GetOpacityR</name>
+        <param>
+          <type>const uint32</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>const uint32</type>
+          <declname>opacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.cpp" line="93" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.cpp" bodystart="93" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="adapter_8cpp_1ac5bcf7177c1e3a0dd311a45ec0133d9d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const uint32</type>
+        <definition>static const uint32 GetOpacityG</definition>
+        <argsstring>(const uint32 value, const uint32 opacity)</argsstring>
+        <name>GetOpacityG</name>
+        <param>
+          <type>const uint32</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>const uint32</type>
+          <declname>opacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.cpp" line="96" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.cpp" bodystart="96" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="adapter_8cpp_1aa989e5a5d3bd3b84f3f5116488177de2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const uint32</type>
+        <definition>static const uint32 GetOpacityB</definition>
+        <argsstring>(const uint32 value, const uint32 opacity)</argsstring>
+        <name>GetOpacityB</name>
+        <param>
+          <type>const uint32</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>const uint32</type>
+          <declname>opacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.cpp" line="99" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.cpp" bodystart="99" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="adapter_8cpp_1a3e91578ac3ebd4eead7ffa995ef17faf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>sint32</type>
+            <declname>SET</declname>
+            <defname>SET</defname>
+          </param>
+          <param>
+            <type>typename FUNC</type>
+          </param>
+        </templateparamlist>
+        <type>const uint32 *</type>
+        <definition>static const uint32* GetDstOpacityTable</definition>
+        <argsstring>(const uint32 opacity, FUNC func)</argsstring>
+        <name>GetDstOpacityTable</name>
+        <param>
+          <type>const uint32</type>
+          <declname>opacity</declname>
+        </param>
+        <param>
+          <type>FUNC</type>
+          <declname>func</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.cpp" line="103" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.cpp" bodystart="103" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="adapter_8cpp_1af463815d5dfad7f2f596bafbebc302f5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void BitmapRender</definition>
+        <argsstring>(const sint32 width, const sint32 height, uint32 *bitmap, const Color *pcolor, const Zoom *pzoom, chars meshtype, const sint32 meshcount, const Mesh *mesh)</argsstring>
+        <name>BitmapRender</name>
+        <param>
+          <type>const sint32</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>const sint32</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>uint32 *</type>
+          <declname>bitmap</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_color" kindref="compound">Color</ref> *</type>
+          <declname>pcolor</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_zoom" kindref="compound">Zoom</ref> *</type>
+          <declname>pzoom</declname>
+        </param>
+        <param>
+          <type>chars</type>
+          <declname>meshtype</declname>
+        </param>
+        <param>
+          <type>const sint32</type>
+          <declname>meshcount</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_mesh" kindref="compound">Mesh</ref> *</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.cpp" line="117" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.cpp" bodystart="117" bodyend="233"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;platyvg.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;adapter.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../core/view.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PROCLOOP64(CODE)<sp/>{<sp/>\</highlight></codeline>
+<codeline lineno="6"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>case<sp/>0x00:<sp/>CODE<sp/>case<sp/>0x01:<sp/>CODE<sp/>case<sp/>0x02:<sp/>CODE<sp/>case<sp/>0x03:<sp/>CODE<sp/>\</highlight></codeline>
+<codeline lineno="7"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>case<sp/>0x04:<sp/>CODE<sp/>case<sp/>0x05:<sp/>CODE<sp/>case<sp/>0x06:<sp/>CODE<sp/>case<sp/>0x07:<sp/>CODE<sp/>\</highlight></codeline>
+<codeline lineno="8"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>case<sp/>0x08:<sp/>CODE<sp/>case<sp/>0x09:<sp/>CODE<sp/>case<sp/>0x0A:<sp/>CODE<sp/>case<sp/>0x0B:<sp/>CODE<sp/>\</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>case<sp/>0x0C:<sp/>CODE<sp/>case<sp/>0x0D:<sp/>CODE<sp/>case<sp/>0x0E:<sp/>CODE<sp/>case<sp/>0x0F:<sp/>CODE<sp/>\</highlight></codeline>
+<codeline lineno="10"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>case<sp/>0x10:<sp/>CODE<sp/>case<sp/>0x11:<sp/>CODE<sp/>case<sp/>0x12:<sp/>CODE<sp/>case<sp/>0x13:<sp/>CODE<sp/>\</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>case<sp/>0x14:<sp/>CODE<sp/>case<sp/>0x15:<sp/>CODE<sp/>case<sp/>0x16:<sp/>CODE<sp/>case<sp/>0x17:<sp/>CODE<sp/>\</highlight></codeline>
+<codeline lineno="12"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>case<sp/>0x18:<sp/>CODE<sp/>case<sp/>0x19:<sp/>CODE<sp/>case<sp/>0x1A:<sp/>CODE<sp/>case<sp/>0x1B:<sp/>CODE<sp/>\</highlight></codeline>
+<codeline lineno="13"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>case<sp/>0x1C:<sp/>CODE<sp/>case<sp/>0x1D:<sp/>CODE<sp/>case<sp/>0x1E:<sp/>CODE<sp/>case<sp/>0x1F:<sp/>CODE<sp/>\</highlight></codeline>
+<codeline lineno="14"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>case<sp/>0x20:<sp/>CODE<sp/>case<sp/>0x21:<sp/>CODE<sp/>case<sp/>0x22:<sp/>CODE<sp/>case<sp/>0x23:<sp/>CODE<sp/>\</highlight></codeline>
+<codeline lineno="15"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>case<sp/>0x24:<sp/>CODE<sp/>case<sp/>0x25:<sp/>CODE<sp/>case<sp/>0x26:<sp/>CODE<sp/>case<sp/>0x27:<sp/>CODE<sp/>\</highlight></codeline>
+<codeline lineno="16"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>case<sp/>0x28:<sp/>CODE<sp/>case<sp/>0x29:<sp/>CODE<sp/>case<sp/>0x2A:<sp/>CODE<sp/>case<sp/>0x2B:<sp/>CODE<sp/>\</highlight></codeline>
+<codeline lineno="17"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>case<sp/>0x2C:<sp/>CODE<sp/>case<sp/>0x2D:<sp/>CODE<sp/>case<sp/>0x2E:<sp/>CODE<sp/>case<sp/>0x2F:<sp/>CODE<sp/>\</highlight></codeline>
+<codeline lineno="18"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>case<sp/>0x30:<sp/>CODE<sp/>case<sp/>0x31:<sp/>CODE<sp/>case<sp/>0x32:<sp/>CODE<sp/>case<sp/>0x33:<sp/>CODE<sp/>\</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>case<sp/>0x34:<sp/>CODE<sp/>case<sp/>0x35:<sp/>CODE<sp/>case<sp/>0x36:<sp/>CODE<sp/>case<sp/>0x37:<sp/>CODE<sp/>\</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>case<sp/>0x38:<sp/>CODE<sp/>case<sp/>0x39:<sp/>CODE<sp/>case<sp/>0x3A:<sp/>CODE<sp/>case<sp/>0x3B:<sp/>CODE<sp/>\</highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>case<sp/>0x3C:<sp/>CODE<sp/>case<sp/>0x3D:<sp/>CODE<sp/>case<sp/>0x3E:<sp/>CODE<sp/>case<sp/>0x3F:<sp/>CODE}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>PROC&gt;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>PolyProc(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>x0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>y0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>x1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>y1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>x2,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>y2,<sp/>PROC<sp/>proc)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_ASSERT(</highlight><highlight class="stringliteral">&quot;파라미터오류&quot;</highlight><highlight class="normal">,<sp/>y0<sp/>&lt;=<sp/>y1<sp/>&amp;&amp;<sp/>y1<sp/>&lt;=<sp/>y2);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>x0f<sp/>=<sp/>x0<sp/>&lt;&lt;<sp/>16;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>x1f<sp/>=<sp/>x1<sp/>&lt;&lt;<sp/>16;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>x2f<sp/>=<sp/>x2<sp/>&lt;&lt;<sp/>16;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(y0<sp/>==<sp/>y2)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//<sp/>━</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(y0<sp/>==<sp/>y1)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>v02f<sp/>=<sp/>(x2f<sp/>-<sp/>x0f)<sp/>/<sp/>(y2<sp/>-<sp/>y0);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>v12f<sp/>=<sp/>(x2f<sp/>-<sp/>x1f)<sp/>/<sp/>(y2<sp/>-<sp/>y1);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(x0<sp/>&lt;<sp/>x1)<sp/>proc(v02f,<sp/>v12f,<sp/>x0f,<sp/>x1f,<sp/>y0,<sp/>y2,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);<sp/></highlight><highlight class="comment">//<sp/>▼</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(x0<sp/>&gt;<sp/>x1)<sp/>proc(v12f,<sp/>v02f,<sp/>x1f,<sp/>x0f,<sp/>y0,<sp/>y2,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);<sp/></highlight><highlight class="comment">//<sp/>▼</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//<sp/>┃</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(y1<sp/>==<sp/>y2)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>v01f<sp/>=<sp/>(x1f<sp/>-<sp/>x0f)<sp/>/<sp/>(y1<sp/>-<sp/>y0);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>v02f<sp/>=<sp/>(x2f<sp/>-<sp/>x0f)<sp/>/<sp/>(y2<sp/>-<sp/>y0);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(x1<sp/>&lt;<sp/>x2)<sp/>proc(v01f,<sp/>v02f,<sp/>x0f,<sp/>x0f,<sp/>y0,<sp/>y1,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);<sp/></highlight><highlight class="comment">//<sp/>▲</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(x1<sp/>&gt;<sp/>x2)<sp/>proc(v02f,<sp/>v01f,<sp/>x0f,<sp/>x0f,<sp/>y0,<sp/>y1,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);<sp/></highlight><highlight class="comment">//<sp/>▲</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//<sp/>┃</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>v01f<sp/>=<sp/>(x1f<sp/>-<sp/>x0f)<sp/>/<sp/>(y1<sp/>-<sp/>y0);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>v02f<sp/>=<sp/>(x2f<sp/>-<sp/>x0f)<sp/>/<sp/>(y2<sp/>-<sp/>y0);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>v12f<sp/>=<sp/>(x2f<sp/>-<sp/>x1f)<sp/>/<sp/>(y2<sp/>-<sp/>y1);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(v01f<sp/>&lt;<sp/>v02f)<sp/></highlight><highlight class="comment">//<sp/>◀</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>tmp<sp/>=</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>proc(v01f,<sp/>v02f,<sp/>x0f,<sp/>x0f,<sp/>y0,<sp/>y1,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>proc(v12f,<sp/>v02f,<sp/>x1f,<sp/>tmp,<sp/>y1,<sp/>y2,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(v01f<sp/>&gt;<sp/>v02f)<sp/></highlight><highlight class="comment">//<sp/>▶</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>tmp<sp/>=</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>proc(v02f,<sp/>v01f,<sp/>x0f,<sp/>x0f,<sp/>y0,<sp/>y1,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>proc(v02f,<sp/>v12f,<sp/>tmp,<sp/>x1f,<sp/>y1,<sp/>y2,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//<sp/>┃</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>PROC&gt;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>PolyDraw(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>xa,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>ya,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>xb,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>yb,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>xc,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>yc,<sp/>PROC<sp/>proc)</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(ya<sp/>&lt;=<sp/>yb<sp/>&amp;&amp;<sp/>ya<sp/>&lt;=<sp/>yc)</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(yb<sp/>&lt;=<sp/>yc)</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>PolyProc(xa,<sp/>ya,<sp/>xb,<sp/>yb,<sp/>xc,<sp/>yc,<sp/>proc);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>PolyProc(xa,<sp/>ya,<sp/>xc,<sp/>yc,<sp/>xb,<sp/>yb,<sp/>proc);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(yb<sp/>&lt;=<sp/>ya<sp/>&amp;&amp;<sp/>yb<sp/>&lt;=<sp/>yc)</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(ya<sp/>&lt;=<sp/>yc)</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>PolyProc(xb,<sp/>yb,<sp/>xa,<sp/>ya,<sp/>xc,<sp/>yc,<sp/>proc);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>PolyProc(xb,<sp/>yb,<sp/>xc,<sp/>yc,<sp/>xa,<sp/>ya,<sp/>proc);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(ya<sp/>&lt;=<sp/>yb)</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>PolyProc(xc,<sp/>yc,<sp/>xa,<sp/>ya,<sp/>xb,<sp/>yb,<sp/>proc);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>PolyProc(xc,<sp/>yc,<sp/>xb,<sp/>yb,<sp/>xa,<sp/>ya,<sp/>proc);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32<sp/>GetOpacityR(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32<sp/>value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32<sp/>opacity)</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(value<sp/>*<sp/>opacity<sp/>/<sp/>0xFF)<sp/>&lt;&lt;<sp/>16;}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32<sp/>GetOpacityG(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32<sp/>value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32<sp/>opacity)</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(value<sp/>*<sp/>opacity<sp/>/<sp/>0xFF)<sp/>&lt;&lt;<sp/>8;}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32<sp/>GetOpacityB(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32<sp/>value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32<sp/>opacity)</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(value<sp/>*<sp/>opacity<sp/>/<sp/>0xFF)<sp/>&lt;&lt;<sp/>0;}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;s</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">32<sp/>SET,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>FUNC&gt;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32*<sp/>GetDstOpacityTable(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32<sp/>opacity,<sp/>FUNC<sp/>func)</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>uint32<sp/>OpacityTable[256<sp/>*<sp/>256];</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>NeedInitialize<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(NeedInitialize)</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NeedInitialize<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(uint32<sp/>opa<sp/>=<sp/>0;<sp/>opa<sp/>&lt;<sp/>256;<sp/>++opa)</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(uint32<sp/>val<sp/>=<sp/>0;<sp/>val<sp/>&lt;<sp/>256;<sp/>++val)</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>OpacityTable[(opa<sp/>&lt;&lt;<sp/>8)<sp/>|<sp/>val]<sp/>=<sp/>func(val,<sp/>0xFF<sp/>-<sp/>opa);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;OpacityTable[opacity<sp/>&lt;&lt;<sp/>8];</highlight></codeline>
+<codeline lineno="115"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>BitmapRender(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>width,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>height,<sp/>uint32*<sp/>bitmap,</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_element_1_1_color" kindref="compound">Color</ref>*<sp/>pcolor,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_element_1_1_zoom" kindref="compound">Zoom</ref>*<sp/>pzoom,<sp/>chars<sp/>meshtype,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>meshcount,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_element_1_1_mesh" kindref="compound">Mesh</ref>*<sp/>mesh)</highlight></codeline>
+<codeline lineno="119"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal">{uint32<sp/>rgba;<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{uint08<sp/>r,<sp/>g,<sp/>b,<sp/>a;};}<sp/>dib32;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>dib32*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bits<sp/>=<sp/>(dib32*)<sp/>bitmap;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32<sp/>row<sp/>=<sp/>width;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>clipl<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>clipt<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>clipr<sp/>=<sp/>width;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>clipb<sp/>=<sp/>height;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32<sp/>src<sp/>=<sp/>0xFF000000<sp/>|</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GetOpacityR(pcolor-&gt;r,<sp/>pcolor-&gt;a)<sp/>|</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GetOpacityG(pcolor-&gt;g,<sp/>pcolor-&gt;a)<sp/>|</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GetOpacityB(pcolor-&gt;b,<sp/>pcolor-&gt;a);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32*<sp/>rdst<sp/>=<sp/>GetDstOpacityTable&lt;0&gt;(pcolor-&gt;a,<sp/>GetOpacityR);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32*<sp/>gdst<sp/>=<sp/>GetDstOpacityTable&lt;1&gt;(pcolor-&gt;a,<sp/>GetOpacityG);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32*<sp/>bdst<sp/>=<sp/>GetDstOpacityTable&lt;2&gt;(pcolor-&gt;a,<sp/>GetOpacityB);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_element_1_1_zoom" kindref="compound">Zoom</ref><sp/>zoom<sp/>=<sp/>*pzoom;<sp/></highlight><highlight class="comment">//<sp/>속도향상을<sp/>위해<sp/>지역으로<sp/>복사</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>zoom.offset.x<sp/>+=<sp/>width<sp/>/<sp/>2.0f<sp/>/<sp/>zoom.scale;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>zoom.offset.y<sp/>+=<sp/>-height<sp/>/<sp/>2.0f<sp/>/<sp/>zoom.scale;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>proc_noclip<sp/>=<sp/>[=](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>vl,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>vr,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>xl,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>xr,</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>yb,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>ye,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>needxr)<sp/>-&gt;<sp/>sint32</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_ASSERT(</highlight><highlight class="stringliteral">&quot;파라미터오류&quot;</highlight><highlight class="normal">,<sp/>xl<sp/>&lt;=<sp/>xr);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>ybegin<sp/>=<sp/>yb;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>yend<sp/>=<sp/>ye;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sint32<sp/>xb<sp/>=<sp/>xl;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sint32<sp/>xe<sp/>=<sp/>xr;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dib32*<sp/>ybits<sp/>=<sp/>&amp;bits[row<sp/>*<sp/>ybegin];</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dib32*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ybitsend<sp/>=<sp/>&amp;bits[row<sp/>*<sp/>yend];</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(;<sp/>ybits<sp/>&lt;<sp/>ybitsend;<sp/>ybits<sp/>+=<sp/>row)</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>xbegin<sp/>=<sp/>xb<sp/>&gt;&gt;<sp/>16;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>xend<sp/>=<sp/>xe<sp/>&gt;&gt;<sp/>16;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(xbegin<sp/>&lt;<sp/>xend)</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dib32*<sp/>dst<sp/>=<sp/>&amp;ybits[xbegin];</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dib32*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dstend<sp/>=<sp/>&amp;ybits[xend];</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal">(~(xend<sp/>-<sp/>xbegin<sp/>-<sp/>1)<sp/>&amp;<sp/>0x3F)</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(dst<sp/>&lt;<sp/>dstend)</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PROCLOOP64((dst++)-&gt;rgba<sp/>=<sp/>src<sp/>+<sp/>(rdst[dst-&gt;r]<sp/>|<sp/>gdst[dst-&gt;g]<sp/>|<sp/>bdst[dst-&gt;b]);)</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xb<sp/>+=<sp/>vl;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xe<sp/>+=<sp/>vr;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(needxr)?<sp/>xe<sp/>:<sp/>xb;</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>proc_clip<sp/>=<sp/>[=](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>vl,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>vr,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>xl,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>xr,</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>yb,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>ye,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>needxr)<sp/>-&gt;<sp/>sint32</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_ASSERT(</highlight><highlight class="stringliteral">&quot;파라미터오류&quot;</highlight><highlight class="normal">,<sp/>xl<sp/>&lt;=<sp/>xr);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>ybegin<sp/>=<sp/>Math::Max(yb,<sp/>clipt);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>yend<sp/>=<sp/>Math::Min(ye,<sp/>clipb);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sint32<sp/>xb<sp/>=<sp/>xl<sp/>+<sp/>vl<sp/>*<sp/>(ybegin<sp/>-<sp/>yb);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sint32<sp/>xe<sp/>=<sp/>xr<sp/>+<sp/>vr<sp/>*<sp/>(ybegin<sp/>-<sp/>yb);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dib32*<sp/>ybits<sp/>=<sp/>&amp;bits[row<sp/>*<sp/>ybegin];</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dib32*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ybitsend<sp/>=<sp/>&amp;bits[row<sp/>*<sp/>yend];</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(;<sp/>ybits<sp/>&lt;<sp/>ybitsend;<sp/>ybits<sp/>+=<sp/>row)</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>xbegin<sp/>=<sp/>Math::Max(xb<sp/>&gt;&gt;<sp/>16,<sp/>clipl);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>xend<sp/>=<sp/>Math::Min(xe<sp/>&gt;&gt;<sp/>16,<sp/>clipr);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(xbegin<sp/>&lt;<sp/>xend)</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dib32*<sp/>dst<sp/>=<sp/>&amp;ybits[xbegin];</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dib32*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dstend<sp/>=<sp/>&amp;ybits[xend];</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal">(~(xend<sp/>-<sp/>xbegin<sp/>-<sp/>1)<sp/>&amp;<sp/>0x3F)</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(dst<sp/>&lt;<sp/>dstend)</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PROCLOOP64((dst++)-&gt;rgba<sp/>=<sp/>src<sp/>+<sp/>(rdst[dst-&gt;r]<sp/>|<sp/>gdst[dst-&gt;g]<sp/>|<sp/>bdst[dst-&gt;b]);)</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xb<sp/>+=<sp/>vl;</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xe<sp/>+=<sp/>vr;</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(needxr)?<sp/>xe<sp/>:<sp/>xb;</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(CONST_STRING(</highlight><highlight class="stringliteral">&quot;PlatyVGElement::MeshAqua&quot;</highlight><highlight class="normal">)<sp/>==<sp/>meshtype)</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_element_1_1_mesh_aqua" kindref="compound">MeshAqua</ref>*<sp/>Aquas<sp/>=<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_element_1_1_mesh_aqua" kindref="compound">MeshAqua</ref>*)<sp/>mesh;</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sint32<sp/>oldlx<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sint32<sp/>oldly<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sint32<sp/>oldrx<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sint32<sp/>oldry<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>inoldl<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>inoldr<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(sint32<sp/>i<sp/>=<sp/>0,<sp/>iend<sp/>=<sp/>meshcount;<sp/>i<sp/>&lt;<sp/>iend;<sp/>++i)</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>newlx<sp/>=<sp/>(sint32)<sp/>((Aquas[i].lx<sp/>+<sp/>zoom.offset.x)<sp/>*<sp/>zoom.scale);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>newly<sp/>=<sp/>(sint32)<sp/>((Aquas[i].ly<sp/>+<sp/>zoom.offset.y)<sp/>*<sp/>-zoom.scale);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>newrx<sp/>=<sp/>(sint32)<sp/>((Aquas[i].rx<sp/>+<sp/>zoom.offset.x)<sp/>*<sp/>zoom.scale);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>newry<sp/>=<sp/>(sint32)<sp/>((Aquas[i].ry<sp/>+<sp/>zoom.offset.y)<sp/>*<sp/>-zoom.scale);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>innewl<sp/>=<sp/>(clipl<sp/>&lt;=<sp/>newlx<sp/>&amp;&amp;<sp/>newlx<sp/>&lt;<sp/>clipr<sp/>&amp;&amp;<sp/>clipt<sp/>&lt;=<sp/>newly<sp/>&amp;&amp;<sp/>newly<sp/>&lt;<sp/>clipb);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>innewr<sp/>=<sp/>(clipl<sp/>&lt;=<sp/>newrx<sp/>&amp;&amp;<sp/>newrx<sp/>&lt;<sp/>clipr<sp/>&amp;&amp;<sp/>clipt<sp/>&lt;=<sp/>newry<sp/>&amp;&amp;<sp/>newry<sp/>&lt;<sp/>clipb);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(0<sp/>&lt;<sp/>i)</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(inoldl<sp/>&amp;&amp;<sp/>inoldr<sp/>&amp;&amp;<sp/>innewl)</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PolyDraw(oldlx,<sp/>oldly,<sp/>oldrx,<sp/>oldry,<sp/>newlx,<sp/>newly,<sp/>proc_noclip);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(inoldl<sp/>||<sp/>inoldr<sp/>||<sp/>innewl)</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PolyDraw(oldlx,<sp/>oldly,<sp/>oldrx,<sp/>oldry,<sp/>newlx,<sp/>newly,<sp/>proc_clip);</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(innewr<sp/>&amp;&amp;<sp/>innewl<sp/>&amp;&amp;<sp/>inoldr)</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PolyDraw(newrx,<sp/>newry,<sp/>newlx,<sp/>newly,<sp/>oldrx,<sp/>oldry,<sp/>proc_noclip);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(innewr<sp/>||<sp/>innewl<sp/>||<sp/>inoldr)</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PolyDraw(newrx,<sp/>newry,<sp/>newlx,<sp/>newly,<sp/>oldrx,<sp/>oldry,<sp/>proc_clip);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>oldlx<sp/>=<sp/>newlx;</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>oldly<sp/>=<sp/>newly;</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>oldrx<sp/>=<sp/>newrx;</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>oldry<sp/>=<sp/>newry;</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>inoldl<sp/>=<sp/>innewl;</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>inoldr<sp/>=<sp/>innewr;</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="233"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="235" refid="class_temp_buffer" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_temp_buffer" kindref="compound">TempBuffer</ref></highlight></codeline>
+<codeline lineno="236"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/>uint08*<sp/><ref refid="class_px_1_1_buffer" kindref="compound">Buffer</ref>;</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/>sint32<sp/><ref refid="class_platy_v_g_element_1_1_size" kindref="compound">Size</ref>;</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_temp_buffer" kindref="compound">TempBuffer</ref>()<sp/>:<sp/>Buffer(</highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">),<sp/>Size(-1)<sp/>{}</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="class_temp_buffer" kindref="compound">TempBuffer</ref>()<sp/>{</highlight><highlight class="keyword">delete</highlight><highlight class="normal">[]<sp/>Buffer;}</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/>uint08*<sp/>ValidBuffer(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>size)</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(Size<sp/>&lt;<sp/>size)</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">[]<sp/>Buffer;</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Buffer<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>uint08[Size<sp/>=<sp/>size];</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Buffer;</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="253"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_platy_v_g_api" kindref="compound">PlatyVGApi</ref></highlight></codeline>
+<codeline lineno="256"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API(api_long,<sp/>Adapter_GetDocumentLink,<sp/>api_int<sp/>doc)</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API_IMPL(</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_adapter_1a352170f1f2dcf7340fc06ce556c8f9c9" kindref="member">Adapter::GetDocumentLink</ref>(doc))</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/>linkstep1<sp/><ref refid="class_platy_v_g_api_1_1_adapter" kindref="compound">Adapter</ref>::GetDocumentLink(const<sp/>sint32<sp/>doc)</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_view" kindref="compound">View</ref>*<sp/>view<sp/>=<sp/>View::Currently();</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(linkstep1)<sp/>view-&gt;<ref refid="class_platy_v_g_core_1_1_view_1adbfef0a3a46eadf9c1159b70f41abc63" kindref="member">GetDocument</ref>(doc);</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API(api_int,<sp/>Adapter_GetLayerCount,<sp/>api_long<sp/>doclink)</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API_IMPL(</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_adapter_1a17ef044d59ad5f29120910d96cbff6d0" kindref="member">Adapter::GetLayerCount</ref>(doclink))</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/>const<sp/>sint32<sp/><ref refid="class_platy_v_g_api_1_1_adapter" kindref="compound">Adapter</ref>::GetLayerCount(linkstep1<sp/>doclink)</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_ASSERT(</highlight><highlight class="stringliteral">&quot;자료의<sp/>링크가<sp/>없습니다&quot;</highlight><highlight class="normal">,<sp/>doclink);</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref>*<sp/>document<sp/>=<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref>*)<sp/>doclink;</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>document-&gt;AllLayers.<ref refid="class_px_1_1_array_1ab0002d07743eee641bc62e3b0f115c52" kindref="member">Count</ref>();</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API(api_long,<sp/>Adapter_GetLayerLink,<sp/>api_long<sp/>doclink,<sp/>api_int<sp/>index)</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API_IMPL(</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_adapter_1ac274106103544d960607229da53029b2" kindref="member">Adapter::GetLayerLink</ref>(doclink,<sp/>index))</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/>linkstep2<sp/><ref refid="class_platy_v_g_api_1_1_adapter" kindref="compound">Adapter</ref>::GetLayerLink(linkstep1<sp/>doclink,<sp/>const<sp/>sint32<sp/>index)</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_ASSERT(</highlight><highlight class="stringliteral">&quot;자료의<sp/>링크가<sp/>없습니다&quot;</highlight><highlight class="normal">,<sp/>doclink);</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref>*<sp/>document<sp/>=<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref>*)<sp/>doclink;</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(linkstep2)<sp/>&amp;document-&gt;AllLayers[index];</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API(api_int,<sp/>Adapter_GetShapeCount,<sp/>api_long<sp/>layerlink,<sp/>api_flag<sp/>dyn)</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API_IMPL(</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_adapter_1a9f1d18ebcf12b05970423462ffecec84" kindref="member">Adapter::GetShapeCount</ref>(layerlink,<sp/>dyn))</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/>const<sp/>sint32<sp/><ref refid="class_platy_v_g_api_1_1_adapter" kindref="compound">Adapter</ref>::GetShapeCount(linkstep2<sp/>layerlink,<sp/>const<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>dyn)</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_ASSERT(</highlight><highlight class="stringliteral">&quot;레이어의<sp/>링크가<sp/>없습니다&quot;</highlight><highlight class="normal">,<sp/>layerlink);</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_layer" kindref="compound">Layer</ref>*<sp/>layer<sp/>=<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_layer" kindref="compound">Layer</ref>*)<sp/>layerlink;</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(dyn)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>layer-&gt;DynShapes.<ref refid="class_px_1_1_array_1ab0002d07743eee641bc62e3b0f115c52" kindref="member">Count</ref>();</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>layer-&gt;AllShapes.<ref refid="class_px_1_1_array_1ab0002d07743eee641bc62e3b0f115c52" kindref="member">Count</ref>();</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API(api_long,<sp/>Adapter_GetShapeLink,<sp/>api_long<sp/>layerlink,<sp/>api_flag<sp/>dyn,<sp/>api_int<sp/>index)</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API_IMPL(</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_adapter_1afcb8971b225b6ff483b8d1bae49b1cb5" kindref="member">Adapter::GetShapeLink</ref>(layerlink,<sp/>dyn,<sp/>index))</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/>linkstep3<sp/><ref refid="class_platy_v_g_api_1_1_adapter" kindref="compound">Adapter</ref>::GetShapeLink(linkstep2<sp/>layerlink,<sp/>const<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>dyn,<sp/>const<sp/>sint32<sp/>index)</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_ASSERT(</highlight><highlight class="stringliteral">&quot;레이어의<sp/>링크가<sp/>없습니다&quot;</highlight><highlight class="normal">,<sp/>layerlink);</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_layer" kindref="compound">Layer</ref>*<sp/>layer<sp/>=<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_layer" kindref="compound">Layer</ref>*)<sp/>layerlink;</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(dyn)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(linkstep3)<sp/>layer-&gt;DynShapes[index].ptr_const();</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(linkstep3)<sp/>layer-&gt;AllShapes[index].ptr_const();</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API(api_flag,<sp/>Adapter_IsLayerVisibled,<sp/>api_long<sp/>layerlink)</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API_IMPL(</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_adapter_1a73136acfdf36e84553831aa479982f40" kindref="member">Adapter::IsLayerVisibled</ref>(layerlink))</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/>const<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_adapter" kindref="compound">Adapter</ref>::IsLayerVisibled(linkstep2<sp/>layerlink)</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_ASSERT(</highlight><highlight class="stringliteral">&quot;레이어의<sp/>링크가<sp/>없습니다&quot;</highlight><highlight class="normal">,<sp/>layerlink);</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_layer" kindref="compound">Layer</ref>*<sp/>layer<sp/>=<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_layer" kindref="compound">Layer</ref>*)<sp/>layerlink;</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>layer-&gt;Visible;</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API(api_flag,<sp/>Adapter_IsShapeSelected,<sp/>api_long<sp/>shapelink)</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API_IMPL(</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_adapter_1a512288abac41117e67074e58d42361e8" kindref="member">Adapter::IsShapeSelected</ref>(shapelink))</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/>const<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_adapter" kindref="compound">Adapter</ref>::IsShapeSelected(linkstep3<sp/>shapelink)</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_ASSERT(</highlight><highlight class="stringliteral">&quot;도형의<sp/>링크가<sp/>없습니다&quot;</highlight><highlight class="normal">,<sp/>shapelink);</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*<sp/>shape<sp/>=<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*)<sp/>shapelink;</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>shape-&gt;IsSelected();</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"></highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API(api_int,<sp/>Adapter_GetShapeColorRed,<sp/>api_long<sp/>shapelink)</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API_IMPL(</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_adapter_1abd2560f84d255c5b2b2807b17a014574" kindref="member">Adapter::GetShapeColorRed</ref>(shapelink))</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/>const<sp/>sint32<sp/><ref refid="class_platy_v_g_api_1_1_adapter" kindref="compound">Adapter</ref>::GetShapeColorRed(linkstep3<sp/>shapelink)</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_ASSERT(</highlight><highlight class="stringliteral">&quot;도형의<sp/>링크가<sp/>없습니다&quot;</highlight><highlight class="normal">,<sp/>shapelink);</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*<sp/>shape<sp/>=<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*)<sp/>shapelink;</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>shape-&gt;GetContext().color.r<sp/>&amp;<sp/>0xFF;</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"></highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API(api_int,<sp/>Adapter_GetShapeColorGreen,<sp/>api_long<sp/>shapelink)</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API_IMPL(</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_adapter_1a89f1360cd36b39a78ce255caf372d88f" kindref="member">Adapter::GetShapeColorGreen</ref>(shapelink))</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/>const<sp/>sint32<sp/><ref refid="class_platy_v_g_api_1_1_adapter" kindref="compound">Adapter</ref>::GetShapeColorGreen(linkstep3<sp/>shapelink)</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_ASSERT(</highlight><highlight class="stringliteral">&quot;도형의<sp/>링크가<sp/>없습니다&quot;</highlight><highlight class="normal">,<sp/>shapelink);</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*<sp/>shape<sp/>=<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*)<sp/>shapelink;</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>shape-&gt;GetContext().color.g<sp/>&amp;<sp/>0xFF;</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight></codeline>
+<codeline lineno="358"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API(api_int,<sp/>Adapter_GetShapeColorBlue,<sp/>api_long<sp/>shapelink)</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API_IMPL(</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_adapter_1af0c4dac5c3f9ec6270a79c8854cbb403" kindref="member">Adapter::GetShapeColorBlue</ref>(shapelink))</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/>const<sp/>sint32<sp/><ref refid="class_platy_v_g_api_1_1_adapter" kindref="compound">Adapter</ref>::GetShapeColorBlue(linkstep3<sp/>shapelink)</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_ASSERT(</highlight><highlight class="stringliteral">&quot;도형의<sp/>링크가<sp/>없습니다&quot;</highlight><highlight class="normal">,<sp/>shapelink);</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*<sp/>shape<sp/>=<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*)<sp/>shapelink;</highlight></codeline>
+<codeline lineno="365"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>shape-&gt;GetContext().color.b<sp/>&amp;<sp/>0xFF;</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"></highlight></codeline>
+<codeline lineno="369"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API(api_int,<sp/>Adapter_GetShapeColorAlpha,<sp/>api_long<sp/>shapelink)</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API_IMPL(</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_adapter_1acd6096d22b9e854f3bc005af2bb00b34" kindref="member">Adapter::GetShapeColorAlpha</ref>(shapelink))</highlight></codeline>
+<codeline lineno="372"><highlight class="normal"><sp/><sp/><sp/><sp/>const<sp/>sint32<sp/><ref refid="class_platy_v_g_api_1_1_adapter" kindref="compound">Adapter</ref>::GetShapeColorAlpha(linkstep3<sp/>shapelink)</highlight></codeline>
+<codeline lineno="373"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_ASSERT(</highlight><highlight class="stringliteral">&quot;도형의<sp/>링크가<sp/>없습니다&quot;</highlight><highlight class="normal">,<sp/>shapelink);</highlight></codeline>
+<codeline lineno="375"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*<sp/>shape<sp/>=<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*)<sp/>shapelink;</highlight></codeline>
+<codeline lineno="376"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>shape-&gt;GetContext().color.a<sp/>&amp;<sp/>0xFF;</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="378"><highlight class="normal"></highlight></codeline>
+<codeline lineno="380"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API(api_int,<sp/>Adapter_GetShapeColorAqua,<sp/>api_long<sp/>shapelink)</highlight></codeline>
+<codeline lineno="381"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API_IMPL(</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_adapter_1a73a5ed12f6fa5d3d91cd317a7f977a89" kindref="member">Adapter::GetShapeColorAqua</ref>(shapelink))</highlight></codeline>
+<codeline lineno="383"><highlight class="normal"><sp/><sp/><sp/><sp/>const<sp/>sint32<sp/><ref refid="class_platy_v_g_api_1_1_adapter" kindref="compound">Adapter</ref>::GetShapeColorAqua(linkstep3<sp/>shapelink)</highlight></codeline>
+<codeline lineno="384"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="385"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_ASSERT(</highlight><highlight class="stringliteral">&quot;도형의<sp/>링크가<sp/>없습니다&quot;</highlight><highlight class="normal">,<sp/>shapelink);</highlight></codeline>
+<codeline lineno="386"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*<sp/>shape<sp/>=<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*)<sp/>shapelink;</highlight></codeline>
+<codeline lineno="387"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>shape-&gt;GetContext().color.aqua<sp/>&amp;<sp/>0xFF;</highlight></codeline>
+<codeline lineno="388"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="389"><highlight class="normal"></highlight></codeline>
+<codeline lineno="391"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API(api_float,<sp/>Adapter_GetShapeMatrixM11,<sp/>api_long<sp/>shapelink)</highlight></codeline>
+<codeline lineno="392"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API_IMPL(</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_adapter_1a35016ac4afbbca89118d2347e65008c6" kindref="member">Adapter::GetShapeMatrixM11</ref>(shapelink))</highlight></codeline>
+<codeline lineno="394"><highlight class="normal"><sp/><sp/><sp/><sp/>const<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_adapter" kindref="compound">Adapter</ref>::GetShapeMatrixM11(linkstep3<sp/>shapelink)</highlight></codeline>
+<codeline lineno="395"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="396"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_ASSERT(</highlight><highlight class="stringliteral">&quot;도형의<sp/>링크가<sp/>없습니다&quot;</highlight><highlight class="normal">,<sp/>shapelink);</highlight></codeline>
+<codeline lineno="397"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*<sp/>shape<sp/>=<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*)<sp/>shapelink;</highlight></codeline>
+<codeline lineno="398"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>shape-&gt;GetMatrix().m11;</highlight></codeline>
+<codeline lineno="399"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="400"><highlight class="normal"></highlight></codeline>
+<codeline lineno="402"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API(api_float,<sp/>Adapter_GetShapeMatrixM12,<sp/>api_long<sp/>shapelink)</highlight></codeline>
+<codeline lineno="403"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API_IMPL(</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_adapter_1a0e3f67f1bbb542a9a7de92ebb7d39de2" kindref="member">Adapter::GetShapeMatrixM12</ref>(shapelink))</highlight></codeline>
+<codeline lineno="405"><highlight class="normal"><sp/><sp/><sp/><sp/>const<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_adapter" kindref="compound">Adapter</ref>::GetShapeMatrixM12(linkstep3<sp/>shapelink)</highlight></codeline>
+<codeline lineno="406"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="407"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_ASSERT(</highlight><highlight class="stringliteral">&quot;도형의<sp/>링크가<sp/>없습니다&quot;</highlight><highlight class="normal">,<sp/>shapelink);</highlight></codeline>
+<codeline lineno="408"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*<sp/>shape<sp/>=<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*)<sp/>shapelink;</highlight></codeline>
+<codeline lineno="409"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>shape-&gt;GetMatrix().m12;</highlight></codeline>
+<codeline lineno="410"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="411"><highlight class="normal"></highlight></codeline>
+<codeline lineno="413"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API(api_float,<sp/>Adapter_GetShapeMatrixM21,<sp/>api_long<sp/>shapelink)</highlight></codeline>
+<codeline lineno="414"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API_IMPL(</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_adapter_1ac66d060ddf82ad7ef617ed7f77ece123" kindref="member">Adapter::GetShapeMatrixM21</ref>(shapelink))</highlight></codeline>
+<codeline lineno="416"><highlight class="normal"><sp/><sp/><sp/><sp/>const<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_adapter" kindref="compound">Adapter</ref>::GetShapeMatrixM21(linkstep3<sp/>shapelink)</highlight></codeline>
+<codeline lineno="417"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="418"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_ASSERT(</highlight><highlight class="stringliteral">&quot;도형의<sp/>링크가<sp/>없습니다&quot;</highlight><highlight class="normal">,<sp/>shapelink);</highlight></codeline>
+<codeline lineno="419"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*<sp/>shape<sp/>=<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*)<sp/>shapelink;</highlight></codeline>
+<codeline lineno="420"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>shape-&gt;GetMatrix().m21;</highlight></codeline>
+<codeline lineno="421"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="422"><highlight class="normal"></highlight></codeline>
+<codeline lineno="424"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API(api_float,<sp/>Adapter_GetShapeMatrixM22,<sp/>api_long<sp/>shapelink)</highlight></codeline>
+<codeline lineno="425"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API_IMPL(</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_adapter_1aac04a7aa496740a2420267ca493b3ca6" kindref="member">Adapter::GetShapeMatrixM22</ref>(shapelink))</highlight></codeline>
+<codeline lineno="427"><highlight class="normal"><sp/><sp/><sp/><sp/>const<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_adapter" kindref="compound">Adapter</ref>::GetShapeMatrixM22(linkstep3<sp/>shapelink)</highlight></codeline>
+<codeline lineno="428"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="429"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_ASSERT(</highlight><highlight class="stringliteral">&quot;도형의<sp/>링크가<sp/>없습니다&quot;</highlight><highlight class="normal">,<sp/>shapelink);</highlight></codeline>
+<codeline lineno="430"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*<sp/>shape<sp/>=<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*)<sp/>shapelink;</highlight></codeline>
+<codeline lineno="431"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>shape-&gt;GetMatrix().m22;</highlight></codeline>
+<codeline lineno="432"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="433"><highlight class="normal"></highlight></codeline>
+<codeline lineno="435"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API(api_float,<sp/>Adapter_GetShapeMatrixDx,<sp/>api_long<sp/>shapelink)</highlight></codeline>
+<codeline lineno="436"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API_IMPL(</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_adapter_1ae2c02588e6ebb45e5ab46063b3e31997" kindref="member">Adapter::GetShapeMatrixDx</ref>(shapelink))</highlight></codeline>
+<codeline lineno="438"><highlight class="normal"><sp/><sp/><sp/><sp/>const<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_adapter" kindref="compound">Adapter</ref>::GetShapeMatrixDx(linkstep3<sp/>shapelink)</highlight></codeline>
+<codeline lineno="439"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="440"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_ASSERT(</highlight><highlight class="stringliteral">&quot;도형의<sp/>링크가<sp/>없습니다&quot;</highlight><highlight class="normal">,<sp/>shapelink);</highlight></codeline>
+<codeline lineno="441"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*<sp/>shape<sp/>=<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*)<sp/>shapelink;</highlight></codeline>
+<codeline lineno="442"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>shape-&gt;GetMatrix().dx;</highlight></codeline>
+<codeline lineno="443"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="444"><highlight class="normal"></highlight></codeline>
+<codeline lineno="446"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API(api_float,<sp/>Adapter_GetShapeMatrixDy,<sp/>api_long<sp/>shapelink)</highlight></codeline>
+<codeline lineno="447"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API_IMPL(</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_adapter_1a6a78f0ead58f4416601f22c9bb7c5775" kindref="member">Adapter::GetShapeMatrixDy</ref>(shapelink))</highlight></codeline>
+<codeline lineno="449"><highlight class="normal"><sp/><sp/><sp/><sp/>const<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_adapter" kindref="compound">Adapter</ref>::GetShapeMatrixDy(linkstep3<sp/>shapelink)</highlight></codeline>
+<codeline lineno="450"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="451"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_ASSERT(</highlight><highlight class="stringliteral">&quot;도형의<sp/>링크가<sp/>없습니다&quot;</highlight><highlight class="normal">,<sp/>shapelink);</highlight></codeline>
+<codeline lineno="452"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*<sp/>shape<sp/>=<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*)<sp/>shapelink;</highlight></codeline>
+<codeline lineno="453"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>shape-&gt;GetMatrix().dy;</highlight></codeline>
+<codeline lineno="454"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="455"><highlight class="normal"></highlight></codeline>
+<codeline lineno="457"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API(api_string,<sp/>Adapter_GetShapeMeshType,<sp/>api_long<sp/>shapelink)</highlight></codeline>
+<codeline lineno="458"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API_IMPL_RETURN(<ref refid="class_platy_v_g_api_1_1_adapter_1a1a5c6672ed18b83d6f3a07d103c342c5" kindref="member">Adapter::GetShapeMeshType</ref>(shapelink))</highlight></codeline>
+<codeline lineno="460"><highlight class="normal"><sp/><sp/><sp/><sp/>chars<sp/><ref refid="class_platy_v_g_api_1_1_adapter" kindref="compound">Adapter</ref>::GetShapeMeshType(linkstep3<sp/>shapelink)</highlight></codeline>
+<codeline lineno="461"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="462"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_ASSERT(</highlight><highlight class="stringliteral">&quot;도형의<sp/>링크가<sp/>없습니다&quot;</highlight><highlight class="normal">,<sp/>shapelink);</highlight></codeline>
+<codeline lineno="463"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*<sp/>shape<sp/>=<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*)<sp/>shapelink;</highlight></codeline>
+<codeline lineno="464"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>shape-&gt;GetMeshType();</highlight></codeline>
+<codeline lineno="465"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="466"><highlight class="normal"></highlight></codeline>
+<codeline lineno="468"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API(api_int,<sp/>Adapter_GetShapeMeshCount,<sp/>api_long<sp/>shapelink)</highlight></codeline>
+<codeline lineno="469"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API_IMPL(</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_adapter_1a6993784d83bf10ab0166d6f4c240afa6" kindref="member">Adapter::GetShapeMeshCount</ref>(shapelink))</highlight></codeline>
+<codeline lineno="471"><highlight class="normal"><sp/><sp/><sp/><sp/>const<sp/>sint32<sp/><ref refid="class_platy_v_g_api_1_1_adapter" kindref="compound">Adapter</ref>::GetShapeMeshCount(linkstep3<sp/>shapelink)</highlight></codeline>
+<codeline lineno="472"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="473"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_ASSERT(</highlight><highlight class="stringliteral">&quot;도형의<sp/>링크가<sp/>없습니다&quot;</highlight><highlight class="normal">,<sp/>shapelink);</highlight></codeline>
+<codeline lineno="474"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*<sp/>shape<sp/>=<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*)<sp/>shapelink;</highlight></codeline>
+<codeline lineno="475"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>shape-&gt;GetMeshCount();</highlight></codeline>
+<codeline lineno="476"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="477"><highlight class="normal"></highlight></codeline>
+<codeline lineno="479"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API(api_floats,<sp/>Adapter_GetShapeMeshArray,<sp/>api_long<sp/>shapelink)</highlight></codeline>
+<codeline lineno="480"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API_IMPL_RETURN(<ref refid="class_platy_v_g_api_1_1_adapter_1a6b1d51261041f1b47e1c00de916de953" kindref="member">Adapter::GetShapeMeshArray</ref>(shapelink),<sp/><ref refid="class_platy_v_g_api_1_1_adapter_1a6993784d83bf10ab0166d6f4c240afa6" kindref="member">Adapter::GetShapeMeshCount</ref>(shapelink))</highlight></codeline>
+<codeline lineno="482"><highlight class="normal"><sp/><sp/><sp/><sp/>const<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/><ref refid="class_platy_v_g_api_1_1_adapter" kindref="compound">Adapter</ref>::GetShapeMeshArray(linkstep3<sp/>shapelink)</highlight></codeline>
+<codeline lineno="483"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="484"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_ASSERT(</highlight><highlight class="stringliteral">&quot;도형의<sp/>링크가<sp/>없습니다&quot;</highlight><highlight class="normal">,<sp/>shapelink);</highlight></codeline>
+<codeline lineno="485"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*<sp/>shape<sp/>=<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*)<sp/>shapelink;</highlight></codeline>
+<codeline lineno="486"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(shape-&gt;GetMeshCount()<sp/>==<sp/>0)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="487"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*)<sp/>shape-&gt;GetMesh(0);</highlight></codeline>
+<codeline lineno="488"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="489"><highlight class="normal"></highlight></codeline>
+<codeline lineno="490"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/><ref refid="class_platy_v_g_api_1_1_adapter_1a347418910ad024df55da1917f7c22a2f" kindref="member">Adapter::GetShapeBufferSize</ref>(linkstep3<sp/>shapelink)</highlight></codeline>
+<codeline lineno="491"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="492"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_ASSERT(</highlight><highlight class="stringliteral">&quot;도형의<sp/>링크가<sp/>없습니다&quot;</highlight><highlight class="normal">,<sp/>shapelink);</highlight></codeline>
+<codeline lineno="493"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*<sp/>shape<sp/>=<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*)<sp/>shapelink;</highlight></codeline>
+<codeline lineno="494"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>count<sp/>=<sp/>shape-&gt;GetEdgeCount();</highlight></codeline>
+<codeline lineno="495"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(0<sp/>&lt;<sp/>count)</highlight></codeline>
+<codeline lineno="496"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="497"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_px_1_1_string" kindref="compound">String</ref><sp/>name<sp/>=<sp/>shape-&gt;GetEdgeType();</highlight></codeline>
+<codeline lineno="498"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint08<sp/>namesize<sp/>=<sp/>(uint08)<sp/>name.<ref refid="class_px_1_1_string_1abc000093830a711318247017aee2a8cd" kindref="member">Length</ref>();</highlight></codeline>
+<codeline lineno="499"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>length<sp/>=<sp/>shape-&gt;GetEdge(0)-&gt;LengthOfWrite();</highlight></codeline>
+<codeline lineno="500"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>namesize<sp/>+<sp/>1<sp/>+<sp/>12<sp/>+<sp/>length<sp/>*<sp/>count;</highlight></codeline>
+<codeline lineno="501"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="502"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="503"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="504"><highlight class="normal"></highlight></codeline>
+<codeline lineno="505"><highlight class="normal"><sp/><sp/><sp/><sp/>bytes<sp/><ref refid="class_platy_v_g_api_1_1_adapter_1a2e8c316c6b4515e4bc38df8875f8cb31" kindref="member">Adapter::GetShapeBuffer</ref>(linkstep3<sp/>shapelink)</highlight></codeline>
+<codeline lineno="506"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="507"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_ASSERT(</highlight><highlight class="stringliteral">&quot;도형의<sp/>링크가<sp/>없습니다&quot;</highlight><highlight class="normal">,<sp/>shapelink);</highlight></codeline>
+<codeline lineno="508"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*<sp/>shape<sp/>=<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*)<sp/>shapelink;</highlight></codeline>
+<codeline lineno="509"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>count<sp/>=<sp/>shape-&gt;GetEdgeCount();</highlight></codeline>
+<codeline lineno="510"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(0<sp/>&lt;<sp/>count)</highlight></codeline>
+<codeline lineno="511"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="512"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="class_temp_buffer" kindref="compound">TempBuffer</ref><sp/>temp;</highlight></codeline>
+<codeline lineno="513"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_px_1_1_string" kindref="compound">String</ref><sp/>name<sp/>=<sp/>shape-&gt;GetEdgeType();</highlight></codeline>
+<codeline lineno="514"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint08<sp/>namesize<sp/>=<sp/>(uint08)<sp/>name.<ref refid="class_px_1_1_string_1abc000093830a711318247017aee2a8cd" kindref="member">Length</ref>();</highlight></codeline>
+<codeline lineno="515"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>length<sp/>=<sp/>shape-&gt;GetEdge(0)-&gt;LengthOfWrite();</highlight></codeline>
+<codeline lineno="516"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>버퍼확보</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="517"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint08*<sp/>shapebuffer<sp/>=<sp/>temp.ValidBuffer(namesize<sp/>+<sp/>1<sp/>+<sp/>12<sp/>+<sp/>length<sp/>*<sp/>count);</highlight></codeline>
+<codeline lineno="518"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint08*<sp/>buffer_name<sp/>=<sp/>shapebuffer;</highlight></codeline>
+<codeline lineno="519"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint08*<sp/>buffer_context<sp/>=<sp/>buffer_name<sp/>+<sp/>namesize<sp/>+<sp/>1;</highlight></codeline>
+<codeline lineno="520"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint08*<sp/>buffer_edges<sp/>=<sp/>buffer_context<sp/>+<sp/>12;</highlight></codeline>
+<codeline lineno="521"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>헤더구성</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="522"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Memory::Copy(buffer_name,<sp/>(chars)<sp/>name,<sp/>namesize<sp/>+<sp/>1);</highlight></codeline>
+<codeline lineno="523"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_element_1_1_context" kindref="compound">Context</ref>&amp;<sp/>context<sp/>=<sp/>shape-&gt;GetContext();</highlight></codeline>
+<codeline lineno="524"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Memory::Copy(buffer_context<sp/>+<sp/>0,<sp/>&amp;context.color.rgba,<sp/>4);</highlight></codeline>
+<codeline lineno="525"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Memory::Copy(buffer_context<sp/>+<sp/>4,<sp/>&amp;context.color.aqua,<sp/>4);</highlight></codeline>
+<codeline lineno="526"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Memory::Copy(buffer_context<sp/>+<sp/>8,<sp/>&amp;context.thick,<sp/>4);</highlight></codeline>
+<codeline lineno="527"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>내용구성</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="528"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(sint32<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>count;<sp/>++i)</highlight></codeline>
+<codeline lineno="529"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>shape-&gt;GetEdge(i)-&gt;Write(buffer_edges<sp/>+<sp/>length<sp/>*<sp/>i);</highlight></codeline>
+<codeline lineno="530"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>shapebuffer;</highlight></codeline>
+<codeline lineno="531"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="532"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="533"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="534"><highlight class="normal"></highlight></codeline>
+<codeline lineno="536"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">,<sp/>Adapter_RenderDIB,<sp/>api_int<sp/>doc,<sp/>api_float<sp/>x,<sp/>api_float<sp/>y,<sp/>api_float<sp/>scale,<sp/>api_bytes<sp/>bits,<sp/>api_int<sp/>width,<sp/>api_int<sp/>height)</highlight></codeline>
+<codeline lineno="537"><highlight class="normal"><sp/><sp/><sp/><sp/>PX_API_IMPL(<ref refid="class_platy_v_g_api_1_1_adapter_1a391c2ced09fd77d0cf92fafc75961ff3" kindref="member">Adapter::RenderDIB</ref>(doc,<sp/><ref refid="class_platy_v_g_element_1_1_zoom" kindref="compound">Zoom</ref>(<ref refid="class_platy_v_g_element_1_1_point" kindref="compound">Point</ref>(x,<sp/>y),<sp/>scale),<sp/>(uint32*)(bytes)<sp/>PX_API_BRR(bits),<sp/>width,<sp/>height))</highlight></codeline>
+<codeline lineno="539"><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/><ref refid="class_platy_v_g_api_1_1_adapter" kindref="compound">Adapter</ref>::RenderDIB(const<sp/>sint32<sp/>doc,<sp/>const<sp/><ref refid="class_platy_v_g_element_1_1_zoom" kindref="compound">Zoom</ref><sp/>zoom,<sp/>uint32*<sp/>bits,<sp/>const<sp/>sint32<sp/>width,<sp/>const<sp/>sint32<sp/>height)</highlight></codeline>
+<codeline lineno="540"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="541"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_view" kindref="compound">View</ref>*<sp/>view<sp/>=<sp/>View::Currently();</highlight></codeline>
+<codeline lineno="542"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref>*<sp/>document<sp/>=<sp/>view-&gt;<ref refid="class_platy_v_g_core_1_1_view_1adbfef0a3a46eadf9c1159b70f41abc63" kindref="member">GetDocument</ref>(doc);</highlight></codeline>
+<codeline lineno="543"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!document)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="544"><highlight class="normal"></highlight></codeline>
+<codeline lineno="545"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(sint32<sp/>l<sp/>=<sp/>0,<sp/>lend<sp/>=<sp/>document-&gt;AllLayers.<ref refid="class_px_1_1_array_1ab0002d07743eee641bc62e3b0f115c52" kindref="member">Count</ref>();<sp/>l<sp/>&lt;<sp/>lend;<sp/>++l)</highlight></codeline>
+<codeline lineno="546"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="547"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_layer" kindref="compound">Layer</ref>*<sp/>CurLayer<sp/>=<sp/>&amp;document-&gt;AllLayers[l];</highlight></codeline>
+<codeline lineno="548"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!CurLayer-&gt;Visible)<sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="549"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(sint32<sp/>i<sp/>=<sp/>0,<sp/>iend<sp/>=<sp/>CurLayer-&gt;AllShapes.<ref refid="class_px_1_1_array_1ab0002d07743eee641bc62e3b0f115c52" kindref="member">Count</ref>();<sp/>i<sp/>&lt;<sp/>iend;<sp/>++i)</highlight></codeline>
+<codeline lineno="550"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="551"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*<sp/>CurShape<sp/>=<sp/>CurLayer-&gt;AllShapes[i].ptr_const();</highlight></codeline>
+<codeline lineno="552"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>MeshCount<sp/>=<sp/>CurShape-&gt;GetMeshCount();</highlight></codeline>
+<codeline lineno="553"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(MeshCount<sp/>==<sp/>0)<sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="554"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BitmapRender(width,<sp/>height,<sp/>bits,<sp/>&amp;CurShape-&gt;GetContext().color,</highlight></codeline>
+<codeline lineno="555"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;zoom,<sp/>CurShape-&gt;GetMeshType(),<sp/>MeshCount,<sp/>CurShape-&gt;GetMesh(0));</highlight></codeline>
+<codeline lineno="556"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="557"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(sint32<sp/>i<sp/>=<sp/>0,<sp/>iend<sp/>=<sp/>CurLayer-&gt;DynShapes.<ref refid="class_px_1_1_array_1ab0002d07743eee641bc62e3b0f115c52" kindref="member">Count</ref>();<sp/>i<sp/>&lt;<sp/>iend;<sp/>++i)</highlight></codeline>
+<codeline lineno="558"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="559"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref>*<sp/>CurShape<sp/>=<sp/>CurLayer-&gt;DynShapes[i].ptr_const();</highlight></codeline>
+<codeline lineno="560"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!CurShape)<sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="561"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>MeshCount<sp/>=<sp/>CurShape-&gt;GetMeshCount();</highlight></codeline>
+<codeline lineno="562"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(MeshCount<sp/>==<sp/>0)<sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="563"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BitmapRender(width,<sp/>height,<sp/>bits,<sp/>&amp;CurShape-&gt;GetContext().color,</highlight></codeline>
+<codeline lineno="564"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;zoom,<sp/>CurShape-&gt;GetMeshType(),<sp/>MeshCount,<sp/>CurShape-&gt;GetMesh(0));</highlight></codeline>
+<codeline lineno="565"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="566"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="567"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="568"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.cpp"/>
+  </compounddef>
+</doxygen>

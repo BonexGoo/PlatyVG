@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="adapter_8hpp" kind="file" language="C++">
+    <compoundname>adapter.hpp</compoundname>
+    <includes refid="platyvg_8hpp" local="no">platyvg.hpp</includes>
+    <includes refid="color_8hpp" local="yes">../element/color.hpp</includes>
+    <includes refid="coord_8hpp" local="yes">../element/coord.hpp</includes>
+    <includes refid="matrix_8hpp" local="yes">../element/matrix.hpp</includes>
+    <includes refid="mesh_8hpp" local="yes">../element/mesh.hpp</includes>
+    <includes refid="zoom_8hpp" local="yes">../element/zoom.hpp</includes>
+    <includedby refid="adapter_8cpp" local="yes">adapter.cpp</includedby>
+    <includedby refid="shape_8hpp" local="yes">shape.hpp</includedby>
+    <incdepgraph>
+      <node id="66">
+        <label>adapter.hpp</label>
+        <link refid="adapter.hpp"/>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="78" relation="include">
+        </childnode>
+        <childnode refid="79" relation="include">
+        </childnode>
+        <childnode refid="80" relation="include">
+        </childnode>
+        <childnode refid="81" relation="include">
+        </childnode>
+      </node>
+      <node id="80">
+        <label>../element/mesh.hpp</label>
+        <link refid="mesh_8hpp_source"/>
+        <childnode refid="67" relation="include">
+        </childnode>
+      </node>
+      <node id="82">
+        <label>../element/point.hpp</label>
+        <link refid="point_8hpp_source"/>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="79" relation="include">
+        </childnode>
+      </node>
+      <node id="67">
+        <label>platyvg.hpp</label>
+        <link refid="platyvg_8hpp_source"/>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
+        </childnode>
+        <childnode refid="73" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+        <childnode refid="70" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+      </node>
+      <node id="70">
+        <label>../px/share.hpp</label>
+        <link refid="share_8hpp_source"/>
+        <childnode refid="71" relation="include">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>../px/array.hpp</label>
+        <link refid="array_8hpp_source"/>
+        <childnode refid="70" relation="include">
+        </childnode>
+      </node>
+      <node id="75">
+        <label>../px/parser.hpp</label>
+        <link refid="parser_8hpp_source"/>
+        <childnode refid="76" relation="include">
+        </childnode>
+      </node>
+      <node id="68">
+        <label>../px/px.hpp</label>
+        <link refid="px_8hpp_source"/>
+      </node>
+      <node id="77">
+        <label>../element/color.hpp</label>
+        <link refid="color_8hpp_source"/>
+        <childnode refid="67" relation="include">
+        </childnode>
+      </node>
+      <node id="73">
+        <label>../px/file.hpp</label>
+        <link refid="file_8hpp_source"/>
+        <childnode refid="68" relation="include">
+        </childnode>
+      </node>
+      <node id="79">
+        <label>../element/matrix.hpp</label>
+        <link refid="matrix_8hpp_source"/>
+        <childnode refid="67" relation="include">
+        </childnode>
+      </node>
+      <node id="76">
+        <label>../px/string.hpp</label>
+        <link refid="string_8hpp_source"/>
+        <childnode refid="69" relation="include">
+        </childnode>
+      </node>
+      <node id="72">
+        <label>../px/memory.hpp</label>
+        <link refid="memory_8hpp_source"/>
+        <childnode refid="68" relation="include">
+        </childnode>
+      </node>
+      <node id="74">
+        <label>../px/math.hpp</label>
+        <link refid="math_8hpp_source"/>
+        <childnode refid="68" relation="include">
+        </childnode>
+      </node>
+      <node id="81">
+        <label>../element/zoom.hpp</label>
+        <link refid="zoom_8hpp_source"/>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="82" relation="include">
+        </childnode>
+      </node>
+      <node id="71">
+        <label>../px/buffer.hpp</label>
+        <link refid="buffer_8hpp_source"/>
+        <childnode refid="72" relation="include">
+        </childnode>
+      </node>
+      <node id="78">
+        <label>../element/coord.hpp</label>
+        <link refid="coord_8hpp_source"/>
+        <childnode refid="67" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="83">
+        <label>adapter.hpp</label>
+        <link refid="adapter.hpp"/>
+        <childnode refid="84" relation="include">
+        </childnode>
+      </node>
+      <node id="87">
+        <label>view.hpp</label>
+        <link refid="view_8hpp_source"/>
+      </node>
+      <node id="84">
+        <label>shape.hpp</label>
+        <link refid="shape_8hpp_source"/>
+        <childnode refid="85" relation="include">
+        </childnode>
+        <childnode refid="87" relation="include">
+        </childnode>
+      </node>
+      <node id="85">
+        <label>layer.hpp</label>
+        <link refid="layer_8hpp_source"/>
+        <childnode refid="86" relation="include">
+        </childnode>
+      </node>
+      <node id="86">
+        <label>document.hpp</label>
+        <link refid="document_8hpp_source"/>
+        <childnode refid="87" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_platy_v_g_api_1_1_adapter" prot="public">PlatyVGApi::Adapter</innerclass>
+    <innernamespace refid="namespace_platy_v_g_api">PlatyVGApi</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;platyvg.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../element/color.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../element/coord.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../element/matrix.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../element/mesh.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../element/zoom.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_platy_v_g_api" kindref="compound">PlatyVGApi</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12" refid="class_platy_v_g_api_1_1_adapter" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_platy_v_g_api_1_1_adapter" kindref="compound">Adapter</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>linkstep1<sp/><ref refid="class_platy_v_g_api_1_1_adapter_1a352170f1f2dcf7340fc06ce556c8f9c9" kindref="member">GetDocumentLink</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>doc);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/><ref refid="class_platy_v_g_api_1_1_adapter_1a17ef044d59ad5f29120910d96cbff6d0" kindref="member">GetLayerCount</ref>(linkstep1<sp/>doclink);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>linkstep2<sp/><ref refid="class_platy_v_g_api_1_1_adapter_1ac274106103544d960607229da53029b2" kindref="member">GetLayerLink</ref>(linkstep1<sp/>doclink,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>index);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/><ref refid="class_platy_v_g_api_1_1_adapter_1a9f1d18ebcf12b05970423462ffecec84" kindref="member">GetShapeCount</ref>(linkstep2<sp/>layerlink,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>dyn);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>linkstep3<sp/><ref refid="class_platy_v_g_api_1_1_adapter_1afcb8971b225b6ff483b8d1bae49b1cb5" kindref="member">GetShapeLink</ref>(linkstep2<sp/>layerlink,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>dyn,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>index);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_adapter_1a73136acfdf36e84553831aa479982f40" kindref="member">IsLayerVisibled</ref>(linkstep2<sp/>layerlink);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_adapter_1a512288abac41117e67074e58d42361e8" kindref="member">IsShapeSelected</ref>(linkstep3<sp/>shapelink);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/><ref refid="class_platy_v_g_api_1_1_adapter_1abd2560f84d255c5b2b2807b17a014574" kindref="member">GetShapeColorRed</ref>(linkstep3<sp/>shapelink);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/><ref refid="class_platy_v_g_api_1_1_adapter_1a89f1360cd36b39a78ce255caf372d88f" kindref="member">GetShapeColorGreen</ref>(linkstep3<sp/>shapelink);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/><ref refid="class_platy_v_g_api_1_1_adapter_1af0c4dac5c3f9ec6270a79c8854cbb403" kindref="member">GetShapeColorBlue</ref>(linkstep3<sp/>shapelink);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/><ref refid="class_platy_v_g_api_1_1_adapter_1acd6096d22b9e854f3bc005af2bb00b34" kindref="member">GetShapeColorAlpha</ref>(linkstep3<sp/>shapelink);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/><ref refid="class_platy_v_g_api_1_1_adapter_1a73a5ed12f6fa5d3d91cd317a7f977a89" kindref="member">GetShapeColorAqua</ref>(linkstep3<sp/>shapelink);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_adapter_1a35016ac4afbbca89118d2347e65008c6" kindref="member">GetShapeMatrixM11</ref>(linkstep3<sp/>shapelink);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_adapter_1a0e3f67f1bbb542a9a7de92ebb7d39de2" kindref="member">GetShapeMatrixM12</ref>(linkstep3<sp/>shapelink);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_adapter_1ac66d060ddf82ad7ef617ed7f77ece123" kindref="member">GetShapeMatrixM21</ref>(linkstep3<sp/>shapelink);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_adapter_1aac04a7aa496740a2420267ca493b3ca6" kindref="member">GetShapeMatrixM22</ref>(linkstep3<sp/>shapelink);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_adapter_1ae2c02588e6ebb45e5ab46063b3e31997" kindref="member">GetShapeMatrixDx</ref>(linkstep3<sp/>shapelink);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_adapter_1a6a78f0ead58f4416601f22c9bb7c5775" kindref="member">GetShapeMatrixDy</ref>(linkstep3<sp/>shapelink);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>chars<sp/><ref refid="class_platy_v_g_api_1_1_adapter_1a1a5c6672ed18b83d6f3a07d103c342c5" kindref="member">GetShapeMeshType</ref>(linkstep3<sp/>shapelink);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/><ref refid="class_platy_v_g_api_1_1_adapter_1a6993784d83bf10ab0166d6f4c240afa6" kindref="member">GetShapeMeshCount</ref>(linkstep3<sp/>shapelink);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/><ref refid="class_platy_v_g_api_1_1_adapter_1a6b1d51261041f1b47e1c00de916de953" kindref="member">GetShapeMeshArray</ref>(linkstep3<sp/>shapelink);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/><ref refid="class_platy_v_g_api_1_1_adapter_1a347418910ad024df55da1917f7c22a2f" kindref="member">GetShapeBufferSize</ref>(linkstep3<sp/>shapelink);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>bytes<sp/><ref refid="class_platy_v_g_api_1_1_adapter_1a2e8c316c6b4515e4bc38df8875f8cb31" kindref="member">GetShapeBuffer</ref>(linkstep3<sp/>shapelink);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_adapter_1a391c2ced09fd77d0cf92fafc75961ff3" kindref="member">RenderDIB</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>doc,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_element_1_1_zoom" kindref="compound">Zoom</ref><sp/>zoom,<sp/>uint32*<sp/>bits,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>width,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>height);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="190"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.hpp"/>
+  </compounddef>
+</doxygen>

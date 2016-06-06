@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_platy_v_g_element_1_1_mesh" kind="class" language="C++" prot="public">
+    <compoundname>PlatyVGElement::Mesh</compoundname>
+    <derivedcompoundref refid="class_platy_v_g_element_1_1_mesh_aqua" prot="public" virt="non-virtual">PlatyVGElement::MeshAqua</derivedcompoundref>
+    <derivedcompoundref refid="class_platy_v_g_element_1_1_mesh_spline" prot="public" virt="non-virtual">PlatyVGElement::MeshSpline</derivedcompoundref>
+    <derivedcompoundref refid="class_platy_v_g_element_1_1_mesh_tube" prot="public" virt="non-virtual">PlatyVGElement::MeshTube</derivedcompoundref>
+    <includes refid="mesh_8hpp" local="no">mesh.hpp</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_mesh_1a4512ec0790962c2644d4811c00a8be6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::Mesh::Mesh</definition>
+        <argsstring>()</argsstring>
+        <name>Mesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/mesh.hpp" line="10" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/mesh.cpp" bodystart="6" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_mesh_1a58a3b3b234034d89f99497bc889df693" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::Mesh::Mesh</definition>
+        <argsstring>(const Mesh &amp;rhs)</argsstring>
+        <name>Mesh</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_mesh" kindref="compound">Mesh</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/mesh.hpp" line="11" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/mesh.cpp" bodystart="10" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_mesh_1a96b1ad80a1afff1cd6027974a3ed1bed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::Mesh::~Mesh</definition>
+        <argsstring>()</argsstring>
+        <name>~Mesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/mesh.hpp" line="12" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/mesh.cpp" bodystart="15" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_mesh_1a9f845fd2940a20e6092c822f23206289" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_platy_v_g_element_1_1_mesh" kindref="compound">Mesh</ref> &amp;</type>
+        <definition>Mesh &amp; PlatyVGElement::Mesh::operator=</definition>
+        <argsstring>(const Mesh &amp;rhs)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_mesh" kindref="compound">Mesh</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/mesh.hpp" line="13" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/mesh.cpp" bodystart="19" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>메시좌표 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="99">
+        <label>PlatyVGElement::MeshAqua</label>
+        <link refid="class_platy_v_g_element_1_1_mesh_aqua"/>
+        <childnode refid="98" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="101">
+        <label>PlatyVGElement::MeshTube</label>
+        <link refid="class_platy_v_g_element_1_1_mesh_tube"/>
+        <childnode refid="98" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="98">
+        <label>PlatyVGElement::Mesh</label>
+        <link refid="class_platy_v_g_element_1_1_mesh"/>
+      </node>
+      <node id="100">
+        <label>PlatyVGElement::MeshSpline</label>
+        <link refid="class_platy_v_g_element_1_1_mesh_spline"/>
+        <childnode refid="98" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/mesh.hpp" line="8" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/mesh.hpp" bodystart="7" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_platy_v_g_element_1_1_mesh_1a4512ec0790962c2644d4811c00a8be6c" prot="public" virt="non-virtual"><scope>PlatyVGElement::Mesh</scope><name>Mesh</name></member>
+      <member refid="class_platy_v_g_element_1_1_mesh_1a58a3b3b234034d89f99497bc889df693" prot="public" virt="non-virtual"><scope>PlatyVGElement::Mesh</scope><name>Mesh</name></member>
+      <member refid="class_platy_v_g_element_1_1_mesh_1a9f845fd2940a20e6092c822f23206289" prot="public" virt="non-virtual"><scope>PlatyVGElement::Mesh</scope><name>operator=</name></member>
+      <member refid="class_platy_v_g_element_1_1_mesh_1a96b1ad80a1afff1cd6027974a3ed1bed" prot="public" virt="non-virtual"><scope>PlatyVGElement::Mesh</scope><name>~Mesh</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

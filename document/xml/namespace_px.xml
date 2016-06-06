@@ -1,0 +1,773 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="namespace_px" kind="namespace" language="C++">
+    <compoundname>Px</compoundname>
+    <innerclass refid="class_px_1_1_array" prot="public">Px::Array</innerclass>
+    <innerclass refid="class_px_1_1_array_share" prot="public">Px::ArrayShare</innerclass>
+    <innerclass refid="class_px_1_1_buffer" prot="public">Px::Buffer</innerclass>
+    <innerclass refid="class_px_1_1_byte_array_for_platform" prot="public">Px::ByteArrayForPlatform</innerclass>
+    <innerclass refid="class_px_1_1_file" prot="public">Px::File</innerclass>
+    <innerclass refid="class_px_1_1_math" prot="public">Px::Math</innerclass>
+    <innerclass refid="class_px_1_1_memory" prot="public">Px::Memory</innerclass>
+    <innerclass refid="class_px_1_1_parser" prot="public">Px::Parser</innerclass>
+    <innerclass refid="class_px_1_1_share" prot="public">Px::Share</innerclass>
+    <innerclass refid="class_px_1_1_string" prot="public">Px::String</innerclass>
+    <innerclass refid="class_px_1_1_string_for_platform" prot="public">Px::StringForPlatform</innerclass>
+    <innerclass refid="class_px_1_1_union" prot="public">Px::Union</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespace_px_1a6aa4b208d71c9c48f2cfbe5178f8a105" prot="public" static="no">
+        <type><ref refid="class_px_1_1_array" kindref="compound">Array</ref>&lt; sint08, true &gt;</type>
+        <definition>typedef Array&lt;sint08, true&gt; Px::sint08s</definition>
+        <argsstring></argsstring>
+        <name>sint08s</name>
+        <briefdescription>
+<para>스마트배열 기본객체 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="159" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1ad692a24f83b785a68a7d4f404825e2bc" prot="public" static="no">
+        <type><ref refid="class_px_1_1_array" kindref="compound">Array</ref>&lt; uint08, true &gt;</type>
+        <definition>typedef Array&lt;uint08, true&gt; Px::uint08s</definition>
+        <argsstring></argsstring>
+        <name>uint08s</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="160" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1a14ef9b416910b414065cee1d1b79a688" prot="public" static="no">
+        <type><ref refid="class_px_1_1_array" kindref="compound">Array</ref>&lt; sint16, true &gt;</type>
+        <definition>typedef Array&lt;sint16, true&gt; Px::sint16s</definition>
+        <argsstring></argsstring>
+        <name>sint16s</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="161" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1ab244bef928314fce41671f4436d0a8c4" prot="public" static="no">
+        <type><ref refid="class_px_1_1_array" kindref="compound">Array</ref>&lt; uint16, true &gt;</type>
+        <definition>typedef Array&lt;uint16, true&gt; Px::uint16s</definition>
+        <argsstring></argsstring>
+        <name>uint16s</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="162" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1aebc5ac8d436c400bcf1abcdd24cf14fa" prot="public" static="no">
+        <type><ref refid="class_px_1_1_array" kindref="compound">Array</ref>&lt; sint32, true &gt;</type>
+        <definition>typedef Array&lt;sint32, true&gt; Px::sint32s</definition>
+        <argsstring></argsstring>
+        <name>sint32s</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="163" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1ab5fd79c2fea37339863e886f9f1c3285" prot="public" static="no">
+        <type><ref refid="class_px_1_1_array" kindref="compound">Array</ref>&lt; uint32, true &gt;</type>
+        <definition>typedef Array&lt;uint32, true&gt; Px::uint32s</definition>
+        <argsstring></argsstring>
+        <name>uint32s</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="164" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1aec08576cef5507e2f7f6f26527d56a97" prot="public" static="no">
+        <type><ref refid="class_px_1_1_array" kindref="compound">Array</ref>&lt; sint64, true &gt;</type>
+        <definition>typedef Array&lt;sint64, true&gt; Px::sint64s</definition>
+        <argsstring></argsstring>
+        <name>sint64s</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="165" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1a160e2e2497f37aa699c98db2ca32fc26" prot="public" static="no">
+        <type><ref refid="class_px_1_1_array" kindref="compound">Array</ref>&lt; uint64, true &gt;</type>
+        <definition>typedef Array&lt;uint64, true&gt; Px::uint64s</definition>
+        <argsstring></argsstring>
+        <name>uint64s</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="166" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1af9ea2d20d7823761e839dc1cdf88a65e" prot="public" static="no">
+        <type><ref refid="class_px_1_1_array" kindref="compound">Array</ref>&lt; float, true &gt;</type>
+        <definition>typedef Array&lt;float, true&gt; Px::floats</definition>
+        <argsstring></argsstring>
+        <name>floats</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="167" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1a4d6e25ad83749f7b5731a9d490ed2e96" prot="public" static="no">
+        <type>char</type>
+        <definition>typedef char Px::sint08</definition>
+        <argsstring></argsstring>
+        <name>sint08</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="8" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1a7d9c8924f7d9bc303a50295285ffbe86" prot="public" static="no">
+        <type>unsigned char</type>
+        <definition>typedef unsigned char Px::uint08</definition>
+        <argsstring></argsstring>
+        <name>uint08</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="9" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1ada62abcd5cdc4e1198001e12509a3e4b" prot="public" static="no">
+        <type>short</type>
+        <definition>typedef short Px::sint16</definition>
+        <argsstring></argsstring>
+        <name>sint16</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="10" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1ad9178550e635c272060e3cd5beddc076" prot="public" static="no">
+        <type>unsigned short</type>
+        <definition>typedef unsigned short Px::uint16</definition>
+        <argsstring></argsstring>
+        <name>uint16</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="11" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1ae7f3bd38b8a6a3d6a66262cfb45bb83e" prot="public" static="no">
+        <type>int</type>
+        <definition>typedef int Px::sint32</definition>
+        <argsstring></argsstring>
+        <name>sint32</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="12" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1a7b90ee2958f793857735924df565cca9" prot="public" static="no">
+        <type>unsigned int</type>
+        <definition>typedef unsigned int Px::uint32</definition>
+        <argsstring></argsstring>
+        <name>uint32</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="13" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1a14b7b165bfd3a30f84ecce95afb496cd" prot="public" static="no">
+        <type>long long</type>
+        <definition>typedef long long Px::sint64</definition>
+        <argsstring></argsstring>
+        <name>sint64</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="14" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1a730a31046464287bd84e241186ad1164" prot="public" static="no">
+        <type>unsigned long long</type>
+        <definition>typedef unsigned long long Px::uint64</definition>
+        <argsstring></argsstring>
+        <name>uint64</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="15" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1abd8d495fa5b408d573f1c00e539e5d32" prot="public" static="no">
+        <type>const sint08 *</type>
+        <definition>typedef const sint08* Px::chars</definition>
+        <argsstring></argsstring>
+        <name>chars</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="16" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1af9e920e09ff559a8905437cb7e21df87" prot="public" static="no">
+        <type>const uint08 *</type>
+        <definition>typedef const uint08* Px::bytes</definition>
+        <argsstring></argsstring>
+        <name>bytes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="17" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1a3015fff55340d33513859f331576676b" prot="public" static="no">
+        <type>const sint64</type>
+        <definition>typedef const sint64 Px::linkstep1</definition>
+        <argsstring></argsstring>
+        <name>linkstep1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="18" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1a79d5bdf66c8a48fbfeeb137ad363576e" prot="public" static="no">
+        <type>const sint64</type>
+        <definition>typedef const sint64 Px::linkstep2</definition>
+        <argsstring></argsstring>
+        <name>linkstep2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="19" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1a45508c31922957c8b8b15e32583be335" prot="public" static="no">
+        <type>const sint64</type>
+        <definition>typedef const sint64 Px::linkstep3</definition>
+        <argsstring></argsstring>
+        <name>linkstep3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="20" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1a38ae694d0d075e324148d5868b595a67" prot="public" static="no">
+        <type>const sint64</type>
+        <definition>typedef const sint64 Px::linkstep4</definition>
+        <argsstring></argsstring>
+        <name>linkstep4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="21" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1a7bcb8ca47b8c0450f41098a6768587aa" prot="public" static="no">
+        <type>const sint64</type>
+        <definition>typedef const sint64 Px::linkstep5</definition>
+        <argsstring></argsstring>
+        <name>linkstep5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="22" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1a5d7774ac66c661fc1eff0de0a8b43b0a" prot="public" static="no">
+        <type>const sint64</type>
+        <definition>typedef const sint64 Px::linkstep6</definition>
+        <argsstring></argsstring>
+        <name>linkstep6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="23" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1abdc9654be17aac101ec7cdd9c25d594f" prot="public" static="no">
+        <type>const sint64</type>
+        <definition>typedef const sint64 Px::linkstep7</definition>
+        <argsstring></argsstring>
+        <name>linkstep7</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="24" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1aaf27d94b170d87ee0d9a2ccd734e07d9" prot="public" static="no">
+        <type>const sint64</type>
+        <definition>typedef const sint64 Px::linkstep8</definition>
+        <argsstring></argsstring>
+        <name>linkstep8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="25" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1ab5da259d430544e324b51ee6c64ddd1d" prot="public" static="no">
+        <type>const sint64</type>
+        <definition>typedef const sint64 Px::linkstep9</definition>
+        <argsstring></argsstring>
+        <name>linkstep9</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="26" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1a775828baca72b00c741b9f5ff972ec16" prot="public" static="no">
+        <type>sint32</type>
+        <definition>typedef sint32 Px::sblock</definition>
+        <argsstring></argsstring>
+        <name>sblock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="33" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1a2c98cc3660d8761f3a6ce14652280be4" prot="public" static="no">
+        <type>uint32</type>
+        <definition>typedef uint32 Px::ublock</definition>
+        <argsstring></argsstring>
+        <name>ublock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="34" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1a7424d7261ce9a1d2f90d1bd3bc091cbc" prot="public" static="no">
+        <type>sblock *</type>
+        <definition>typedef sblock* Px::nakedbuffer</definition>
+        <argsstring></argsstring>
+        <name>nakedbuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="36" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1a3e2abeba9e1c25422bfae0d7dbb7b331" prot="public" static="no">
+        <type>ublock *</type>
+        <definition>typedef ublock* Px::buffer</definition>
+        <argsstring></argsstring>
+        <name>buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="37" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1a1dc2ece846fb535dc0c9b4564134dd42" prot="public" static="no">
+        <type>sint32</type>
+        <definition>typedef sint32 Px::api_autorun</definition>
+        <argsstring></argsstring>
+        <name>api_autorun</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="40" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1aabf21bc4ed5b57cb898e5f4dddda9d97" prot="public" static="no">
+        <type>sint32</type>
+        <definition>typedef sint32 Px::api_int</definition>
+        <argsstring></argsstring>
+        <name>api_int</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="53" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1a004b945c1ec6bc72735fbbf070ac7e15" prot="public" static="no">
+        <type>uint32</type>
+        <definition>typedef uint32 Px::api_uint</definition>
+        <argsstring></argsstring>
+        <name>api_uint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="54" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1aa39b313caee0b5e682dddf2250c15f89" prot="public" static="no">
+        <type>sint32</type>
+        <definition>typedef sint32 Px::api_flag</definition>
+        <argsstring></argsstring>
+        <name>api_flag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="55" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1af637c09eeb477e237ac23a35476d960e" prot="public" static="no">
+        <type>sint32</type>
+        <definition>typedef sint32 Px::api_enum</definition>
+        <argsstring></argsstring>
+        <name>api_enum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="56" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1aadef21dd16cef05b0ec7f08b402c7ed2" prot="public" static="no">
+        <type>sint64</type>
+        <definition>typedef sint64 Px::api_long</definition>
+        <argsstring></argsstring>
+        <name>api_long</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="57" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1ab936829a9b9b51e645a6c1c0b10dd979" prot="public" static="no">
+        <type>float</type>
+        <definition>typedef float Px::api_float</definition>
+        <argsstring></argsstring>
+        <name>api_float</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="58" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1a009829fb9c8208373a8d68283a555185" prot="public" static="no">
+        <type>chars</type>
+        <definition>typedef chars Px::api_string</definition>
+        <argsstring></argsstring>
+        <name>api_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="59" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1a6b435a6b01adf9a4c3167851f87304e4" prot="public" static="no">
+        <type>bytes</type>
+        <definition>typedef bytes Px::api_bytes</definition>
+        <argsstring></argsstring>
+        <name>api_bytes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="60" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1a151a44a94605e9a164a00a4abc56494f" prot="public" static="no">
+        <type>const float *</type>
+        <definition>typedef const float* Px::api_floats</definition>
+        <argsstring></argsstring>
+        <name>api_floats</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="61" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_px_1a71902d042b73825490c9a6e97f67359c" prot="public" static="no">
+        <type>chars</type>
+        <definition>typedef chars Px::api_results</definition>
+        <argsstring></argsstring>
+        <name>api_results</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="62" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_px_1a746e38f603c544745c03f2e5e545c216" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>api_autorun</type>
+        <definition>api_autorun Px::CollectForPlatform</definition>
+        <argsstring>(chars type, chars name, chars param)</argsstring>
+        <name>CollectForPlatform</name>
+        <param>
+          <type>chars</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>chars</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>chars</type>
+          <declname>param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="65" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_px_1ab07da4a4fbe8df15cee1ec72148a0b3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Px::ReadyForPlatform</definition>
+        <argsstring>(void *env)</argsstring>
+        <name>ReadyForPlatform</name>
+        <param>
+          <type>void *</type>
+          <declname>env</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="66" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_px_1a6e3adbdd8fa9a306798e02ef46eb79b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>api_string</type>
+        <definition>api_string Px::ReturnForPlatform</definition>
+        <argsstring>(void *env, chars data)</argsstring>
+        <name>ReturnForPlatform</name>
+        <param>
+          <type>void *</type>
+          <declname>env</declname>
+        </param>
+        <param>
+          <type>chars</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="68" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_px_1a63723fae1fa306bd30d997f723d2eee4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>api_floats</type>
+        <definition>api_floats Px::ReturnForPlatform</definition>
+        <argsstring>(void *env, const float *data, const sint32 len)</argsstring>
+        <name>ReturnForPlatform</name>
+        <param>
+          <type>void *</type>
+          <declname>env</declname>
+        </param>
+        <param>
+          <type>const float *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const sint32</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="69" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_px_1a3743b0bcbddcd6d1620c926cff32b5ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>api_results</type>
+        <definition>api_results Px::ResultsForPlatform</definition>
+        <argsstring>(void *env, char *temp, uint32 a, uint32 b)</argsstring>
+        <name>ResultsForPlatform</name>
+        <param>
+          <type>void *</type>
+          <declname>env</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>temp</declname>
+        </param>
+        <param>
+          <type>uint32</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>uint32</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="70" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_px_1a2a5b1165494337394ec7106e8f5a1df0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>api_results</type>
+        <definition>api_results Px::ResultsForPlatform</definition>
+        <argsstring>(void *env, char *temp, float a, float b, float c)</argsstring>
+        <name>ResultsForPlatform</name>
+        <param>
+          <type>void *</type>
+          <declname>env</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>temp</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="71" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_px_1a2c20dc0fb80df6105440d464364d59fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>api_results</type>
+        <definition>api_results Px::ResultsForPlatform</definition>
+        <argsstring>(void *env, char *temp, float a, float b, float c, float d)</argsstring>
+        <name>ResultsForPlatform</name>
+        <param>
+          <type>void *</type>
+          <declname>env</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>temp</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="72" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.cpp" line="4" column="1"/>
+  </compounddef>
+</doxygen>

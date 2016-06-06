@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_n1_d7" kind="class" language="C++" prot="public">
+    <compoundname>N1D7</compoundname>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_n1_d7_1a9fa353919a06c25cc240f5d608374844" prot="private" static="no">
+        <name>@1</name>
+        <enumvalue id="class_n1_d7_1a9fa353919a06c25cc240f5d608374844a610180d309c18b20b4dae28ed31530b6" prot="private">
+          <name>BitNum</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_n1_d7_1a9fa353919a06c25cc240f5d608374844a42051d30c9fbba6062028b2268440277" prot="private">
+          <name>BitFlag</name>
+          <initializer>= 0x7F</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" line="85" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" bodystart="85" bodyend="85"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_n1_d7_1ae7800b2c2edb07497d6688514e56bd71" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void N1D7::WriteBinaries</definition>
+        <argsstring>(uint08 *&amp;bits, bytes binaries, const sint32 size)</argsstring>
+        <name>WriteBinaries</name>
+        <param>
+          <type>uint08 *&amp;</type>
+          <declname>bits</declname>
+        </param>
+        <param>
+          <type>bytes</type>
+          <declname>binaries</declname>
+        </param>
+        <param>
+          <type>const sint32</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" line="88" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" bodystart="88" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n1_d7_1ad1cd5f023c11566c8d04039845739d0d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bytes</type>
+        <definition>static bytes N1D7::DecodeBinaries</definition>
+        <argsstring>(uint08 *&amp;bits, const sint32 size)</argsstring>
+        <name>DecodeBinaries</name>
+        <param>
+          <type>uint08 *&amp;</type>
+          <declname>bits</declname>
+        </param>
+        <param>
+          <type>const sint32</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" line="101" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" bodystart="101" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n1_d7_1aabb87b24b7f2268299d928235cf8c678" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const sint32</type>
+        <definition>static const sint32 N1D7::CalcLength</definition>
+        <argsstring>(const sint32 size)</argsstring>
+        <name>CalcLength</name>
+        <param>
+          <type>const sint32</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" line="117" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" bodystart="117" bodyend="120"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" line="84" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" bodystart="83" bodyend="121"/>
+    <listofallmembers>
+      <member refid="class_n1_d7_1a9fa353919a06c25cc240f5d608374844a42051d30c9fbba6062028b2268440277" prot="private" virt="non-virtual"><scope>N1D7</scope><name>BitFlag</name></member>
+      <member refid="class_n1_d7_1a9fa353919a06c25cc240f5d608374844a610180d309c18b20b4dae28ed31530b6" prot="private" virt="non-virtual"><scope>N1D7</scope><name>BitNum</name></member>
+      <member refid="class_n1_d7_1aabb87b24b7f2268299d928235cf8c678" prot="public" virt="non-virtual"><scope>N1D7</scope><name>CalcLength</name></member>
+      <member refid="class_n1_d7_1ad1cd5f023c11566c8d04039845739d0d" prot="public" virt="non-virtual"><scope>N1D7</scope><name>DecodeBinaries</name></member>
+      <member refid="class_n1_d7_1ae7800b2c2edb07497d6688514e56bd71" prot="public" virt="non-virtual"><scope>N1D7</scope><name>WriteBinaries</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

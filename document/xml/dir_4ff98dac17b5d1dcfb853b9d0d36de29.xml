@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_4ff98dac17b5d1dcfb853b9d0d36de29" kind="dir">
+    <compoundname>element</compoundname>
+    <innerfile refid="action_8cpp">action.cpp</innerfile>
+    <innerfile refid="action_8hpp">action.hpp</innerfile>
+    <innerfile refid="color_8cpp">color.cpp</innerfile>
+    <innerfile refid="color_8hpp">color.hpp</innerfile>
+    <innerfile refid="context_8cpp">context.cpp</innerfile>
+    <innerfile refid="context_8hpp">context.hpp</innerfile>
+    <innerfile refid="coord_8cpp">coord.cpp</innerfile>
+    <innerfile refid="coord_8hpp">coord.hpp</innerfile>
+    <innerfile refid="edge_8cpp">edge.cpp</innerfile>
+    <innerfile refid="edge_8hpp">edge.hpp</innerfile>
+    <innerfile refid="matrix_8cpp">matrix.cpp</innerfile>
+    <innerfile refid="matrix_8hpp">matrix.hpp</innerfile>
+    <innerfile refid="mesh_8cpp">mesh.cpp</innerfile>
+    <innerfile refid="mesh_8hpp">mesh.hpp</innerfile>
+    <innerfile refid="point_8cpp">point.cpp</innerfile>
+    <innerfile refid="point_8hpp">point.hpp</innerfile>
+    <innerfile refid="rect_8cpp">rect.cpp</innerfile>
+    <innerfile refid="rect_8hpp">rect.hpp</innerfile>
+    <innerfile refid="selector_8cpp">selector.cpp</innerfile>
+    <innerfile refid="selector_8hpp">selector.hpp</innerfile>
+    <innerfile refid="size_8cpp">size.cpp</innerfile>
+    <innerfile refid="size_8hpp">size.hpp</innerfile>
+    <innerfile refid="table_8cpp">table.cpp</innerfile>
+    <innerfile refid="table_8hpp">table.hpp</innerfile>
+    <innerfile refid="zoom_8cpp">zoom.cpp</innerfile>
+    <innerfile refid="zoom_8hpp">zoom.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/"/>
+  </compounddef>
+</doxygen>

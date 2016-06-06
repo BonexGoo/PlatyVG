@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="namespace_platy_v_g_element" kind="namespace" language="C++">
+    <compoundname>PlatyVGElement</compoundname>
+    <innerclass refid="class_platy_v_g_element_1_1_action" prot="public">PlatyVGElement::Action</innerclass>
+    <innerclass refid="class_platy_v_g_element_1_1_action_color" prot="public">PlatyVGElement::ActionColor</innerclass>
+    <innerclass refid="class_platy_v_g_element_1_1_action_create" prot="public">PlatyVGElement::ActionCreate</innerclass>
+    <innerclass refid="class_platy_v_g_element_1_1_action_matrix" prot="public">PlatyVGElement::ActionMatrix</innerclass>
+    <innerclass refid="class_platy_v_g_element_1_1_action_remove" prot="public">PlatyVGElement::ActionRemove</innerclass>
+    <innerclass refid="class_platy_v_g_element_1_1_action_thick" prot="public">PlatyVGElement::ActionThick</innerclass>
+    <innerclass refid="class_platy_v_g_element_1_1_color" prot="public">PlatyVGElement::Color</innerclass>
+    <innerclass refid="class_platy_v_g_element_1_1_context" prot="public">PlatyVGElement::Context</innerclass>
+    <innerclass refid="class_platy_v_g_element_1_1_coord" prot="public">PlatyVGElement::Coord</innerclass>
+    <innerclass refid="class_platy_v_g_element_1_1_edge" prot="public">PlatyVGElement::Edge</innerclass>
+    <innerclass refid="class_platy_v_g_element_1_1_edge_spline" prot="public">PlatyVGElement::EdgeSpline</innerclass>
+    <innerclass refid="class_platy_v_g_element_1_1_edge_tube" prot="public">PlatyVGElement::EdgeTube</innerclass>
+    <innerclass refid="class_platy_v_g_element_1_1_matrix" prot="public">PlatyVGElement::Matrix</innerclass>
+    <innerclass refid="class_platy_v_g_element_1_1_mesh" prot="public">PlatyVGElement::Mesh</innerclass>
+    <innerclass refid="class_platy_v_g_element_1_1_mesh_aqua" prot="public">PlatyVGElement::MeshAqua</innerclass>
+    <innerclass refid="class_platy_v_g_element_1_1_mesh_spline" prot="public">PlatyVGElement::MeshSpline</innerclass>
+    <innerclass refid="class_platy_v_g_element_1_1_mesh_tube" prot="public">PlatyVGElement::MeshTube</innerclass>
+    <innerclass refid="class_platy_v_g_element_1_1_point" prot="public">PlatyVGElement::Point</innerclass>
+    <innerclass refid="class_platy_v_g_element_1_1_rect" prot="public">PlatyVGElement::Rect</innerclass>
+    <innerclass refid="class_platy_v_g_element_1_1_selector" prot="public">PlatyVGElement::Selector</innerclass>
+    <innerclass refid="class_platy_v_g_element_1_1_size" prot="public">PlatyVGElement::Size</innerclass>
+    <innerclass refid="class_platy_v_g_element_1_1_table" prot="public">PlatyVGElement::Table</innerclass>
+    <innerclass refid="class_platy_v_g_element_1_1_zoom" prot="public">PlatyVGElement::Zoom</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespace_platy_v_g_element_1a73dacacae0dea9a4d35fba45538aab86" prot="public" static="no">
+        <type><ref refid="class_px_1_1_union" kindref="compound">Union</ref>&lt; <ref refid="class_platy_v_g_element_1_1_action" kindref="compound">Action</ref> &gt;</type>
+        <definition>typedef Union&lt;Action&gt; PlatyVGElement::UnionAction</definition>
+        <argsstring></argsstring>
+        <name>UnionAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.hpp" line="17" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_platy_v_g_element_1a39f31a5333b80baeab535410d5050fa0" prot="public" static="no">
+        <type><ref refid="class_px_1_1_array" kindref="compound">Array</ref>&lt; <ref refid="class_px_1_1_union" kindref="compound">UnionAction</ref> &gt;</type>
+        <definition>typedef Array&lt;UnionAction&gt; PlatyVGElement::UnionActions</definition>
+        <argsstring></argsstring>
+        <name>UnionActions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.hpp" line="18" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_platy_v_g_element_1ae22d66664c8dc52349db5586d14bd422" prot="public" static="no">
+        <type><ref refid="class_px_1_1_array" kindref="compound">Array</ref>&lt; <ref refid="class_platy_v_g_element_1_1_coord" kindref="compound">Coord</ref>, true &gt;</type>
+        <definition>typedef Array&lt;Coord, true&gt; PlatyVGElement::Coords</definition>
+        <argsstring></argsstring>
+        <name>Coords</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/coord.hpp" line="21" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/coord.hpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_platy_v_g_element_1a3e289143b43b5470acc5a1dae60e6ede" prot="public" static="no">
+        <type><ref refid="class_px_1_1_array" kindref="compound">Array</ref>&lt; <ref refid="class_platy_v_g_element_1_1_edge_spline" kindref="compound">EdgeSpline</ref>, true &gt;</type>
+        <definition>typedef Array&lt;EdgeSpline, true&gt; PlatyVGElement::EdgeSplines</definition>
+        <argsstring></argsstring>
+        <name>EdgeSplines</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/edge.hpp" line="48" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/edge.hpp" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_platy_v_g_element_1affe7fea78508375c5be5d129178073a6" prot="public" static="no">
+        <type><ref refid="class_px_1_1_array" kindref="compound">Array</ref>&lt; <ref refid="class_platy_v_g_element_1_1_edge_tube" kindref="compound">EdgeTube</ref>, true &gt;</type>
+        <definition>typedef Array&lt;EdgeTube, true&gt; PlatyVGElement::EdgeTubes</definition>
+        <argsstring></argsstring>
+        <name>EdgeTubes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/edge.hpp" line="77" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/edge.hpp" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_platy_v_g_element_1ad2847f440c0277a0b2cbae9a80d47049" prot="public" static="no">
+        <type><ref refid="class_px_1_1_array" kindref="compound">Array</ref>&lt; <ref refid="class_platy_v_g_element_1_1_mesh_spline" kindref="compound">MeshSpline</ref>, true &gt;</type>
+        <definition>typedef Array&lt;MeshSpline, true&gt; PlatyVGElement::MeshSplines</definition>
+        <argsstring></argsstring>
+        <name>MeshSplines</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/mesh.hpp" line="30" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/mesh.hpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_platy_v_g_element_1a9e4c44fe802a55d6bd2c0172c39d722d" prot="public" static="no">
+        <type><ref refid="class_px_1_1_array" kindref="compound">Array</ref>&lt; <ref refid="class_platy_v_g_element_1_1_mesh_tube" kindref="compound">MeshTube</ref>, true &gt;</type>
+        <definition>typedef Array&lt;MeshTube, true&gt; PlatyVGElement::MeshTubes</definition>
+        <argsstring></argsstring>
+        <name>MeshTubes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/mesh.hpp" line="52" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/mesh.hpp" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_platy_v_g_element_1a562d5b84fb5726e71bf370c35f95ef41" prot="public" static="no">
+        <type><ref refid="class_px_1_1_array" kindref="compound">Array</ref>&lt; <ref refid="class_platy_v_g_element_1_1_mesh_aqua" kindref="compound">MeshAqua</ref>, true &gt;</type>
+        <definition>typedef Array&lt;MeshAqua, true&gt; PlatyVGElement::MeshAquas</definition>
+        <argsstring></argsstring>
+        <name>MeshAquas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/mesh.hpp" line="71" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/mesh.hpp" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_platy_v_g_element_1abfa0436e4796dfd489a343d9be33e8fb" prot="public" static="no">
+        <type><ref refid="class_px_1_1_array" kindref="compound">Array</ref>&lt; <ref refid="class_platy_v_g_element_1_1_point" kindref="compound">Point</ref>, true &gt;</type>
+        <definition>typedef Array&lt;Point, true&gt; PlatyVGElement::Points</definition>
+        <argsstring></argsstring>
+        <name>Points</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/point.hpp" line="28" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/point.hpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_platy_v_g_element_1ae2d236b6764362b894923de3dac5b362" prot="public" static="no">
+        <type><ref refid="class_px_1_1_array" kindref="compound">Array</ref>&lt; <ref refid="class_platy_v_g_element_1_1_rect" kindref="compound">Rect</ref>, true &gt;</type>
+        <definition>typedef Array&lt;Rect, true&gt; PlatyVGElement::Rects</definition>
+        <argsstring></argsstring>
+        <name>Rects</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.hpp" line="45" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/rect.hpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_platy_v_g_element_1abe11ce7a7be79cb6a77b9203d7bb6d43" prot="public" static="no">
+        <type><ref refid="class_px_1_1_array" kindref="compound">Array</ref>&lt; <ref refid="class_platy_v_g_element_1_1_table" kindref="compound">Table</ref> &gt;</type>
+        <definition>typedef Array&lt;Table&gt; PlatyVGElement::Tables</definition>
+        <argsstring></argsstring>
+        <name>Tables</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/table.hpp" line="18" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/table.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/platyvg.hpp" line="37" column="1"/>
+  </compounddef>
+</doxygen>

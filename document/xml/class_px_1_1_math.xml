@@ -1,0 +1,405 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_px_1_1_math" kind="class" language="C++" prot="public">
+    <compoundname>Px::Math</compoundname>
+    <includes refid="math_8hpp" local="no">math.hpp</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_px_1_1_math_1ae8acd6d35af59f6171fb49a3bd9d8dd7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>sint32</type>
+        <definition>static sint32 Px::Math::Abs</definition>
+        <argsstring>(const sint32 v)</argsstring>
+        <name>Abs</name>
+        <param>
+          <type>const sint32</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>절대값 구하기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 인수 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>절대값 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/math.hpp" line="15" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/math.hpp" bodystart="15" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_math_1a59f46ea2c5e3cef50edea36fb273beba" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>sint32</type>
+        <definition>static sint32 Px::Math::Min</definition>
+        <argsstring>(const sint32 a, const sint32 b)</argsstring>
+        <name>Min</name>
+        <param>
+          <type>const sint32</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const sint32</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>최소 구하기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 비교A </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 비교B </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>최소 </para></simplesect>
+<simplesect kind="see"><para><ref refid="class_px_1_1_math_1a21dcf2b07074a6b6b87ba375552d8fad" kindref="member">Max</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/math.hpp" line="25" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/math.hpp" bodystart="25" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_math_1a21dcf2b07074a6b6b87ba375552d8fad" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>sint32</type>
+        <definition>static sint32 Px::Math::Max</definition>
+        <argsstring>(const sint32 a, const sint32 b)</argsstring>
+        <name>Max</name>
+        <param>
+          <type>const sint32</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const sint32</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>최대 구하기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 비교A </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 비교B </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>최대 </para></simplesect>
+<simplesect kind="see"><para><ref refid="class_px_1_1_math_1a59f46ea2c5e3cef50edea36fb273beba" kindref="member">Min</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/math.hpp" line="35" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/math.hpp" bodystart="35" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_math_1af7e79cb397673b2807e831573aa87d00" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float Px::Math::AbsF</definition>
+        <argsstring>(const float v)</argsstring>
+        <name>AbsF</name>
+        <param>
+          <type>const float</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>절대값 구하기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 인수 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>절대값 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/math.hpp" line="43" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/math.hpp" bodystart="43" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_math_1a73606b9c233c4f72328f6118c88d117d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Px::Math::MinF</definition>
+        <argsstring>(const float a, const float b)</argsstring>
+        <name>MinF</name>
+        <param>
+          <type>const float</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>최소 구하기(float) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 비교A </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 비교B </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>최소 </para></simplesect>
+<simplesect kind="see"><para><ref refid="class_px_1_1_math_1a834392cb469435f453c26b22e19f7da6" kindref="member">MaxF</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/math.hpp" line="53" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/math.cpp" bodystart="6" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_math_1a834392cb469435f453c26b22e19f7da6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Px::Math::MaxF</definition>
+        <argsstring>(const float a, const float b)</argsstring>
+        <name>MaxF</name>
+        <param>
+          <type>const float</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>최대 구하기(float) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 비교A </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 비교B </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>최대 </para></simplesect>
+<simplesect kind="see"><para><ref refid="class_px_1_1_math_1a73606b9c233c4f72328f6118c88d117d" kindref="member">MinF</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/math.hpp" line="62" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/math.cpp" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_math_1afbb7196deec09899e2a614e98505b525" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Px::Math::Sqrt</definition>
+        <argsstring>(const float v)</argsstring>
+        <name>Sqrt</name>
+        <param>
+          <type>const float</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>제곱근 구하기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 인수 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>제곱근 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/math.hpp" line="69" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/math.cpp" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_math_1a2223bb2bc4eefba665fb691171d2e2b1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Px::Math::Cos</definition>
+        <argsstring>(const float v)</argsstring>
+        <name>Cos</name>
+        <param>
+          <type>const float</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>코사인 구하기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 인수 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>코사인 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/math.hpp" line="76" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/math.cpp" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_math_1aacc01c27ab2d5f0a2ba361a3ecfe7425" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Px::Math::Sin</definition>
+        <argsstring>(const float v)</argsstring>
+        <name>Sin</name>
+        <param>
+          <type>const float</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>사인 구하기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 인수 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>사인 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/math.hpp" line="83" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/math.cpp" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_math_1a43db29ca6ad09585c3290b7f6b04bda4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Px::Math::Atan</definition>
+        <argsstring>(const float x, const float y)</argsstring>
+        <name>Atan</name>
+        <param>
+          <type>const float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>아크탄젠트 구하기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 변화량X </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 변화량Y </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>아크탄젠트 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/math.hpp" line="91" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/math.cpp" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_math_1a45f39dc8bec82d07abce364a535c8ed3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Px::Math::Distance</definition>
+        <argsstring>(const float x1, const float y1, const float x2, const float y2)</argsstring>
+        <name>Distance</name>
+        <param>
+          <type>const float</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>y2</declname>
+        </param>
+        <briefdescription>
+<para>거리 구하기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 좌표X1 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 좌표Y1 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>x2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 좌표X2 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 좌표Y2 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>거리 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/math.hpp" line="101" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/math.cpp" bodystart="36" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>수학함수지원 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/math.hpp" line="8" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/math.hpp" bodystart="7" bodyend="102"/>
+    <listofallmembers>
+      <member refid="class_px_1_1_math_1ae8acd6d35af59f6171fb49a3bd9d8dd7" prot="public" virt="non-virtual"><scope>Px::Math</scope><name>Abs</name></member>
+      <member refid="class_px_1_1_math_1af7e79cb397673b2807e831573aa87d00" prot="public" virt="non-virtual"><scope>Px::Math</scope><name>AbsF</name></member>
+      <member refid="class_px_1_1_math_1a43db29ca6ad09585c3290b7f6b04bda4" prot="public" virt="non-virtual"><scope>Px::Math</scope><name>Atan</name></member>
+      <member refid="class_px_1_1_math_1a2223bb2bc4eefba665fb691171d2e2b1" prot="public" virt="non-virtual"><scope>Px::Math</scope><name>Cos</name></member>
+      <member refid="class_px_1_1_math_1a45f39dc8bec82d07abce364a535c8ed3" prot="public" virt="non-virtual"><scope>Px::Math</scope><name>Distance</name></member>
+      <member refid="class_px_1_1_math_1a21dcf2b07074a6b6b87ba375552d8fad" prot="public" virt="non-virtual"><scope>Px::Math</scope><name>Max</name></member>
+      <member refid="class_px_1_1_math_1a834392cb469435f453c26b22e19f7da6" prot="public" virt="non-virtual"><scope>Px::Math</scope><name>MaxF</name></member>
+      <member refid="class_px_1_1_math_1a59f46ea2c5e3cef50edea36fb273beba" prot="public" virt="non-virtual"><scope>Px::Math</scope><name>Min</name></member>
+      <member refid="class_px_1_1_math_1a73606b9c233c4f72328f6118c88d117d" prot="public" virt="non-virtual"><scope>Px::Math</scope><name>MinF</name></member>
+      <member refid="class_px_1_1_math_1aacc01c27ab2d5f0a2ba361a3ecfe7425" prot="public" virt="non-virtual"><scope>Px::Math</scope><name>Sin</name></member>
+      <member refid="class_px_1_1_math_1afbb7196deec09899e2a614e98505b525" prot="public" virt="non-virtual"><scope>Px::Math</scope><name>Sqrt</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

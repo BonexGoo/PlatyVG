@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b" kind="dir">
+    <compoundname>source</compoundname>
+    <innerdir refid="dir_ec7d085ec77f69a826fd0e2fbdff6456">api</innerdir>
+    <innerdir refid="dir_0d27ce74e9bd514c31e1d63efab6b388">core</innerdir>
+    <innerdir refid="dir_4ff98dac17b5d1dcfb853b9d0d36de29">element</innerdir>
+    <innerdir refid="dir_07b81c5cfffb5c56539e12c2a7b14683">px</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/"/>
+  </compounddef>
+</doxygen>

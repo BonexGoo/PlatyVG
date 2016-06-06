@@ -1,0 +1,329 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_px_1_1_share" kind="class" language="C++" prot="public">
+    <compoundname>Px::Share</compoundname>
+    <includes refid="share_8hpp" local="no">share.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_px_1_1_share_1a1faf896b49d325c9ec71895d6bf4b14a" prot="private" static="no" mutable="yes">
+        <type>sint32</type>
+        <definition>sint32 Px::Share::sharecount</definition>
+        <argsstring></argsstring>
+        <name>sharecount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.hpp" line="35" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.hpp" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_px_1_1_share_1a43e85ae673939a01451f1d5d4f767228" prot="private" static="no" mutable="no">
+        <type>sint32</type>
+        <definition>sint32 Px::Share::validcount</definition>
+        <argsstring></argsstring>
+        <name>validcount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.hpp" line="36" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.hpp" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_px_1_1_share_1a1c25b70d899bd53a67c64303656e487f" prot="private" static="no" mutable="no">
+        <type>buffer</type>
+        <definition>buffer Px::Share::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.hpp" line="37" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.hpp" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_px_1_1_share_1aaf4ead09a627b9898e00bc33762f4775" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_px_1_1_share" kindref="compound">Share</ref> *</type>
+        <definition>const Share * Px::Share::Create</definition>
+        <argsstring>(buffer gift)</argsstring>
+        <name>Create</name>
+        <param>
+          <type>buffer</type>
+          <declname>gift</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.hpp" line="10" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.cpp" bodystart="6" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_share_1a9055335694fc89cdbd8da1cb4023c91f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_px_1_1_share" kindref="compound">Share</ref> *</type>
+        <definition>const Share * Px::Share::Create</definition>
+        <argsstring>(const buffer &amp;sample, sint32 mincount)</argsstring>
+        <name>Create</name>
+        <param>
+          <type>const buffer &amp;</type>
+          <declname>sample</declname>
+        </param>
+        <param>
+          <type>sint32</type>
+          <declname>mincount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.hpp" line="11" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.cpp" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_share_1ae41e9279f2837f644bfeb41a66c29994" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_px_1_1_share" kindref="compound">Share</ref> *</type>
+        <definition>const Share * Px::Share::CopyOnWrite</definition>
+        <argsstring>(const Share *share, sint32 mincount)</argsstring>
+        <name>CopyOnWrite</name>
+        <param>
+          <type>const <ref refid="class_px_1_1_share" kindref="compound">Share</ref> *</type>
+          <declname>share</declname>
+        </param>
+        <param>
+          <type>sint32</type>
+          <declname>mincount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.hpp" line="12" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.cpp" bodystart="16" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_share_1a057832107de92b2bce37bf260ca04a3e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Px::Share::Remove</definition>
+        <argsstring>(const Share *share)</argsstring>
+        <name>Remove</name>
+        <param>
+          <type>const <ref refid="class_px_1_1_share" kindref="compound">Share</ref> *</type>
+          <declname>share</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.hpp" line="13" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.cpp" bodystart="43" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_share_1a41f2b293f5ec0470003761e52545b18b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Px::Share::DebugPrint</definition>
+        <argsstring>()</argsstring>
+        <name>DebugPrint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.hpp" line="14" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.cpp" bodystart="53" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_px_1_1_share_1aee72a12e65c3bf8339436c28da1b6460" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>chars</type>
+        <definition>chars Px::Share::Type</definition>
+        <argsstring>() const </argsstring>
+        <name>Type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.hpp" line="17" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.cpp" bodystart="61" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_share_1aa66c94750b4e2867b116f22beb636fd7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_px_1_1_share" kindref="compound">Share</ref> *</type>
+        <definition>const Share * Px::Share::Clone</definition>
+        <argsstring>() const </argsstring>
+        <name>Clone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.hpp" line="18" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.cpp" bodystart="66" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_share_1a96b68c16a687bd990fd73f3354aa7ef5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>sint32</type>
+        <definition>sint32 Px::Share::Count</definition>
+        <argsstring>() const </argsstring>
+        <name>Count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.hpp" line="19" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.cpp" bodystart="73" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_share_1ab6034c0b91c212396bc4f25d51d3989e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TYPE</type>
+          </param>
+        </templateparamlist>
+        <type>TYPE &amp;</type>
+        <definition>TYPE&amp; Px::Share::At</definition>
+        <argsstring>(sint32 index) const </argsstring>
+        <name>At</name>
+        <param>
+          <type>sint32</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.hpp" line="21" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.hpp" bodystart="21" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_share_1a73e23a6774146d2b14fdbe68b6cbd90c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>buffer</type>
+        <definition>buffer Px::Share::CopiedBuffer</definition>
+        <argsstring>() const </argsstring>
+        <name>CopiedBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.hpp" line="23" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.cpp" bodystart="78" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_px_1_1_share_1aa069296f652401dc3f256d62c59f17ef" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Px::Share::Share</definition>
+        <argsstring>(buffer gift)</argsstring>
+        <name>Share</name>
+        <param>
+          <type>buffer</type>
+          <declname>gift</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.hpp" line="26" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.cpp" bodystart="86" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_share_1aa9f2765729d5f93291f9ca593afbd6f0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Px::Share::Share</definition>
+        <argsstring>(const buffer &amp;sample, sint32 mincount)</argsstring>
+        <name>Share</name>
+        <param>
+          <type>const buffer &amp;</type>
+          <declname>sample</declname>
+        </param>
+        <param>
+          <type>sint32</type>
+          <declname>mincount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.hpp" line="27" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.cpp" bodystart="94" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_share_1a9173e8ca28cdd9a78b3f84be350e8d69" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Px::Share::Share</definition>
+        <argsstring>(const Share &amp;rhs, sint32 mincount)</argsstring>
+        <name>Share</name>
+        <param>
+          <type>const <ref refid="class_px_1_1_share" kindref="compound">Share</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <param>
+          <type>sint32</type>
+          <declname>mincount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.hpp" line="28" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.cpp" bodystart="102" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_share_1ad75cbf8607b5407c594011150b0934f5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Px::Share::~Share</definition>
+        <argsstring>()</argsstring>
+        <name>~Share</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.hpp" line="29" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.cpp" bodystart="113" bodyend="116"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_px_1_1_share_1ae910135e3ff069bffcc547db395b054a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>sint32 &amp;</type>
+        <definition>sint32 &amp; Px::Share::_DebugShareCount</definition>
+        <argsstring>()</argsstring>
+        <name>_DebugShareCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.hpp" line="32" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.cpp" bodystart="118" bodyend="122"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>공유자원관리 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.hpp" line="8" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.hpp" bodystart="7" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_px_1_1_share_1ae910135e3ff069bffcc547db395b054a" prot="private" virt="non-virtual"><scope>Px::Share</scope><name>_DebugShareCount</name></member>
+      <member refid="class_px_1_1_share_1ab6034c0b91c212396bc4f25d51d3989e" prot="public" virt="non-virtual"><scope>Px::Share</scope><name>At</name></member>
+      <member refid="class_px_1_1_share_1aa66c94750b4e2867b116f22beb636fd7" prot="public" virt="non-virtual"><scope>Px::Share</scope><name>Clone</name></member>
+      <member refid="class_px_1_1_share_1a73e23a6774146d2b14fdbe68b6cbd90c" prot="public" virt="non-virtual"><scope>Px::Share</scope><name>CopiedBuffer</name></member>
+      <member refid="class_px_1_1_share_1ae41e9279f2837f644bfeb41a66c29994" prot="public" virt="non-virtual"><scope>Px::Share</scope><name>CopyOnWrite</name></member>
+      <member refid="class_px_1_1_share_1a96b68c16a687bd990fd73f3354aa7ef5" prot="public" virt="non-virtual"><scope>Px::Share</scope><name>Count</name></member>
+      <member refid="class_px_1_1_share_1aaf4ead09a627b9898e00bc33762f4775" prot="public" virt="non-virtual"><scope>Px::Share</scope><name>Create</name></member>
+      <member refid="class_px_1_1_share_1a9055335694fc89cdbd8da1cb4023c91f" prot="public" virt="non-virtual"><scope>Px::Share</scope><name>Create</name></member>
+      <member refid="class_px_1_1_share_1a1c25b70d899bd53a67c64303656e487f" prot="private" virt="non-virtual"><scope>Px::Share</scope><name>data</name></member>
+      <member refid="class_px_1_1_share_1a41f2b293f5ec0470003761e52545b18b" prot="public" virt="non-virtual"><scope>Px::Share</scope><name>DebugPrint</name></member>
+      <member refid="class_px_1_1_share_1a057832107de92b2bce37bf260ca04a3e" prot="public" virt="non-virtual"><scope>Px::Share</scope><name>Remove</name></member>
+      <member refid="class_px_1_1_share_1aa069296f652401dc3f256d62c59f17ef" prot="private" virt="non-virtual"><scope>Px::Share</scope><name>Share</name></member>
+      <member refid="class_px_1_1_share_1aa9f2765729d5f93291f9ca593afbd6f0" prot="private" virt="non-virtual"><scope>Px::Share</scope><name>Share</name></member>
+      <member refid="class_px_1_1_share_1a9173e8ca28cdd9a78b3f84be350e8d69" prot="private" virt="non-virtual"><scope>Px::Share</scope><name>Share</name></member>
+      <member refid="class_px_1_1_share_1a1faf896b49d325c9ec71895d6bf4b14a" prot="private" virt="non-virtual"><scope>Px::Share</scope><name>sharecount</name></member>
+      <member refid="class_px_1_1_share_1aee72a12e65c3bf8339436c28da1b6460" prot="public" virt="non-virtual"><scope>Px::Share</scope><name>Type</name></member>
+      <member refid="class_px_1_1_share_1a43e85ae673939a01451f1d5d4f767228" prot="private" virt="non-virtual"><scope>Px::Share</scope><name>validcount</name></member>
+      <member refid="class_px_1_1_share_1ad75cbf8607b5407c594011150b0934f5" prot="private" virt="non-virtual"><scope>Px::Share</scope><name>~Share</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

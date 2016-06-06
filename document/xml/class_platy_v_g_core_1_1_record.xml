@@ -1,0 +1,319 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_platy_v_g_core_1_1_record" kind="class" language="C++" prot="public">
+    <compoundname>PlatyVGCore::Record</compoundname>
+    <includes refid="record_8hpp" local="no">record.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_record_1aac86f4d70cb8054aef1f42532148f9b0" prot="public" static="no" mutable="no">
+        <type><ref refid="class_px_1_1_array" kindref="compound">UnionActions</ref></type>
+        <definition>UnionActions PlatyVGCore::Record::AllActions</definition>
+        <argsstring></argsstring>
+        <name>AllActions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/record.hpp" line="66" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/record.hpp" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_record_1a738d8114830a390188d9be305334bbda" prot="public" static="no" mutable="no">
+        <type>sint32</type>
+        <definition>sint32 PlatyVGCore::Record::ActionFocus</definition>
+        <argsstring></argsstring>
+        <name>ActionFocus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/record.hpp" line="67" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/record.hpp" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_record_1afa7c1bfb9f5a87db04ddab4f937422d8" prot="public" static="no" mutable="no">
+        <type>sint32</type>
+        <definition>sint32 PlatyVGCore::Record::ActionLength</definition>
+        <argsstring></argsstring>
+        <name>ActionLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/record.hpp" line="68" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/record.hpp" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_record_1a6a6159100596e33312b2de20755ba153" prot="public" static="no" mutable="no">
+        <type>sint32</type>
+        <definition>sint32 PlatyVGCore::Record::ActionLengthMax</definition>
+        <argsstring></argsstring>
+        <name>ActionLengthMax</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/record.hpp" line="69" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/record.hpp" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_record_1a8b6b166bc8023a53657f660f3d2fff6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGCore::Record::Record</definition>
+        <argsstring>()</argsstring>
+        <name>Record</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/record.hpp" line="13" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/record.cpp" bodystart="7" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_record_1ad277217a94d091307a6497d04c446da5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGCore::Record::~Record</definition>
+        <argsstring>()</argsstring>
+        <name>~Record</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/record.hpp" line="14" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/record.cpp" bodystart="14" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_record_1a595623078bd207b98efe78a91f57d445" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlatyVGCore::Record::Commit</definition>
+        <argsstring>(Document *doc, buffer action)</argsstring>
+        <name>Commit</name>
+        <param>
+          <type><ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref> *</type>
+          <declname>doc</declname>
+        </param>
+        <param>
+          <type>buffer</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+<para>실행등록 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 적용할 자료 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/record.hpp" line="21" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/record.cpp" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_record_1a6b39259e17b3b72a8851de3a4204c00b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>sint32</type>
+        <definition>sint32 PlatyVGCore::Record::Undo</definition>
+        <argsstring>(Document *doc)</argsstring>
+        <name>Undo</name>
+        <param>
+          <type><ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref> *</type>
+          <declname>doc</declname>
+        </param>
+        <briefdescription>
+<para>실행취소 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 적용할 자료 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>수행후 실행포커스(0 ~ Max) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/record.hpp" line="28" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/record.cpp" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_record_1ad8bf722191fa454039cdefbeb9936198" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>sint32</type>
+        <definition>sint32 PlatyVGCore::Record::Redo</definition>
+        <argsstring>(Document *doc)</argsstring>
+        <name>Redo</name>
+        <param>
+          <type><ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref> *</type>
+          <declname>doc</declname>
+        </param>
+        <briefdescription>
+<para>재실행 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 적용할 자료 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>수행후 실행포커스(0 ~ Max) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/record.hpp" line="35" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/record.cpp" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_record_1a45773750a0c677ec518e51979d8f9f4a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>sint32</type>
+        <definition>sint32 PlatyVGCore::Record::GetFocus</definition>
+        <argsstring>(Document *doc)</argsstring>
+        <name>GetFocus</name>
+        <param>
+          <type><ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref> *</type>
+          <declname>doc</declname>
+        </param>
+        <briefdescription>
+<para>작업포커스 가져오기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 적용할 자료 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>작업포커스 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/record.hpp" line="42" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/record.cpp" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_record_1aba8196a1bd7d3872ac9d6747490ad1d1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>sint32</type>
+        <definition>sint32 PlatyVGCore::Record::GetCount</definition>
+        <argsstring>(Document *doc)</argsstring>
+        <name>GetCount</name>
+        <param>
+          <type><ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref> *</type>
+          <declname>doc</declname>
+        </param>
+        <briefdescription>
+<para>작업수량 가져오기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 적용할 자료 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>작업수량 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/record.hpp" line="49" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/record.cpp" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_record_1a2c07838b0db136f57d2632dc4ee6307a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlatyVGCore::Record::SetCountMax</definition>
+        <argsstring>(Document *doc, sint32 value)</argsstring>
+        <name>SetCountMax</name>
+        <param>
+          <type><ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref> *</type>
+          <declname>doc</declname>
+        </param>
+        <param>
+          <type>sint32</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>작업수량 최대값 설정하기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 적용할 자료 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 최대값 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/record.hpp" line="56" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/record.cpp" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_record_1a3df14fe0828209fdc1e8262d480feb1e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>sint32</type>
+        <definition>sint32 PlatyVGCore::Record::GetCountMax</definition>
+        <argsstring>(Document *doc)</argsstring>
+        <name>GetCountMax</name>
+        <param>
+          <type><ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref> *</type>
+          <declname>doc</declname>
+        </param>
+        <briefdescription>
+<para>작업수량 최대값 가져오기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 적용할 자료 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>작업수량 최대값 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/record.hpp" line="63" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/record.cpp" bodystart="48" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>작업관리 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="123">
+        <label>Px::Array&lt; TYPE, CANCOPY, MINCOUNT &gt;</label>
+        <link refid="class_px_1_1_array"/>
+      </node>
+      <node id="122">
+        <label>PlatyVGCore::Record</label>
+        <link refid="class_platy_v_g_core_1_1_record"/>
+        <childnode refid="123" relation="usage">
+          <edgelabel>AllActions</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/record.hpp" line="11" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/record.hpp" bodystart="10" bodyend="70"/>
+    <listofallmembers>
+      <member refid="class_platy_v_g_core_1_1_record_1a738d8114830a390188d9be305334bbda" prot="public" virt="non-virtual"><scope>PlatyVGCore::Record</scope><name>ActionFocus</name></member>
+      <member refid="class_platy_v_g_core_1_1_record_1afa7c1bfb9f5a87db04ddab4f937422d8" prot="public" virt="non-virtual"><scope>PlatyVGCore::Record</scope><name>ActionLength</name></member>
+      <member refid="class_platy_v_g_core_1_1_record_1a6a6159100596e33312b2de20755ba153" prot="public" virt="non-virtual"><scope>PlatyVGCore::Record</scope><name>ActionLengthMax</name></member>
+      <member refid="class_platy_v_g_core_1_1_record_1aac86f4d70cb8054aef1f42532148f9b0" prot="public" virt="non-virtual"><scope>PlatyVGCore::Record</scope><name>AllActions</name></member>
+      <member refid="class_platy_v_g_core_1_1_record_1a595623078bd207b98efe78a91f57d445" prot="public" virt="non-virtual"><scope>PlatyVGCore::Record</scope><name>Commit</name></member>
+      <member refid="class_platy_v_g_core_1_1_record_1aba8196a1bd7d3872ac9d6747490ad1d1" prot="public" virt="non-virtual"><scope>PlatyVGCore::Record</scope><name>GetCount</name></member>
+      <member refid="class_platy_v_g_core_1_1_record_1a3df14fe0828209fdc1e8262d480feb1e" prot="public" virt="non-virtual"><scope>PlatyVGCore::Record</scope><name>GetCountMax</name></member>
+      <member refid="class_platy_v_g_core_1_1_record_1a45773750a0c677ec518e51979d8f9f4a" prot="public" virt="non-virtual"><scope>PlatyVGCore::Record</scope><name>GetFocus</name></member>
+      <member refid="class_platy_v_g_core_1_1_record_1a8b6b166bc8023a53657f660f3d2fff6c" prot="public" virt="non-virtual"><scope>PlatyVGCore::Record</scope><name>Record</name></member>
+      <member refid="class_platy_v_g_core_1_1_record_1ad8bf722191fa454039cdefbeb9936198" prot="public" virt="non-virtual"><scope>PlatyVGCore::Record</scope><name>Redo</name></member>
+      <member refid="class_platy_v_g_core_1_1_record_1a2c07838b0db136f57d2632dc4ee6307a" prot="public" virt="non-virtual"><scope>PlatyVGCore::Record</scope><name>SetCountMax</name></member>
+      <member refid="class_platy_v_g_core_1_1_record_1a6b39259e17b3b72a8851de3a4204c00b" prot="public" virt="non-virtual"><scope>PlatyVGCore::Record</scope><name>Undo</name></member>
+      <member refid="class_platy_v_g_core_1_1_record_1ad277217a94d091307a6497d04c446da5" prot="public" virt="non-virtual"><scope>PlatyVGCore::Record</scope><name>~Record</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

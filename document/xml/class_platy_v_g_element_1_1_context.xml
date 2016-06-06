@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_platy_v_g_element_1_1_context" kind="class" language="C++" prot="public">
+    <compoundname>PlatyVGElement::Context</compoundname>
+    <includes refid="context_8hpp" local="no">context.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_platy_v_g_element_1_1_context_1ae8c4d854a814f96270e1d228aabc734f" prot="public" static="no" mutable="no">
+        <type><ref refid="class_platy_v_g_element_1_1_color" kindref="compound">Color</ref></type>
+        <definition>Color PlatyVGElement::Context::color</definition>
+        <argsstring></argsstring>
+        <name>color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/context.hpp" line="18" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/context.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_element_1_1_context_1a7c7983bcd726a309a6e19e0ad830b9de" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlatyVGElement::Context::thick</definition>
+        <argsstring></argsstring>
+        <name>thick</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/context.hpp" line="19" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/context.hpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_context_1a6932063f7d1318226bcfc9ea57369a1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::Context::Context</definition>
+        <argsstring>()</argsstring>
+        <name>Context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/context.hpp" line="11" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/context.cpp" bodystart="6" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_context_1ad08f932aab3dde520e5b0e48e35c1946" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::Context::Context</definition>
+        <argsstring>(const Context &amp;rhs)</argsstring>
+        <name>Context</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_context" kindref="compound">Context</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/context.hpp" line="12" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/context.cpp" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_context_1a2f6a6cf347d6b305e174390b2ba27501" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::Context::Context</definition>
+        <argsstring>(const Color &amp;color, const float thick)</argsstring>
+        <name>Context</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_color" kindref="compound">Color</ref> &amp;</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>thick</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/context.hpp" line="13" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/context.cpp" bodystart="16" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_context_1a32fcbc3bb87ed0768c0d302d79ffcd98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::Context::~Context</definition>
+        <argsstring>()</argsstring>
+        <name>~Context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/context.hpp" line="14" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/context.cpp" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_context_1a488e312d495eeffaaec007833f0f79ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_platy_v_g_element_1_1_context" kindref="compound">Context</ref> &amp;</type>
+        <definition>Context &amp; PlatyVGElement::Context::operator=</definition>
+        <argsstring>(const Context &amp;rhs)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_context" kindref="compound">Context</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/context.hpp" line="15" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/context.cpp" bodystart="26" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>상태보유 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="53">
+        <label>PlatyVGElement::Color</label>
+        <link refid="class_platy_v_g_element_1_1_color"/>
+      </node>
+      <node id="52">
+        <label>PlatyVGElement::Context</label>
+        <link refid="class_platy_v_g_element_1_1_context"/>
+        <childnode refid="53" relation="usage">
+          <edgelabel>color</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/context.hpp" line="9" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/context.hpp" bodystart="8" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_platy_v_g_element_1_1_context_1ae8c4d854a814f96270e1d228aabc734f" prot="public" virt="non-virtual"><scope>PlatyVGElement::Context</scope><name>color</name></member>
+      <member refid="class_platy_v_g_element_1_1_context_1a6932063f7d1318226bcfc9ea57369a1e" prot="public" virt="non-virtual"><scope>PlatyVGElement::Context</scope><name>Context</name></member>
+      <member refid="class_platy_v_g_element_1_1_context_1ad08f932aab3dde520e5b0e48e35c1946" prot="public" virt="non-virtual"><scope>PlatyVGElement::Context</scope><name>Context</name></member>
+      <member refid="class_platy_v_g_element_1_1_context_1a2f6a6cf347d6b305e174390b2ba27501" prot="public" virt="non-virtual"><scope>PlatyVGElement::Context</scope><name>Context</name></member>
+      <member refid="class_platy_v_g_element_1_1_context_1a488e312d495eeffaaec007833f0f79ce" prot="public" virt="non-virtual"><scope>PlatyVGElement::Context</scope><name>operator=</name></member>
+      <member refid="class_platy_v_g_element_1_1_context_1a7c7983bcd726a309a6e19e0ad830b9de" prot="public" virt="non-virtual"><scope>PlatyVGElement::Context</scope><name>thick</name></member>
+      <member refid="class_platy_v_g_element_1_1_context_1a32fcbc3bb87ed0768c0d302d79ffcd98" prot="public" virt="non-virtual"><scope>PlatyVGElement::Context</scope><name>~Context</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="struct_bitmap_file" kind="struct" language="C++" prot="public">
+    <compoundname>BitmapFile</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_bitmap_file_1aab229ed0d17c3565e5f8b86d97f480b3" prot="public" static="no" mutable="no">
+        <type>uint32</type>
+        <definition>uint32 BitmapFile::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" line="6" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_bitmap_file_1abeac96373b824b04ed2a8000636c9151" prot="public" static="no" mutable="no">
+        <type>sint16</type>
+        <definition>sint16 BitmapFile::param1</definition>
+        <argsstring></argsstring>
+        <name>param1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" line="6" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_bitmap_file_1a615e1d27b048d9f9f659fe4e1aa7c371" prot="public" static="no" mutable="no">
+        <type>sint16</type>
+        <definition>sint16 BitmapFile::param2</definition>
+        <argsstring></argsstring>
+        <name>param2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" line="6" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_bitmap_file_1aafb0d717d50eeceb62c089649c8b37da" prot="public" static="no" mutable="no">
+        <type>uint32</type>
+        <definition>uint32 BitmapFile::offbits</definition>
+        <argsstring></argsstring>
+        <name>offbits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" line="6" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" line="6" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/export.cpp" bodystart="6" bodyend="6"/>
+    <listofallmembers>
+      <member refid="struct_bitmap_file_1aafb0d717d50eeceb62c089649c8b37da" prot="public" virt="non-virtual"><scope>BitmapFile</scope><name>offbits</name></member>
+      <member refid="struct_bitmap_file_1abeac96373b824b04ed2a8000636c9151" prot="public" virt="non-virtual"><scope>BitmapFile</scope><name>param1</name></member>
+      <member refid="struct_bitmap_file_1a615e1d27b048d9f9f659fe4e1aa7c371" prot="public" virt="non-virtual"><scope>BitmapFile</scope><name>param2</name></member>
+      <member refid="struct_bitmap_file_1aab229ed0d17c3565e5f8b86d97f480b3" prot="public" virt="non-virtual"><scope>BitmapFile</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

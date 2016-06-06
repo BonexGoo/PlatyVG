@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_px_1_1_byte_array_for_platform" kind="class" language="C++" prot="public">
+    <compoundname>Px::ByteArrayForPlatform</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_px_1_1_byte_array_for_platform_1adf2de16f57d2ee2f07806dc60263ad27" prot="private" static="no" mutable="no">
+        <type>bytes</type>
+        <definition>bytes Px::ByteArrayForPlatform::Bytes</definition>
+        <argsstring></argsstring>
+        <name>Bytes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="85" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_px_1_1_byte_array_for_platform_1a49c91f34132211040036b610ec56eebd" prot="private" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* Px::ByteArrayForPlatform::Env</definition>
+        <argsstring></argsstring>
+        <name>Env</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="86" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_px_1_1_byte_array_for_platform_1a7366f0a0ee1f5adbfc90789b3bdc5baa" prot="private" static="no" mutable="no">
+        <type>api_bytes</type>
+        <definition>api_bytes Px::ByteArrayForPlatform::Brr</definition>
+        <argsstring></argsstring>
+        <name>Brr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="87" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_px_1_1_byte_array_for_platform_1a008d005c0c716263f33836bb08806236" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Px::ByteArrayForPlatform::ByteArrayForPlatform</definition>
+        <argsstring>(void *env, api_bytes brr)</argsstring>
+        <name>ByteArrayForPlatform</name>
+        <param>
+          <type>void *</type>
+          <declname>env</declname>
+        </param>
+        <param>
+          <type>api_bytes</type>
+          <declname>brr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="88" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_byte_array_for_platform_1af7a9d4aaef6759b98aca7f9ab982d3ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Px::ByteArrayForPlatform::~ByteArrayForPlatform</definition>
+        <argsstring>()</argsstring>
+        <name>~ByteArrayForPlatform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="89" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_byte_array_for_platform_1ab311529e048da4ef67aaf240ab572a2d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Px::ByteArrayForPlatform::operator bytes</definition>
+        <argsstring>() const </argsstring>
+        <name>operator bytes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="90" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="84" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="83" bodyend="91"/>
+    <listofallmembers>
+      <member refid="class_px_1_1_byte_array_for_platform_1a7366f0a0ee1f5adbfc90789b3bdc5baa" prot="private" virt="non-virtual"><scope>Px::ByteArrayForPlatform</scope><name>Brr</name></member>
+      <member refid="class_px_1_1_byte_array_for_platform_1a008d005c0c716263f33836bb08806236" prot="public" virt="non-virtual"><scope>Px::ByteArrayForPlatform</scope><name>ByteArrayForPlatform</name></member>
+      <member refid="class_px_1_1_byte_array_for_platform_1adf2de16f57d2ee2f07806dc60263ad27" prot="private" virt="non-virtual"><scope>Px::ByteArrayForPlatform</scope><name>Bytes</name></member>
+      <member refid="class_px_1_1_byte_array_for_platform_1a49c91f34132211040036b610ec56eebd" prot="private" virt="non-virtual"><scope>Px::ByteArrayForPlatform</scope><name>Env</name></member>
+      <member refid="class_px_1_1_byte_array_for_platform_1ab311529e048da4ef67aaf240ab572a2d" prot="public" virt="non-virtual"><scope>Px::ByteArrayForPlatform</scope><name>operator bytes</name></member>
+      <member refid="class_px_1_1_byte_array_for_platform_1af7a9d4aaef6759b98aca7f9ab982d3ff" prot="public" virt="non-virtual"><scope>Px::ByteArrayForPlatform</scope><name>~ByteArrayForPlatform</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

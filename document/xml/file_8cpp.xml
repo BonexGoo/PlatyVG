@@ -1,0 +1,391 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="file_8cpp" kind="file" language="C++">
+    <compoundname>file.cpp</compoundname>
+    <includes refid="file_8hpp" local="yes">file.hpp</includes>
+    <incdepgraph>
+      <node id="489">
+        <label>../px/px.hpp</label>
+        <link refid="px_8hpp_source"/>
+      </node>
+      <node id="487">
+        <label>file.cpp</label>
+        <link refid="file.cpp"/>
+        <childnode refid="488" relation="include">
+        </childnode>
+      </node>
+      <node id="488">
+        <label>file.hpp</label>
+        <link refid="file_8hpp_source"/>
+        <childnode refid="489" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="struct__iobuf" prot="public">_iobuf</innerclass>
+    <innernamespace refid="namespace_px">Px</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="file_8cpp_1a4c8d0b76b470ba65a43ca46a88320f39" prot="public" static="no">
+        <name>SEEK_CUR</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" line="32" column="10" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="file_8cpp_1ad2a2e6c114780c3071efd24f16c7f7d8" prot="public" static="no">
+        <name>SEEK_END</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" line="33" column="10" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="file_8cpp_1a0d112bae8fd35be772185b6ec6bcbe64" prot="public" static="no">
+        <name>SEEK_SET</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" line="34" column="10" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="file_8cpp_1aa1b8508c273683f186eeb480ddfc3234" prot="public" static="no">
+        <name>PX_OPEN</name>
+        <param><defname>NAME</defname></param>
+        <param><defname>TYPE</defname></param>
+        <initializer>((void*) fopen(NAME, TYPE))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" line="35" column="10" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="file_8cpp_1ad6a485208cb337740ce966d40915534c" prot="public" static="no">
+        <name>PX_CLOSE</name>
+        <param><defname>PTR</defname></param>
+        <initializer>fclose((<ref refid="struct__iobuf" kindref="compound">FILE</ref>*) PTR)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" line="36" column="10" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="file_8cpp_1aeba064fcd32da2900671d7e811d44a50" prot="public" static="no">
+        <name>PX_GETSIZE</name>
+        <param><defname>PTR</defname></param>
+        <initializer>fgetsize((<ref refid="struct__iobuf" kindref="compound">FILE</ref>*) PTR)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" line="37" column="10" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="file_8cpp_1a82337357d7754808e4ea26f89eae4e46" prot="public" static="no">
+        <name>PX_READ</name>
+        <param><defname>PTR</defname></param>
+        <param><defname>DST</defname></param>
+        <param><defname>SIZE</defname></param>
+        <initializer>fread(DST, 1, SIZE, (<ref refid="struct__iobuf" kindref="compound">FILE</ref>*) PTR)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" line="38" column="10" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="file_8cpp_1a850bc32c9f763ed89a68006c321a7dc8" prot="public" static="no">
+        <name>PX_WRITE</name>
+        <param><defname>PTR</defname></param>
+        <param><defname>SRC</defname></param>
+        <param><defname>SIZE</defname></param>
+        <initializer>fwrite(SRC, 1, SIZE, (<ref refid="struct__iobuf" kindref="compound">FILE</ref>*) PTR)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" line="39" column="10" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="file_8cpp_1a272e6b32b9127bff4fb12af3f64306ed" prot="public" static="no">
+        <name>PX_SKIP</name>
+        <param><defname>PTR</defname></param>
+        <param><defname>SIZE</defname></param>
+        <initializer>fseek((<ref refid="struct__iobuf" kindref="compound">FILE</ref>*) PTR, SIZE, SEEK_CUR)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" line="40" column="10" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="file_8cpp_1a69bbd87477f4787ac5761b7412f6d63f" prot="public" static="no">
+        <type>struct <ref refid="struct__iobuf" kindref="compound">_iobuf</ref></type>
+        <definition>typedef struct _iobuf FILE</definition>
+        <argsstring></argsstring>
+        <name>FILE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" line="200" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="file_8cpp_1a7a783dc33bb2be5460b8f3e619994241" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct__iobuf" kindref="compound">FILE</ref> *</type>
+        <definition>FILE* fopen</definition>
+        <argsstring>(const char *, const char *)</argsstring>
+        <name>fopen</name>
+        <param>
+          <type>const char *</type>
+        </param>
+        <param>
+          <type>const char *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="file_8cpp_1a6441bf0a1040701d1ba906b64f348daf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int fclose</definition>
+        <argsstring>(FILE *)</argsstring>
+        <name>fclose</name>
+        <param>
+          <type><ref refid="struct__iobuf" kindref="compound">FILE</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="file_8cpp_1a1844939701ba30c5a01bd551998881db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long ftell</definition>
+        <argsstring>(FILE *)</argsstring>
+        <name>ftell</name>
+        <param>
+          <type><ref refid="struct__iobuf" kindref="compound">FILE</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="file_8cpp_1aa5abe9ec811717191768b7819bf004bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ublock</type>
+        <definition>ublock fread</definition>
+        <argsstring>(void *, ublock, ublock, FILE *)</argsstring>
+        <name>fread</name>
+        <param>
+          <type>void *</type>
+        </param>
+        <param>
+          <type>ublock</type>
+        </param>
+        <param>
+          <type>ublock</type>
+        </param>
+        <param>
+          <type><ref refid="struct__iobuf" kindref="compound">FILE</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" line="28" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="file_8cpp_1ae0589b76a36b092189f43de78f103bb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ublock</type>
+        <definition>ublock fwrite</definition>
+        <argsstring>(const void *, ublock, ublock, FILE *)</argsstring>
+        <name>fwrite</name>
+        <param>
+          <type>const void *</type>
+        </param>
+        <param>
+          <type>ublock</type>
+        </param>
+        <param>
+          <type>ublock</type>
+        </param>
+        <param>
+          <type><ref refid="struct__iobuf" kindref="compound">FILE</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="file_8cpp_1a71f44bc63869da8cdd9b60e3d086d21d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int fseek</definition>
+        <argsstring>(FILE *, long, int)</argsstring>
+        <name>fseek</name>
+        <param>
+          <type><ref refid="struct__iobuf" kindref="compound">FILE</ref> *</type>
+        </param>
+        <param>
+          <type>long</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" line="30" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="file_8cpp_1a28bf3c3d27f9f524e3be19bdb05d9e89" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>static long fgetsize</definition>
+        <argsstring>(FILE *file)</argsstring>
+        <name>fgetsize</name>
+        <param>
+          <type><ref refid="struct__iobuf" kindref="compound">FILE</ref> *</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" line="41" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" bodystart="41" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;file.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__BX_APPLICATION</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&lt;BxCore.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>PX_OPEN(NAME,<sp/>TYPE)<sp/>((void*)<sp/>BxCore::File::Open(NAME,<sp/>TYPE))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>PX_CLOSE(PTR)<sp/>BxCore::File::Close((id_file)<sp/>PTR)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>PX_GETSIZE(PTR)<sp/>BxCore::File::GetSize((id_file)<sp/>PTR)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>PX_READ(PTR,<sp/>DST,<sp/>SIZE)<sp/>BxCore::File::Read((id_file)<sp/>PTR,<sp/>DST,<sp/>SIZE)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>PX_WRITE(PTR,<sp/>SRC,<sp/>SIZE)<sp/>BxCore::File::Write((id_file)<sp/>PTR,<sp/>SRC,<sp/>SIZE)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>PX_SKIP(PTR,<sp/>SIZE)<sp/>BxCore::File::Skip((id_file)<sp/>PTR,<sp/>SIZE)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14" refid="struct__iobuf" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__iobuf" kindref="compound">_iobuf</ref><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*_ptr;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/>_cnt;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*_base;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/>_flag;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/>_file;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/>_charbuf;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/>_bufsiz;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*_tmpfname;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__iobuf" kindref="compound">_iobuf</ref><sp/><ref refid="struct__iobuf" kindref="compound">FILE</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct__iobuf" kindref="compound">FILE</ref>*<sp/>fopen(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fclose(<ref refid="struct__iobuf" kindref="compound">FILE</ref>*);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>ftell(<ref refid="struct__iobuf" kindref="compound">FILE</ref>*);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>ublock<sp/>fread(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*,<sp/>ublock,<sp/>ublock,<sp/><ref refid="struct__iobuf" kindref="compound">FILE</ref>*);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>ublock<sp/>fwrite(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*,<sp/>ublock,<sp/>ublock,<sp/><ref refid="struct__iobuf" kindref="compound">FILE</ref>*);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fseek(<ref refid="struct__iobuf" kindref="compound">FILE</ref>*,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>SEEK_CUR<sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>SEEK_END<sp/><sp/><sp/><sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>SEEK_SET<sp/><sp/><sp/><sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>PX_OPEN(NAME,<sp/>TYPE)<sp/>((void*)<sp/>fopen(NAME,<sp/>TYPE))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>PX_CLOSE(PTR)<sp/>fclose((FILE*)<sp/>PTR)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>PX_GETSIZE(PTR)<sp/>fgetsize((FILE*)<sp/>PTR)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>PX_READ(PTR,<sp/>DST,<sp/>SIZE)<sp/>fread(DST,<sp/>1,<sp/>SIZE,<sp/>(FILE*)<sp/>PTR)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>PX_WRITE(PTR,<sp/>SRC,<sp/>SIZE)<sp/>fwrite(SRC,<sp/>1,<sp/>SIZE,<sp/>(FILE*)<sp/>PTR)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>PX_SKIP(PTR,<sp/>SIZE)<sp/>fseek((FILE*)<sp/>PTR,<sp/>SIZE,<sp/>SEEK_CUR)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>fgetsize(<ref refid="struct__iobuf" kindref="compound">FILE</ref>*<sp/>file)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>CurrentPos<sp/>=<sp/>ftell(file);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fseek(file,<sp/>0,<sp/>SEEK_END);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>Result<sp/>=<sp/>ftell(file);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fseek(file,<sp/>CurrentPos,<sp/>SEEK_SET);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Result;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_px" kindref="compound">Px</ref></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><ref refid="class_px_1_1_file_1a76ad1d3174f2b34c0964e6822cbe1718" kindref="member">File::OpenForRead</ref>(chars<sp/>filename)</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>PX_OPEN(filename,<sp/></highlight><highlight class="stringliteral">&quot;rb&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><ref refid="class_px_1_1_file_1ad7cdd12d60a2faa7c1c14d5c2757c668" kindref="member">File::OpenForWrite</ref>(chars<sp/>filename)</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>PX_OPEN(filename,<sp/></highlight><highlight class="stringliteral">&quot;wb&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_px_1_1_file_1a36ae7f3111a18f7dd68700e48dd2c1ec" kindref="member">File::Close</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>file)</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_CLOSE(file);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/><ref refid="class_px_1_1_file_1ab2dc8c4d4639b826b0cbe19e594d6b25" kindref="member">File::GetSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>file)</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>PX_GETSIZE(file);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_px_1_1_file_1abd77dd916952abba115515d792cd88b0" kindref="member">File::Read</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>file,<sp/>uint08*<sp/>data,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>size)</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_READ(file,<sp/>data,<sp/>size);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_px_1_1_file_1a09ccf251ed55ba707f417479a61a5b6d" kindref="member">File::Write</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>file,<sp/>bytes<sp/>data,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>size)</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_WRITE(file,<sp/>data,<sp/>size);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_px_1_1_file_1a30d80475aa15f23d5cbc1dfa4e24133a" kindref="member">File::Skip</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>size)</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_SKIP(file,<sp/>size);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp"/>
+  </compounddef>
+</doxygen>

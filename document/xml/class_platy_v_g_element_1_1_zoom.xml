@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_platy_v_g_element_1_1_zoom" kind="class" language="C++" prot="public">
+    <compoundname>PlatyVGElement::Zoom</compoundname>
+    <includes refid="zoom_8hpp" local="no">zoom.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_platy_v_g_element_1_1_zoom_1a67202a26e0ac4e36b4d04d4731b78f8d" prot="public" static="no" mutable="no">
+        <type><ref refid="class_platy_v_g_element_1_1_point" kindref="compound">Point</ref></type>
+        <definition>Point PlatyVGElement::Zoom::offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/zoom.hpp" line="28" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/zoom.hpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_element_1_1_zoom_1a2e0a9d0d9544e30525c7587688254aba" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlatyVGElement::Zoom::scale</definition>
+        <argsstring></argsstring>
+        <name>scale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/zoom.hpp" line="29" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/zoom.hpp" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_zoom_1ab756d24482b547f8940f92a4755fd33d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::Zoom::Zoom</definition>
+        <argsstring>()</argsstring>
+        <name>Zoom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/zoom.hpp" line="11" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/zoom.cpp" bodystart="6" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_zoom_1ab31015ca6f300f1939a2cc636d5c50bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::Zoom::Zoom</definition>
+        <argsstring>(const Zoom &amp;rhs)</argsstring>
+        <name>Zoom</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_zoom" kindref="compound">Zoom</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/zoom.hpp" line="12" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/zoom.cpp" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_zoom_1a69ce3524da2b24c2a45c1cefa22ac489" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::Zoom::Zoom</definition>
+        <argsstring>(Point offset, float scale)</argsstring>
+        <name>Zoom</name>
+        <param>
+          <type><ref refid="class_platy_v_g_element_1_1_point" kindref="compound">Point</ref></type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>scale</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/zoom.hpp" line="13" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/zoom.cpp" bodystart="16" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_zoom_1a8a08fa779987daa2353502874ad21068" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::Zoom::~Zoom</definition>
+        <argsstring>()</argsstring>
+        <name>~Zoom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/zoom.hpp" line="14" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/zoom.cpp" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_zoom_1a5431a0fdf19a6525a001952c103505a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_platy_v_g_element_1_1_zoom" kindref="compound">Zoom</ref> &amp;</type>
+        <definition>Zoom &amp; PlatyVGElement::Zoom::operator=</definition>
+        <argsstring>(const Zoom &amp;rhs)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_zoom" kindref="compound">Zoom</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/zoom.hpp" line="15" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/zoom.cpp" bodystart="26" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_zoom_1ac0d78e1c1e829e05a7dd7696437fbbd1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PlatyVGElement::Zoom::operator==</definition>
+        <argsstring>(const Zoom &amp;rhs) const </argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_zoom" kindref="compound">Zoom</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/zoom.hpp" line="16" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/zoom.cpp" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_zoom_1a77c7cb83c42cb3833a8ae067c3f0fd8c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PlatyVGElement::Zoom::operator!=</definition>
+        <argsstring>(const Zoom &amp;rhs) const </argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_zoom" kindref="compound">Zoom</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/zoom.hpp" line="17" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/zoom.cpp" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_zoom_1a2b9534c9ff804f249b1274fc51216441" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_platy_v_g_element_1_1_point" kindref="compound">Point</ref></type>
+        <definition>const Point PlatyVGElement::Zoom::ToView</definition>
+        <argsstring>(const Point point) const </argsstring>
+        <name>ToView</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_point" kindref="compound">Point</ref></type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/zoom.hpp" line="19" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/zoom.cpp" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_zoom_1a613e247cb67f1c170951da3f24fb0651" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_platy_v_g_element_1_1_point" kindref="compound">Point</ref></type>
+        <definition>const Point PlatyVGElement::Zoom::ToView</definition>
+        <argsstring>(const float x, const float y) const </argsstring>
+        <name>ToView</name>
+        <param>
+          <type>const float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/zoom.hpp" line="20" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/zoom.cpp" bodystart="48" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_zoom_1a672d5b5dcdc949e3ca94859e68029072" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_platy_v_g_element_1_1_point" kindref="compound">Point</ref></type>
+        <definition>const Point PlatyVGElement::Zoom::ToDocument</definition>
+        <argsstring>(const Point point) const </argsstring>
+        <name>ToDocument</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_point" kindref="compound">Point</ref></type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/zoom.hpp" line="21" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/zoom.cpp" bodystart="53" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_zoom_1a30b59ab21843051c51b2310c61c91c43" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_platy_v_g_element_1_1_point" kindref="compound">Point</ref></type>
+        <definition>const Point PlatyVGElement::Zoom::ToDocument</definition>
+        <argsstring>(const float x, const float y) const </argsstring>
+        <name>ToDocument</name>
+        <param>
+          <type>const float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/zoom.hpp" line="22" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/zoom.cpp" bodystart="58" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_zoom_1ad45ff868d526ff7a53770eb90a4b283e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlatyVGElement::Zoom::UpdateBy</definition>
+        <argsstring>(const Point(&amp;oldpoint)[2], const Point(&amp;newpoint)[2])</argsstring>
+        <name>UpdateBy</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_point" kindref="compound">Point</ref>(&amp;)</type>
+          <declname>oldpoint</declname>
+          <array>[2]</array>
+        </param>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_point" kindref="compound">Point</ref>(&amp;)</type>
+          <declname>newpoint</declname>
+          <array>[2]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/zoom.hpp" line="24" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/zoom.cpp" bodystart="63" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_zoom_1a139018a832c0bf7a45a9fbb8118c84bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlatyVGElement::Zoom::UpdateBy</definition>
+        <argsstring>(const Point oldpoint, const Point newpoint, const float scaleadds)</argsstring>
+        <name>UpdateBy</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_point" kindref="compound">Point</ref></type>
+          <declname>oldpoint</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_point" kindref="compound">Point</ref></type>
+          <declname>newpoint</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>scaleadds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/zoom.hpp" line="25" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/zoom.cpp" bodystart="76" bodyend="83"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>2D줌 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="196">
+        <label>PlatyVGElement::Point</label>
+        <link refid="class_platy_v_g_element_1_1_point"/>
+      </node>
+      <node id="195">
+        <label>PlatyVGElement::Zoom</label>
+        <link refid="class_platy_v_g_element_1_1_zoom"/>
+        <childnode refid="196" relation="usage">
+          <edgelabel>offset</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/zoom.hpp" line="9" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/zoom.hpp" bodystart="8" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_platy_v_g_element_1_1_zoom_1a67202a26e0ac4e36b4d04d4731b78f8d" prot="public" virt="non-virtual"><scope>PlatyVGElement::Zoom</scope><name>offset</name></member>
+      <member refid="class_platy_v_g_element_1_1_zoom_1a77c7cb83c42cb3833a8ae067c3f0fd8c" prot="public" virt="non-virtual"><scope>PlatyVGElement::Zoom</scope><name>operator!=</name></member>
+      <member refid="class_platy_v_g_element_1_1_zoom_1a5431a0fdf19a6525a001952c103505a1" prot="public" virt="non-virtual"><scope>PlatyVGElement::Zoom</scope><name>operator=</name></member>
+      <member refid="class_platy_v_g_element_1_1_zoom_1ac0d78e1c1e829e05a7dd7696437fbbd1" prot="public" virt="non-virtual"><scope>PlatyVGElement::Zoom</scope><name>operator==</name></member>
+      <member refid="class_platy_v_g_element_1_1_zoom_1a2e0a9d0d9544e30525c7587688254aba" prot="public" virt="non-virtual"><scope>PlatyVGElement::Zoom</scope><name>scale</name></member>
+      <member refid="class_platy_v_g_element_1_1_zoom_1a672d5b5dcdc949e3ca94859e68029072" prot="public" virt="non-virtual"><scope>PlatyVGElement::Zoom</scope><name>ToDocument</name></member>
+      <member refid="class_platy_v_g_element_1_1_zoom_1a30b59ab21843051c51b2310c61c91c43" prot="public" virt="non-virtual"><scope>PlatyVGElement::Zoom</scope><name>ToDocument</name></member>
+      <member refid="class_platy_v_g_element_1_1_zoom_1a2b9534c9ff804f249b1274fc51216441" prot="public" virt="non-virtual"><scope>PlatyVGElement::Zoom</scope><name>ToView</name></member>
+      <member refid="class_platy_v_g_element_1_1_zoom_1a613e247cb67f1c170951da3f24fb0651" prot="public" virt="non-virtual"><scope>PlatyVGElement::Zoom</scope><name>ToView</name></member>
+      <member refid="class_platy_v_g_element_1_1_zoom_1ad45ff868d526ff7a53770eb90a4b283e" prot="public" virt="non-virtual"><scope>PlatyVGElement::Zoom</scope><name>UpdateBy</name></member>
+      <member refid="class_platy_v_g_element_1_1_zoom_1a139018a832c0bf7a45a9fbb8118c84bd" prot="public" virt="non-virtual"><scope>PlatyVGElement::Zoom</scope><name>UpdateBy</name></member>
+      <member refid="class_platy_v_g_element_1_1_zoom_1ab756d24482b547f8940f92a4755fd33d" prot="public" virt="non-virtual"><scope>PlatyVGElement::Zoom</scope><name>Zoom</name></member>
+      <member refid="class_platy_v_g_element_1_1_zoom_1ab31015ca6f300f1939a2cc636d5c50bc" prot="public" virt="non-virtual"><scope>PlatyVGElement::Zoom</scope><name>Zoom</name></member>
+      <member refid="class_platy_v_g_element_1_1_zoom_1a69ce3524da2b24c2a45c1cefa22ac489" prot="public" virt="non-virtual"><scope>PlatyVGElement::Zoom</scope><name>Zoom</name></member>
+      <member refid="class_platy_v_g_element_1_1_zoom_1a8a08fa779987daa2353502874ad21068" prot="public" virt="non-virtual"><scope>PlatyVGElement::Zoom</scope><name>~Zoom</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

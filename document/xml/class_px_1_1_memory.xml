@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_px_1_1_memory" kind="class" language="C++" prot="public">
+    <compoundname>Px::Memory</compoundname>
+    <includes refid="memory_8hpp" local="no">memory.hpp</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_px_1_1_memory_1aa03ce8f24965e7ab7b71b8ef18b9c705" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * Px::Memory::Alloc</definition>
+        <argsstring>(const sint32 size)</argsstring>
+        <name>Alloc</name>
+        <param>
+          <type>const sint32</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>할당 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 할당할 길이(byte) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>할당된 시작주소 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/memory.hpp" line="15" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/memory.cpp" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_memory_1a988759ffc0914bc9368f37770c422d4b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Px::Memory::Free</definition>
+        <argsstring>(const void *ptr)</argsstring>
+        <name>Free</name>
+        <param>
+          <type>const void *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+<para>해제 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ptr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 해제할 시작주소 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/memory.hpp" line="21" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/memory.cpp" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_memory_1acf2dccecbd6043c2a717b94ac67c12a8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Px::Memory::Set</definition>
+        <argsstring>(void *ptr, const uint08 value, const sint32 size)</argsstring>
+        <name>Set</name>
+        <param>
+          <type>void *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>const uint08</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>const sint32</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>초기화 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ptr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 초기화할 시작주소 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 초기화할 값 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 초기화할 길이(byte) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/memory.hpp" line="29" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/memory.cpp" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_memory_1af9691b1a34d8e8e4d5bfe312a19de938" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Px::Memory::Copy</definition>
+        <argsstring>(void *dst, const void *src, const sint32 size)</argsstring>
+        <name>Copy</name>
+        <param>
+          <type>void *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>const void *</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>const sint32</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>복사 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dst</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 복사받을 시작주소 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 복사할 시작주소 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 복사할 길이(byte) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/memory.hpp" line="37" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/memory.cpp" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_memory_1ae5a6062d9de8d4565fe00b02cd42cc92" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>sint32</type>
+        <definition>sint32 Px::Memory::Compare</definition>
+        <argsstring>(const void *dst, const void *src, const sint32 size)</argsstring>
+        <name>Compare</name>
+        <param>
+          <type>const void *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>const void *</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>const sint32</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>비교 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dst</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 비교당할 시작주소 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 비교할 시작주소 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 비교할 길이(byte) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>비교결과(0-같음) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/memory.hpp" line="46" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/memory.cpp" bodystart="48" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>메모리함수지원 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/memory.hpp" line="8" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/memory.hpp" bodystart="7" bodyend="47"/>
+    <listofallmembers>
+      <member refid="class_px_1_1_memory_1aa03ce8f24965e7ab7b71b8ef18b9c705" prot="public" virt="non-virtual"><scope>Px::Memory</scope><name>Alloc</name></member>
+      <member refid="class_px_1_1_memory_1ae5a6062d9de8d4565fe00b02cd42cc92" prot="public" virt="non-virtual"><scope>Px::Memory</scope><name>Compare</name></member>
+      <member refid="class_px_1_1_memory_1af9691b1a34d8e8e4d5bfe312a19de938" prot="public" virt="non-virtual"><scope>Px::Memory</scope><name>Copy</name></member>
+      <member refid="class_px_1_1_memory_1a988759ffc0914bc9368f37770c422d4b" prot="public" virt="non-virtual"><scope>Px::Memory</scope><name>Free</name></member>
+      <member refid="class_px_1_1_memory_1acf2dccecbd6043c2a717b94ac67c12a8" prot="public" virt="non-virtual"><scope>Px::Memory</scope><name>Set</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

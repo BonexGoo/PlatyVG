@@ -1,0 +1,359 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="share_8hpp" kind="file" language="C++">
+    <compoundname>share.hpp</compoundname>
+    <includes refid="buffer_8hpp" local="yes">../px/buffer.hpp</includes>
+    <includedby refid="array_8hpp" local="yes">array.hpp</includedby>
+    <includedby refid="platyvg_8hpp" local="yes">platyvg.hpp</includedby>
+    <includedby refid="share_8cpp" local="yes">share.cpp</includedby>
+    <incdepgraph>
+      <node id="1150">
+        <label>share.hpp</label>
+        <link refid="share.hpp"/>
+        <childnode refid="1151" relation="include">
+        </childnode>
+      </node>
+      <node id="1153">
+        <label>../px/px.hpp</label>
+        <link refid="px_8hpp_source"/>
+      </node>
+      <node id="1152">
+        <label>../px/memory.hpp</label>
+        <link refid="memory_8hpp_source"/>
+        <childnode refid="1153" relation="include">
+        </childnode>
+      </node>
+      <node id="1151">
+        <label>../px/buffer.hpp</label>
+        <link refid="buffer_8hpp_source"/>
+        <childnode refid="1152" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1157">
+        <label>adapter.hpp</label>
+        <link refid="adapter_8hpp_source"/>
+        <childnode refid="1158" relation="include">
+        </childnode>
+      </node>
+      <node id="1176">
+        <label>mesh.hpp</label>
+        <link refid="mesh_8hpp_source"/>
+        <childnode refid="1157" relation="include">
+        </childnode>
+        <childnode refid="1158" relation="include">
+        </childnode>
+      </node>
+      <node id="1172">
+        <label>point.hpp</label>
+        <link refid="point_8hpp_source"/>
+        <childnode refid="1173" relation="include">
+        </childnode>
+        <childnode refid="1168" relation="include">
+        </childnode>
+        <childnode refid="1175" relation="include">
+        </childnode>
+        <childnode refid="1158" relation="include">
+        </childnode>
+        <childnode refid="1169" relation="include">
+        </childnode>
+        <childnode refid="1174" relation="include">
+        </childnode>
+        <childnode refid="1164" relation="include">
+        </childnode>
+        <childnode refid="1161" relation="include">
+        </childnode>
+      </node>
+      <node id="1161">
+        <label>view.hpp</label>
+        <link refid="view_8hpp_source"/>
+      </node>
+      <node id="1177">
+        <label>size.hpp</label>
+        <link refid="size_8hpp_source"/>
+        <childnode refid="1174" relation="include">
+        </childnode>
+        <childnode refid="1158" relation="include">
+        </childnode>
+        <childnode refid="1161" relation="include">
+        </childnode>
+        <childnode refid="1166" relation="include">
+        </childnode>
+      </node>
+      <node id="1179">
+        <label>export.hpp</label>
+        <link refid="export_8hpp_source"/>
+      </node>
+      <node id="1156">
+        <label>platyvg.hpp</label>
+        <link refid="platyvg_8hpp_source"/>
+        <childnode refid="1157" relation="include">
+        </childnode>
+        <childnode refid="1162" relation="include">
+        </childnode>
+        <childnode refid="1167" relation="include">
+        </childnode>
+        <childnode refid="1171" relation="include">
+        </childnode>
+        <childnode refid="1176" relation="include">
+        </childnode>
+        <childnode refid="1173" relation="include">
+        </childnode>
+        <childnode refid="1172" relation="include">
+        </childnode>
+        <childnode refid="1161" relation="include">
+        </childnode>
+        <childnode refid="1168" relation="include">
+        </childnode>
+        <childnode refid="1160" relation="include">
+        </childnode>
+        <childnode refid="1159" relation="include">
+        </childnode>
+        <childnode refid="1158" relation="include">
+        </childnode>
+        <childnode refid="1163" relation="include">
+        </childnode>
+        <childnode refid="1175" relation="include">
+        </childnode>
+        <childnode refid="1169" relation="include">
+        </childnode>
+        <childnode refid="1174" relation="include">
+        </childnode>
+        <childnode refid="1177" relation="include">
+        </childnode>
+        <childnode refid="1178" relation="include">
+        </childnode>
+        <childnode refid="1165" relation="include">
+        </childnode>
+        <childnode refid="1164" relation="include">
+        </childnode>
+        <childnode refid="1166" relation="include">
+        </childnode>
+        <childnode refid="1179" relation="include">
+        </childnode>
+        <childnode refid="1170" relation="include">
+        </childnode>
+        <childnode refid="1180" relation="include">
+        </childnode>
+      </node>
+      <node id="1168">
+        <label>device.hpp</label>
+        <link refid="device_8hpp_source"/>
+        <childnode refid="1161" relation="include">
+        </childnode>
+      </node>
+      <node id="1154">
+        <label>share.hpp</label>
+        <link refid="share.hpp"/>
+        <childnode refid="1155" relation="include">
+        </childnode>
+        <childnode refid="1156" relation="include">
+        </childnode>
+      </node>
+      <node id="1174">
+        <label>rect.hpp</label>
+        <link refid="rect_8hpp_source"/>
+        <childnode refid="1169" relation="include">
+        </childnode>
+        <childnode refid="1160" relation="include">
+        </childnode>
+        <childnode refid="1166" relation="include">
+        </childnode>
+      </node>
+      <node id="1155">
+        <label>array.hpp</label>
+        <link refid="array_8hpp_source"/>
+        <childnode refid="1156" relation="include">
+        </childnode>
+        <childnode refid="1181" relation="include">
+        </childnode>
+      </node>
+      <node id="1164">
+        <label>action.hpp</label>
+        <link refid="action_8hpp_source"/>
+        <childnode refid="1165" relation="include">
+        </childnode>
+      </node>
+      <node id="1182">
+        <label>parser.hpp</label>
+        <link refid="parser_8hpp_source"/>
+        <childnode refid="1156" relation="include">
+        </childnode>
+      </node>
+      <node id="1158">
+        <label>shape.hpp</label>
+        <link refid="shape_8hpp_source"/>
+        <childnode refid="1159" relation="include">
+        </childnode>
+        <childnode refid="1161" relation="include">
+        </childnode>
+      </node>
+      <node id="1162">
+        <label>color.hpp</label>
+        <link refid="color_8hpp_source"/>
+        <childnode refid="1157" relation="include">
+        </childnode>
+        <childnode refid="1163" relation="include">
+        </childnode>
+        <childnode refid="1164" relation="include">
+        </childnode>
+        <childnode refid="1166" relation="include">
+        </childnode>
+      </node>
+      <node id="1163">
+        <label>context.hpp</label>
+        <link refid="context_8hpp_source"/>
+        <childnode refid="1158" relation="include">
+        </childnode>
+        <childnode refid="1161" relation="include">
+        </childnode>
+      </node>
+      <node id="1159">
+        <label>layer.hpp</label>
+        <link refid="layer_8hpp_source"/>
+        <childnode refid="1160" relation="include">
+        </childnode>
+      </node>
+      <node id="1171">
+        <label>matrix.hpp</label>
+        <link refid="matrix_8hpp_source"/>
+        <childnode refid="1157" relation="include">
+        </childnode>
+        <childnode refid="1172" relation="include">
+        </childnode>
+        <childnode refid="1158" relation="include">
+        </childnode>
+      </node>
+      <node id="1181">
+        <label>string.hpp</label>
+        <link refid="string_8hpp_source"/>
+        <childnode refid="1182" relation="include">
+        </childnode>
+        <childnode refid="1156" relation="include">
+        </childnode>
+      </node>
+      <node id="1165">
+        <label>record.hpp</label>
+        <link refid="record_8hpp_source"/>
+        <childnode refid="1160" relation="include">
+        </childnode>
+      </node>
+      <node id="1166">
+        <label>command.hpp</label>
+        <link refid="command_8hpp_source"/>
+      </node>
+      <node id="1160">
+        <label>document.hpp</label>
+        <link refid="document_8hpp_source"/>
+        <childnode refid="1161" relation="include">
+        </childnode>
+      </node>
+      <node id="1173">
+        <label>zoom.hpp</label>
+        <link refid="zoom_8hpp_source"/>
+        <childnode refid="1157" relation="include">
+        </childnode>
+        <childnode refid="1174" relation="include">
+        </childnode>
+        <childnode refid="1158" relation="include">
+        </childnode>
+        <childnode refid="1159" relation="include">
+        </childnode>
+        <childnode refid="1160" relation="include">
+        </childnode>
+        <childnode refid="1166" relation="include">
+        </childnode>
+      </node>
+      <node id="1169">
+        <label>selector.hpp</label>
+        <link refid="selector_8hpp_source"/>
+        <childnode refid="1158" relation="include">
+        </childnode>
+      </node>
+      <node id="1178">
+        <label>table.hpp</label>
+        <link refid="table_8hpp_source"/>
+        <childnode refid="1169" relation="include">
+        </childnode>
+      </node>
+      <node id="1175">
+        <label>edge.hpp</label>
+        <link refid="edge_8hpp_source"/>
+        <childnode refid="1158" relation="include">
+        </childnode>
+      </node>
+      <node id="1180">
+        <label>listener.hpp</label>
+        <link refid="listener_8hpp_source"/>
+      </node>
+      <node id="1170">
+        <label>input.hpp</label>
+        <link refid="input_8hpp_source"/>
+      </node>
+      <node id="1167">
+        <label>coord.hpp</label>
+        <link refid="coord_8hpp_source"/>
+        <childnode refid="1157" relation="include">
+        </childnode>
+        <childnode refid="1168" relation="include">
+        </childnode>
+        <childnode refid="1158" relation="include">
+        </childnode>
+        <childnode refid="1169" relation="include">
+        </childnode>
+        <childnode refid="1161" relation="include">
+        </childnode>
+        <childnode refid="1170" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_px_1_1_share" prot="public">Px::Share</innerclass>
+    <innernamespace refid="namespace_px">Px</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../px/buffer.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_px" kindref="compound">Px</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7" refid="class_px_1_1_share" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_px_1_1_share" kindref="compound">Share</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_px_1_1_share" kindref="compound">Share</ref>*<sp/>Create(buffer<sp/>gift);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_px_1_1_share" kindref="compound">Share</ref>*<sp/>Create(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>buffer&amp;<sp/>sample,<sp/>sint32<sp/>mincount);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_px_1_1_share" kindref="compound">Share</ref>*<sp/>CopyOnWrite(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_px_1_1_share" kindref="compound">Share</ref>*<sp/>share,<sp/>sint32<sp/>mincount);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Remove(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_px_1_1_share" kindref="compound">Share</ref>*<sp/>share);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DebugPrint();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>chars<sp/>Type()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_px_1_1_share" kindref="compound">Share</ref>*<sp/>Clone()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sint32<sp/>Count()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>TYPE&gt;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TYPE&amp;<sp/>At(sint32<sp/>index)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="22"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Buffer::At&lt;TYPE&gt;(data,<sp/>index);}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>buffer<sp/>CopiedBuffer()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_px_1_1_share" kindref="compound">Share</ref>(buffer<sp/>gift);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_px_1_1_share" kindref="compound">Share</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>buffer&amp;<sp/>sample,<sp/>sint32<sp/>mincount);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_px_1_1_share" kindref="compound">Share</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_px_1_1_share" kindref="compound">Share</ref>&amp;<sp/>rhs,<sp/>sint32<sp/>mincount);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>~<ref refid="class_px_1_1_share" kindref="compound">Share</ref>();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>sint32&amp;<sp/>_DebugShareCount();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/>sint32<sp/>sharecount;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sint32<sp/>validcount;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>buffer<sp/>data;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/share.hpp"/>
+  </compounddef>
+</doxygen>

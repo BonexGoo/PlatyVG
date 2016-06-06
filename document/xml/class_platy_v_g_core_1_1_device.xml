@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_platy_v_g_core_1_1_device" kind="class" language="C++" prot="public">
+    <compoundname>PlatyVGCore::Device</compoundname>
+    <includes refid="device_8hpp" local="no">device.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_device_1ab6493abff8ab6c84d10f7b78721dff7f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PlatyVGCore::Device::IsZoomEnabled</definition>
+        <argsstring></argsstring>
+        <name>IsZoomEnabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/device.hpp" line="16" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/device.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_device_1a25ed011963046064e00a76ad1a204bef" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PlatyVGCore::Device::IsOutsideDown</definition>
+        <argsstring></argsstring>
+        <name>IsOutsideDown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/device.hpp" line="17" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/device.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_device_1a23fc1e0b58b7f68f954d55bcd3ac44eb" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PlatyVGCore::Device::IsGlobalZoomEnabled</definition>
+        <argsstring></argsstring>
+        <name>IsGlobalZoomEnabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/device.hpp" line="18" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/device.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_device_1aed7b51ca87c1597ad1d30922855ec466" prot="public" static="no" mutable="no">
+        <type>uint32</type>
+        <definition>uint32 PlatyVGCore::Device::InputFlag</definition>
+        <argsstring></argsstring>
+        <name>InputFlag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/device.hpp" line="19" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/device.hpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_device_1a09f5e093602f20e02e3ef4464b69f5fa" prot="public" static="no" mutable="no">
+        <type><ref refid="class_platy_v_g_element_1_1_point" kindref="compound">Point</ref></type>
+        <definition>Point PlatyVGCore::Device::Gesture[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>Gesture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/device.hpp" line="20" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/device.hpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_device_1a4b61fcabed419bc0a8ecbab9ffe8e7d2" prot="public" static="no" mutable="no">
+        <type><ref refid="class_px_1_1_array" kindref="compound">Coords</ref></type>
+        <definition>Coords PlatyVGCore::Device::InputCoords</definition>
+        <argsstring></argsstring>
+        <name>InputCoords</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/device.hpp" line="21" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/device.hpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_device_1a77aaa7662576ec42f9a7dae37e662153" prot="public" static="no" mutable="no">
+        <type>sint32</type>
+        <definition>sint32 PlatyVGCore::Device::InputLocked</definition>
+        <argsstring></argsstring>
+        <name>InputLocked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/device.hpp" line="22" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/device.hpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_device_1aeb9ac10330e0a1839c9ed6e57405b480" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlatyVGCore::Device::InputSensitivity</definition>
+        <argsstring></argsstring>
+        <name>InputSensitivity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/device.hpp" line="23" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/device.hpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_device_1a6778bb81fc9ae105a3d2c859bf5300e5" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlatyVGCore::Device::InputBaseDistanceByMS</definition>
+        <argsstring></argsstring>
+        <name>InputBaseDistanceByMS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/device.hpp" line="24" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/device.hpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_device_1a90445f053d4a5c2241f38dfe6e16df32" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlatyVGCore::Device::CurrentSpeedyForce</definition>
+        <argsstring></argsstring>
+        <name>CurrentSpeedyForce</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/device.hpp" line="27" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/device.hpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_device_1a5d4a42a2d496bf75120f1a9d561cd2aa" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlatyVGCore::Device::OldXForSpeedyForce</definition>
+        <argsstring></argsstring>
+        <name>OldXForSpeedyForce</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/device.hpp" line="28" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/device.hpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_device_1ae03f0b89504bce8cc482fce624ca719c" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlatyVGCore::Device::OldYForSpeedyForce</definition>
+        <argsstring></argsstring>
+        <name>OldYForSpeedyForce</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/device.hpp" line="29" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/device.hpp" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_device_1a8c8068bf33206af7d17dcd8763b718f2" prot="protected" static="no" mutable="no">
+        <type>sint64</type>
+        <definition>sint64 PlatyVGCore::Device::OldMSForSpeedyForce</definition>
+        <argsstring></argsstring>
+        <name>OldMSForSpeedyForce</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/device.hpp" line="30" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/device.hpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_device_1a2c0214249d2dbe6d1063c5b1e8cbcf27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGCore::Device::Device</definition>
+        <argsstring>()</argsstring>
+        <name>Device</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/device.hpp" line="12" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/device.cpp" bodystart="6" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_device_1a8981187ba6763afc2c87345eca306254" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGCore::Device::~Device</definition>
+        <argsstring>()</argsstring>
+        <name>~Device</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/device.hpp" line="13" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/device.cpp" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_device_1a4e66bb01bd4fe3daab91419e3dab3150" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float PlatyVGCore::Device::GetSpeedyForce</definition>
+        <argsstring>(float x, float y, sint64 ms)</argsstring>
+        <name>GetSpeedyForce</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>sint64</type>
+          <declname>ms</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/device.hpp" line="33" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/device.cpp" bodystart="26" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>장치관리 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="59">
+        <label>Px::Array&lt; TYPE, CANCOPY, MINCOUNT &gt;</label>
+        <link refid="class_px_1_1_array"/>
+      </node>
+      <node id="58">
+        <label>PlatyVGElement::Point</label>
+        <link refid="class_platy_v_g_element_1_1_point"/>
+      </node>
+      <node id="57">
+        <label>PlatyVGCore::Device</label>
+        <link refid="class_platy_v_g_core_1_1_device"/>
+        <childnode refid="58" relation="usage">
+          <edgelabel>Gesture</edgelabel>
+        </childnode>
+        <childnode refid="59" relation="usage">
+          <edgelabel>InputCoords</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/device.hpp" line="10" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/device.hpp" bodystart="9" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_platy_v_g_core_1_1_device_1a90445f053d4a5c2241f38dfe6e16df32" prot="protected" virt="non-virtual"><scope>PlatyVGCore::Device</scope><name>CurrentSpeedyForce</name></member>
+      <member refid="class_platy_v_g_core_1_1_device_1a2c0214249d2dbe6d1063c5b1e8cbcf27" prot="public" virt="non-virtual"><scope>PlatyVGCore::Device</scope><name>Device</name></member>
+      <member refid="class_platy_v_g_core_1_1_device_1a09f5e093602f20e02e3ef4464b69f5fa" prot="public" virt="non-virtual"><scope>PlatyVGCore::Device</scope><name>Gesture</name></member>
+      <member refid="class_platy_v_g_core_1_1_device_1a4e66bb01bd4fe3daab91419e3dab3150" prot="public" virt="non-virtual"><scope>PlatyVGCore::Device</scope><name>GetSpeedyForce</name></member>
+      <member refid="class_platy_v_g_core_1_1_device_1a6778bb81fc9ae105a3d2c859bf5300e5" prot="public" virt="non-virtual"><scope>PlatyVGCore::Device</scope><name>InputBaseDistanceByMS</name></member>
+      <member refid="class_platy_v_g_core_1_1_device_1a4b61fcabed419bc0a8ecbab9ffe8e7d2" prot="public" virt="non-virtual"><scope>PlatyVGCore::Device</scope><name>InputCoords</name></member>
+      <member refid="class_platy_v_g_core_1_1_device_1aed7b51ca87c1597ad1d30922855ec466" prot="public" virt="non-virtual"><scope>PlatyVGCore::Device</scope><name>InputFlag</name></member>
+      <member refid="class_platy_v_g_core_1_1_device_1a77aaa7662576ec42f9a7dae37e662153" prot="public" virt="non-virtual"><scope>PlatyVGCore::Device</scope><name>InputLocked</name></member>
+      <member refid="class_platy_v_g_core_1_1_device_1aeb9ac10330e0a1839c9ed6e57405b480" prot="public" virt="non-virtual"><scope>PlatyVGCore::Device</scope><name>InputSensitivity</name></member>
+      <member refid="class_platy_v_g_core_1_1_device_1a23fc1e0b58b7f68f954d55bcd3ac44eb" prot="public" virt="non-virtual"><scope>PlatyVGCore::Device</scope><name>IsGlobalZoomEnabled</name></member>
+      <member refid="class_platy_v_g_core_1_1_device_1a25ed011963046064e00a76ad1a204bef" prot="public" virt="non-virtual"><scope>PlatyVGCore::Device</scope><name>IsOutsideDown</name></member>
+      <member refid="class_platy_v_g_core_1_1_device_1ab6493abff8ab6c84d10f7b78721dff7f" prot="public" virt="non-virtual"><scope>PlatyVGCore::Device</scope><name>IsZoomEnabled</name></member>
+      <member refid="class_platy_v_g_core_1_1_device_1a8c8068bf33206af7d17dcd8763b718f2" prot="protected" virt="non-virtual"><scope>PlatyVGCore::Device</scope><name>OldMSForSpeedyForce</name></member>
+      <member refid="class_platy_v_g_core_1_1_device_1a5d4a42a2d496bf75120f1a9d561cd2aa" prot="protected" virt="non-virtual"><scope>PlatyVGCore::Device</scope><name>OldXForSpeedyForce</name></member>
+      <member refid="class_platy_v_g_core_1_1_device_1ae03f0b89504bce8cc482fce624ca719c" prot="protected" virt="non-virtual"><scope>PlatyVGCore::Device</scope><name>OldYForSpeedyForce</name></member>
+      <member refid="class_platy_v_g_core_1_1_device_1a8981187ba6763afc2c87345eca306254" prot="public" virt="non-virtual"><scope>PlatyVGCore::Device</scope><name>~Device</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_px_1_1_parser_1_1_tag" kind="class" language="C++" prot="public">
+    <compoundname>Px::Parser::Tag</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_px_1_1_parser_1_1_tag_1ad9ae334621bb5d674629bb4d03f3c19a" prot="public" static="no" mutable="no">
+        <type>const <ref refid="class_px_1_1_string" kindref="compound">String</ref></type>
+        <definition>const String Px::Parser::Tag::key</definition>
+        <argsstring></argsstring>
+        <name>key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/parser.hpp" line="17" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/parser.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_px_1_1_parser_1_1_tag_1aa7837c250c81254401355adafe8b2fe4" prot="public" static="no" mutable="no">
+        <type>sint32</type>
+        <definition>sint32 Px::Parser::Tag::map[256]</definition>
+        <argsstring>[256]</argsstring>
+        <name>map</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/parser.hpp" line="18" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/parser.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_px_1_1_parser_1_1_tag_1a2dd059bb2da6280a8515234f998ba8c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Px::Parser::Tag::Tag</definition>
+        <argsstring>(const String key)</argsstring>
+        <name>Tag</name>
+        <param>
+          <type>const <ref refid="class_px_1_1_string" kindref="compound">String</ref></type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/parser.hpp" line="13" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/parser.cpp" bodystart="6" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_parser_1_1_tag_1a225ddcb2bce6e7d9807bcbd5f3c3b273" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Px::Parser::Tag::~Tag</definition>
+        <argsstring>()</argsstring>
+        <name>~Tag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/parser.hpp" line="14" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/parser.cpp" bodystart="19" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="176">
+        <label>Px::String</label>
+        <link refid="class_px_1_1_string"/>
+      </node>
+      <node id="175">
+        <label>Px::Parser::Tag</label>
+        <link refid="class_px_1_1_parser_1_1_tag"/>
+        <childnode refid="176" relation="usage">
+          <edgelabel>key</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/parser.hpp" line="11" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/parser.hpp" bodystart="10" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_px_1_1_parser_1_1_tag_1ad9ae334621bb5d674629bb4d03f3c19a" prot="public" virt="non-virtual"><scope>Px::Parser::Tag</scope><name>key</name></member>
+      <member refid="class_px_1_1_parser_1_1_tag_1aa7837c250c81254401355adafe8b2fe4" prot="public" virt="non-virtual"><scope>Px::Parser::Tag</scope><name>map</name></member>
+      <member refid="class_px_1_1_parser_1_1_tag_1a2dd059bb2da6280a8515234f998ba8c7" prot="public" virt="non-virtual"><scope>Px::Parser::Tag</scope><name>Tag</name></member>
+      <member refid="class_px_1_1_parser_1_1_tag_1a225ddcb2bce6e7d9807bcbd5f3c3b273" prot="public" virt="non-virtual"><scope>Px::Parser::Tag</scope><name>~Tag</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

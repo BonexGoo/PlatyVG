@@ -1,0 +1,454 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="buffer_8cpp" kind="file" language="C++">
+    <compoundname>buffer.cpp</compoundname>
+    <includes refid="buffer_8hpp" local="yes">buffer.hpp</includes>
+    <includes refid="math_8hpp" local="yes">../px/math.hpp</includes>
+    <includes local="no">pthread.h</includes>
+    <incdepgraph>
+      <node id="128">
+        <label>buffer.cpp</label>
+        <link refid="buffer.cpp"/>
+        <childnode refid="129" relation="include">
+        </childnode>
+        <childnode refid="132" relation="include">
+        </childnode>
+        <childnode refid="133" relation="include">
+        </childnode>
+      </node>
+      <node id="131">
+        <label>../px/px.hpp</label>
+        <link refid="px_8hpp_source"/>
+      </node>
+      <node id="133">
+        <label>pthread.h</label>
+      </node>
+      <node id="130">
+        <label>../px/memory.hpp</label>
+        <link refid="memory_8hpp_source"/>
+        <childnode refid="131" relation="include">
+        </childnode>
+      </node>
+      <node id="132">
+        <label>../px/math.hpp</label>
+        <link refid="math_8hpp_source"/>
+        <childnode refid="131" relation="include">
+        </childnode>
+      </node>
+      <node id="129">
+        <label>buffer.hpp</label>
+        <link refid="buffer_8hpp_source"/>
+        <childnode refid="130" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespace_px">Px</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="buffer_8cpp_1af7b639e42c30d39d10cf5ae4073f8e8e" prot="public" static="no">
+        <name>INCLUDED_SIZE_T</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/buffer.cpp" line="14" column="17" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/buffer.cpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="buffer_8cpp_1a9a974e4caa0215b6dac5d6135458415d" prot="public" static="no">
+        <name>MUTEX_ID</name>
+        <initializer>pthread_mutex_t</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/buffer.cpp" line="19" column="26" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/buffer.cpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="buffer_8cpp_1a96be0bfc33e7e113099c7546798bec99" prot="public" static="no">
+        <name>MUTEX_INIT</name>
+        <initializer>PTHREAD_MUTEX_INITIALIZER</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/buffer.cpp" line="20" column="10" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/buffer.cpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="buffer_8cpp_1afee3358d67ca47184b07072e4659e8d0" prot="public" static="no">
+        <name>MUTEX_DESTROY</name>
+        <param><defname>ID</defname></param>
+        <initializer>pthread_mutex_destroy(&amp;ID)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/buffer.cpp" line="21" column="10" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/buffer.cpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="buffer_8cpp_1a052717f79499a2b7882c65d09a426b97" prot="public" static="no">
+        <name>MUTEX_LOCK</name>
+        <param><defname>ID</defname></param>
+        <initializer>pthread_mutex_lock(&amp;ID)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/buffer.cpp" line="22" column="10" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/buffer.cpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="buffer_8cpp_1a54d483bbc206710069dff267b5a9a04e" prot="public" static="no">
+        <name>MUTEX_UNLOCK</name>
+        <param><defname>ID</defname></param>
+        <initializer>pthread_mutex_unlock(&amp;ID)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/buffer.cpp" line="23" column="10" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/buffer.cpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="buffer_8cpp_1a37fea720a975ea14e879df2e54c9ff3a" prot="public" static="no">
+        <name>CALC_BLOCK_LEN</name>
+        <param><defname>BYTES_LEN</defname></param>
+        <initializer>(((BYTES_LEN) + sizeof(sblock) - 1) / sizeof(sblock))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/buffer.cpp" line="26" column="9" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/buffer.cpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="buffer_8cpp_1aa1ca35f9f3cbe90896f6eec950dc7e44" prot="public" static="no">
+        <name>CALC_BYTES_LEN</name>
+        <param><defname>BLOCK_LEN</defname></param>
+        <initializer>(sizeof(sblock) * (2 + (BLOCK_LEN) + SIZE_OF_DEBUGINFO))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/buffer.cpp" line="27" column="9" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/buffer.cpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="buffer_8cpp_1aa504a622908c4022a308dcb2f659e887" prot="public" static="no">
+        <name>NO_CHANGE_FLAG</name>
+        <initializer>(false)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/buffer.cpp" line="28" column="9" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/buffer.cpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="buffer_8cpp_1aa09a49dff8a08d9113055065a11e8044" prot="public" static="no">
+        <name>LINK_L</name>
+        <initializer>(SIZE_OF_DEBUGINFO - 2)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/buffer.cpp" line="29" column="9" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/buffer.cpp" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="buffer_8cpp_1a61ad6bb68cba0a0afd4d501e2f87ee87" prot="public" static="no">
+        <name>LINK_R</name>
+        <initializer>(SIZE_OF_DEBUGINFO - 1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/buffer.cpp" line="30" column="9" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/buffer.cpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="buffer_8cpp_1afca649faf038473762d1aea87db838bf" prot="public" static="no">
+        <name>SIZE_OF_DEBUGINFO</name>
+        <initializer>(0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/buffer.cpp" line="34" column="11" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/buffer.cpp" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="buffer_8cpp_1a980997855ffb71dbd689763b02f8aca3" prot="public" static="no">
+        <type>ublock</type>
+        <definition>typedef ublock size_t</definition>
+        <argsstring></argsstring>
+        <name>size_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/buffer.cpp" line="15" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/buffer.cpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;buffer.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../px/math.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>_WIN32</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&lt;windows.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>MUTEX_ID<sp/>struct{HANDLE<sp/>E;<sp/>long<sp/>C;}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>MUTEX_INIT<sp/>{CreateEvent(0,<sp/>0,<sp/>0,<sp/>0),<sp/>0}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>MUTEX_DESTROY(ID)<sp/>do{if(ID.E)<sp/>{CloseHandle(ID.E);<sp/>ID.E<sp/>=<sp/>0;}}while(false)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>MUTEX_LOCK(ID)<sp/>do{if(1<sp/>&lt;<sp/>InterlockedIncrement(&amp;ID.C))<sp/>WaitForSingleObject(ID.E,<sp/>INFINITE);}while(false)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>MUTEX_UNLOCK(ID)<sp/>do{if(0<sp/>&lt;<sp/>InterlockedDecrement(&amp;ID.C))<sp/>SetEvent(ID.E);}while(false)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#if<sp/>__APPLE__<sp/>!=<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#ifndef<sp/>INCLUDED_SIZE_T</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>INCLUDED_SIZE_T</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>ublock<sp/>size_t;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&lt;pthread.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>MUTEX_ID<sp/>pthread_mutex_t</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>MUTEX_INIT<sp/>PTHREAD_MUTEX_INITIALIZER</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>MUTEX_DESTROY(ID)<sp/>pthread_mutex_destroy(&amp;ID)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>MUTEX_LOCK(ID)<sp/>pthread_mutex_lock(&amp;ID)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>MUTEX_UNLOCK(ID)<sp/>pthread_mutex_unlock(&amp;ID)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CALC_BLOCK_LEN(BYTES_LEN)<sp/>(((BYTES_LEN)<sp/>+<sp/>sizeof(sblock)<sp/>-<sp/>1)<sp/>/<sp/>sizeof(sblock))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CALC_BYTES_LEN(BLOCK_LEN)<sp/>(sizeof(sblock)<sp/>*<sp/>(2<sp/>+<sp/>(BLOCK_LEN)<sp/>+<sp/>SIZE_OF_DEBUGINFO))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NO_CHANGE_FLAG<sp/>(false)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LINK_L<sp/>(SIZE_OF_DEBUGINFO<sp/>-<sp/>2)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LINK_R<sp/>(SIZE_OF_DEBUGINFO<sp/>-<sp/>1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>PX_DEBUG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>SIZE_OF_DEBUGINFO<sp/>(7)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>SIZE_OF_DEBUGINFO<sp/>(0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_px" kindref="compound">Px</ref></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>buffer<sp/><ref refid="class_px_1_1_buffer_1a569634f9d7c5899741487662669be869" kindref="member">Buffer::AllocBySample</ref>(NEEDS_DBG_PRM<sp/>sint32<sp/>count,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>buffer<sp/>sample)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>nakedbuffer<sp/>SampleNaked<sp/>=<sp/>_Convert(sample);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_AssignorCB<sp/>SampleAssignor<sp/>=<sp/>(_AssignorCB)<sp/>SampleNaked[1];</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_Alloc(NEEDS_DBG_ARG<sp/>count,<sp/>SampleAssignor,<sp/>NO_CHANGE_FLAG);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>buffer<sp/><ref refid="class_px_1_1_buffer_1a5729c012b7491be06ad6dba8a6ed6b8c" kindref="member">Buffer::Realloc</ref>(NEEDS_DBG_PRM<sp/>buffer<sp/>buf,<sp/>sint32<sp/>count)</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>nakedbuffer<sp/>OldNaked<sp/>=<sp/>_Convert(buf);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(count<sp/>==<sp/>OldNaked[0])<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>buf;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_AssignorCB<sp/>OldAssignor<sp/>=<sp/>(_AssignorCB)<sp/>OldNaked[1];</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>buffer<sp/>NewBuffer<sp/>=<sp/>_Alloc(NEEDS_DBG_ARG<sp/>count,<sp/>OldAssignor,<sp/>NO_CHANGE_FLAG);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>CopyCount<sp/>=<sp/><ref refid="class_px_1_1_math_1a59f46ea2c5e3cef50edea36fb273beba" kindref="member">Math::Min</ref>(count,<sp/>OldNaked[0]);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(0<sp/>&lt;<sp/>CopyCount)</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sblock<sp/>CopyCmd[2]<sp/>=<sp/>{PTR_TO_SBLOCK(buf),<sp/>CopyCount};</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>OldAssignor(NewBuffer,<sp/>CopyCmd);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_px_1_1_buffer_1acd05ebbf9dd44cb5806e270d9d83c4ab" kindref="member">Free</ref>(buf);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NewBuffer;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_px_1_1_buffer_1acd05ebbf9dd44cb5806e270d9d83c4ab" kindref="member">Buffer::Free</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>buffer<sp/>buf)</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!buf)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>nakedbuffer<sp/>OldNaked<sp/>=<sp/>_Convert(buf);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((_AssignorCB)<sp/>OldNaked[1])(buf,<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_px_1_1_buffer_1a453d7995686842cd386096297af82712" kindref="member">Buffer::Copy</ref>(buffer<sp/>dstBuf,<sp/>sint32<sp/>dstOff,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>buffer<sp/>srcBuf,<sp/>sint32<sp/>srcOff,<sp/>sint32<sp/>count)</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(count<sp/>&lt;=<sp/>0)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>nakedbuffer<sp/>DstNaked<sp/>=<sp/>_Convert(dstBuf);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>nakedbuffer<sp/>SrcNaked<sp/>=<sp/>_Convert(srcBuf);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_ASSERT(</highlight><highlight class="stringliteral">&quot;서로<sp/>다른<sp/>타입간<sp/>복사입니다&quot;</highlight><highlight class="normal">,<sp/>DstNaked[1]<sp/>==<sp/>SrcNaked[1]);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_ASSERT(</highlight><highlight class="stringliteral">&quot;복사범위가<sp/>dst를<sp/>초과합니다&quot;</highlight><highlight class="normal">,<sp/>0<sp/>&lt;=<sp/>dstOff<sp/>&amp;&amp;<sp/>dstOff<sp/>+<sp/>count<sp/>&lt;=<sp/>DstNaked[0]);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_ASSERT(</highlight><highlight class="stringliteral">&quot;복사범위가<sp/>src를<sp/>초과합니다&quot;</highlight><highlight class="normal">,<sp/>0<sp/>&lt;=<sp/>srcOff<sp/>&amp;&amp;<sp/>srcOff<sp/>+<sp/>count<sp/>&lt;=<sp/>SrcNaked[0]);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_AssignorCB<sp/>DstAssignor<sp/>=<sp/>(_AssignorCB)<sp/>DstNaked[1];</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sblock<sp/>CopyCmd[2]<sp/>=<sp/>{PTR_TO_SBLOCK(srcBuf)<sp/>+<sp/><ref refid="class_px_1_1_buffer_1ad0e1f7aaea5896955df0217bb4c7267d" kindref="member">SizeOf</ref>(srcBuf)<sp/>*<sp/>srcOff,<sp/>count};</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DstAssignor((buffer)<sp/>(PTR_TO_SBLOCK(dstBuf)<sp/>+<sp/><ref refid="class_px_1_1_buffer_1ad0e1f7aaea5896955df0217bb4c7267d" kindref="member">SizeOf</ref>(dstBuf)<sp/>*<sp/>dstOff),<sp/>CopyCmd);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>sint32<sp/><ref refid="class_px_1_1_buffer_1afe6bd86527d6d9fe6365ea09243c9bb6" kindref="member">Buffer::CountOf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>buffer<sp/>buf)</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>nakedbuffer<sp/>Naked<sp/>=<sp/>_Convert(buf);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(sint32)<sp/>Naked[0];</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>sint32<sp/><ref refid="class_px_1_1_buffer_1ad0e1f7aaea5896955df0217bb4c7267d" kindref="member">Buffer::SizeOf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>buffer<sp/>buf)</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(sint32)<sp/>_SizeOf(_Convert(buf));</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>sblock<sp/><ref refid="class_px_1_1_buffer_1af0325801ad185aa83670d1d231b25bc0" kindref="member">Buffer::TypeOf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>buffer<sp/>buf)</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>nakedbuffer<sp/>Naked<sp/>=<sp/>_Convert(buf);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Naked[1];</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>chars<sp/><ref refid="class_px_1_1_buffer_1a108775f2c98457691287088fd159e926" kindref="member">Buffer::NameOf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>buffer<sp/>buf)</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>nakedbuffer<sp/>Naked<sp/>=<sp/>_Convert(buf);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_NameOf((_AssignorCB)<sp/>Naked[1]);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_px_1_1_buffer_1afa4ac0013039eac758ae07c73978e831" kindref="member">Buffer::Reset</ref>(buffer<sp/>buf,<sp/>sint32<sp/>index)</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>nakedbuffer<sp/>Naked<sp/>=<sp/>_Convert(buf);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_AssignorCB<sp/>Assignor<sp/>=<sp/>(_AssignorCB)<sp/>Naked[1];</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sblock<sp/>ClearCmd[2]<sp/>=<sp/>{index,<sp/>0};</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Assignor(buf,<sp/>ClearCmd);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_px_1_1_buffer_1a45a991bfb7492d8bdb538f8ef2f05ee7" kindref="member">Buffer::DebugPrint</ref>()</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#ifdef<sp/>PX_DEBUG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_Mutex(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sblock*<sp/>CurDebugInfo<sp/>=<sp/>_DebugLink();</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_TRACE(</highlight><highlight class="stringliteral">&quot;&lt;&gt;:&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_TRACE(</highlight><highlight class="stringliteral">&quot;&lt;&gt;:====================<sp/>Buffer<sp/>====================&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sint32<sp/>TotalBytes<sp/>=<sp/>0,<sp/>TotalCount<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">((CurDebugInfo<sp/>=<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sblock*)<sp/>CurDebugInfo[LINK_R])<sp/>!=<sp/>_DebugLink())</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TotalBytes<sp/>+=<sp/>(sint32)<sp/>CurDebugInfo[1];</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TotalCount++;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_TRACE(</highlight><highlight class="stringliteral">&quot;&lt;&gt;:&gt;&gt;&gt;&gt;<sp/>&lt;A:8&gt;<sp/>BYTES(&lt;A&gt;)<sp/><sp/><sp/><sp/><sp/>.....&lt;A&gt;(&lt;A&gt;<sp/>Ln)&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BxARG((sint32)<sp/>CurDebugInfo[1],<sp/>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">)<sp/>CurDebugInfo[4],<sp/>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">)<sp/>CurDebugInfo[2],<sp/>(sint32)<sp/>CurDebugInfo[3]));</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_TRACE(</highlight><highlight class="stringliteral">&quot;&lt;&gt;:================================================&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_TRACE(</highlight><highlight class="stringliteral">&quot;&lt;&gt;:&gt;&gt;&gt;&gt;<sp/>&lt;A:8&gt;<sp/>BYTES(&lt;A&gt;<sp/>ea)&quot;</highlight><highlight class="normal">,<sp/>BxARG(TotalBytes,<sp/>TotalCount));</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_TRACE(</highlight><highlight class="stringliteral">&quot;&lt;&gt;:================================================&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_Mutex(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>buffer<sp/>Buffer::_Alloc(NEEDS_DBG_PRM<sp/>sint32<sp/>count,<sp/>_AssignorCB<sp/>cb,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>canCopy)</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sblock<sp/>InitCmd[3]<sp/>=<sp/>{0,<sp/>canCopy,<sp/>0};</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cb(</highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/>InitCmd);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>RealLength<sp/>=<sp/>InitCmd[0]<sp/>*<sp/>count;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>BlockLength<sp/>=<sp/>CALC_BLOCK_LEN(RealLength);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>BytesLength<sp/>=<sp/>CALC_BYTES_LEN(BlockLength);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nakedbuffer<sp/>NewNaked<sp/>=<sp/>(nakedbuffer)<sp/><ref refid="class_px_1_1_memory_1aa03ce8f24965e7ab7b71b8ef18b9c705" kindref="member">Memory::Alloc</ref>(BytesLength);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NewNaked[0]<sp/>=<sp/>count;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NewNaked[1]<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cb((buffer)<sp/>&amp;NewNaked[2],<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NewNaked[1]<sp/>=<sp/>PTR_TO_SBLOCK(cb);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_DebugAttach(NEEDS_DBG_ARG<sp/>NewNaked,<sp/>BlockLength,<sp/>RealLength);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(buffer)<sp/>&amp;NewNaked[2];</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Buffer::_Free(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>buffer<sp/>buf)</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>nakedbuffer<sp/>OldNaked<sp/>=<sp/>_Convert(buf);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_DebugDetach(OldNaked);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_px_1_1_memory_1a988759ffc0914bc9368f37770c422d4b" kindref="member">Memory::Free</ref>((</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*)<sp/>OldNaked);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>nakedbuffer<sp/>Buffer::_Convert(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>buffer<sp/>buf)</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_ASSERT(</highlight><highlight class="stringliteral">&quot;버퍼가<sp/>nullptr입니다&quot;</highlight><highlight class="normal">,<sp/>buf);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>nakedbuffer<sp/>Naked<sp/>=<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>nakedbuffer)<sp/>&amp;buf[-2];</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#ifdef<sp/>PX_DEBUG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_ASSERT(</highlight><highlight class="stringliteral">&quot;버퍼가<sp/>손상되었습니다&quot;</highlight><highlight class="normal">,<sp/>Naked[0]<sp/>==<sp/>~Naked[2<sp/>+<sp/>CALC_BLOCK_LEN(_SizeOf(Naked)<sp/>*<sp/>Naked[0])]);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Naked;</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>sint32<sp/>Buffer::_SizeOf(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>nakedbuffer<sp/>naked)</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_ASSERT(</highlight><highlight class="stringliteral">&quot;이미<sp/>삭제된<sp/>버퍼입니다&quot;</highlight><highlight class="normal">,<sp/>0<sp/>&lt;=<sp/>naked[0]);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sblock<sp/>SizeOfCmd[3]<sp/>=<sp/>{0,<sp/>NO_CHANGE_FLAG,<sp/>0};</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((_AssignorCB)<sp/>naked[1])(</highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/>SizeOfCmd);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(sint32)<sp/>SizeOfCmd[0];</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/>chars<sp/>Buffer::_NameOf(_AssignorCB<sp/>cb)</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sblock<sp/>TypeOfCmd[3]<sp/>=<sp/>{0,<sp/>NO_CHANGE_FLAG,<sp/>1};</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cb(</highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/>TypeOfCmd);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(chars)<sp/>TypeOfCmd[2];</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>Buffer::_At(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>buffer<sp/>buf,<sp/>sint32<sp/>index,<sp/>_AssignorCB<sp/>cb)</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>nakedbuffer<sp/>Naked<sp/>=<sp/>_Convert(buf);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_ASSERT(</highlight><highlight class="stringliteral">&quot;허용범위를<sp/>초과한<sp/>인덱스입니다&quot;</highlight><highlight class="normal">,<sp/>0<sp/>&lt;=<sp/>index<sp/>&amp;&amp;<sp/>index<sp/>&lt;<sp/>Naked[0]);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#ifdef<sp/>PX_DEBUG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(cb<sp/>!=<sp/>(_AssignorCB)<sp/>Naked[1])</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>chars<sp/>Name1<sp/>=<sp/>_NameOf(cb);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>chars<sp/>Name2<sp/>=<sp/>_NameOf((_AssignorCB)<sp/>Naked[1]);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>chars<sp/>Focus1<sp/>=<sp/>Name1,<sp/>Focus2<sp/>=<sp/>Name2;</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(*Focus1<sp/>&amp;&amp;<sp/>*(Focus1++)<sp/>==<sp/>*(Focus2++));</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PX_ASSERT(</highlight><highlight class="stringliteral">&quot;접근타입이<sp/>다르며<sp/>상속관계도<sp/>아닙니다&quot;</highlight><highlight class="normal">,<sp/>*Focus1<sp/>==<sp/></highlight><highlight class="charliteral">&apos;\0&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>((uint08*)<sp/>buf)<sp/>+<sp/>_SizeOf(Naked)<sp/>*<sp/>index;</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Buffer::_Mutex(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>lock)</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>MUTEX_ID<sp/>MutexID<sp/>=<sp/>MUTEX_INIT;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(lock)<sp/>MUTEX_LOCK(MutexID);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>MUTEX_UNLOCK(MutexID);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Buffer::_DebugAttach(NEEDS_DBG_PRM<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>nakedbuffer<sp/>naked,<sp/>sint32<sp/>blocklen,<sp/>sint32<sp/>reallen)</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#ifdef<sp/>PX_DEBUG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sblock*<sp/>DebugInfo<sp/>=<sp/>&amp;naked[2<sp/>+<sp/>blocklen];</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DebugInfo[0]<sp/>=<sp/>~naked[0];<sp/></highlight><highlight class="comment">//<sp/>~Count정보</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DebugInfo[1]<sp/>=<sp/>(sblock)<sp/>reallen;</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DebugInfo[2]<sp/>=<sp/>(sblock)<sp/>NEEDS_DBG_FILE;</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DebugInfo[3]<sp/>=<sp/>(sblock)<sp/>NEEDS_DBG_LINE;</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DebugInfo[4]<sp/>=<sp/>(sblock)<sp/>NEEDS_DBG_FUNC;</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_Mutex(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DebugInfo[LINK_L]<sp/>=<sp/>_DebugLink()[LINK_L];</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DebugInfo[LINK_R]<sp/>=<sp/>(sblock)<sp/>_DebugLink();</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((sblock*)<sp/>_DebugLink()[LINK_L])[LINK_R]<sp/>=<sp/>(sblock)<sp/>DebugInfo;</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_DebugLink()[LINK_L]<sp/>=<sp/>(sblock)<sp/>DebugInfo;</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_Mutex(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Buffer::_DebugDetach(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>nakedbuffer<sp/>naked)</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#ifdef<sp/>PX_DEBUG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>BlockLength<sp/>=<sp/>CALC_BLOCK_LEN(_SizeOf(naked)<sp/>*<sp/>naked[0]);</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sblock*<sp/>DebugInfo<sp/>=<sp/>&amp;naked[2<sp/>+<sp/>BlockLength];</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_Mutex(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((sblock*)<sp/>DebugInfo[LINK_L])[LINK_R]<sp/>=<sp/>DebugInfo[LINK_R];</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((sblock*)<sp/>DebugInfo[LINK_R])[LINK_L]<sp/>=<sp/>DebugInfo[LINK_L];</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_Mutex(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/>sblock*<sp/>Buffer::_DebugLink()</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#ifdef<sp/>PX_DEBUG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>sblock<sp/>Root[SIZE_OF_DEBUGINFO]<sp/>=<sp/>{~((sblock)<sp/>0),<sp/>(sblock)<sp/>0,</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(sblock)<sp/>__FILE__,<sp/>(sblock)<sp/>__LINE__,<sp/>(sblock)<sp/>__FUNCTION__,<sp/>(sblock)<sp/>Root,<sp/>(sblock)<sp/>Root};</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>Root;</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="247"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/buffer.cpp"/>
+  </compounddef>
+</doxygen>

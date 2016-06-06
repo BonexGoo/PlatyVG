@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_0d27ce74e9bd514c31e1d63efab6b388" kind="dir">
+    <compoundname>core</compoundname>
+    <innerfile refid="device_8cpp">device.cpp</innerfile>
+    <innerfile refid="device_8hpp">device.hpp</innerfile>
+    <innerfile refid="document_8cpp">document.cpp</innerfile>
+    <innerfile refid="document_8hpp">document.hpp</innerfile>
+    <innerfile refid="layer_8cpp">layer.cpp</innerfile>
+    <innerfile refid="layer_8hpp">layer.hpp</innerfile>
+    <innerfile refid="record_8cpp">record.cpp</innerfile>
+    <innerfile refid="record_8hpp">record.hpp</innerfile>
+    <innerfile refid="shape_8cpp">shape.cpp</innerfile>
+    <innerfile refid="shape_8hpp">shape.hpp</innerfile>
+    <innerfile refid="view_8cpp">view.cpp</innerfile>
+    <innerfile refid="view_8hpp">view.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/"/>
+  </compounddef>
+</doxygen>

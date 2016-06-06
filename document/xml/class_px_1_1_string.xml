@@ -1,0 +1,456 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_px_1_1_string" kind="class" language="C++" prot="public">
+    <compoundname>Px::String</compoundname>
+    <includes refid="string_8hpp" local="no">string.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_px_1_1_string_1a9789ad77f468c81bb9005a67a2a874cb" prot="private" static="no" mutable="no">
+        <type><ref refid="class_px_1_1_array" kindref="compound">sint08s</ref></type>
+        <definition>sint08s Px::String::words</definition>
+        <argsstring></argsstring>
+        <name>words</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.hpp" line="129" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.hpp" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_px_1_1_string_1a7d7eb9a6aba602afa9186f557000f856" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Px::String::String</definition>
+        <argsstring>()</argsstring>
+        <name>String</name>
+        <briefdescription>
+<para>생성 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.hpp" line="15" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.cpp" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_string_1ae09bc192c01a0f4b11b469b5ed4cffb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Px::String::String</definition>
+        <argsstring>(const String &amp;rhs)</argsstring>
+        <name>String</name>
+        <param>
+          <type>const <ref refid="class_px_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+<para>생성 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rhs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 복사할 인스턴스 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.hpp" line="21" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.cpp" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_string_1a0b84b8fc85c0dca4145cc3ace462900c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Px::String::String</definition>
+        <argsstring>(chars rhs)</argsstring>
+        <name>String</name>
+        <param>
+          <type>chars</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+<para>생성(스트링으로부터) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rhs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 복사할 스트링 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.hpp" line="27" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.cpp" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_string_1a91ebc09fff552a47ccd4b2e390770be3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Px::String::String</definition>
+        <argsstring>(chars rhs, sint32 length)</argsstring>
+        <name>String</name>
+        <param>
+          <type>chars</type>
+          <declname>rhs</declname>
+        </param>
+        <param>
+          <type>sint32</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+<para>생성(스트링으로부터) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rhs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 복사할 스트링 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>length</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 복사할 길이 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.hpp" line="34" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.cpp" bodystart="33" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_string_1ae40fb81560cbb7f36ccd2113a1ca7d7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Px::String::~String</definition>
+        <argsstring>()</argsstring>
+        <name>~String</name>
+        <briefdescription>
+<para>소멸 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.hpp" line="39" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.cpp" bodystart="41" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_string_1afbd8fa067ed5fdfd71faeb2b64728d6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_px_1_1_string" kindref="compound">String</ref> &amp;</type>
+        <definition>String &amp; Px::String::operator=</definition>
+        <argsstring>(const String &amp;rhs)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_px_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+<para>복사 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rhs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 복사할 인스턴스 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>자기 객체 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.hpp" line="46" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.cpp" bodystart="45" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_string_1a97635bce1b085cbee81155dc882c85f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_px_1_1_string" kindref="compound">String</ref> &amp;</type>
+        <definition>String &amp; Px::String::operator=</definition>
+        <argsstring>(chars rhs)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>chars</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+<para>복사(chars) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rhs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 복사할 스트링 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>자기 객체 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.hpp" line="53" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.cpp" bodystart="51" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_string_1a2a8aa56a2035b69b606d592060b47c10" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Px::String::operator==</definition>
+        <argsstring>(const String &amp;rhs) const </argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="class_px_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+<para>동등 비교 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rhs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 비교할 인스턴스 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>같으면 true, 다르면 false </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.hpp" line="60" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.cpp" bodystart="59" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_string_1ad4fc84a2913bb88a85706dde5f9a6731" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Px::String::operator==</definition>
+        <argsstring>(chars rhs) const </argsstring>
+        <name>operator==</name>
+        <param>
+          <type>chars</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+<para>동등 비교(chars) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rhs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 비교할 스트링 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>같으면 true, 다르면 false </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.hpp" line="67" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.cpp" bodystart="64" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_string_1aa27114d6a55411da2d0fb9f163f808c2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Px::String::operator!=</definition>
+        <argsstring>(const String &amp;rhs) const </argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="class_px_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+<para>차등 비교 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rhs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 비교할 인스턴스 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>다르면 true, 같으면 false </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.hpp" line="74" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.cpp" bodystart="69" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_string_1a9cf1e6ee0c855cd4a4ecefdfeff88afa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Px::String::operator!=</definition>
+        <argsstring>(chars rhs) const </argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>chars</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+<para>차등 비교(chars) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rhs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 비교할 스트링 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>다르면 true, 같으면 false </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.hpp" line="81" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.cpp" bodystart="74" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_string_1a1fa0546ea8e2614397c7ca5b9e9a9377" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Px::String::operator chars</definition>
+        <argsstring>() const </argsstring>
+        <name>operator chars</name>
+        <briefdescription>
+<para>형변환 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>chars형 스트링 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.hpp" line="87" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.cpp" bodystart="79" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_string_1a340c730f5c1f05313ae9c9fa11112116" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Px::String::Empty</definition>
+        <argsstring>()</argsstring>
+        <name>Empty</name>
+        <briefdescription>
+<para>비우기 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.hpp" line="92" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.cpp" bodystart="84" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_string_1af9d5531db2956b33874cf207373d05fa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const sint08</type>
+        <definition>const sint08 Px::String::operator[]</definition>
+        <argsstring>(sint32 index) const </argsstring>
+        <name>operator[]</name>
+        <param>
+          <type>sint32</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>접근 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 인덱스(음수는 역인덱스) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>해당 객체 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.hpp" line="99" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.cpp" bodystart="89" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_string_1abc000093830a711318247017aee2a8cd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>sint32</type>
+        <definition>sint32 Px::String::Length</definition>
+        <argsstring>() const </argsstring>
+        <name>Length</name>
+        <briefdescription>
+<para>텍스트길이 구하기 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>텍스트길이 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.hpp" line="105" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.cpp" bodystart="94" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_string_1a5cc7dde27a2acc2f69376a4563d48c6a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>sint32</type>
+        <definition>sint32 Px::String::Compare</definition>
+        <argsstring>(const String &amp;other, sint32 offset) const </argsstring>
+        <name>Compare</name>
+        <param>
+          <type>const <ref refid="class_px_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <param>
+          <type>sint32</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+<para>memcmp식 비교 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 비교할 인스턴스 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: other의 시작주소 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>비교결과(0-같음) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.hpp" line="113" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.cpp" bodystart="99" bodyend="104"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_px_1_1_string_1a8d1041632824889426de5017e3d9d092" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>int</type>
+            <declname>UNIQUE_VALUE</declname>
+            <defname>UNIQUE_VALUE</defname>
+          </param>
+        </templateparamlist>
+        <type>const <ref refid="class_px_1_1_string" kindref="compound">String</ref> &amp;</type>
+        <definition>static const String&amp; Px::String::_Const</definition>
+        <argsstring>(chars rhs)</argsstring>
+        <name>_Const</name>
+        <param>
+          <type>chars</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+<para>상수객체 구하기, CONST(STR)를 이용 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rhs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 상수 스트링 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>상수객체 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.hpp" line="122" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.hpp" bodystart="122" bodyend="126"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>스트링지원 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.hpp" line="10" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/string.hpp" bodystart="9" bodyend="130"/>
+    <listofallmembers>
+      <member refid="class_px_1_1_string_1a8d1041632824889426de5017e3d9d092" prot="public" virt="non-virtual"><scope>Px::String</scope><name>_Const</name></member>
+      <member refid="class_px_1_1_string_1a5cc7dde27a2acc2f69376a4563d48c6a" prot="public" virt="non-virtual"><scope>Px::String</scope><name>Compare</name></member>
+      <member refid="class_px_1_1_string_1a340c730f5c1f05313ae9c9fa11112116" prot="public" virt="non-virtual"><scope>Px::String</scope><name>Empty</name></member>
+      <member refid="class_px_1_1_string_1abc000093830a711318247017aee2a8cd" prot="public" virt="non-virtual"><scope>Px::String</scope><name>Length</name></member>
+      <member refid="class_px_1_1_string_1a1fa0546ea8e2614397c7ca5b9e9a9377" prot="public" virt="non-virtual"><scope>Px::String</scope><name>operator chars</name></member>
+      <member refid="class_px_1_1_string_1aa27114d6a55411da2d0fb9f163f808c2" prot="public" virt="non-virtual"><scope>Px::String</scope><name>operator!=</name></member>
+      <member refid="class_px_1_1_string_1a9cf1e6ee0c855cd4a4ecefdfeff88afa" prot="public" virt="non-virtual"><scope>Px::String</scope><name>operator!=</name></member>
+      <member refid="class_px_1_1_string_1afbd8fa067ed5fdfd71faeb2b64728d6f" prot="public" virt="non-virtual"><scope>Px::String</scope><name>operator=</name></member>
+      <member refid="class_px_1_1_string_1a97635bce1b085cbee81155dc882c85f8" prot="public" virt="non-virtual"><scope>Px::String</scope><name>operator=</name></member>
+      <member refid="class_px_1_1_string_1a2a8aa56a2035b69b606d592060b47c10" prot="public" virt="non-virtual"><scope>Px::String</scope><name>operator==</name></member>
+      <member refid="class_px_1_1_string_1ad4fc84a2913bb88a85706dde5f9a6731" prot="public" virt="non-virtual"><scope>Px::String</scope><name>operator==</name></member>
+      <member refid="class_px_1_1_string_1af9d5531db2956b33874cf207373d05fa" prot="public" virt="non-virtual"><scope>Px::String</scope><name>operator[]</name></member>
+      <member refid="class_px_1_1_string_1a7d7eb9a6aba602afa9186f557000f856" prot="public" virt="non-virtual"><scope>Px::String</scope><name>String</name></member>
+      <member refid="class_px_1_1_string_1ae09bc192c01a0f4b11b469b5ed4cffb8" prot="public" virt="non-virtual"><scope>Px::String</scope><name>String</name></member>
+      <member refid="class_px_1_1_string_1a0b84b8fc85c0dca4145cc3ace462900c" prot="public" virt="non-virtual"><scope>Px::String</scope><name>String</name></member>
+      <member refid="class_px_1_1_string_1a91ebc09fff552a47ccd4b2e390770be3" prot="public" virt="non-virtual"><scope>Px::String</scope><name>String</name></member>
+      <member refid="class_px_1_1_string_1a9789ad77f468c81bb9005a67a2a874cb" prot="private" virt="non-virtual"><scope>Px::String</scope><name>words</name></member>
+      <member refid="class_px_1_1_string_1ae40fb81560cbb7f36ccd2113a1ca7d7e" prot="public" virt="non-virtual"><scope>Px::String</scope><name>~String</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_platy_v_g_core_1_1_document" kind="class" language="C++" prot="public">
+    <compoundname>PlatyVGCore::Document</compoundname>
+    <includes refid="document_8hpp" local="no">document.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_document_1aca55a08b0917c124fa1069156f951d81" prot="public" static="no" mutable="no">
+        <type>const sint32</type>
+        <definition>const sint32 PlatyVGCore::Document::ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/document.hpp" line="21" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/document.hpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_document_1ab5f577368c7a86015bf7c405e7d84371" prot="public" static="no" mutable="no">
+        <type>const bool</type>
+        <definition>const bool PlatyVGCore::Document::Focusable</definition>
+        <argsstring></argsstring>
+        <name>Focusable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/document.hpp" line="22" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/document.hpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_document_1a7e40bc0cb7ffe09d88ed2d04029da5f8" prot="public" static="no" mutable="no">
+        <type><ref refid="class_px_1_1_string" kindref="compound">String</ref></type>
+        <definition>String PlatyVGCore::Document::Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/document.hpp" line="23" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/document.hpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_document_1a2f5cae1769a19d740b530af21c6acf11" prot="public" static="no" mutable="no">
+        <type><ref refid="class_platy_v_g_element_1_1_rect" kindref="compound">Rect</ref></type>
+        <definition>Rect PlatyVGCore::Document::Area</definition>
+        <argsstring></argsstring>
+        <name>Area</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/document.hpp" line="24" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/document.hpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_document_1af4d7233467a080f83577f61e3c30823a" prot="public" static="no" mutable="no">
+        <type><ref refid="class_platy_v_g_element_1_1_zoom" kindref="compound">Zoom</ref></type>
+        <definition>Zoom PlatyVGCore::Document::Transform</definition>
+        <argsstring></argsstring>
+        <name>Transform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/document.hpp" line="25" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/document.hpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_document_1aaba6ba9d012a194ab4325df3db9cdd1e" prot="public" static="no" mutable="no">
+        <type><ref refid="class_px_1_1_array" kindref="compound">Layers</ref></type>
+        <definition>Layers PlatyVGCore::Document::AllLayers</definition>
+        <argsstring></argsstring>
+        <name>AllLayers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/document.hpp" line="26" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/document.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_document_1a87540dd1146bd7da954ce5feb9447586" prot="public" static="no" mutable="no">
+        <type><ref refid="class_platy_v_g_core_1_1_record" kindref="compound">Record</ref></type>
+        <definition>Record PlatyVGCore::Document::ShapeRec</definition>
+        <argsstring></argsstring>
+        <name>ShapeRec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/document.hpp" line="27" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/document.hpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_document_1aa5eee735cea66e22c8097e58ddd1b1fe" prot="public" static="no" mutable="no">
+        <type>sint32</type>
+        <definition>sint32 PlatyVGCore::Document::LastMS</definition>
+        <argsstring></argsstring>
+        <name>LastMS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/document.hpp" line="28" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/document.hpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_document_1a80b9d96f626b09fd0aff18f9f379de85" prot="public" static="no" mutable="no">
+        <type><ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref> *</type>
+        <definition>Document* PlatyVGCore::Document::Next</definition>
+        <argsstring></argsstring>
+        <name>Next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/document.hpp" line="29" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/document.hpp" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_document_1a751a5e4c80948ad6fdbb27c5de9fff40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGCore::Document::Document</definition>
+        <argsstring>(const bool focusable)</argsstring>
+        <name>Document</name>
+        <param>
+          <type>const bool</type>
+          <declname>focusable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/document.hpp" line="14" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/document.cpp" bodystart="8" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_document_1af18492e10aaf228aa0bb62fb9cad1743" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGCore::Document::~Document</definition>
+        <argsstring>()</argsstring>
+        <name>~Document</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/document.hpp" line="15" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/document.cpp" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_document_1ac90d8e481dec501a9ee47d8c0342b7f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlatyVGCore::Document::UpdateLayers</definition>
+        <argsstring>(const float radius)</argsstring>
+        <name>UpdateLayers</name>
+        <param>
+          <type>const float</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/document.hpp" line="18" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/document.cpp" bodystart="19" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>자료관리 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="63">
+        <label>Px::Array&lt; TYPE, CANCOPY, MINCOUNT &gt;</label>
+        <link refid="class_px_1_1_array"/>
+      </node>
+      <node id="67">
+        <label>PlatyVGElement::Rect</label>
+        <link refid="class_platy_v_g_element_1_1_rect"/>
+      </node>
+      <node id="62">
+        <label>PlatyVGCore::Record</label>
+        <link refid="class_platy_v_g_core_1_1_record"/>
+        <childnode refid="63" relation="usage">
+          <edgelabel>AllActions</edgelabel>
+        </childnode>
+      </node>
+      <node id="61">
+        <label>PlatyVGCore::Document</label>
+        <link refid="class_platy_v_g_core_1_1_document"/>
+        <childnode refid="62" relation="usage">
+          <edgelabel>ShapeRec</edgelabel>
+        </childnode>
+        <childnode refid="64" relation="usage">
+          <edgelabel>Name</edgelabel>
+        </childnode>
+        <childnode refid="65" relation="usage">
+          <edgelabel>Transform</edgelabel>
+        </childnode>
+        <childnode refid="61" relation="usage">
+          <edgelabel>Next</edgelabel>
+        </childnode>
+        <childnode refid="67" relation="usage">
+          <edgelabel>Area</edgelabel>
+        </childnode>
+        <childnode refid="68" relation="usage">
+          <edgelabel>AllLayers</edgelabel>
+        </childnode>
+      </node>
+      <node id="64">
+        <label>Px::String</label>
+        <link refid="class_px_1_1_string"/>
+      </node>
+      <node id="66">
+        <label>PlatyVGElement::Point</label>
+        <link refid="class_platy_v_g_element_1_1_point"/>
+      </node>
+      <node id="65">
+        <label>PlatyVGElement::Zoom</label>
+        <link refid="class_platy_v_g_element_1_1_zoom"/>
+        <childnode refid="66" relation="usage">
+          <edgelabel>offset</edgelabel>
+        </childnode>
+      </node>
+      <node id="68">
+        <label>Px::Array&lt; Layer &gt;</label>
+        <link refid="class_px_1_1_array"/>
+      </node>
+    </collaborationgraph>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/document.hpp" line="12" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/document.hpp" bodystart="11" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_platy_v_g_core_1_1_document_1aaba6ba9d012a194ab4325df3db9cdd1e" prot="public" virt="non-virtual"><scope>PlatyVGCore::Document</scope><name>AllLayers</name></member>
+      <member refid="class_platy_v_g_core_1_1_document_1a2f5cae1769a19d740b530af21c6acf11" prot="public" virt="non-virtual"><scope>PlatyVGCore::Document</scope><name>Area</name></member>
+      <member refid="class_platy_v_g_core_1_1_document_1a751a5e4c80948ad6fdbb27c5de9fff40" prot="public" virt="non-virtual"><scope>PlatyVGCore::Document</scope><name>Document</name></member>
+      <member refid="class_platy_v_g_core_1_1_document_1ab5f577368c7a86015bf7c405e7d84371" prot="public" virt="non-virtual"><scope>PlatyVGCore::Document</scope><name>Focusable</name></member>
+      <member refid="class_platy_v_g_core_1_1_document_1aca55a08b0917c124fa1069156f951d81" prot="public" virt="non-virtual"><scope>PlatyVGCore::Document</scope><name>ID</name></member>
+      <member refid="class_platy_v_g_core_1_1_document_1aa5eee735cea66e22c8097e58ddd1b1fe" prot="public" virt="non-virtual"><scope>PlatyVGCore::Document</scope><name>LastMS</name></member>
+      <member refid="class_platy_v_g_core_1_1_document_1a7e40bc0cb7ffe09d88ed2d04029da5f8" prot="public" virt="non-virtual"><scope>PlatyVGCore::Document</scope><name>Name</name></member>
+      <member refid="class_platy_v_g_core_1_1_document_1a80b9d96f626b09fd0aff18f9f379de85" prot="public" virt="non-virtual"><scope>PlatyVGCore::Document</scope><name>Next</name></member>
+      <member refid="class_platy_v_g_core_1_1_document_1a87540dd1146bd7da954ce5feb9447586" prot="public" virt="non-virtual"><scope>PlatyVGCore::Document</scope><name>ShapeRec</name></member>
+      <member refid="class_platy_v_g_core_1_1_document_1af4d7233467a080f83577f61e3c30823a" prot="public" virt="non-virtual"><scope>PlatyVGCore::Document</scope><name>Transform</name></member>
+      <member refid="class_platy_v_g_core_1_1_document_1ac90d8e481dec501a9ee47d8c0342b7f4" prot="public" virt="non-virtual"><scope>PlatyVGCore::Document</scope><name>UpdateLayers</name></member>
+      <member refid="class_platy_v_g_core_1_1_document_1af18492e10aaf228aa0bb62fb9cad1743" prot="public" virt="non-virtual"><scope>PlatyVGCore::Document</scope><name>~Document</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

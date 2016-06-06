@@ -1,0 +1,344 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_px_1_1_array" kind="class" language="C++" prot="public">
+    <compoundname>Px::Array</compoundname>
+    <includes refid="array_8hpp" local="no">array.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>TYPE</declname>
+        <defname>TYPE</defname>
+      </param>
+      <param>
+        <type>bool</type>
+        <declname>CANCOPY</declname>
+        <defname>CANCOPY</defname>
+        <defval>false</defval>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>MINCOUNT</declname>
+        <defname>MINCOUNT</defname>
+        <defval>4</defval>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_px_1_1_array_1a9d2321216437576e4a29688de4c6d6d4" prot="private" static="no" mutable="no">
+        <type>const <ref refid="class_px_1_1_share" kindref="compound">Share</ref> *</type>
+        <definition>const Share* Px::Array&lt; TYPE, CANCOPY, MINCOUNT &gt;::share</definition>
+        <argsstring></argsstring>
+        <name>share</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="155" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_px_1_1_array_1a2724dcb3cad4f6a4d46fa014274a9a52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Px::Array&lt; TYPE, CANCOPY, MINCOUNT &gt;::Array</definition>
+        <argsstring>()</argsstring>
+        <name>Array</name>
+        <briefdescription>
+<para>생성 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="25" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_array_1ade08fd35bbae0c698cd24782a9677ea2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Px::Array&lt; TYPE, CANCOPY, MINCOUNT &gt;::Array</definition>
+        <argsstring>(const Array &amp;rhs)</argsstring>
+        <name>Array</name>
+        <param>
+          <type>const <ref refid="class_px_1_1_array" kindref="compound">Array</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+<para>생성 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rhs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 복사할 인스턴스 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="31" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_array_1ac950bc115bbcafec5e257741455b8c6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Px::Array&lt; TYPE, CANCOPY, MINCOUNT &gt;::Array</definition>
+        <argsstring>(const ArrayShare &amp;rhs)</argsstring>
+        <name>Array</name>
+        <param>
+          <type>const <ref refid="class_px_1_1_array_share" kindref="compound">ArrayShare</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+<para>생성(공유객체로부터) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rhs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 복사할 인스턴스 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="37" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_array_1a9f009fa3ebd551eb1ea9e308e2f85368" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Px::Array&lt; TYPE, CANCOPY, MINCOUNT &gt;::~Array</definition>
+        <argsstring>()</argsstring>
+        <name>~Array</name>
+        <briefdescription>
+<para>소멸 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="42" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_array_1aa0ddc439e186162b6907647281e94980" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Px::Array&lt; TYPE, CANCOPY, MINCOUNT &gt;::Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <briefdescription>
+<para>비우기 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="47" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="47" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_array_1ad242cb75516acfd1a1568a03abc0c2dc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Px::Array&lt; TYPE, CANCOPY, MINCOUNT &gt;::operator const ArrayShare</definition>
+        <argsstring>() const </argsstring>
+        <name>operator const ArrayShare</name>
+        <briefdescription>
+<para>공유객체 생성 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>공유객체 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="57" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_array_1af70726fdab12d2f8e3d73e38c5d5589e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_px_1_1_array" kindref="compound">Array</ref> &amp;</type>
+        <definition>Array&amp; Px::Array&lt; TYPE, CANCOPY, MINCOUNT &gt;::operator=</definition>
+        <argsstring>(const Array &amp;rhs)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_px_1_1_array" kindref="compound">Array</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+<para>복사 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rhs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 복사할 인스턴스 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>자기 객체 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="64" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="64" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_array_1aefdddaea83ec1ff24274c6ae37b0e17e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const TYPE &amp;</type>
+        <definition>const TYPE&amp; Px::Array&lt; TYPE, CANCOPY, MINCOUNT &gt;::operator[]</definition>
+        <argsstring>(sint32 index) const </argsstring>
+        <name>operator[]</name>
+        <param>
+          <type>sint32</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>읽기접근 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 인덱스(음수는 역인덱스) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>해당 객체 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="76" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="76" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_array_1a2eb53c8e4c3761558a1b64cae2336189" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TYPE &amp;</type>
+        <definition>TYPE&amp; Px::Array&lt; TYPE, CANCOPY, MINCOUNT &gt;::At</definition>
+        <argsstring>(sint32 index)</argsstring>
+        <name>At</name>
+        <param>
+          <type>sint32</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>쓰기접근 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 인덱스(음수는 역인덱스) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>해당 객체 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="88" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="88" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_array_1a16683d7ddd43efcf9334d094bfcfc749" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TYPE &amp;</type>
+        <definition>TYPE&amp; Px::Array&lt; TYPE, CANCOPY, MINCOUNT &gt;::AtAdding</definition>
+        <argsstring>()</argsstring>
+        <name>AtAdding</name>
+        <briefdescription>
+<para>추가(후미+1)하여 쓰기접근 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>해당 객체 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="100" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="100" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_array_1aa578b098f4c31d3b259ac73e8712ad54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TYPE &amp;</type>
+        <definition>TYPE&amp; Px::Array&lt; TYPE, CANCOPY, MINCOUNT &gt;::AtWherever</definition>
+        <argsstring>(sint32 index)</argsstring>
+        <name>AtWherever</name>
+        <param>
+          <type>sint32</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>자율추가하여 쓰기접근 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 인덱스 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>해당 객체 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="112" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="112" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_array_1a3dfa5983e64b7a7ef2612857f74afbfb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Px::Array&lt; TYPE, CANCOPY, MINCOUNT &gt;::Subtraction</definition>
+        <argsstring>()</argsstring>
+        <name>Subtraction</name>
+        <briefdescription>
+<para>삭제(후미-1) </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>삭제 수행여부(배열수량이 0일 경우 false) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="122" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="122" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_array_1a761685bf155e6fcb3176a216ad10a378" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>chars</type>
+        <definition>chars Px::Array&lt; TYPE, CANCOPY, MINCOUNT &gt;::Type</definition>
+        <argsstring>() const </argsstring>
+        <name>Type</name>
+        <briefdescription>
+<para>타입명 구하기 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>타입명 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="133" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="133" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_array_1ab0002d07743eee641bc62e3b0f115c52" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>sint32</type>
+        <definition>sint32 Px::Array&lt; TYPE, CANCOPY, MINCOUNT &gt;::Count</definition>
+        <argsstring>() const </argsstring>
+        <name>Count</name>
+        <briefdescription>
+<para>배열수량 구하기 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>배열수량 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="142" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="142" bodyend="145"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_px_1_1_array_1a041f15be3e2f0c52db1941f5b1059697" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const buffer &amp;</type>
+        <definition>const buffer&amp; Px::Array&lt; TYPE, CANCOPY, MINCOUNT &gt;::_Sample</definition>
+        <argsstring>()</argsstring>
+        <name>_Sample</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="148" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="148" bodyend="152"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>스마트배열지원 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="20" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="19" bodyend="156"/>
+    <listofallmembers>
+      <member refid="class_px_1_1_array_1a041f15be3e2f0c52db1941f5b1059697" prot="private" virt="non-virtual"><scope>Px::Array</scope><name>_Sample</name></member>
+      <member refid="class_px_1_1_array_1a2724dcb3cad4f6a4d46fa014274a9a52" prot="public" virt="non-virtual"><scope>Px::Array</scope><name>Array</name></member>
+      <member refid="class_px_1_1_array_1ade08fd35bbae0c698cd24782a9677ea2" prot="public" virt="non-virtual"><scope>Px::Array</scope><name>Array</name></member>
+      <member refid="class_px_1_1_array_1ac950bc115bbcafec5e257741455b8c6f" prot="public" virt="non-virtual"><scope>Px::Array</scope><name>Array</name></member>
+      <member refid="class_px_1_1_array_1a2eb53c8e4c3761558a1b64cae2336189" prot="public" virt="non-virtual"><scope>Px::Array</scope><name>At</name></member>
+      <member refid="class_px_1_1_array_1a16683d7ddd43efcf9334d094bfcfc749" prot="public" virt="non-virtual"><scope>Px::Array</scope><name>AtAdding</name></member>
+      <member refid="class_px_1_1_array_1aa578b098f4c31d3b259ac73e8712ad54" prot="public" virt="non-virtual"><scope>Px::Array</scope><name>AtWherever</name></member>
+      <member refid="class_px_1_1_array_1aa0ddc439e186162b6907647281e94980" prot="public" virt="non-virtual"><scope>Px::Array</scope><name>Clear</name></member>
+      <member refid="class_px_1_1_array_1ab0002d07743eee641bc62e3b0f115c52" prot="public" virt="non-virtual"><scope>Px::Array</scope><name>Count</name></member>
+      <member refid="class_px_1_1_array_1ad242cb75516acfd1a1568a03abc0c2dc" prot="public" virt="non-virtual"><scope>Px::Array</scope><name>operator const ArrayShare</name></member>
+      <member refid="class_px_1_1_array_1af70726fdab12d2f8e3d73e38c5d5589e" prot="public" virt="non-virtual"><scope>Px::Array</scope><name>operator=</name></member>
+      <member refid="class_px_1_1_array_1aefdddaea83ec1ff24274c6ae37b0e17e" prot="public" virt="non-virtual"><scope>Px::Array</scope><name>operator[]</name></member>
+      <member refid="class_px_1_1_array_1a9d2321216437576e4a29688de4c6d6d4" prot="private" virt="non-virtual"><scope>Px::Array</scope><name>share</name></member>
+      <member refid="class_px_1_1_array_1a3dfa5983e64b7a7ef2612857f74afbfb" prot="public" virt="non-virtual"><scope>Px::Array</scope><name>Subtraction</name></member>
+      <member refid="class_px_1_1_array_1a761685bf155e6fcb3176a216ad10a378" prot="public" virt="non-virtual"><scope>Px::Array</scope><name>Type</name></member>
+      <member refid="class_px_1_1_array_1a9f009fa3ebd551eb1ea9e308e2f85368" prot="public" virt="non-virtual"><scope>Px::Array</scope><name>~Array</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

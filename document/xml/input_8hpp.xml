@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="input_8hpp" kind="file" language="C++">
+    <compoundname>input.hpp</compoundname>
+    <includes refid="platyvg_8hpp" local="no">platyvg.hpp</includes>
+    <includes refid="coord_8hpp" local="yes">../element/coord.hpp</includes>
+    <includedby refid="input_8cpp" local="yes">input.cpp</includedby>
+    <incdepgraph>
+      <node id="554">
+        <label>platyvg.hpp</label>
+        <link refid="platyvg_8hpp_source"/>
+        <childnode refid="555" relation="include">
+        </childnode>
+        <childnode refid="556" relation="include">
+        </childnode>
+        <childnode refid="558" relation="include">
+        </childnode>
+        <childnode refid="560" relation="include">
+        </childnode>
+        <childnode refid="561" relation="include">
+        </childnode>
+        <childnode refid="559" relation="include">
+        </childnode>
+        <childnode refid="562" relation="include">
+        </childnode>
+        <childnode refid="557" relation="include">
+        </childnode>
+        <childnode refid="563" relation="include">
+        </childnode>
+      </node>
+      <node id="557">
+        <label>../px/share.hpp</label>
+        <link refid="share_8hpp_source"/>
+        <childnode refid="558" relation="include">
+        </childnode>
+      </node>
+      <node id="556">
+        <label>../px/array.hpp</label>
+        <link refid="array_8hpp_source"/>
+        <childnode refid="557" relation="include">
+        </childnode>
+      </node>
+      <node id="562">
+        <label>../px/parser.hpp</label>
+        <link refid="parser_8hpp_source"/>
+        <childnode refid="563" relation="include">
+        </childnode>
+      </node>
+      <node id="555">
+        <label>../px/px.hpp</label>
+        <link refid="px_8hpp_source"/>
+      </node>
+      <node id="560">
+        <label>../px/file.hpp</label>
+        <link refid="file_8hpp_source"/>
+        <childnode refid="555" relation="include">
+        </childnode>
+      </node>
+      <node id="563">
+        <label>../px/string.hpp</label>
+        <link refid="string_8hpp_source"/>
+        <childnode refid="556" relation="include">
+        </childnode>
+      </node>
+      <node id="559">
+        <label>../px/memory.hpp</label>
+        <link refid="memory_8hpp_source"/>
+        <childnode refid="555" relation="include">
+        </childnode>
+      </node>
+      <node id="561">
+        <label>../px/math.hpp</label>
+        <link refid="math_8hpp_source"/>
+        <childnode refid="555" relation="include">
+        </childnode>
+      </node>
+      <node id="558">
+        <label>../px/buffer.hpp</label>
+        <link refid="buffer_8hpp_source"/>
+        <childnode refid="559" relation="include">
+        </childnode>
+      </node>
+      <node id="564">
+        <label>../element/coord.hpp</label>
+        <link refid="coord_8hpp_source"/>
+        <childnode refid="554" relation="include">
+        </childnode>
+      </node>
+      <node id="553">
+        <label>input.hpp</label>
+        <link refid="input.hpp"/>
+        <childnode refid="554" relation="include">
+        </childnode>
+        <childnode refid="564" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="class_platy_v_g_api_1_1_input" prot="public">PlatyVGApi::Input</innerclass>
+    <innernamespace refid="namespace_platy_v_g_api">PlatyVGApi</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;platyvg.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../element/coord.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_platy_v_g_api" kindref="compound">PlatyVGApi</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8" refid="class_platy_v_g_api_1_1_input" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_platy_v_g_api_1_1_input" kindref="compound">Input</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_input_1a3c08c25b192621cae6ca1c34dfb65204" kindref="member">ScreenDown</ref>(uint32<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>force,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DeviceBy<sp/>deviceby<sp/>=<sp/>DeviceByTouch);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_input_1a3050dbd0632c2a9fa64c2139d2c533ee" kindref="member">ScreenDrag</ref>(uint32<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>force,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DeviceBy<sp/>deviceby<sp/>=<sp/>DeviceByTouch);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_input_1a031f4cf1635f02e0c40343560ace8b55" kindref="member">ScreenUp</ref>(uint32<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DeviceBy<sp/>deviceby<sp/>=<sp/>DeviceByTouch);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_input_1afabcc06d42a3e4754f262a577bdede17" kindref="member">CanvasDown</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>force,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DeviceBy<sp/>deviceby<sp/>=<sp/>DeviceByPen);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_input_1a8c3e93cb849c2ab0033a864ca3dac664" kindref="member">CanvasDrag</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>force,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DeviceBy<sp/>deviceby<sp/>=<sp/>DeviceByPen);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_input_1ac2e3529f372bc920da2506fde7282d4e" kindref="member">CanvasUp</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DeviceBy<sp/>deviceby<sp/>=<sp/>DeviceByPen);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_input_1af933735cba040e0c84efbf23db5a6395" kindref="member">SetDeviceSensitivity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DeviceBy<sp/>deviceby,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>sensitivity);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_input_1a60b45f04dde286cb985d39413f795650" kindref="member">GetDeviceSensitivity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DeviceBy<sp/>deviceby);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_input_1ad1b4356acfa46a7992be07fb5e1d174a" kindref="member">SetDeviceSpeedyForceOn</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DeviceBy<sp/>deviceby,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>distancebysecond);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_input_1aab0fc9360279754f8536e7f0cfacc673" kindref="member">SetDeviceSpeedyForceOff</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DeviceBy<sp/>deviceby);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_platy_v_g_api_1_1_input_1a76d313682aaa3581cdc0b98cc08b24d5" kindref="member">SetDeviceLayer</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DeviceBy<sp/>deviceby,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/>layer);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/><ref refid="class_platy_v_g_api_1_1_input_1abdaa70325c22846f79e91d845fb5c57b" kindref="member">GetDeviceLayer</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DeviceBy<sp/>deviceby);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sint32<sp/><ref refid="class_platy_v_g_api_1_1_input_1a6033bfa1e5b39b85edc30f6aebf52a32" kindref="member">GetDeviceCoordCount</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DeviceBy<sp/>deviceby);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/><ref refid="class_platy_v_g_api_1_1_input_1accb3c7299e596618fb99aa569de3f4d6" kindref="member">GetDeviceCoordArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DeviceBy<sp/>deviceby);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="123"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/input.hpp"/>
+  </compounddef>
+</doxygen>

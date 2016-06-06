@@ -1,0 +1,751 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_platy_v_g_api_1_1_adapter" kind="class" language="C++" prot="public">
+    <compoundname>PlatyVGApi::Adapter</compoundname>
+    <includes refid="adapter_8hpp" local="no">adapter.hpp</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_adapter_1a352170f1f2dcf7340fc06ce556c8f9c9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>linkstep1</type>
+        <definition>static linkstep1 PlatyVGApi::Adapter::GetDocumentLink</definition>
+        <argsstring>(const sint32 doc)</argsstring>
+        <name>GetDocumentLink</name>
+        <param>
+          <type>const sint32</type>
+          <declname>doc</declname>
+        </param>
+        <briefdescription>
+<para>자료의 링크얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 자료의 ID </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>자료의 링크 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.hpp" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_adapter_1a17ef044d59ad5f29120910d96cbff6d0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const sint32</type>
+        <definition>static const sint32 PlatyVGApi::Adapter::GetLayerCount</definition>
+        <argsstring>(linkstep1 doclink)</argsstring>
+        <name>GetLayerCount</name>
+        <param>
+          <type>linkstep1</type>
+          <declname>doclink</declname>
+        </param>
+        <briefdescription>
+<para>레이어의 수량얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doclink</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 자료의 링크 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>레이어의 수량 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.hpp" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_adapter_1ac274106103544d960607229da53029b2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>linkstep2</type>
+        <definition>static linkstep2 PlatyVGApi::Adapter::GetLayerLink</definition>
+        <argsstring>(linkstep1 doclink, const sint32 index)</argsstring>
+        <name>GetLayerLink</name>
+        <param>
+          <type>linkstep1</type>
+          <declname>doclink</declname>
+        </param>
+        <param>
+          <type>const sint32</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>레이어의 링크얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doclink</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 자료의 링크 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 레이어순번 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>레이어의 링크 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.hpp" line="35" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_adapter_1a9f1d18ebcf12b05970423462ffecec84" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const sint32</type>
+        <definition>static const sint32 PlatyVGApi::Adapter::GetShapeCount</definition>
+        <argsstring>(linkstep2 layerlink, const bool dyn)</argsstring>
+        <name>GetShapeCount</name>
+        <param>
+          <type>linkstep2</type>
+          <declname>layerlink</declname>
+        </param>
+        <param>
+          <type>const bool</type>
+          <declname>dyn</declname>
+        </param>
+        <briefdescription>
+<para>도형의 수량얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>layerlink</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 레이어의 링크 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dyn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 동적도형 여부 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>도형의 수량 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.hpp" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_adapter_1afcb8971b225b6ff483b8d1bae49b1cb5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>linkstep3</type>
+        <definition>static linkstep3 PlatyVGApi::Adapter::GetShapeLink</definition>
+        <argsstring>(linkstep2 layerlink, const bool dyn, const sint32 index)</argsstring>
+        <name>GetShapeLink</name>
+        <param>
+          <type>linkstep2</type>
+          <declname>layerlink</declname>
+        </param>
+        <param>
+          <type>const bool</type>
+          <declname>dyn</declname>
+        </param>
+        <param>
+          <type>const sint32</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>도형의 링크얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>layerlink</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 레이어의 링크 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dyn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 동적도형 여부 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 도형순번 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>도형의 링크 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.hpp" line="52" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_adapter_1a73136acfdf36e84553831aa479982f40" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const bool</type>
+        <definition>static const bool PlatyVGApi::Adapter::IsLayerVisibled</definition>
+        <argsstring>(linkstep2 layerlink)</argsstring>
+        <name>IsLayerVisibled</name>
+        <param>
+          <type>linkstep2</type>
+          <declname>layerlink</declname>
+        </param>
+        <briefdescription>
+<para>해당 레이어의 보여짐여부 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>layerlink</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 레이어의 링크 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>보여지면 true </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.hpp" line="59" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_adapter_1a512288abac41117e67074e58d42361e8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const bool</type>
+        <definition>static const bool PlatyVGApi::Adapter::IsShapeSelected</definition>
+        <argsstring>(linkstep3 shapelink)</argsstring>
+        <name>IsShapeSelected</name>
+        <param>
+          <type>linkstep3</type>
+          <declname>shapelink</declname>
+        </param>
+        <briefdescription>
+<para>해당 도형의 선택됨여부 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>shapelink</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 도형의 링크 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>선택되었으면 true </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.hpp" line="66" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_adapter_1abd2560f84d255c5b2b2807b17a014574" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const sint32</type>
+        <definition>static const sint32 PlatyVGApi::Adapter::GetShapeColorRed</definition>
+        <argsstring>(linkstep3 shapelink)</argsstring>
+        <name>GetShapeColorRed</name>
+        <param>
+          <type>linkstep3</type>
+          <declname>shapelink</declname>
+        </param>
+        <briefdescription>
+<para>해당 도형의 컬러 Red값 얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>shapelink</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 도형의 링크 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Red값(0에서 255까지) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.hpp" line="73" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_adapter_1a89f1360cd36b39a78ce255caf372d88f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const sint32</type>
+        <definition>static const sint32 PlatyVGApi::Adapter::GetShapeColorGreen</definition>
+        <argsstring>(linkstep3 shapelink)</argsstring>
+        <name>GetShapeColorGreen</name>
+        <param>
+          <type>linkstep3</type>
+          <declname>shapelink</declname>
+        </param>
+        <briefdescription>
+<para>해당 도형의 컬러 Green값 얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>shapelink</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 도형의 링크 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Green값(0에서 255까지) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.hpp" line="80" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_adapter_1af0c4dac5c3f9ec6270a79c8854cbb403" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const sint32</type>
+        <definition>static const sint32 PlatyVGApi::Adapter::GetShapeColorBlue</definition>
+        <argsstring>(linkstep3 shapelink)</argsstring>
+        <name>GetShapeColorBlue</name>
+        <param>
+          <type>linkstep3</type>
+          <declname>shapelink</declname>
+        </param>
+        <briefdescription>
+<para>해당 도형의 컬러 Blue값 얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>shapelink</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 도형의 링크 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Blue값(0에서 255까지) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.hpp" line="87" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_adapter_1acd6096d22b9e854f3bc005af2bb00b34" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const sint32</type>
+        <definition>static const sint32 PlatyVGApi::Adapter::GetShapeColorAlpha</definition>
+        <argsstring>(linkstep3 shapelink)</argsstring>
+        <name>GetShapeColorAlpha</name>
+        <param>
+          <type>linkstep3</type>
+          <declname>shapelink</declname>
+        </param>
+        <briefdescription>
+<para>해당 도형의 컬러 Alpha값 얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>shapelink</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 도형의 링크 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Alpha값(0에서 255까지) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.hpp" line="94" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_adapter_1a73a5ed12f6fa5d3d91cd317a7f977a89" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const sint32</type>
+        <definition>static const sint32 PlatyVGApi::Adapter::GetShapeColorAqua</definition>
+        <argsstring>(linkstep3 shapelink)</argsstring>
+        <name>GetShapeColorAqua</name>
+        <param>
+          <type>linkstep3</type>
+          <declname>shapelink</declname>
+        </param>
+        <briefdescription>
+<para>해당 도형의 컬러 Aqua값 얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>shapelink</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 도형의 링크 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Aqua값(0에서 255까지) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.hpp" line="101" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_adapter_1a35016ac4afbbca89118d2347e65008c6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const float</type>
+        <definition>static const float PlatyVGApi::Adapter::GetShapeMatrixM11</definition>
+        <argsstring>(linkstep3 shapelink)</argsstring>
+        <name>GetShapeMatrixM11</name>
+        <param>
+          <type>linkstep3</type>
+          <declname>shapelink</declname>
+        </param>
+        <briefdescription>
+<para>해당 도형의 행렬 M11값 얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>shapelink</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 도형의 링크 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>M11값 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.hpp" line="108" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_adapter_1a0e3f67f1bbb542a9a7de92ebb7d39de2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const float</type>
+        <definition>static const float PlatyVGApi::Adapter::GetShapeMatrixM12</definition>
+        <argsstring>(linkstep3 shapelink)</argsstring>
+        <name>GetShapeMatrixM12</name>
+        <param>
+          <type>linkstep3</type>
+          <declname>shapelink</declname>
+        </param>
+        <briefdescription>
+<para>해당 도형의 행렬 M12값 얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>shapelink</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 도형의 링크 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>M12값 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.hpp" line="115" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_adapter_1ac66d060ddf82ad7ef617ed7f77ece123" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const float</type>
+        <definition>static const float PlatyVGApi::Adapter::GetShapeMatrixM21</definition>
+        <argsstring>(linkstep3 shapelink)</argsstring>
+        <name>GetShapeMatrixM21</name>
+        <param>
+          <type>linkstep3</type>
+          <declname>shapelink</declname>
+        </param>
+        <briefdescription>
+<para>해당 도형의 행렬 M21값 얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>shapelink</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 도형의 링크 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>M21값 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.hpp" line="122" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_adapter_1aac04a7aa496740a2420267ca493b3ca6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const float</type>
+        <definition>static const float PlatyVGApi::Adapter::GetShapeMatrixM22</definition>
+        <argsstring>(linkstep3 shapelink)</argsstring>
+        <name>GetShapeMatrixM22</name>
+        <param>
+          <type>linkstep3</type>
+          <declname>shapelink</declname>
+        </param>
+        <briefdescription>
+<para>해당 도형의 행렬 M22값 얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>shapelink</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 도형의 링크 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>M22값 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.hpp" line="129" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_adapter_1ae2c02588e6ebb45e5ab46063b3e31997" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const float</type>
+        <definition>static const float PlatyVGApi::Adapter::GetShapeMatrixDx</definition>
+        <argsstring>(linkstep3 shapelink)</argsstring>
+        <name>GetShapeMatrixDx</name>
+        <param>
+          <type>linkstep3</type>
+          <declname>shapelink</declname>
+        </param>
+        <briefdescription>
+<para>해당 도형의 행렬 Dx값 얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>shapelink</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 도형의 링크 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Dx값 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.hpp" line="136" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_adapter_1a6a78f0ead58f4416601f22c9bb7c5775" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const float</type>
+        <definition>static const float PlatyVGApi::Adapter::GetShapeMatrixDy</definition>
+        <argsstring>(linkstep3 shapelink)</argsstring>
+        <name>GetShapeMatrixDy</name>
+        <param>
+          <type>linkstep3</type>
+          <declname>shapelink</declname>
+        </param>
+        <briefdescription>
+<para>해당 도형의 행렬 Dy값 얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>shapelink</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 도형의 링크 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Dy값 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.hpp" line="143" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_adapter_1a1a5c6672ed18b83d6f3a07d103c342c5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chars</type>
+        <definition>static chars PlatyVGApi::Adapter::GetShapeMeshType</definition>
+        <argsstring>(linkstep3 shapelink)</argsstring>
+        <name>GetShapeMeshType</name>
+        <param>
+          <type>linkstep3</type>
+          <declname>shapelink</declname>
+        </param>
+        <briefdescription>
+<para>해당 도형의 메시좌표 타입얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>shapelink</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 도형의 링크 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>메시좌표 타입 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.hpp" line="150" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_adapter_1a6993784d83bf10ab0166d6f4c240afa6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const sint32</type>
+        <definition>static const sint32 PlatyVGApi::Adapter::GetShapeMeshCount</definition>
+        <argsstring>(linkstep3 shapelink)</argsstring>
+        <name>GetShapeMeshCount</name>
+        <param>
+          <type>linkstep3</type>
+          <declname>shapelink</declname>
+        </param>
+        <briefdescription>
+<para>해당 도형의 메시좌표 수량얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>shapelink</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 도형의 링크 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>메시좌표 수량 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.hpp" line="157" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_adapter_1a6b1d51261041f1b47e1c00de916de953" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const float *</type>
+        <definition>static const float* PlatyVGApi::Adapter::GetShapeMeshArray</definition>
+        <argsstring>(linkstep3 shapelink)</argsstring>
+        <name>GetShapeMeshArray</name>
+        <param>
+          <type>linkstep3</type>
+          <declname>shapelink</declname>
+        </param>
+        <briefdescription>
+<para>해당 도형의 메시좌표 배열얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>shapelink</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 도형의 링크 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>메시좌표 배열 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.hpp" line="164" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_adapter_1a347418910ad024df55da1917f7c22a2f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const sint32</type>
+        <definition>const sint32 PlatyVGApi::Adapter::GetShapeBufferSize</definition>
+        <argsstring>(linkstep3 shapelink)</argsstring>
+        <name>GetShapeBufferSize</name>
+        <param>
+          <type>linkstep3</type>
+          <declname>shapelink</declname>
+        </param>
+        <briefdescription>
+<para>해당 도형의 도형버퍼 길이얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>shapelink</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 도형의 링크 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>도형버퍼 길이 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.hpp" line="171" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.cpp" bodystart="490" bodyend="503"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_adapter_1a2e8c316c6b4515e4bc38df8875f8cb31" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bytes</type>
+        <definition>bytes PlatyVGApi::Adapter::GetShapeBuffer</definition>
+        <argsstring>(linkstep3 shapelink)</argsstring>
+        <name>GetShapeBuffer</name>
+        <param>
+          <type>linkstep3</type>
+          <declname>shapelink</declname>
+        </param>
+        <briefdescription>
+<para>해당 도형의 도형버퍼 얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>shapelink</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 도형의 링크 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>도형버퍼 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.hpp" line="178" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.cpp" bodystart="505" bodyend="533"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_adapter_1a391c2ced09fd77d0cf92fafc75961ff3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PlatyVGApi::Adapter::RenderDIB</definition>
+        <argsstring>(const sint32 doc, const Zoom zoom, uint32 *bits, const sint32 width, const sint32 height)</argsstring>
+        <name>RenderDIB</name>
+        <param>
+          <type>const sint32</type>
+          <declname>doc</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_zoom" kindref="compound">Zoom</ref></type>
+          <declname>zoom</declname>
+        </param>
+        <param>
+          <type>uint32 *</type>
+          <declname>bits</declname>
+        </param>
+        <param>
+          <type>const sint32</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>const sint32</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+<para>비트맵출력 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 자료의 ID </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>zoom</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 줌값 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 비트맵픽셀정보 시작포인터 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>width</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 비트맵의 가로길이 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 비트맵의 세로길이 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.hpp" line="188" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>네이티브 랜더러 연결 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.hpp" line="13" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/adapter.hpp" bodystart="12" bodyend="189"/>
+    <listofallmembers>
+      <member refid="class_platy_v_g_api_1_1_adapter_1a352170f1f2dcf7340fc06ce556c8f9c9" prot="public" virt="non-virtual"><scope>PlatyVGApi::Adapter</scope><name>GetDocumentLink</name></member>
+      <member refid="class_platy_v_g_api_1_1_adapter_1a17ef044d59ad5f29120910d96cbff6d0" prot="public" virt="non-virtual"><scope>PlatyVGApi::Adapter</scope><name>GetLayerCount</name></member>
+      <member refid="class_platy_v_g_api_1_1_adapter_1ac274106103544d960607229da53029b2" prot="public" virt="non-virtual"><scope>PlatyVGApi::Adapter</scope><name>GetLayerLink</name></member>
+      <member refid="class_platy_v_g_api_1_1_adapter_1a2e8c316c6b4515e4bc38df8875f8cb31" prot="public" virt="non-virtual"><scope>PlatyVGApi::Adapter</scope><name>GetShapeBuffer</name></member>
+      <member refid="class_platy_v_g_api_1_1_adapter_1a347418910ad024df55da1917f7c22a2f" prot="public" virt="non-virtual"><scope>PlatyVGApi::Adapter</scope><name>GetShapeBufferSize</name></member>
+      <member refid="class_platy_v_g_api_1_1_adapter_1acd6096d22b9e854f3bc005af2bb00b34" prot="public" virt="non-virtual"><scope>PlatyVGApi::Adapter</scope><name>GetShapeColorAlpha</name></member>
+      <member refid="class_platy_v_g_api_1_1_adapter_1a73a5ed12f6fa5d3d91cd317a7f977a89" prot="public" virt="non-virtual"><scope>PlatyVGApi::Adapter</scope><name>GetShapeColorAqua</name></member>
+      <member refid="class_platy_v_g_api_1_1_adapter_1af0c4dac5c3f9ec6270a79c8854cbb403" prot="public" virt="non-virtual"><scope>PlatyVGApi::Adapter</scope><name>GetShapeColorBlue</name></member>
+      <member refid="class_platy_v_g_api_1_1_adapter_1a89f1360cd36b39a78ce255caf372d88f" prot="public" virt="non-virtual"><scope>PlatyVGApi::Adapter</scope><name>GetShapeColorGreen</name></member>
+      <member refid="class_platy_v_g_api_1_1_adapter_1abd2560f84d255c5b2b2807b17a014574" prot="public" virt="non-virtual"><scope>PlatyVGApi::Adapter</scope><name>GetShapeColorRed</name></member>
+      <member refid="class_platy_v_g_api_1_1_adapter_1a9f1d18ebcf12b05970423462ffecec84" prot="public" virt="non-virtual"><scope>PlatyVGApi::Adapter</scope><name>GetShapeCount</name></member>
+      <member refid="class_platy_v_g_api_1_1_adapter_1afcb8971b225b6ff483b8d1bae49b1cb5" prot="public" virt="non-virtual"><scope>PlatyVGApi::Adapter</scope><name>GetShapeLink</name></member>
+      <member refid="class_platy_v_g_api_1_1_adapter_1ae2c02588e6ebb45e5ab46063b3e31997" prot="public" virt="non-virtual"><scope>PlatyVGApi::Adapter</scope><name>GetShapeMatrixDx</name></member>
+      <member refid="class_platy_v_g_api_1_1_adapter_1a6a78f0ead58f4416601f22c9bb7c5775" prot="public" virt="non-virtual"><scope>PlatyVGApi::Adapter</scope><name>GetShapeMatrixDy</name></member>
+      <member refid="class_platy_v_g_api_1_1_adapter_1a35016ac4afbbca89118d2347e65008c6" prot="public" virt="non-virtual"><scope>PlatyVGApi::Adapter</scope><name>GetShapeMatrixM11</name></member>
+      <member refid="class_platy_v_g_api_1_1_adapter_1a0e3f67f1bbb542a9a7de92ebb7d39de2" prot="public" virt="non-virtual"><scope>PlatyVGApi::Adapter</scope><name>GetShapeMatrixM12</name></member>
+      <member refid="class_platy_v_g_api_1_1_adapter_1ac66d060ddf82ad7ef617ed7f77ece123" prot="public" virt="non-virtual"><scope>PlatyVGApi::Adapter</scope><name>GetShapeMatrixM21</name></member>
+      <member refid="class_platy_v_g_api_1_1_adapter_1aac04a7aa496740a2420267ca493b3ca6" prot="public" virt="non-virtual"><scope>PlatyVGApi::Adapter</scope><name>GetShapeMatrixM22</name></member>
+      <member refid="class_platy_v_g_api_1_1_adapter_1a6b1d51261041f1b47e1c00de916de953" prot="public" virt="non-virtual"><scope>PlatyVGApi::Adapter</scope><name>GetShapeMeshArray</name></member>
+      <member refid="class_platy_v_g_api_1_1_adapter_1a6993784d83bf10ab0166d6f4c240afa6" prot="public" virt="non-virtual"><scope>PlatyVGApi::Adapter</scope><name>GetShapeMeshCount</name></member>
+      <member refid="class_platy_v_g_api_1_1_adapter_1a1a5c6672ed18b83d6f3a07d103c342c5" prot="public" virt="non-virtual"><scope>PlatyVGApi::Adapter</scope><name>GetShapeMeshType</name></member>
+      <member refid="class_platy_v_g_api_1_1_adapter_1a73136acfdf36e84553831aa479982f40" prot="public" virt="non-virtual"><scope>PlatyVGApi::Adapter</scope><name>IsLayerVisibled</name></member>
+      <member refid="class_platy_v_g_api_1_1_adapter_1a512288abac41117e67074e58d42361e8" prot="public" virt="non-virtual"><scope>PlatyVGApi::Adapter</scope><name>IsShapeSelected</name></member>
+      <member refid="class_platy_v_g_api_1_1_adapter_1a391c2ced09fd77d0cf92fafc75961ff3" prot="public" virt="non-virtual"><scope>PlatyVGApi::Adapter</scope><name>RenderDIB</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

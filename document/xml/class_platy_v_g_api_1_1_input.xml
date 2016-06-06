@@ -1,0 +1,594 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_platy_v_g_api_1_1_input" kind="class" language="C++" prot="public">
+    <compoundname>PlatyVGApi::Input</compoundname>
+    <includes refid="input_8hpp" local="no">input.hpp</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_input_1a3c08c25b192621cae6ca1c34dfb65204" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PlatyVGApi::Input::ScreenDown</definition>
+        <argsstring>(uint32 id, float x, float y, float force, const DeviceBy deviceby=DeviceByTouch)</argsstring>
+        <name>ScreenDown</name>
+        <param>
+          <type>uint32</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>force</declname>
+        </param>
+        <param>
+          <type>const DeviceBy</type>
+          <declname>deviceby</declname>
+          <defval>DeviceByTouch</defval>
+        </param>
+        <briefdescription>
+<para>스크린 다운입력 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 멀티터치ID </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 스크린좌표X </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 스크린좌표Y </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>force</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 압력값(0.0에서 1.0까지) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>deviceby</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 장치타입 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="class_platy_v_g_api_1_1_input_1a3050dbd0632c2a9fa64c2139d2c533ee" kindref="member">ScreenDrag</ref>, <ref refid="class_platy_v_g_api_1_1_input_1a031f4cf1635f02e0c40343560ace8b55" kindref="member">ScreenUp</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/input.hpp" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_input_1a3050dbd0632c2a9fa64c2139d2c533ee" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PlatyVGApi::Input::ScreenDrag</definition>
+        <argsstring>(uint32 id, float x, float y, float force, const DeviceBy deviceby=DeviceByTouch)</argsstring>
+        <name>ScreenDrag</name>
+        <param>
+          <type>uint32</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>force</declname>
+        </param>
+        <param>
+          <type>const DeviceBy</type>
+          <declname>deviceby</declname>
+          <defval>DeviceByTouch</defval>
+        </param>
+        <briefdescription>
+<para>스크린 드래그입력 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 멀티터치ID </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 스크린좌표X </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 스크린좌표Y </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>force</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 압력값(0.0에서 1.0까지) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>deviceby</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 장치타입 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="class_platy_v_g_api_1_1_input_1a3c08c25b192621cae6ca1c34dfb65204" kindref="member">ScreenDown</ref>, <ref refid="class_platy_v_g_api_1_1_input_1a031f4cf1635f02e0c40343560ace8b55" kindref="member">ScreenUp</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/input.hpp" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_input_1a031f4cf1635f02e0c40343560ace8b55" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PlatyVGApi::Input::ScreenUp</definition>
+        <argsstring>(uint32 id, const DeviceBy deviceby=DeviceByTouch)</argsstring>
+        <name>ScreenUp</name>
+        <param>
+          <type>uint32</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>const DeviceBy</type>
+          <declname>deviceby</declname>
+          <defval>DeviceByTouch</defval>
+        </param>
+        <briefdescription>
+<para>스크린 업입력 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 멀티터치ID </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>deviceby</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 장치타입 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="class_platy_v_g_api_1_1_input_1a3c08c25b192621cae6ca1c34dfb65204" kindref="member">ScreenDown</ref>, <ref refid="class_platy_v_g_api_1_1_input_1a3050dbd0632c2a9fa64c2139d2c533ee" kindref="member">ScreenDrag</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/input.hpp" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_input_1afabcc06d42a3e4754f262a577bdede17" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PlatyVGApi::Input::CanvasDown</definition>
+        <argsstring>(float x, float y, float force, const DeviceBy deviceby=DeviceByPen)</argsstring>
+        <name>CanvasDown</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>force</declname>
+        </param>
+        <param>
+          <type>const DeviceBy</type>
+          <declname>deviceby</declname>
+          <defval>DeviceByPen</defval>
+        </param>
+        <briefdescription>
+<para>캔버스 다운입력 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 캔버스좌표X </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 캔버스좌표Y </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>force</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 압력값(0.0에서 1.0까지) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>deviceby</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 장치타입 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>PenDrag, PenUp </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/input.hpp" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_input_1a8c3e93cb849c2ab0033a864ca3dac664" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PlatyVGApi::Input::CanvasDrag</definition>
+        <argsstring>(float x, float y, float force, const DeviceBy deviceby=DeviceByPen)</argsstring>
+        <name>CanvasDrag</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>force</declname>
+        </param>
+        <param>
+          <type>const DeviceBy</type>
+          <declname>deviceby</declname>
+          <defval>DeviceByPen</defval>
+        </param>
+        <briefdescription>
+<para>캔버스 드래그입력 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 캔버스좌표X </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 캔버스좌표Y </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>force</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 압력값(0.0에서 1.0까지) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>deviceby</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 장치타입 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>PenDown, PenUp </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/input.hpp" line="59" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_input_1ac2e3529f372bc920da2506fde7282d4e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PlatyVGApi::Input::CanvasUp</definition>
+        <argsstring>(const DeviceBy deviceby=DeviceByPen)</argsstring>
+        <name>CanvasUp</name>
+        <param>
+          <type>const DeviceBy</type>
+          <declname>deviceby</declname>
+          <defval>DeviceByPen</defval>
+        </param>
+        <briefdescription>
+<para>캔버스 업입력 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>deviceby</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 장치타입 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>PenDown, PenDrag </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/input.hpp" line="66" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_input_1af933735cba040e0c84efbf23db5a6395" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PlatyVGApi::Input::SetDeviceSensitivity</definition>
+        <argsstring>(const DeviceBy deviceby, float sensitivity)</argsstring>
+        <name>SetDeviceSensitivity</name>
+        <param>
+          <type>const DeviceBy</type>
+          <declname>deviceby</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>sensitivity</declname>
+        </param>
+        <briefdescription>
+<para>장치별 민감도 설정 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>deviceby</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 장치타입 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sensitivity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 민감도값(0.0에서 1.0까지) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/input.hpp" line="73" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_input_1a60b45f04dde286cb985d39413f795650" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const float</type>
+        <definition>static const float PlatyVGApi::Input::GetDeviceSensitivity</definition>
+        <argsstring>(const DeviceBy deviceby)</argsstring>
+        <name>GetDeviceSensitivity</name>
+        <param>
+          <type>const DeviceBy</type>
+          <declname>deviceby</declname>
+        </param>
+        <briefdescription>
+<para>장치별 민감도 얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>deviceby</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 장치타입 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>민감도값(0.0에서 1.0까지) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/input.hpp" line="80" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_input_1ad1b4356acfa46a7992be07fb5e1d174a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PlatyVGApi::Input::SetDeviceSpeedyForceOn</definition>
+        <argsstring>(const DeviceBy deviceby, float distancebysecond)</argsstring>
+        <name>SetDeviceSpeedyForceOn</name>
+        <param>
+          <type>const DeviceBy</type>
+          <declname>deviceby</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>distancebysecond</declname>
+        </param>
+        <briefdescription>
+<para>장치별 스피디포스 설정 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>deviceby</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 장치타입 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>distancebysecond</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 1초당 기준거리 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/input.hpp" line="87" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_input_1aab0fc9360279754f8536e7f0cfacc673" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PlatyVGApi::Input::SetDeviceSpeedyForceOff</definition>
+        <argsstring>(const DeviceBy deviceby)</argsstring>
+        <name>SetDeviceSpeedyForceOff</name>
+        <param>
+          <type>const DeviceBy</type>
+          <declname>deviceby</declname>
+        </param>
+        <briefdescription>
+<para>장치별 스피디포스 해제 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>deviceby</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 장치타입 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/input.hpp" line="93" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_input_1a76d313682aaa3581cdc0b98cc08b24d5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PlatyVGApi::Input::SetDeviceLayer</definition>
+        <argsstring>(const DeviceBy deviceby, const sint32 layer)</argsstring>
+        <name>SetDeviceLayer</name>
+        <param>
+          <type>const DeviceBy</type>
+          <declname>deviceby</declname>
+        </param>
+        <param>
+          <type>const sint32</type>
+          <declname>layer</declname>
+        </param>
+        <briefdescription>
+<para>장치별 레이어설정 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>deviceby</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 장치타입 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>layer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 레이어번호 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/input.hpp" line="100" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_input_1abdaa70325c22846f79e91d845fb5c57b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const sint32</type>
+        <definition>static const sint32 PlatyVGApi::Input::GetDeviceLayer</definition>
+        <argsstring>(const DeviceBy deviceby)</argsstring>
+        <name>GetDeviceLayer</name>
+        <param>
+          <type>const DeviceBy</type>
+          <declname>deviceby</declname>
+        </param>
+        <briefdescription>
+<para>장치별 레이어얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>deviceby</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 장치타입 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>레이어번호 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/input.hpp" line="107" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_input_1a6033bfa1e5b39b85edc30f6aebf52a32" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const sint32</type>
+        <definition>static const sint32 PlatyVGApi::Input::GetDeviceCoordCount</definition>
+        <argsstring>(const DeviceBy deviceby)</argsstring>
+        <name>GetDeviceCoordCount</name>
+        <param>
+          <type>const DeviceBy</type>
+          <declname>deviceby</declname>
+        </param>
+        <briefdescription>
+<para>장치별 터치좌표 수량얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>deviceby</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 장치타입 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>터치좌표 수량 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/input.hpp" line="114" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_input_1accb3c7299e596618fb99aa569de3f4d6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const float *</type>
+        <definition>static const float* PlatyVGApi::Input::GetDeviceCoordArray</definition>
+        <argsstring>(const DeviceBy deviceby)</argsstring>
+        <name>GetDeviceCoordArray</name>
+        <param>
+          <type>const DeviceBy</type>
+          <declname>deviceby</declname>
+        </param>
+        <briefdescription>
+<para>장치별 터치좌표 배열얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>deviceby</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 장치타입 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>터치좌표 배열 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/input.hpp" line="121" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>입력의 좌표화 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/input.hpp" line="9" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/input.hpp" bodystart="8" bodyend="122"/>
+    <listofallmembers>
+      <member refid="class_platy_v_g_api_1_1_input_1afabcc06d42a3e4754f262a577bdede17" prot="public" virt="non-virtual"><scope>PlatyVGApi::Input</scope><name>CanvasDown</name></member>
+      <member refid="class_platy_v_g_api_1_1_input_1a8c3e93cb849c2ab0033a864ca3dac664" prot="public" virt="non-virtual"><scope>PlatyVGApi::Input</scope><name>CanvasDrag</name></member>
+      <member refid="class_platy_v_g_api_1_1_input_1ac2e3529f372bc920da2506fde7282d4e" prot="public" virt="non-virtual"><scope>PlatyVGApi::Input</scope><name>CanvasUp</name></member>
+      <member refid="class_platy_v_g_api_1_1_input_1accb3c7299e596618fb99aa569de3f4d6" prot="public" virt="non-virtual"><scope>PlatyVGApi::Input</scope><name>GetDeviceCoordArray</name></member>
+      <member refid="class_platy_v_g_api_1_1_input_1a6033bfa1e5b39b85edc30f6aebf52a32" prot="public" virt="non-virtual"><scope>PlatyVGApi::Input</scope><name>GetDeviceCoordCount</name></member>
+      <member refid="class_platy_v_g_api_1_1_input_1abdaa70325c22846f79e91d845fb5c57b" prot="public" virt="non-virtual"><scope>PlatyVGApi::Input</scope><name>GetDeviceLayer</name></member>
+      <member refid="class_platy_v_g_api_1_1_input_1a60b45f04dde286cb985d39413f795650" prot="public" virt="non-virtual"><scope>PlatyVGApi::Input</scope><name>GetDeviceSensitivity</name></member>
+      <member refid="class_platy_v_g_api_1_1_input_1a3c08c25b192621cae6ca1c34dfb65204" prot="public" virt="non-virtual"><scope>PlatyVGApi::Input</scope><name>ScreenDown</name></member>
+      <member refid="class_platy_v_g_api_1_1_input_1a3050dbd0632c2a9fa64c2139d2c533ee" prot="public" virt="non-virtual"><scope>PlatyVGApi::Input</scope><name>ScreenDrag</name></member>
+      <member refid="class_platy_v_g_api_1_1_input_1a031f4cf1635f02e0c40343560ace8b55" prot="public" virt="non-virtual"><scope>PlatyVGApi::Input</scope><name>ScreenUp</name></member>
+      <member refid="class_platy_v_g_api_1_1_input_1a76d313682aaa3581cdc0b98cc08b24d5" prot="public" virt="non-virtual"><scope>PlatyVGApi::Input</scope><name>SetDeviceLayer</name></member>
+      <member refid="class_platy_v_g_api_1_1_input_1af933735cba040e0c84efbf23db5a6395" prot="public" virt="non-virtual"><scope>PlatyVGApi::Input</scope><name>SetDeviceSensitivity</name></member>
+      <member refid="class_platy_v_g_api_1_1_input_1aab0fc9360279754f8536e7f0cfacc673" prot="public" virt="non-virtual"><scope>PlatyVGApi::Input</scope><name>SetDeviceSpeedyForceOff</name></member>
+      <member refid="class_platy_v_g_api_1_1_input_1ad1b4356acfa46a7992be07fb5e1d174a" prot="public" virt="non-virtual"><scope>PlatyVGApi::Input</scope><name>SetDeviceSpeedyForceOn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

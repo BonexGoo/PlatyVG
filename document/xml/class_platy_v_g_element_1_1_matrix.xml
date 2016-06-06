@@ -1,0 +1,364 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_platy_v_g_element_1_1_matrix" kind="class" language="C++" prot="public">
+    <compoundname>PlatyVGElement::Matrix</compoundname>
+    <includes refid="matrix_8hpp" local="no">matrix.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_platy_v_g_element_1_1_matrix_1a6623996613772933a3d39fc56ae3a3f5" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlatyVGElement::Matrix::m11</definition>
+        <argsstring></argsstring>
+        <name>m11</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/matrix.hpp" line="26" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/matrix.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_element_1_1_matrix_1a9dd09ac552c135aaa7b65b1ef3a5d690" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlatyVGElement::Matrix::m12</definition>
+        <argsstring></argsstring>
+        <name>m12</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/matrix.hpp" line="27" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/matrix.hpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_element_1_1_matrix_1a2f4f3ffa6f40275498763cb61eac8ce6" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlatyVGElement::Matrix::m21</definition>
+        <argsstring></argsstring>
+        <name>m21</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/matrix.hpp" line="28" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/matrix.hpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_element_1_1_matrix_1a482271687232fe23d0cda5201b01bf6d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlatyVGElement::Matrix::m22</definition>
+        <argsstring></argsstring>
+        <name>m22</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/matrix.hpp" line="29" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/matrix.hpp" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_element_1_1_matrix_1ae7faf157b44e96c9c4b7f1090092610c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlatyVGElement::Matrix::dx</definition>
+        <argsstring></argsstring>
+        <name>dx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/matrix.hpp" line="30" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/matrix.hpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_element_1_1_matrix_1ac8f7ecabd0dcd4e05af9049f5628380a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlatyVGElement::Matrix::dy</definition>
+        <argsstring></argsstring>
+        <name>dy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/matrix.hpp" line="31" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/matrix.hpp" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_matrix_1afeef3effd10968f8f26b0085f5b5f244" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::Matrix::Matrix</definition>
+        <argsstring>()</argsstring>
+        <name>Matrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/matrix.hpp" line="10" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/matrix.cpp" bodystart="6" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_matrix_1a1ff1f80c50d02d69cf97c7fdbed1c6a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::Matrix::Matrix</definition>
+        <argsstring>(const Matrix &amp;rhs)</argsstring>
+        <name>Matrix</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_matrix" kindref="compound">Matrix</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/matrix.hpp" line="11" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/matrix.cpp" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_matrix_1a058a0abe71bb590a0149c08caba1a4e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::Matrix::Matrix</definition>
+        <argsstring>(float m11, float m12, float m21, float m22, float dx, float dy)</argsstring>
+        <name>Matrix</name>
+        <param>
+          <type>float</type>
+          <declname>m11</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>m12</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>m21</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>m22</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dx</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/matrix.hpp" line="12" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/matrix.cpp" bodystart="21" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_matrix_1a7957caec99b64bd21e0a05ec0b3494b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::Matrix::~Matrix</definition>
+        <argsstring>()</argsstring>
+        <name>~Matrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/matrix.hpp" line="13" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/matrix.cpp" bodystart="31" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_matrix_1af132e69ba113a792d3e2c02b2775cd91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_platy_v_g_element_1_1_matrix" kindref="compound">Matrix</ref> &amp;</type>
+        <definition>Matrix &amp; PlatyVGElement::Matrix::operator=</definition>
+        <argsstring>(const Matrix &amp;rhs)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_matrix" kindref="compound">Matrix</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/matrix.hpp" line="15" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/matrix.cpp" bodystart="35" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_matrix_1af994b212b35b2a15fd9586635224f5f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_platy_v_g_element_1_1_matrix" kindref="compound">Matrix</ref> &amp;</type>
+        <definition>Matrix &amp; PlatyVGElement::Matrix::operator*=</definition>
+        <argsstring>(const Matrix &amp;rhs)</argsstring>
+        <name>operator*=</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_matrix" kindref="compound">Matrix</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/matrix.hpp" line="16" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/matrix.cpp" bodystart="46" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_matrix_1ae853751f4969f7f0765f33a8dff0170d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_platy_v_g_element_1_1_matrix" kindref="compound">Matrix</ref></type>
+        <definition>Matrix PlatyVGElement::Matrix::operator*</definition>
+        <argsstring>(const Matrix &amp;rhs) const </argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_matrix" kindref="compound">Matrix</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/matrix.hpp" line="17" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/matrix.cpp" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_matrix_1a48b3a77b1b77f2b097bc980b81aaff5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlatyVGElement::Matrix::AddOffset</definition>
+        <argsstring>(const float x, const float y)</argsstring>
+        <name>AddOffset</name>
+        <param>
+          <type>const float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/matrix.hpp" line="19" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/matrix.cpp" bodystart="68" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_matrix_1a897dbea6034ee8fe8fcd044256519505" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlatyVGElement::Matrix::AddRotate</definition>
+        <argsstring>(const float angle, const float cx, const float cy)</argsstring>
+        <name>AddRotate</name>
+        <param>
+          <type>const float</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>cx</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>cy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/matrix.hpp" line="20" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/matrix.cpp" bodystart="73" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_matrix_1aeaaa9fac11822d64b36695bc87196bc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlatyVGElement::Matrix::AddScale</definition>
+        <argsstring>(const float w, const float h, const float cx, const float cy)</argsstring>
+        <name>AddScale</name>
+        <param>
+          <type>const float</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>cx</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>cy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/matrix.hpp" line="21" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/matrix.cpp" bodystart="80" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_matrix_1a25ef71a88343257649884502ce5c6a8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlatyVGElement::Matrix::AddByTouch</definition>
+        <argsstring>(const float a1x, const float a1y, const float a2x, const float a2y, const float b1x, const float b1y, const float b2x, const float b2y)</argsstring>
+        <name>AddByTouch</name>
+        <param>
+          <type>const float</type>
+          <declname>a1x</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>a1y</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>a2x</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>a2y</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>b1x</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>b1y</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>b2x</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>b2y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/matrix.hpp" line="22" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/matrix.cpp" bodystart="85" bodyend="98"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>2D행렬 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/matrix.hpp" line="8" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/matrix.hpp" bodystart="7" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_platy_v_g_element_1_1_matrix_1a25ef71a88343257649884502ce5c6a8c" prot="public" virt="non-virtual"><scope>PlatyVGElement::Matrix</scope><name>AddByTouch</name></member>
+      <member refid="class_platy_v_g_element_1_1_matrix_1a48b3a77b1b77f2b097bc980b81aaff5d" prot="public" virt="non-virtual"><scope>PlatyVGElement::Matrix</scope><name>AddOffset</name></member>
+      <member refid="class_platy_v_g_element_1_1_matrix_1a897dbea6034ee8fe8fcd044256519505" prot="public" virt="non-virtual"><scope>PlatyVGElement::Matrix</scope><name>AddRotate</name></member>
+      <member refid="class_platy_v_g_element_1_1_matrix_1aeaaa9fac11822d64b36695bc87196bc9" prot="public" virt="non-virtual"><scope>PlatyVGElement::Matrix</scope><name>AddScale</name></member>
+      <member refid="class_platy_v_g_element_1_1_matrix_1ae7faf157b44e96c9c4b7f1090092610c" prot="public" virt="non-virtual"><scope>PlatyVGElement::Matrix</scope><name>dx</name></member>
+      <member refid="class_platy_v_g_element_1_1_matrix_1ac8f7ecabd0dcd4e05af9049f5628380a" prot="public" virt="non-virtual"><scope>PlatyVGElement::Matrix</scope><name>dy</name></member>
+      <member refid="class_platy_v_g_element_1_1_matrix_1a6623996613772933a3d39fc56ae3a3f5" prot="public" virt="non-virtual"><scope>PlatyVGElement::Matrix</scope><name>m11</name></member>
+      <member refid="class_platy_v_g_element_1_1_matrix_1a9dd09ac552c135aaa7b65b1ef3a5d690" prot="public" virt="non-virtual"><scope>PlatyVGElement::Matrix</scope><name>m12</name></member>
+      <member refid="class_platy_v_g_element_1_1_matrix_1a2f4f3ffa6f40275498763cb61eac8ce6" prot="public" virt="non-virtual"><scope>PlatyVGElement::Matrix</scope><name>m21</name></member>
+      <member refid="class_platy_v_g_element_1_1_matrix_1a482271687232fe23d0cda5201b01bf6d" prot="public" virt="non-virtual"><scope>PlatyVGElement::Matrix</scope><name>m22</name></member>
+      <member refid="class_platy_v_g_element_1_1_matrix_1afeef3effd10968f8f26b0085f5b5f244" prot="public" virt="non-virtual"><scope>PlatyVGElement::Matrix</scope><name>Matrix</name></member>
+      <member refid="class_platy_v_g_element_1_1_matrix_1a1ff1f80c50d02d69cf97c7fdbed1c6a0" prot="public" virt="non-virtual"><scope>PlatyVGElement::Matrix</scope><name>Matrix</name></member>
+      <member refid="class_platy_v_g_element_1_1_matrix_1a058a0abe71bb590a0149c08caba1a4e5" prot="public" virt="non-virtual"><scope>PlatyVGElement::Matrix</scope><name>Matrix</name></member>
+      <member refid="class_platy_v_g_element_1_1_matrix_1ae853751f4969f7f0765f33a8dff0170d" prot="public" virt="non-virtual"><scope>PlatyVGElement::Matrix</scope><name>operator*</name></member>
+      <member refid="class_platy_v_g_element_1_1_matrix_1af994b212b35b2a15fd9586635224f5f0" prot="public" virt="non-virtual"><scope>PlatyVGElement::Matrix</scope><name>operator*=</name></member>
+      <member refid="class_platy_v_g_element_1_1_matrix_1af132e69ba113a792d3e2c02b2775cd91" prot="public" virt="non-virtual"><scope>PlatyVGElement::Matrix</scope><name>operator=</name></member>
+      <member refid="class_platy_v_g_element_1_1_matrix_1a7957caec99b64bd21e0a05ec0b3494b1" prot="public" virt="non-virtual"><scope>PlatyVGElement::Matrix</scope><name>~Matrix</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

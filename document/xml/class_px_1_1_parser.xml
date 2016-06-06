@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_px_1_1_parser" kind="class" language="C++" prot="public">
+    <compoundname>Px::Parser</compoundname>
+    <includes refid="parser_8hpp" local="no">parser.hpp</includes>
+    <innerclass refid="class_px_1_1_parser_1_1_tag" prot="public">Px::Parser::Tag</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_px_1_1_parser_1a3e6f91b383e6e7b7e38809a91b9f9ba2" prot="private" static="no" mutable="no">
+        <type>const <ref refid="class_px_1_1_string" kindref="compound">String</ref></type>
+        <definition>const String Px::Parser::pool</definition>
+        <argsstring></argsstring>
+        <name>pool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/parser.hpp" line="34" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/parser.hpp" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_px_1_1_parser_1ab2d07a5a37a0639dc28a1165f4469ddd" prot="private" static="no" mutable="no">
+        <type>sint32</type>
+        <definition>sint32 Px::Parser::offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/parser.hpp" line="35" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/parser.hpp" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_px_1_1_parser_1a500ba52fbfae2ea04bbc3b1764f11555" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Px::Parser::Parser</definition>
+        <argsstring>(const String pool)</argsstring>
+        <name>Parser</name>
+        <param>
+          <type>const <ref refid="class_px_1_1_string" kindref="compound">String</ref></type>
+          <declname>pool</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/parser.hpp" line="22" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/parser.cpp" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_parser_1ab4acb1046e3ac7926d95c194a3c42763" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Px::Parser::~Parser</definition>
+        <argsstring>()</argsstring>
+        <name>~Parser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/parser.hpp" line="23" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/parser.cpp" bodystart="28" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_parser_1a9389734a20cebf13ccf2d0316ad785af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const bool</type>
+        <definition>const bool Px::Parser::SeekOf</definition>
+        <argsstring>(const Tag &amp;tag)</argsstring>
+        <name>SeekOf</name>
+        <param>
+          <type>const <ref refid="class_px_1_1_parser_1_1_tag" kindref="compound">Tag</ref> &amp;</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/parser.hpp" line="26" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/parser.cpp" bodystart="32" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_parser_1a512f358b76432a3b568481a2d3de5ac3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const sint32</type>
+        <definition>const sint32 Px::Parser::ReadInt</definition>
+        <argsstring>()</argsstring>
+        <name>ReadInt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/parser.hpp" line="27" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/parser.cpp" bodystart="48" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_parser_1a754e88a788ce241ed78e781553175358" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_px_1_1_array" kindref="compound">sint32s</ref></type>
+        <definition>const sint32s Px::Parser::ReadInts</definition>
+        <argsstring>(const sint08 separator, const sint08 endmark)</argsstring>
+        <name>ReadInts</name>
+        <param>
+          <type>const sint08</type>
+          <declname>separator</declname>
+        </param>
+        <param>
+          <type>const sint08</type>
+          <declname>endmark</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/parser.hpp" line="28" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/parser.cpp" bodystart="64" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_parser_1a7eda1994f9c6513abcb6f6f78410d80b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const float</type>
+        <definition>const float Px::Parser::ReadFloat</definition>
+        <argsstring>()</argsstring>
+        <name>ReadFloat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/parser.hpp" line="29" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/parser.cpp" bodystart="80" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_parser_1a3bef5ac0f3828b515e89256e78745a48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_px_1_1_array" kindref="compound">floats</ref></type>
+        <definition>const floats Px::Parser::ReadFloats</definition>
+        <argsstring>(const sint08 separator, const sint08 endmark)</argsstring>
+        <name>ReadFloats</name>
+        <param>
+          <type>const sint08</type>
+          <declname>separator</declname>
+        </param>
+        <param>
+          <type>const sint08</type>
+          <declname>endmark</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/parser.hpp" line="30" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/parser.cpp" bodystart="108" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_parser_1a1d4ba343cd9abfbcc2c79271026d8f6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const uint32</type>
+        <definition>const uint32 Px::Parser::ReadHex32</definition>
+        <argsstring>()</argsstring>
+        <name>ReadHex32</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/parser.hpp" line="31" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/parser.cpp" bodystart="124" bodyend="143"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>파서지원 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/parser.hpp" line="8" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/parser.hpp" bodystart="7" bodyend="36"/>
+    <listofallmembers>
+      <member refid="class_px_1_1_parser_1ab2d07a5a37a0639dc28a1165f4469ddd" prot="private" virt="non-virtual"><scope>Px::Parser</scope><name>offset</name></member>
+      <member refid="class_px_1_1_parser_1a500ba52fbfae2ea04bbc3b1764f11555" prot="public" virt="non-virtual"><scope>Px::Parser</scope><name>Parser</name></member>
+      <member refid="class_px_1_1_parser_1a3e6f91b383e6e7b7e38809a91b9f9ba2" prot="private" virt="non-virtual"><scope>Px::Parser</scope><name>pool</name></member>
+      <member refid="class_px_1_1_parser_1a7eda1994f9c6513abcb6f6f78410d80b" prot="public" virt="non-virtual"><scope>Px::Parser</scope><name>ReadFloat</name></member>
+      <member refid="class_px_1_1_parser_1a3bef5ac0f3828b515e89256e78745a48" prot="public" virt="non-virtual"><scope>Px::Parser</scope><name>ReadFloats</name></member>
+      <member refid="class_px_1_1_parser_1a1d4ba343cd9abfbcc2c79271026d8f6d" prot="public" virt="non-virtual"><scope>Px::Parser</scope><name>ReadHex32</name></member>
+      <member refid="class_px_1_1_parser_1a512f358b76432a3b568481a2d3de5ac3" prot="public" virt="non-virtual"><scope>Px::Parser</scope><name>ReadInt</name></member>
+      <member refid="class_px_1_1_parser_1a754e88a788ce241ed78e781553175358" prot="public" virt="non-virtual"><scope>Px::Parser</scope><name>ReadInts</name></member>
+      <member refid="class_px_1_1_parser_1a9389734a20cebf13ccf2d0316ad785af" prot="public" virt="non-virtual"><scope>Px::Parser</scope><name>SeekOf</name></member>
+      <member refid="class_px_1_1_parser_1ab4acb1046e3ac7926d95c194a3c42763" prot="public" virt="non-virtual"><scope>Px::Parser</scope><name>~Parser</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

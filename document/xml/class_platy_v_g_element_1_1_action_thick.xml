@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_platy_v_g_element_1_1_action_thick" kind="class" language="C++" prot="public">
+    <compoundname>PlatyVGElement::ActionThick</compoundname>
+    <basecompoundref refid="class_platy_v_g_element_1_1_action" prot="public" virt="non-virtual">PlatyVGElement::Action</basecompoundref>
+    <includes refid="action_8hpp" local="no">action.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_platy_v_g_element_1_1_action_thick_1aa6e03c5e02e9c7829981e77804237572" prot="public" static="no" mutable="no">
+        <type>sint32</type>
+        <definition>sint32 PlatyVGElement::ActionThick::saved_shapeid</definition>
+        <argsstring></argsstring>
+        <name>saved_shapeid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.hpp" line="89" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.hpp" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_element_1_1_action_thick_1ab421e2ddc692058724a4fadef478daa2" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlatyVGElement::ActionThick::saved_thick</definition>
+        <argsstring></argsstring>
+        <name>saved_thick</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.hpp" line="90" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.hpp" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_action_thick_1a0591e33acb60f683cc24c9bc965b0181" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::ActionThick::ActionThick</definition>
+        <argsstring>()</argsstring>
+        <name>ActionThick</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.hpp" line="82" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.cpp" bodystart="129" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_action_thick_1a1af58bb2878c5158b806c3f864eb24e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::ActionThick::ActionThick</definition>
+        <argsstring>(const ActionThick &amp;rhs)</argsstring>
+        <name>ActionThick</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_action_thick" kindref="compound">ActionThick</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.hpp" line="83" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.cpp" bodystart="133" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_action_thick_1ad73991ce91006e55e4212c652e7e06ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::ActionThick::ActionThick</definition>
+        <argsstring>(const sint32 shapeid, const float thick)</argsstring>
+        <name>ActionThick</name>
+        <param>
+          <type>const sint32</type>
+          <declname>shapeid</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>thick</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.hpp" line="84" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.cpp" bodystart="138" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_action_thick_1a6bc42205ead87b0f338f6a7ffa208979" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>PlatyVGElement::ActionThick::~ActionThick</definition>
+        <argsstring>()</argsstring>
+        <name>~ActionThick</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.hpp" line="85" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.cpp" bodystart="144" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_action_thick_1a542f471cc91e7d7f1200ad24627c81f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_platy_v_g_element_1_1_action_thick" kindref="compound">ActionThick</ref> &amp;</type>
+        <definition>ActionThick &amp; PlatyVGElement::ActionThick::operator=</definition>
+        <argsstring>(const ActionThick &amp;rhs)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_action_thick" kindref="compound">ActionThick</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.hpp" line="86" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.cpp" bodystart="148" bodyend="153"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>작업내역(선택-두께변경) </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="28">
+        <label>PlatyVGElement::Action</label>
+        <link refid="class_platy_v_g_element_1_1_action"/>
+      </node>
+      <node id="27">
+        <label>PlatyVGElement::ActionThick</label>
+        <link refid="class_platy_v_g_element_1_1_action_thick"/>
+        <childnode refid="28" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="30">
+        <label>PlatyVGElement::Action</label>
+        <link refid="class_platy_v_g_element_1_1_action"/>
+      </node>
+      <node id="29">
+        <label>PlatyVGElement::ActionThick</label>
+        <link refid="class_platy_v_g_element_1_1_action_thick"/>
+        <childnode refid="30" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.hpp" line="80" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/action.hpp" bodystart="79" bodyend="91"/>
+    <listofallmembers>
+      <member refid="class_platy_v_g_element_1_1_action_1a47e62996cde156a807c4326fb77bdbe6" prot="public" virt="non-virtual"><scope>PlatyVGElement::ActionThick</scope><name>Action</name></member>
+      <member refid="class_platy_v_g_element_1_1_action_1a578800451cf4d6fc707aa285b28c4482" prot="public" virt="non-virtual"><scope>PlatyVGElement::ActionThick</scope><name>Action</name></member>
+      <member refid="class_platy_v_g_element_1_1_action_thick_1a0591e33acb60f683cc24c9bc965b0181" prot="public" virt="non-virtual"><scope>PlatyVGElement::ActionThick</scope><name>ActionThick</name></member>
+      <member refid="class_platy_v_g_element_1_1_action_thick_1a1af58bb2878c5158b806c3f864eb24e6" prot="public" virt="non-virtual"><scope>PlatyVGElement::ActionThick</scope><name>ActionThick</name></member>
+      <member refid="class_platy_v_g_element_1_1_action_thick_1ad73991ce91006e55e4212c652e7e06ba" prot="public" virt="non-virtual"><scope>PlatyVGElement::ActionThick</scope><name>ActionThick</name></member>
+      <member refid="class_platy_v_g_element_1_1_action_thick_1a542f471cc91e7d7f1200ad24627c81f3" prot="public" virt="non-virtual"><scope>PlatyVGElement::ActionThick</scope><name>operator=</name></member>
+      <member refid="class_platy_v_g_element_1_1_action_1a7d2be3f48a3e546723ff459b87f3b2f2" prot="public" virt="non-virtual" ambiguityscope="PlatyVGElement::Action::"><scope>PlatyVGElement::ActionThick</scope><name>operator=</name></member>
+      <member refid="class_platy_v_g_element_1_1_action_thick_1aa6e03c5e02e9c7829981e77804237572" prot="public" virt="non-virtual"><scope>PlatyVGElement::ActionThick</scope><name>saved_shapeid</name></member>
+      <member refid="class_platy_v_g_element_1_1_action_thick_1ab421e2ddc692058724a4fadef478daa2" prot="public" virt="non-virtual"><scope>PlatyVGElement::ActionThick</scope><name>saved_thick</name></member>
+      <member refid="class_platy_v_g_element_1_1_action_1aec18f8a6f73fa152421a1f933c4d32b3" prot="public" virt="virtual"><scope>PlatyVGElement::ActionThick</scope><name>~Action</name></member>
+      <member refid="class_platy_v_g_element_1_1_action_thick_1a6bc42205ead87b0f338f6a7ffa208979" prot="public" virt="virtual"><scope>PlatyVGElement::ActionThick</scope><name>~ActionThick</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

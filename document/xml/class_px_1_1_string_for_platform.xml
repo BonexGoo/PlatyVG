@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_px_1_1_string_for_platform" kind="class" language="C++" prot="public">
+    <compoundname>Px::StringForPlatform</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_px_1_1_string_for_platform_1a555b118cb63c350f32ce2ebeb84feaa8" prot="private" static="no" mutable="no">
+        <type>chars</type>
+        <definition>chars Px::StringForPlatform::Utf8</definition>
+        <argsstring></argsstring>
+        <name>Utf8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="76" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_px_1_1_string_for_platform_1a7dfd61153cf9de5406dcaa85fcbbf0ea" prot="private" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* Px::StringForPlatform::Env</definition>
+        <argsstring></argsstring>
+        <name>Env</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="77" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_px_1_1_string_for_platform_1a2adf99514ed3b309fee6cddb4f3c557b" prot="private" static="no" mutable="no">
+        <type>api_string</type>
+        <definition>api_string Px::StringForPlatform::Str</definition>
+        <argsstring></argsstring>
+        <name>Str</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="78" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_px_1_1_string_for_platform_1ac6fe1cb6ada0080765cee796c0005dda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Px::StringForPlatform::StringForPlatform</definition>
+        <argsstring>(void *env, api_string str)</argsstring>
+        <name>StringForPlatform</name>
+        <param>
+          <type>void *</type>
+          <declname>env</declname>
+        </param>
+        <param>
+          <type>api_string</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="79" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_string_for_platform_1a106f72f15bc171af079e7ea844a95222" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Px::StringForPlatform::~StringForPlatform</definition>
+        <argsstring>()</argsstring>
+        <name>~StringForPlatform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="80" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_string_for_platform_1acd2ecc54329e29ad807ee65176d3069b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Px::StringForPlatform::operator chars</definition>
+        <argsstring>() const </argsstring>
+        <name>operator chars</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="81" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" line="75" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/px.hpp" bodystart="74" bodyend="82"/>
+    <listofallmembers>
+      <member refid="class_px_1_1_string_for_platform_1a7dfd61153cf9de5406dcaa85fcbbf0ea" prot="private" virt="non-virtual"><scope>Px::StringForPlatform</scope><name>Env</name></member>
+      <member refid="class_px_1_1_string_for_platform_1acd2ecc54329e29ad807ee65176d3069b" prot="public" virt="non-virtual"><scope>Px::StringForPlatform</scope><name>operator chars</name></member>
+      <member refid="class_px_1_1_string_for_platform_1a2adf99514ed3b309fee6cddb4f3c557b" prot="private" virt="non-virtual"><scope>Px::StringForPlatform</scope><name>Str</name></member>
+      <member refid="class_px_1_1_string_for_platform_1ac6fe1cb6ada0080765cee796c0005dda" prot="public" virt="non-virtual"><scope>Px::StringForPlatform</scope><name>StringForPlatform</name></member>
+      <member refid="class_px_1_1_string_for_platform_1a555b118cb63c350f32ce2ebeb84feaa8" prot="private" virt="non-virtual"><scope>Px::StringForPlatform</scope><name>Utf8</name></member>
+      <member refid="class_px_1_1_string_for_platform_1a106f72f15bc171af079e7ea844a95222" prot="public" virt="non-virtual"><scope>Px::StringForPlatform</scope><name>~StringForPlatform</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

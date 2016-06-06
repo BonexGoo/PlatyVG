@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="struct__iobuf" kind="struct" language="C++" prot="public">
+    <compoundname>_iobuf</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__iobuf_1a05420aba482fff180c475c5fd29c892c" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* _iobuf::_ptr</definition>
+        <argsstring></argsstring>
+        <name>_ptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" line="15" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__iobuf_1a4a9e10920e99b837b0dd9b7bb1c164b5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _iobuf::_cnt</definition>
+        <argsstring></argsstring>
+        <name>_cnt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" line="16" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__iobuf_1aff44fb42fb755e07144f64b2310ed8a4" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* _iobuf::_base</definition>
+        <argsstring></argsstring>
+        <name>_base</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" line="17" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__iobuf_1a91fe8fc76ef7b970522c96bdc9c843cf" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _iobuf::_flag</definition>
+        <argsstring></argsstring>
+        <name>_flag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" line="18" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__iobuf_1a8c02e2aa48f797154518ec4daac2e026" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _iobuf::_file</definition>
+        <argsstring></argsstring>
+        <name>_file</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" line="19" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__iobuf_1a3304634683fffee8022d0d9ecaebb903" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _iobuf::_charbuf</definition>
+        <argsstring></argsstring>
+        <name>_charbuf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" line="20" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__iobuf_1aeb67e1186cdbbb61f2130649d11a1198" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _iobuf::_bufsiz</definition>
+        <argsstring></argsstring>
+        <name>_bufsiz</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" line="21" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__iobuf_1ac484cc3a7b966fad6ef05ac5071912ad" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* _iobuf::_tmpfname</definition>
+        <argsstring></argsstring>
+        <name>_tmpfname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" line="22" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" line="14" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" bodystart="14" bodyend="23"/>
+    <listofallmembers>
+      <member refid="struct__iobuf_1aff44fb42fb755e07144f64b2310ed8a4" prot="public" virt="non-virtual"><scope>_iobuf</scope><name>_base</name></member>
+      <member refid="struct__iobuf_1aeb67e1186cdbbb61f2130649d11a1198" prot="public" virt="non-virtual"><scope>_iobuf</scope><name>_bufsiz</name></member>
+      <member refid="struct__iobuf_1a3304634683fffee8022d0d9ecaebb903" prot="public" virt="non-virtual"><scope>_iobuf</scope><name>_charbuf</name></member>
+      <member refid="struct__iobuf_1a4a9e10920e99b837b0dd9b7bb1c164b5" prot="public" virt="non-virtual"><scope>_iobuf</scope><name>_cnt</name></member>
+      <member refid="struct__iobuf_1a8c02e2aa48f797154518ec4daac2e026" prot="public" virt="non-virtual"><scope>_iobuf</scope><name>_file</name></member>
+      <member refid="struct__iobuf_1a91fe8fc76ef7b970522c96bdc9c843cf" prot="public" virt="non-virtual"><scope>_iobuf</scope><name>_flag</name></member>
+      <member refid="struct__iobuf_1a05420aba482fff180c475c5fd29c892c" prot="public" virt="non-virtual"><scope>_iobuf</scope><name>_ptr</name></member>
+      <member refid="struct__iobuf_1ac484cc3a7b966fad6ef05ac5071912ad" prot="public" virt="non-virtual"><scope>_iobuf</scope><name>_tmpfname</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

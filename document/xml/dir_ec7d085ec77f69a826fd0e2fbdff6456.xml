@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_ec7d085ec77f69a826fd0e2fbdff6456" kind="dir">
+    <compoundname>api</compoundname>
+    <innerfile refid="adapter_8cpp">adapter.cpp</innerfile>
+    <innerfile refid="adapter_8hpp">adapter.hpp</innerfile>
+    <innerfile refid="command_8cpp">command.cpp</innerfile>
+    <innerfile refid="command_8hpp">command.hpp</innerfile>
+    <innerfile refid="export_8cpp">export.cpp</innerfile>
+    <innerfile refid="export_8hpp">export.hpp</innerfile>
+    <innerfile refid="input_8cpp">input.cpp</innerfile>
+    <innerfile refid="input_8hpp">input.hpp</innerfile>
+    <innerfile refid="listener_8cpp">listener.cpp</innerfile>
+    <innerfile refid="listener_8hpp">listener.hpp</innerfile>
+    <innerfile refid="platyvg_8cpp">platyvg.cpp</innerfile>
+    <innerfile refid="platyvg_8hpp">platyvg.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/"/>
+  </compounddef>
+</doxygen>

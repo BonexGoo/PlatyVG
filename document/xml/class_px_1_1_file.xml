@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_px_1_1_file" kind="class" language="C++" prot="public">
+    <compoundname>Px::File</compoundname>
+    <includes refid="file_8hpp" local="no">file.hpp</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_px_1_1_file_1a76ad1d3174f2b34c0964e6822cbe1718" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const void *</type>
+        <definition>const void * Px::File::OpenForRead</definition>
+        <argsstring>(chars filename)</argsstring>
+        <name>OpenForRead</name>
+        <param>
+          <type>chars</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+<para>파일열기(읽기전용) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 파일명 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>파일포인터 </para></simplesect>
+<simplesect kind="see"><para><ref refid="class_px_1_1_file_1a36ae7f3111a18f7dd68700e48dd2c1ec" kindref="member">Close</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.hpp" line="16" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" bodystart="53" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_file_1ad7cdd12d60a2faa7c1c14d5c2757c668" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * Px::File::OpenForWrite</definition>
+        <argsstring>(chars filename)</argsstring>
+        <name>OpenForWrite</name>
+        <param>
+          <type>chars</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+<para>파일열기(쓰기전용) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 파일명 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>파일포인터 </para></simplesect>
+<simplesect kind="see"><para><ref refid="class_px_1_1_file_1a36ae7f3111a18f7dd68700e48dd2c1ec" kindref="member">Close</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.hpp" line="24" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" bodystart="58" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_file_1a36ae7f3111a18f7dd68700e48dd2c1ec" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Px::File::Close</definition>
+        <argsstring>(const void *file)</argsstring>
+        <name>Close</name>
+        <param>
+          <type>const void *</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+<para>파일닫기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 파일포인터 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="class_px_1_1_file_1a76ad1d3174f2b34c0964e6822cbe1718" kindref="member">OpenForRead</ref>, <ref refid="class_px_1_1_file_1ad7cdd12d60a2faa7c1c14d5c2757c668" kindref="member">OpenForWrite</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.hpp" line="31" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_file_1ab2dc8c4d4639b826b0cbe19e594d6b25" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const sint32</type>
+        <definition>const sint32 Px::File::GetSize</definition>
+        <argsstring>(const void *file)</argsstring>
+        <name>GetSize</name>
+        <param>
+          <type>const void *</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+<para>파일사이즈 얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 파일포인터 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>파일사이즈 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.hpp" line="38" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" bodystart="68" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_file_1abd77dd916952abba115515d792cd88b0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Px::File::Read</definition>
+        <argsstring>(const void *file, uint08 *data, const sint32 size)</argsstring>
+        <name>Read</name>
+        <param>
+          <type>const void *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>uint08 *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const sint32</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>읽기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 파일포인터 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 저장할 데이터 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 데이터의 길이(byte) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="class_px_1_1_file_1a76ad1d3174f2b34c0964e6822cbe1718" kindref="member">OpenForRead</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.hpp" line="47" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" bodystart="73" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_file_1a09ccf251ed55ba707f417479a61a5b6d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Px::File::Write</definition>
+        <argsstring>(void *file, bytes data, const sint32 size)</argsstring>
+        <name>Write</name>
+        <param>
+          <type>void *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>bytes</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const sint32</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>쓰기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 파일포인터 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 불러올 데이터 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 데이터의 길이(byte) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="class_px_1_1_file_1ad7cdd12d60a2faa7c1c14d5c2757c668" kindref="member">OpenForWrite</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.hpp" line="56" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" bodystart="78" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_file_1a30d80475aa15f23d5cbc1dfa4e24133a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Px::File::Skip</definition>
+        <argsstring>(const void *file, const sint32 size)</argsstring>
+        <name>Skip</name>
+        <param>
+          <type>const void *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const sint32</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>구간통과 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 파일포인터 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 통과할 길이(byte) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="class_px_1_1_file_1a76ad1d3174f2b34c0964e6822cbe1718" kindref="member">OpenForRead</ref>, <ref refid="class_px_1_1_file_1ad7cdd12d60a2faa7c1c14d5c2757c668" kindref="member">OpenForWrite</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.hpp" line="64" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.cpp" bodystart="83" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>파일함수지원 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.hpp" line="8" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/file.hpp" bodystart="7" bodyend="65"/>
+    <listofallmembers>
+      <member refid="class_px_1_1_file_1a36ae7f3111a18f7dd68700e48dd2c1ec" prot="public" virt="non-virtual"><scope>Px::File</scope><name>Close</name></member>
+      <member refid="class_px_1_1_file_1ab2dc8c4d4639b826b0cbe19e594d6b25" prot="public" virt="non-virtual"><scope>Px::File</scope><name>GetSize</name></member>
+      <member refid="class_px_1_1_file_1a76ad1d3174f2b34c0964e6822cbe1718" prot="public" virt="non-virtual"><scope>Px::File</scope><name>OpenForRead</name></member>
+      <member refid="class_px_1_1_file_1ad7cdd12d60a2faa7c1c14d5c2757c668" prot="public" virt="non-virtual"><scope>Px::File</scope><name>OpenForWrite</name></member>
+      <member refid="class_px_1_1_file_1abd77dd916952abba115515d792cd88b0" prot="public" virt="non-virtual"><scope>Px::File</scope><name>Read</name></member>
+      <member refid="class_px_1_1_file_1a30d80475aa15f23d5cbc1dfa4e24133a" prot="public" virt="non-virtual"><scope>Px::File</scope><name>Skip</name></member>
+      <member refid="class_px_1_1_file_1a09ccf251ed55ba707f417479a61a5b6d" prot="public" virt="non-virtual"><scope>Px::File</scope><name>Write</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

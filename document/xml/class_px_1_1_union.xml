@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_px_1_1_union" kind="class" language="C++" prot="public">
+    <compoundname>Px::Union</compoundname>
+    <includes refid="array_8hpp" local="no">array.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename TYPE</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_px_1_1_union_1af5e0cb87d4af27d3539a9eb5b7f6af3d" prot="private" static="no" mutable="no">
+        <type>const <ref refid="class_px_1_1_share" kindref="compound">Share</ref> *</type>
+        <definition>const Share* Px::Union&lt; TYPE &gt;::share</definition>
+        <argsstring></argsstring>
+        <name>share</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="223" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_px_1_1_union_1a90d464536e08cbf828c7e85e2f4c8f00" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Px::Union&lt; TYPE &gt;::Union</definition>
+        <argsstring>()</argsstring>
+        <name>Union</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="174" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="174" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_union_1a304fbd03c93828cd6eb060839f7e6d4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Px::Union&lt; TYPE &gt;::Union</definition>
+        <argsstring>(const Union &amp;rhs)</argsstring>
+        <name>Union</name>
+        <param>
+          <type>const <ref refid="class_px_1_1_union" kindref="compound">Union</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="175" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="175" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_union_1a9d4b8dbc1f8257a134538f8d8eaa7167" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Px::Union&lt; TYPE &gt;::~Union</definition>
+        <argsstring>()</argsstring>
+        <name>~Union</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="176" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="176" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_union_1a4b388d51a5b34c860a2b8c8cb9489b57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_px_1_1_union" kindref="compound">Union</ref> &amp;</type>
+        <definition>Union&amp; Px::Union&lt; TYPE &gt;::operator=</definition>
+        <argsstring>(const Union &amp;rhs)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_px_1_1_union" kindref="compound">Union</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="178" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="178" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_union_1a930d805d515db08b86458e50f7d651da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_px_1_1_union" kindref="compound">Union</ref> &amp;</type>
+        <definition>Union&amp; Px::Union&lt; TYPE &gt;::operator=</definition>
+        <argsstring>(buffer gift)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>buffer</type>
+          <declname>gift</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="185" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="185" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_union_1a780f4c1fe25f9ef2e026d647aa7f34dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TYPE *</type>
+        <definition>TYPE* Px::Union&lt; TYPE &gt;::operator-&gt;</definition>
+        <argsstring>()</argsstring>
+        <name>operator-&gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="192" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="192" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_union_1aff927bab543a95a5c9944029f4aae4c7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>TYPE const *</type>
+        <definition>TYPE const* Px::Union&lt; TYPE &gt;::operator-&gt;</definition>
+        <argsstring>() const </argsstring>
+        <name>operator-&gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="198" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="198" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_union_1abcc7dd1cfbb693766762839061154c5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TYPE *</type>
+        <definition>TYPE* Px::Union&lt; TYPE &gt;::ptr</definition>
+        <argsstring>()</argsstring>
+        <name>ptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="204" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="204" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_union_1a5eaf39972adc0c09767b57f5eaa58e72" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>TYPE const *</type>
+        <definition>TYPE const* Px::Union&lt; TYPE &gt;::ptr_const</definition>
+        <argsstring>() const </argsstring>
+        <name>ptr_const</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="210" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="210" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="class_px_1_1_union_1add7d3e795305561c516864ec267e036d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>buffer</type>
+        <definition>buffer Px::Union&lt; TYPE &gt;::copied_buffer</definition>
+        <argsstring>() const </argsstring>
+        <name>copied_buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="216" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="216" bodyend="220"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>공용객체지원 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" line="172" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/px/array.hpp" bodystart="171" bodyend="224"/>
+    <listofallmembers>
+      <member refid="class_px_1_1_union_1add7d3e795305561c516864ec267e036d" prot="public" virt="non-virtual"><scope>Px::Union</scope><name>copied_buffer</name></member>
+      <member refid="class_px_1_1_union_1a780f4c1fe25f9ef2e026d647aa7f34dc" prot="public" virt="non-virtual"><scope>Px::Union</scope><name>operator-&gt;</name></member>
+      <member refid="class_px_1_1_union_1aff927bab543a95a5c9944029f4aae4c7" prot="public" virt="non-virtual"><scope>Px::Union</scope><name>operator-&gt;</name></member>
+      <member refid="class_px_1_1_union_1a4b388d51a5b34c860a2b8c8cb9489b57" prot="public" virt="non-virtual"><scope>Px::Union</scope><name>operator=</name></member>
+      <member refid="class_px_1_1_union_1a930d805d515db08b86458e50f7d651da" prot="public" virt="non-virtual"><scope>Px::Union</scope><name>operator=</name></member>
+      <member refid="class_px_1_1_union_1abcc7dd1cfbb693766762839061154c5c" prot="public" virt="non-virtual"><scope>Px::Union</scope><name>ptr</name></member>
+      <member refid="class_px_1_1_union_1a5eaf39972adc0c09767b57f5eaa58e72" prot="public" virt="non-virtual"><scope>Px::Union</scope><name>ptr_const</name></member>
+      <member refid="class_px_1_1_union_1af5e0cb87d4af27d3539a9eb5b7f6af3d" prot="private" virt="non-virtual"><scope>Px::Union</scope><name>share</name></member>
+      <member refid="class_px_1_1_union_1a90d464536e08cbf828c7e85e2f4c8f00" prot="public" virt="non-virtual"><scope>Px::Union</scope><name>Union</name></member>
+      <member refid="class_px_1_1_union_1a304fbd03c93828cd6eb060839f7e6d4b" prot="public" virt="non-virtual"><scope>Px::Union</scope><name>Union</name></member>
+      <member refid="class_px_1_1_union_1a9d4b8dbc1f8257a134538f8d8eaa7167" prot="public" virt="non-virtual"><scope>Px::Union</scope><name>~Union</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

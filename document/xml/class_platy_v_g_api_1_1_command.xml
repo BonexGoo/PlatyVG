@@ -1,0 +1,534 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_platy_v_g_api_1_1_command" kind="class" language="C++" prot="public">
+    <compoundname>PlatyVGApi::Command</compoundname>
+    <includes refid="command_8hpp" local="no">command.hpp</includes>
+    <innerclass refid="class_platy_v_g_api_1_1_command_1_1_canvas" prot="public">PlatyVGApi::Command::Canvas</innerclass>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1ac8e076f7a2f02ab823966cd9cdc9ffda" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>sint32</type>
+        <definition>static sint32 PlatyVGApi::Command::GetShapeCount</definition>
+        <argsstring>(const sint32 doc, const sint32 layer=-1)</argsstring>
+        <name>GetShapeCount</name>
+        <param>
+          <type>const sint32</type>
+          <declname>doc</declname>
+        </param>
+        <param>
+          <type>const sint32</type>
+          <declname>layer</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+<para>해당 자료의 도형의 수량얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 자료의 ID </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>layer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 레이어번호(-1은 전체레이어) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>도형의 수량 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="150" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1a7cd33773a3c4e0f434049f4f6b581ca0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PlatyVGApi::Command::ClearShapes</definition>
+        <argsstring>(const sint32 doc, const sint32 layer=-1)</argsstring>
+        <name>ClearShapes</name>
+        <param>
+          <type>const sint32</type>
+          <declname>doc</declname>
+        </param>
+        <param>
+          <type>const sint32</type>
+          <declname>layer</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+<para>해당 자료의 도형 초기화 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 자료의 ID </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>layer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 레이어번호(-1은 전체레이어) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="157" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1a41f63f2c6fb0b5cb5eac6c1440148cc7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PlatyVGApi::Command::ClearSelects</definition>
+        <argsstring>()</argsstring>
+        <name>ClearSelects</name>
+        <briefdescription>
+<para>현재 자료의 선택 초기화 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="162" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1a1ebb82bffcdcff845e04500fc99f1016" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PlatyVGApi::Command::RemoveSelects</definition>
+        <argsstring>()</argsstring>
+        <name>RemoveSelects</name>
+        <briefdescription>
+<para>현재 자료의 선택된 도형을 제거 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="167" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1acd17505868be87ca6ef53171f76daee9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PlatyVGApi::Command::ChangeSelects</definition>
+        <argsstring>(const Color color, const ChangeColorBy changecolorby)</argsstring>
+        <name>ChangeSelects</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_color" kindref="compound">Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>const ChangeColorBy</type>
+          <declname>changecolorby</declname>
+        </param>
+        <briefdescription>
+<para>현재 자료의 선택된 도형을 색상변경 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 색상값 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>changecolorby</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 색상변경규칙 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="174" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1a7dab159ae31b8c2991611a4b6f89b7a4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PlatyVGApi::Command::SetStrokeBy</definition>
+        <argsstring>(chars name)</argsstring>
+        <name>SetStrokeBy</name>
+        <param>
+          <type>chars</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>현재 스트로크설정 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 스트로크명(&quot;spline&quot;, &quot;tube&quot;, &quot;aqua&quot;, &quot;erase&quot;, &quot;select&quot;, &quot;hand&quot;, &quot;spoid&quot;) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="180" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1a1126d6939d595e7c03c2f8e3fa3380db" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PlatyVGApi::Command::SetSelectBy</definition>
+        <argsstring>(chars name)</argsstring>
+        <name>SetSelectBy</name>
+        <param>
+          <type>chars</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>현재 선택모드설정 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 선택모드명(&quot;rect&quot;, &quot;drag&quot;, &quot;area&quot;) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="186" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1a1635f11c5cffeceb5361a87d37f3dc7e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PlatyVGApi::Command::SetColor</definition>
+        <argsstring>(const Color color)</argsstring>
+        <name>SetColor</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_color" kindref="compound">Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>현재 색상설정 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 색상값 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="192" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1abda0fcd36665bd02d6a0c8c4233ebcf7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_platy_v_g_element_1_1_color" kindref="compound">Color</ref></type>
+        <definition>color color aqua const Color PlatyVGApi::Command::GetColor</definition>
+        <argsstring>()</argsstring>
+        <name>GetColor</name>
+        <briefdescription>
+<para>현재 색상얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>색상값 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="198" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.cpp" bodystart="452" bodyend="456"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1a1accd7685fa22bba4fdf369803d17dd3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_platy_v_g_element_1_1_color" kindref="compound">Color</ref></type>
+        <definition>color color aqua const Color PlatyVGApi::Command::GetColorBy</definition>
+        <argsstring>(const Point point, const Color backcolor)</argsstring>
+        <name>GetColorBy</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_point" kindref="compound">Point</ref></type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_color" kindref="compound">Color</ref></type>
+          <declname>backcolor</declname>
+        </param>
+        <briefdescription>
+<para>해당 위치의 색상얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>point</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 해당 위치 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>backcolor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 배경색 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>색상값 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="206" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.cpp" bodystart="462" bodyend="484"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1a5680aee3f9085fac8afd2c61bf426136" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PlatyVGApi::Command::SetThick</definition>
+        <argsstring>(const float thick)</argsstring>
+        <name>SetThick</name>
+        <param>
+          <type>const float</type>
+          <declname>thick</declname>
+        </param>
+        <briefdescription>
+<para>현재 두께설정 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>thick</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 두께값 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="212" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1aa0980e7926824bae704202a0e45884f0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const float</type>
+        <definition>static const float PlatyVGApi::Command::GetThick</definition>
+        <argsstring>()</argsstring>
+        <name>GetThick</name>
+        <briefdescription>
+<para>현재 두께얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>두께값 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="218" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1ad8b6538496407b5115e394b65d0e9c10" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PlatyVGApi::Command::SetViewRadius</definition>
+        <argsstring>(const float radius, const bool updateAllDocuments=true)</argsstring>
+        <name>SetViewRadius</name>
+        <param>
+          <type>const float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>const bool</type>
+          <declname>updateAllDocuments</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>뷰의 중점기준 반지름길이설정 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>radius</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 반지름길이(픽셀단위) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>updateAllDocuments</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 업데이트 여부 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="225" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1a159819d62f3d8bb317a02bfba05c75c9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const float</type>
+        <definition>static const float PlatyVGApi::Command::GetViewRadius</definition>
+        <argsstring>()</argsstring>
+        <name>GetViewRadius</name>
+        <briefdescription>
+<para>뷰의 중점기준 반지름길이얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>반지름길이(픽셀단위) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="231" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1a23f30fe7553af5115859b49c6df72f88" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PlatyVGApi::Command::SetLayerVisible</definition>
+        <argsstring>(const sint32 layer, const bool visible)</argsstring>
+        <name>SetLayerVisible</name>
+        <param>
+          <type>const sint32</type>
+          <declname>layer</declname>
+        </param>
+        <param>
+          <type>const bool</type>
+          <declname>visible</declname>
+        </param>
+        <briefdescription>
+<para>해당 레이어의 보여짐설정 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>layer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 레이어번호 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>visible</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 보여짐 여부 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="238" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1ad827dbb9fb55adea019d5486565534cd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const bool</type>
+        <definition>static const bool PlatyVGApi::Command::GetLayerVisible</definition>
+        <argsstring>(const sint32 layer)</argsstring>
+        <name>GetLayerVisible</name>
+        <param>
+          <type>const sint32</type>
+          <declname>layer</declname>
+        </param>
+        <briefdescription>
+<para>해당 레이어의 보여짐얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>layer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 레이어번호 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>보여짐 여부 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="245" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1a22091395e47a81f830683bd86b709939" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PlatyVGApi::Command::SetCurrentTime</definition>
+        <argsstring>(const sint64 ms)</argsstring>
+        <name>SetCurrentTime</name>
+        <param>
+          <type>const sint64</type>
+          <declname>ms</declname>
+        </param>
+        <briefdescription>
+<para>현재 시간설정 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ms</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 밀리초시간 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="251" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1a5026d89a6a0d41784bf18fd7ba170896" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool PlatyVGApi::Command::Undo</definition>
+        <argsstring>()</argsstring>
+        <name>Undo</name>
+        <briefdescription>
+<para>현재 자료 실행취소 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>수행여부 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="257" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1aff875b1887ef22e458f90bee7d2789cf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool PlatyVGApi::Command::Redo</definition>
+        <argsstring>()</argsstring>
+        <name>Redo</name>
+        <briefdescription>
+<para>현재 자료 재실행 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>수행여부 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="263" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1ac1953aad23cecb13db86543be0fde322" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool PlatyVGApi::Command::CanUndo</definition>
+        <argsstring>()</argsstring>
+        <name>CanUndo</name>
+        <briefdescription>
+<para>현재 자료의 실행취소 가능여부 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>가능여부 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="269" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1a04883390fd4d72980999c04d7b483e4c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool PlatyVGApi::Command::CanRedo</definition>
+        <argsstring>()</argsstring>
+        <name>CanRedo</name>
+        <briefdescription>
+<para>현재 자료의 재실행 가능여부 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>가능여부 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="275" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>명령입력 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="12" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" bodystart="11" bodyend="276"/>
+    <listofallmembers>
+      <member refid="class_platy_v_g_api_1_1_command_1a04883390fd4d72980999c04d7b483e4c" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command</scope><name>CanRedo</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1ac1953aad23cecb13db86543be0fde322" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command</scope><name>CanUndo</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1acd17505868be87ca6ef53171f76daee9" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command</scope><name>ChangeSelects</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1a41f63f2c6fb0b5cb5eac6c1440148cc7" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command</scope><name>ClearSelects</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1a7cd33773a3c4e0f434049f4f6b581ca0" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command</scope><name>ClearShapes</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1abda0fcd36665bd02d6a0c8c4233ebcf7" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command</scope><name>GetColor</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1a1accd7685fa22bba4fdf369803d17dd3" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command</scope><name>GetColorBy</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1ad827dbb9fb55adea019d5486565534cd" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command</scope><name>GetLayerVisible</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1ac8e076f7a2f02ab823966cd9cdc9ffda" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command</scope><name>GetShapeCount</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1aa0980e7926824bae704202a0e45884f0" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command</scope><name>GetThick</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1a159819d62f3d8bb317a02bfba05c75c9" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command</scope><name>GetViewRadius</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1aff875b1887ef22e458f90bee7d2789cf" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command</scope><name>Redo</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1a1ebb82bffcdcff845e04500fc99f1016" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command</scope><name>RemoveSelects</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1a1635f11c5cffeceb5361a87d37f3dc7e" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command</scope><name>SetColor</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1a22091395e47a81f830683bd86b709939" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command</scope><name>SetCurrentTime</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1a23f30fe7553af5115859b49c6df72f88" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command</scope><name>SetLayerVisible</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1a1126d6939d595e7c03c2f8e3fa3380db" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command</scope><name>SetSelectBy</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1a7dab159ae31b8c2991611a4b6f89b7a4" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command</scope><name>SetStrokeBy</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1a5680aee3f9085fac8afd2c61bf426136" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command</scope><name>SetThick</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1ad8b6538496407b5115e394b65d0e9c10" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command</scope><name>SetViewRadius</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1a5026d89a6a0d41784bf18fd7ba170896" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command</scope><name>Undo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

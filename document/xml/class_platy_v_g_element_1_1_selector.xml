@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_platy_v_g_element_1_1_selector" kind="class" language="C++" prot="public">
+    <compoundname>PlatyVGElement::Selector</compoundname>
+    <includes refid="selector_8hpp" local="no">selector.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_platy_v_g_element_1_1_selector_1adc1d785a722705e57e61db1092e198b7" prot="private" static="no" mutable="no">
+        <type>const <ref refid="class_px_1_1_array" kindref="compound">Coords</ref></type>
+        <definition>const Coords PlatyVGElement::Selector::coods</definition>
+        <argsstring></argsstring>
+        <name>coods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/selector.hpp" line="25" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/selector.hpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_element_1_1_selector_1a22bc5d437e0abc4cf1e4682ce43b4400" prot="private" static="no" mutable="no">
+        <type><ref refid="class_px_1_1_array" kindref="compound">Rects</ref></type>
+        <definition>Rects PlatyVGElement::Selector::rects</definition>
+        <argsstring></argsstring>
+        <name>rects</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/selector.hpp" line="26" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/selector.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_element_1_1_selector_1af6c7a8b287ab750eef61a245002774f3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_px_1_1_array" kindref="compound">Points</ref></type>
+        <definition>Points PlatyVGElement::Selector::points</definition>
+        <argsstring></argsstring>
+        <name>points</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/selector.hpp" line="27" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/selector.hpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_element_1_1_selector_1afa111d3de325fa06e15bda07b0f9f7ee" prot="private" static="no" mutable="no">
+        <type><ref refid="class_px_1_1_array" kindref="compound">Tables</ref></type>
+        <definition>Tables PlatyVGElement::Selector::tables</definition>
+        <argsstring></argsstring>
+        <name>tables</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/selector.hpp" line="28" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/selector.hpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_element_1_1_selector_1a451e91cb17c6829fadd33def77328983" prot="private" static="no" mutable="no">
+        <type>sint32</type>
+        <definition>sint32 PlatyVGElement::Selector::tables_ymin</definition>
+        <argsstring></argsstring>
+        <name>tables_ymin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/selector.hpp" line="29" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/selector.hpp" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_selector_1ade9955e5e798ceafd5fcc174974c72f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::Selector::Selector</definition>
+        <argsstring>(const Coords coods)</argsstring>
+        <name>Selector</name>
+        <param>
+          <type>const <ref refid="class_px_1_1_array" kindref="compound">Coords</ref></type>
+          <declname>coods</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/selector.hpp" line="14" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/selector.cpp" bodystart="6" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_selector_1aef363d6c860c5315093dc0166ca79c00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::Selector::~Selector</definition>
+        <argsstring>()</argsstring>
+        <name>~Selector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/selector.hpp" line="15" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/selector.cpp" bodystart="11" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_selector_1a4e343ac1423165bd767be347f9b4da0b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const bool</type>
+        <definition>const bool PlatyVGElement::Selector::IsValid</definition>
+        <argsstring>() const </argsstring>
+        <name>IsValid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/selector.hpp" line="18" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/selector.cpp" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_selector_1aefe9bf96de705392c0765269d0b6b2de" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_platy_v_g_element_1_1_rect" kindref="compound">Rect</ref></type>
+        <definition>const Rect PlatyVGElement::Selector::GetRect</definition>
+        <argsstring>() const </argsstring>
+        <name>GetRect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/selector.hpp" line="19" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/selector.cpp" bodystart="20" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_selector_1ad41d3f6f13ff3cf5d526f5a2efbb2fb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_px_1_1_array" kindref="compound">Rects</ref></type>
+        <definition>const Rects PlatyVGElement::Selector::GetRects</definition>
+        <argsstring>()</argsstring>
+        <name>GetRects</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/selector.hpp" line="20" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/selector.cpp" bodystart="26" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_selector_1a48525807be2c73e566525264379f5ce4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_px_1_1_array" kindref="compound">Points</ref></type>
+        <definition>const Points PlatyVGElement::Selector::GetPoints</definition>
+        <argsstring>()</argsstring>
+        <name>GetPoints</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/selector.hpp" line="21" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/selector.cpp" bodystart="34" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_selector_1ab3e6d3215dc6aa699794d214d204e5b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_px_1_1_array" kindref="compound">Tables</ref></type>
+        <definition>const Tables PlatyVGElement::Selector::GetTables</definition>
+        <argsstring>(sint32 *ymin)</argsstring>
+        <name>GetTables</name>
+        <param>
+          <type>sint32 *</type>
+          <declname>ymin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/selector.hpp" line="22" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/selector.cpp" bodystart="42" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>선택자 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/selector.hpp" line="12" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/selector.hpp" bodystart="11" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_platy_v_g_element_1_1_selector_1adc1d785a722705e57e61db1092e198b7" prot="private" virt="non-virtual"><scope>PlatyVGElement::Selector</scope><name>coods</name></member>
+      <member refid="class_platy_v_g_element_1_1_selector_1a48525807be2c73e566525264379f5ce4" prot="public" virt="non-virtual"><scope>PlatyVGElement::Selector</scope><name>GetPoints</name></member>
+      <member refid="class_platy_v_g_element_1_1_selector_1aefe9bf96de705392c0765269d0b6b2de" prot="public" virt="non-virtual"><scope>PlatyVGElement::Selector</scope><name>GetRect</name></member>
+      <member refid="class_platy_v_g_element_1_1_selector_1ad41d3f6f13ff3cf5d526f5a2efbb2fb0" prot="public" virt="non-virtual"><scope>PlatyVGElement::Selector</scope><name>GetRects</name></member>
+      <member refid="class_platy_v_g_element_1_1_selector_1ab3e6d3215dc6aa699794d214d204e5b2" prot="public" virt="non-virtual"><scope>PlatyVGElement::Selector</scope><name>GetTables</name></member>
+      <member refid="class_platy_v_g_element_1_1_selector_1a4e343ac1423165bd767be347f9b4da0b" prot="public" virt="non-virtual"><scope>PlatyVGElement::Selector</scope><name>IsValid</name></member>
+      <member refid="class_platy_v_g_element_1_1_selector_1af6c7a8b287ab750eef61a245002774f3" prot="private" virt="non-virtual"><scope>PlatyVGElement::Selector</scope><name>points</name></member>
+      <member refid="class_platy_v_g_element_1_1_selector_1a22bc5d437e0abc4cf1e4682ce43b4400" prot="private" virt="non-virtual"><scope>PlatyVGElement::Selector</scope><name>rects</name></member>
+      <member refid="class_platy_v_g_element_1_1_selector_1ade9955e5e798ceafd5fcc174974c72f6" prot="public" virt="non-virtual"><scope>PlatyVGElement::Selector</scope><name>Selector</name></member>
+      <member refid="class_platy_v_g_element_1_1_selector_1afa111d3de325fa06e15bda07b0f9f7ee" prot="private" virt="non-virtual"><scope>PlatyVGElement::Selector</scope><name>tables</name></member>
+      <member refid="class_platy_v_g_element_1_1_selector_1a451e91cb17c6829fadd33def77328983" prot="private" virt="non-virtual"><scope>PlatyVGElement::Selector</scope><name>tables_ymin</name></member>
+      <member refid="class_platy_v_g_element_1_1_selector_1aef363d6c860c5315093dc0166ca79c00" prot="public" virt="non-virtual"><scope>PlatyVGElement::Selector</scope><name>~Selector</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

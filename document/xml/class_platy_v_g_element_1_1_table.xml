@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_platy_v_g_element_1_1_table" kind="class" language="C++" prot="public">
+    <compoundname>PlatyVGElement::Table</compoundname>
+    <includes refid="table_8hpp" local="no">table.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_platy_v_g_element_1_1_table_1aaf2c66b160e325fb7786837b3b080363" prot="public" static="no" mutable="no">
+        <type><ref refid="class_px_1_1_array" kindref="compound">sint32s</ref></type>
+        <definition>sint32s PlatyVGElement::Table::row</definition>
+        <argsstring></argsstring>
+        <name>row</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/table.hpp" line="16" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/table.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_table_1afd384ff6fe4f64f4068796a1d2440739" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::Table::Table</definition>
+        <argsstring>()</argsstring>
+        <name>Table</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/table.hpp" line="10" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/table.cpp" bodystart="6" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_table_1a622f2fede9b618fe7b7841cdb7c3e120" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::Table::Table</definition>
+        <argsstring>(const Table &amp;rhs)</argsstring>
+        <name>Table</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_table" kindref="compound">Table</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/table.hpp" line="11" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/table.cpp" bodystart="10" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_table_1aefc9e4bbbc72e78c589b53d8577f4aaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGElement::Table::~Table</definition>
+        <argsstring>()</argsstring>
+        <name>~Table</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/table.hpp" line="12" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/table.cpp" bodystart="15" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_element_1_1_table_1a44847e0321f3f2a69aee54fb4b721a6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_platy_v_g_element_1_1_table" kindref="compound">Table</ref> &amp;</type>
+        <definition>Table &amp; PlatyVGElement::Table::operator=</definition>
+        <argsstring>(const Table &amp;rhs)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_table" kindref="compound">Table</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/table.hpp" line="13" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/table.cpp" bodystart="19" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>연산용 테이블 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="173">
+        <label>Px::Array&lt; TYPE, CANCOPY, MINCOUNT &gt;</label>
+        <link refid="class_px_1_1_array"/>
+      </node>
+      <node id="172">
+        <label>PlatyVGElement::Table</label>
+        <link refid="class_platy_v_g_element_1_1_table"/>
+        <childnode refid="173" relation="usage">
+          <edgelabel>row</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/table.hpp" line="8" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/element/table.hpp" bodystart="7" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_platy_v_g_element_1_1_table_1a44847e0321f3f2a69aee54fb4b721a6e" prot="public" virt="non-virtual"><scope>PlatyVGElement::Table</scope><name>operator=</name></member>
+      <member refid="class_platy_v_g_element_1_1_table_1aaf2c66b160e325fb7786837b3b080363" prot="public" virt="non-virtual"><scope>PlatyVGElement::Table</scope><name>row</name></member>
+      <member refid="class_platy_v_g_element_1_1_table_1afd384ff6fe4f64f4068796a1d2440739" prot="public" virt="non-virtual"><scope>PlatyVGElement::Table</scope><name>Table</name></member>
+      <member refid="class_platy_v_g_element_1_1_table_1a622f2fede9b618fe7b7841cdb7c3e120" prot="public" virt="non-virtual"><scope>PlatyVGElement::Table</scope><name>Table</name></member>
+      <member refid="class_platy_v_g_element_1_1_table_1aefc9e4bbbc72e78c589b53d8577f4aaf" prot="public" virt="non-virtual"><scope>PlatyVGElement::Table</scope><name>~Table</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

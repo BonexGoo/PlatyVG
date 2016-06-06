@@ -1,0 +1,503 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_platy_v_g_core_1_1_view" kind="class" language="C++" prot="public">
+    <compoundname>PlatyVGCore::View</compoundname>
+    <includes refid="view_8hpp" local="no">view.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_view_1aea62cf6e48f6010b2f71956a82f02c19" prot="public" static="no" mutable="no">
+        <type><ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref></type>
+        <definition>Document PlatyVGCore::View::DocumentRoot</definition>
+        <argsstring></argsstring>
+        <name>DocumentRoot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.hpp" line="70" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.hpp" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_view_1a685d80d226f8381129cc9388e0dd67f8" prot="public" static="no" mutable="no">
+        <type><ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref> *</type>
+        <definition>Document* PlatyVGCore::View::DocumentFocus</definition>
+        <argsstring></argsstring>
+        <name>DocumentFocus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.hpp" line="71" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.hpp" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_view_1a32146f08265ba9123c2f01bde8f4e28e" prot="public" static="no" mutable="no">
+        <type>StrokeBy</type>
+        <definition>StrokeBy PlatyVGCore::View::OptionStrokeBy</definition>
+        <argsstring></argsstring>
+        <name>OptionStrokeBy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.hpp" line="73" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.hpp" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_view_1aff7fda625bf31918fdd0722bfcef98c9" prot="public" static="no" mutable="no">
+        <type>SelectBy</type>
+        <definition>SelectBy PlatyVGCore::View::OptionSelectBy</definition>
+        <argsstring></argsstring>
+        <name>OptionSelectBy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.hpp" line="74" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.hpp" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_view_1a3def836c44df7fbf752ff2fa969cd2e5" prot="public" static="no" mutable="no">
+        <type><ref refid="class_platy_v_g_element_1_1_context" kindref="compound">Context</ref></type>
+        <definition>Context PlatyVGCore::View::OptionContext</definition>
+        <argsstring></argsstring>
+        <name>OptionContext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.hpp" line="75" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.hpp" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_view_1addf9d52810d9985e89451b0cac11cb26" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlatyVGCore::View::OptionRadius</definition>
+        <argsstring></argsstring>
+        <name>OptionRadius</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.hpp" line="76" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.hpp" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_view_1aafd3b2a0788f1ad69eb518d730957bf9" prot="public" static="no" mutable="no">
+        <type>sint64</type>
+        <definition>sint64 PlatyVGCore::View::OptionMS</definition>
+        <argsstring></argsstring>
+        <name>OptionMS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.hpp" line="77" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.hpp" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_view_1ae62c3a176e71af1c102e02d0dc15f4a0" prot="public" static="no" mutable="no">
+        <type><ref refid="class_platy_v_g_core_1_1_device" kindref="compound">Device</ref></type>
+        <definition>Device PlatyVGCore::View::DeviceState[LengthOfDevice]</definition>
+        <argsstring>[LengthOfDevice]</argsstring>
+        <name>DeviceState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.hpp" line="79" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.hpp" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_platy_v_g_core_1_1_view_1a6c8bedd5c461d11f1515a8d595793b49" prot="public" static="no" mutable="no">
+        <type>sint32</type>
+        <definition>sint32 PlatyVGCore::View::DeviceLayer[LengthOfDevice]</definition>
+        <argsstring>[LengthOfDevice]</argsstring>
+        <name>DeviceLayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.hpp" line="80" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.hpp" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_view_1aafb8fd1ff6b47ec7a02152c9d242306b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGCore::View::View</definition>
+        <argsstring>()</argsstring>
+        <name>View</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.hpp" line="17" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.cpp" bodystart="6" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_view_1a5c7f2dc1a7272018e481078974cd83ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlatyVGCore::View::~View</definition>
+        <argsstring>()</argsstring>
+        <name>~View</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.hpp" line="18" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.cpp" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_view_1adbfef0a3a46eadf9c1159b70f41abc63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref> *</type>
+        <definition>Document * PlatyVGCore::View::GetDocument</definition>
+        <argsstring>(sint32 doc)</argsstring>
+        <name>GetDocument</name>
+        <param>
+          <type>sint32</type>
+          <declname>doc</declname>
+        </param>
+        <briefdescription>
+<para>해당 자료의 포인터 얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 자료의 ID </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>자료의 포인터 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.hpp" line="32" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.cpp" bodystart="33" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_view_1a6963901d8059d428c4a8d9edcc03c987" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlatyVGCore::View::LockDynShape</definition>
+        <argsstring>(Document *doc, const DeviceBy deviceby, const StrokeBy strokeby)</argsstring>
+        <name>LockDynShape</name>
+        <param>
+          <type><ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref> *</type>
+          <declname>doc</declname>
+        </param>
+        <param>
+          <type>const DeviceBy</type>
+          <declname>deviceby</declname>
+        </param>
+        <param>
+          <type>const StrokeBy</type>
+          <declname>strokeby</declname>
+        </param>
+        <briefdescription>
+<para>작업할 동적도형 확보 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 대상 자료 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>deviceby</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 입력타입 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>strokeby</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 도형타입 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.hpp" line="40" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.cpp" bodystart="44" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_view_1a2935155fb09a39a7ce5c44dde553c0e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PlatyVGCore::View::UnlockDynShape</definition>
+        <argsstring>(Document *doc, const DeviceBy deviceby, const bool addition)</argsstring>
+        <name>UnlockDynShape</name>
+        <param>
+          <type><ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref> *</type>
+          <declname>doc</declname>
+        </param>
+        <param>
+          <type>const DeviceBy</type>
+          <declname>deviceby</declname>
+        </param>
+        <param>
+          <type>const bool</type>
+          <declname>addition</declname>
+        </param>
+        <briefdescription>
+<para>작업한 동적도형 반환 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 대상 자료 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>deviceby</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 입력타입 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>addition</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 도형리스트에 추가요청 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>추가되었는지의 여부 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.hpp" line="49" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.cpp" bodystart="68" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_view_1ab9da32a499e7ee5b8adfab4b655427e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_platy_v_g_core_1_1_shape" kindref="compound">Shape</ref> *</type>
+        <definition>Shape * PlatyVGCore::View::GetDynShape</definition>
+        <argsstring>(Document *doc, const DeviceBy deviceby)</argsstring>
+        <name>GetDynShape</name>
+        <param>
+          <type><ref refid="class_platy_v_g_core_1_1_document" kindref="compound">Document</ref> *</type>
+          <declname>doc</declname>
+        </param>
+        <param>
+          <type>const DeviceBy</type>
+          <declname>deviceby</declname>
+        </param>
+        <briefdescription>
+<para>확보된 동적도형 얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 대상 자료 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>deviceby</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 입력타입 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>동적도형 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.hpp" line="57" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.cpp" bodystart="84" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_view_1ace0cab4e080b95fc7e952d386fe50bc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlatyVGCore::View::AddCoordSensitivity</definition>
+        <argsstring>(const DeviceBy deviceby, float x, float y, float force)</argsstring>
+        <name>AddCoordSensitivity</name>
+        <param>
+          <type>const DeviceBy</type>
+          <declname>deviceby</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>force</declname>
+        </param>
+        <briefdescription>
+<para>민감도를 적용한 좌표추가 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>deviceby</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 입력타입 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 터치좌표X </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 터치좌표Y </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>force</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 압력값(0.0에서 1.0까지) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.hpp" line="66" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.cpp" bodystart="93" bodyend="106"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_platy_v_g_core_1_1_view_1a366178c72ae21e6a29b25a3fc916d5a5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_platy_v_g_core_1_1_view" kindref="compound">View</ref> *</type>
+        <definition>View * PlatyVGCore::View::Currently</definition>
+        <argsstring>()</argsstring>
+        <name>Currently</name>
+        <briefdescription>
+<para>현재 뷰에 접근 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>현재 뷰 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.hpp" line="25" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.cpp" bodystart="27" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>화면관리 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="185">
+        <label>Px::Array&lt; TYPE, CANCOPY, MINCOUNT &gt;</label>
+        <link refid="class_px_1_1_array"/>
+      </node>
+      <node id="192">
+        <label>PlatyVGElement::Rect</label>
+        <link refid="class_platy_v_g_element_1_1_rect"/>
+      </node>
+      <node id="189">
+        <label>PlatyVGCore::Record</label>
+        <link refid="class_platy_v_g_core_1_1_record"/>
+        <childnode refid="185" relation="usage">
+          <edgelabel>AllActions</edgelabel>
+        </childnode>
+      </node>
+      <node id="188">
+        <label>PlatyVGCore::Document</label>
+        <link refid="class_platy_v_g_core_1_1_document"/>
+        <childnode refid="189" relation="usage">
+          <edgelabel>ShapeRec</edgelabel>
+        </childnode>
+        <childnode refid="190" relation="usage">
+          <edgelabel>Name</edgelabel>
+        </childnode>
+        <childnode refid="191" relation="usage">
+          <edgelabel>Transform</edgelabel>
+        </childnode>
+        <childnode refid="188" relation="usage">
+          <edgelabel>Next</edgelabel>
+        </childnode>
+        <childnode refid="192" relation="usage">
+          <edgelabel>Area</edgelabel>
+        </childnode>
+        <childnode refid="193" relation="usage">
+          <edgelabel>AllLayers</edgelabel>
+        </childnode>
+      </node>
+      <node id="182">
+        <label>PlatyVGCore::View</label>
+        <link refid="class_platy_v_g_core_1_1_view"/>
+        <childnode refid="183" relation="usage">
+          <edgelabel>DeviceState</edgelabel>
+        </childnode>
+        <childnode refid="186" relation="usage">
+          <edgelabel>OptionContext</edgelabel>
+        </childnode>
+        <childnode refid="188" relation="usage">
+          <edgelabel>DocumentFocus</edgelabel>
+          <edgelabel>DocumentRoot</edgelabel>
+        </childnode>
+      </node>
+      <node id="187">
+        <label>PlatyVGElement::Color</label>
+        <link refid="class_platy_v_g_element_1_1_color"/>
+      </node>
+      <node id="190">
+        <label>Px::String</label>
+        <link refid="class_px_1_1_string"/>
+      </node>
+      <node id="184">
+        <label>PlatyVGElement::Point</label>
+        <link refid="class_platy_v_g_element_1_1_point"/>
+      </node>
+      <node id="191">
+        <label>PlatyVGElement::Zoom</label>
+        <link refid="class_platy_v_g_element_1_1_zoom"/>
+        <childnode refid="184" relation="usage">
+          <edgelabel>offset</edgelabel>
+        </childnode>
+      </node>
+      <node id="186">
+        <label>PlatyVGElement::Context</label>
+        <link refid="class_platy_v_g_element_1_1_context"/>
+        <childnode refid="187" relation="usage">
+          <edgelabel>color</edgelabel>
+        </childnode>
+      </node>
+      <node id="183">
+        <label>PlatyVGCore::Device</label>
+        <link refid="class_platy_v_g_core_1_1_device"/>
+        <childnode refid="184" relation="usage">
+          <edgelabel>Gesture</edgelabel>
+        </childnode>
+        <childnode refid="185" relation="usage">
+          <edgelabel>InputCoords</edgelabel>
+        </childnode>
+      </node>
+      <node id="193">
+        <label>Px::Array&lt; Layer &gt;</label>
+        <link refid="class_px_1_1_array"/>
+      </node>
+    </collaborationgraph>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.hpp" line="15" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/core/view.hpp" bodystart="14" bodyend="81"/>
+    <listofallmembers>
+      <member refid="class_platy_v_g_core_1_1_view_1ace0cab4e080b95fc7e952d386fe50bc9" prot="public" virt="non-virtual"><scope>PlatyVGCore::View</scope><name>AddCoordSensitivity</name></member>
+      <member refid="class_platy_v_g_core_1_1_view_1a366178c72ae21e6a29b25a3fc916d5a5" prot="public" virt="non-virtual"><scope>PlatyVGCore::View</scope><name>Currently</name></member>
+      <member refid="class_platy_v_g_core_1_1_view_1a6c8bedd5c461d11f1515a8d595793b49" prot="public" virt="non-virtual"><scope>PlatyVGCore::View</scope><name>DeviceLayer</name></member>
+      <member refid="class_platy_v_g_core_1_1_view_1ae62c3a176e71af1c102e02d0dc15f4a0" prot="public" virt="non-virtual"><scope>PlatyVGCore::View</scope><name>DeviceState</name></member>
+      <member refid="class_platy_v_g_core_1_1_view_1a685d80d226f8381129cc9388e0dd67f8" prot="public" virt="non-virtual"><scope>PlatyVGCore::View</scope><name>DocumentFocus</name></member>
+      <member refid="class_platy_v_g_core_1_1_view_1aea62cf6e48f6010b2f71956a82f02c19" prot="public" virt="non-virtual"><scope>PlatyVGCore::View</scope><name>DocumentRoot</name></member>
+      <member refid="class_platy_v_g_core_1_1_view_1adbfef0a3a46eadf9c1159b70f41abc63" prot="public" virt="non-virtual"><scope>PlatyVGCore::View</scope><name>GetDocument</name></member>
+      <member refid="class_platy_v_g_core_1_1_view_1ab9da32a499e7ee5b8adfab4b655427e1" prot="public" virt="non-virtual"><scope>PlatyVGCore::View</scope><name>GetDynShape</name></member>
+      <member refid="class_platy_v_g_core_1_1_view_1a6963901d8059d428c4a8d9edcc03c987" prot="public" virt="non-virtual"><scope>PlatyVGCore::View</scope><name>LockDynShape</name></member>
+      <member refid="class_platy_v_g_core_1_1_view_1a3def836c44df7fbf752ff2fa969cd2e5" prot="public" virt="non-virtual"><scope>PlatyVGCore::View</scope><name>OptionContext</name></member>
+      <member refid="class_platy_v_g_core_1_1_view_1aafd3b2a0788f1ad69eb518d730957bf9" prot="public" virt="non-virtual"><scope>PlatyVGCore::View</scope><name>OptionMS</name></member>
+      <member refid="class_platy_v_g_core_1_1_view_1addf9d52810d9985e89451b0cac11cb26" prot="public" virt="non-virtual"><scope>PlatyVGCore::View</scope><name>OptionRadius</name></member>
+      <member refid="class_platy_v_g_core_1_1_view_1aff7fda625bf31918fdd0722bfcef98c9" prot="public" virt="non-virtual"><scope>PlatyVGCore::View</scope><name>OptionSelectBy</name></member>
+      <member refid="class_platy_v_g_core_1_1_view_1a32146f08265ba9123c2f01bde8f4e28e" prot="public" virt="non-virtual"><scope>PlatyVGCore::View</scope><name>OptionStrokeBy</name></member>
+      <member refid="class_platy_v_g_core_1_1_view_1a2935155fb09a39a7ce5c44dde553c0e4" prot="public" virt="non-virtual"><scope>PlatyVGCore::View</scope><name>UnlockDynShape</name></member>
+      <member refid="class_platy_v_g_core_1_1_view_1aafb8fd1ff6b47ec7a02152c9d242306b" prot="public" virt="non-virtual"><scope>PlatyVGCore::View</scope><name>View</name></member>
+      <member refid="class_platy_v_g_core_1_1_view_1a5c7f2dc1a7272018e481078974cd83ad" prot="public" virt="non-virtual"><scope>PlatyVGCore::View</scope><name>~View</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

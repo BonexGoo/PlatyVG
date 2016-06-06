@@ -1,0 +1,592 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_platy_v_g_api_1_1_command_1_1_canvas" kind="class" language="C++" prot="public">
+    <compoundname>PlatyVGApi::Command::Canvas</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1_1_canvas_1aec9576973b0171fec3c32e335b13a7f2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const sint32</type>
+        <definition>static const sint32 PlatyVGApi::Command::Canvas::Create</definition>
+        <argsstring>(const bool focusable)</argsstring>
+        <name>Create</name>
+        <param>
+          <type>const bool</type>
+          <declname>focusable</declname>
+        </param>
+        <briefdescription>
+<para>자료 생성하기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>focusable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 포커싱가능여부 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>자료의 ID </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1_1_canvas_1a5464d31bdc82557017ed77db748e4cda" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PlatyVGApi::Command::Canvas::Remove</definition>
+        <argsstring>(const sint32 doc)</argsstring>
+        <name>Remove</name>
+        <param>
+          <type>const sint32</type>
+          <declname>doc</declname>
+        </param>
+        <briefdescription>
+<para>해당 자료를 제거하기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 자료의 ID </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="28" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1_1_canvas_1aaf541c3e744f5a75154ed13542e7858a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PlatyVGApi::Command::Canvas::Update</definition>
+        <argsstring>(const sint32 doc)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>const sint32</type>
+          <declname>doc</declname>
+        </param>
+        <briefdescription>
+<para>해당 자료를 업데이트하기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 자료의 ID </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="34" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1_1_canvas_1abdc36cf982fcaa303fd2ebf3e6671247" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PlatyVGApi::Command::Canvas::UpdateBy</definition>
+        <argsstring>(const sint32 doc, const float radius)</argsstring>
+        <name>UpdateBy</name>
+        <param>
+          <type>const sint32</type>
+          <declname>doc</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+<para>해당 자료를 해당 반지름길이로 업데이트하기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 자료의 ID </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>radius</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 반지름길이(픽셀단위) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1_1_canvas_1ad0c06dae19e78902a678a3fbb35bb26a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PlatyVGApi::Command::Canvas::SetName</definition>
+        <argsstring>(const sint32 doc, chars name)</argsstring>
+        <name>SetName</name>
+        <param>
+          <type>const sint32</type>
+          <declname>doc</declname>
+        </param>
+        <param>
+          <type>chars</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>해당 자료의 이름설정 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 자료의 ID </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 자료의 이름 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="48" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1_1_canvas_1ae0133935857f88141ceec1ddc02a1ae5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_px_1_1_string" kindref="compound">String</ref></type>
+        <definition>static const String PlatyVGApi::Command::Canvas::GetName</definition>
+        <argsstring>(const sint32 doc)</argsstring>
+        <name>GetName</name>
+        <param>
+          <type>const sint32</type>
+          <declname>doc</declname>
+        </param>
+        <briefdescription>
+<para>해당 자료의 이름얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 자료의 ID </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>자료의 이름 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="55" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1_1_canvas_1a78bbb32e80fb3168560bc3b5833922f2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PlatyVGApi::Command::Canvas::SetArea</definition>
+        <argsstring>(const sint32 doc, const Rect rect)</argsstring>
+        <name>SetArea</name>
+        <param>
+          <type>const sint32</type>
+          <declname>doc</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_rect" kindref="compound">Rect</ref></type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+<para>해당 자료의 영역설정 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 자료의 ID </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rect</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 영역값 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="62" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1_1_canvas_1af7da0709d54ea5dc2d77c19d805bf2a7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_platy_v_g_element_1_1_rect" kindref="compound">Rect</ref></type>
+        <definition>rect rect rect rect b const Rect PlatyVGApi::Command::Canvas::GetArea</definition>
+        <argsstring>(const sint32 doc)</argsstring>
+        <name>GetArea</name>
+        <param>
+          <type>const sint32</type>
+          <declname>doc</declname>
+        </param>
+        <briefdescription>
+<para>해당 자료의 영역얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 자료의 ID </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>영역값 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="69" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.cpp" bodystart="109" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1_1_canvas_1a84dd048234622d441333d5439bf2a148" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PlatyVGApi::Command::Canvas::SetZoom</definition>
+        <argsstring>(const sint32 doc, const Zoom zoom)</argsstring>
+        <name>SetZoom</name>
+        <param>
+          <type>const sint32</type>
+          <declname>doc</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_zoom" kindref="compound">Zoom</ref></type>
+          <declname>zoom</declname>
+        </param>
+        <briefdescription>
+<para>해당 자료를 줌설정 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 자료의 ID </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>zoom</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 줌값 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="76" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1_1_canvas_1af9bec792d068b9c71b6d03af0a01d6a0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PlatyVGApi::Command::Canvas::SetZoomInRect</definition>
+        <argsstring>(const sint32 doc, const Rect rect, const BoundBy boundby=BoundByInner)</argsstring>
+        <name>SetZoomInRect</name>
+        <param>
+          <type>const sint32</type>
+          <declname>doc</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_rect" kindref="compound">Rect</ref></type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>const BoundBy</type>
+          <declname>boundby</declname>
+          <defval>BoundByInner</defval>
+        </param>
+        <briefdescription>
+<para>해당 자료를 특정 스크린영역으로 재배치 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 자료의 ID </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rect</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 영역값 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>boundby</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 바운드규칙 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="84" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1_1_canvas_1afb6782b7ad594a5817087afe305a9b1a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_platy_v_g_element_1_1_zoom" kindref="compound">Zoom</ref></type>
+        <definition>z offset z offset z scale const Zoom PlatyVGApi::Command::Canvas::GetZoom</definition>
+        <argsstring>(const sint32 doc)</argsstring>
+        <name>GetZoom</name>
+        <param>
+          <type>const sint32</type>
+          <declname>doc</declname>
+        </param>
+        <briefdescription>
+<para>해당 자료의 줌얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 자료의 ID </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>줌값 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="91" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.cpp" bodystart="156" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1_1_canvas_1affcc98766dbee207156ab7c9e0bab415" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PlatyVGApi::Command::Canvas::SetFocus</definition>
+        <argsstring>(const sint32 doc, const bool popup=true)</argsstring>
+        <name>SetFocus</name>
+        <param>
+          <type>const sint32</type>
+          <declname>doc</declname>
+        </param>
+        <param>
+          <type>const bool</type>
+          <declname>popup</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>해당 자료를 포커싱 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 자료의 ID </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>popup</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 팝업 여부 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="98" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1_1_canvas_1a4f4bd53326104df72c833c4de3e4d4c4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const sint32</type>
+        <definition>static const sint32 PlatyVGApi::Command::Canvas::GetFocus</definition>
+        <argsstring>()</argsstring>
+        <name>GetFocus</name>
+        <briefdescription>
+<para>포커싱된 자료얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>자료의 ID(포커싱된 자료가 없으면 -1) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="104" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1_1_canvas_1af5c2e26ad26613286f1634083120c147" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const sint32</type>
+        <definition>static const sint32 PlatyVGApi::Command::Canvas::GetDocumentCount</definition>
+        <argsstring>()</argsstring>
+        <name>GetDocumentCount</name>
+        <briefdescription>
+<para>자료의 수량얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>자료의 수량 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="110" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1_1_canvas_1a830a543783b3f253ac133d4b4457c2da" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const sint32</type>
+        <definition>static const sint32 PlatyVGApi::Command::Canvas::GetDocument</definition>
+        <argsstring>(const sint32 index)</argsstring>
+        <name>GetDocument</name>
+        <param>
+          <type>const sint32</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>해당 출력순번의 자료얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 해당 출력순번 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>자료의 ID(위치된 자료가 없으면 -1) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="117" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1_1_canvas_1a9ae4432dc2898d7b3264277017273976" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const sint32</type>
+        <definition>static const sint32 PlatyVGApi::Command::Canvas::GetDocumentBy</definition>
+        <argsstring>(const Point point)</argsstring>
+        <name>GetDocumentBy</name>
+        <param>
+          <type>const <ref refid="class_platy_v_g_element_1_1_point" kindref="compound">Point</ref></type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+<para>해당 위치의 자료얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>point</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 해당 위치 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>자료의 ID(위치된 자료가 없으면 -1) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="124" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1_1_canvas_1a765bb9685394b065b4b3dec4b30c6205" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const sint64</type>
+        <definition>static const sint64 PlatyVGApi::Command::Canvas::GetTimeOfLastDrawing</definition>
+        <argsstring>(const sint32 doc)</argsstring>
+        <name>GetTimeOfLastDrawing</name>
+        <param>
+          <type>const sint32</type>
+          <declname>doc</declname>
+        </param>
+        <briefdescription>
+<para>해당 자료의 마지막 그려진 시간얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 자료의 ID </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>밀리초시간(저장후 그려진 내용이 없으면 -1) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="131" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_platy_v_g_api_1_1_command_1_1_canvas_1a6437f6065634c987c113c183ec7bc695" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PlatyVGApi::Command::Canvas::Snapshot</definition>
+        <argsstring>(const sint32 doc, uint32 *bits, const sint32 width, const sint32 height, const BoundBy boundby=BoundByInner)</argsstring>
+        <name>Snapshot</name>
+        <param>
+          <type>const sint32</type>
+          <declname>doc</declname>
+        </param>
+        <param>
+          <type>uint32 *</type>
+          <declname>bits</declname>
+        </param>
+        <param>
+          <type>const sint32</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>const sint32</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>const BoundBy</type>
+          <declname>boundby</declname>
+          <defval>BoundByInner</defval>
+        </param>
+        <briefdescription>
+<para>해당 자료의 스냅샷얻기 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 자료의 ID </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 비트맵픽셀정보 시작포인터 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>width</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 비트맵의 가로길이 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 비트맵의 세로길이 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>boundby</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 바운드규칙 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="141" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" line="15" column="1" bodyfile="Z:/Users/bonex/Bonexpecial/Team_Onezay/Project/BxProject/PlatyVG/source/api/command.hpp" bodystart="14" bodyend="142"/>
+    <listofallmembers>
+      <member refid="class_platy_v_g_api_1_1_command_1_1_canvas_1aec9576973b0171fec3c32e335b13a7f2" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command::Canvas</scope><name>Create</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1_1_canvas_1af7da0709d54ea5dc2d77c19d805bf2a7" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command::Canvas</scope><name>GetArea</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1_1_canvas_1a830a543783b3f253ac133d4b4457c2da" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command::Canvas</scope><name>GetDocument</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1_1_canvas_1a9ae4432dc2898d7b3264277017273976" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command::Canvas</scope><name>GetDocumentBy</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1_1_canvas_1af5c2e26ad26613286f1634083120c147" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command::Canvas</scope><name>GetDocumentCount</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1_1_canvas_1a4f4bd53326104df72c833c4de3e4d4c4" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command::Canvas</scope><name>GetFocus</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1_1_canvas_1ae0133935857f88141ceec1ddc02a1ae5" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command::Canvas</scope><name>GetName</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1_1_canvas_1a765bb9685394b065b4b3dec4b30c6205" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command::Canvas</scope><name>GetTimeOfLastDrawing</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1_1_canvas_1afb6782b7ad594a5817087afe305a9b1a" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command::Canvas</scope><name>GetZoom</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1_1_canvas_1a5464d31bdc82557017ed77db748e4cda" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command::Canvas</scope><name>Remove</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1_1_canvas_1a78bbb32e80fb3168560bc3b5833922f2" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command::Canvas</scope><name>SetArea</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1_1_canvas_1affcc98766dbee207156ab7c9e0bab415" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command::Canvas</scope><name>SetFocus</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1_1_canvas_1ad0c06dae19e78902a678a3fbb35bb26a" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command::Canvas</scope><name>SetName</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1_1_canvas_1a84dd048234622d441333d5439bf2a148" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command::Canvas</scope><name>SetZoom</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1_1_canvas_1af9bec792d068b9c71b6d03af0a01d6a0" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command::Canvas</scope><name>SetZoomInRect</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1_1_canvas_1a6437f6065634c987c113c183ec7bc695" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command::Canvas</scope><name>Snapshot</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1_1_canvas_1aaf541c3e744f5a75154ed13542e7858a" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command::Canvas</scope><name>Update</name></member>
+      <member refid="class_platy_v_g_api_1_1_command_1_1_canvas_1abdc36cf982fcaa303fd2ebf3e6671247" prot="public" virt="non-virtual"><scope>PlatyVGApi::Command::Canvas</scope><name>UpdateBy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
