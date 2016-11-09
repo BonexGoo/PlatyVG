@@ -27,14 +27,18 @@ namespace Px
 
 	// About Buffer
 	#if defined(__x86_64__) || defined(__amd64__) || defined(__LP64__)
-		typedef sint64			sblock;
-		typedef uint64			ublock;
+		typedef long long          sblock;
+		typedef unsigned long long ublock;
+		typedef unsigned __int64   sizet;
+		typedef __int64            ssizet;
 	#else
-		typedef sint32			sblock;
-		typedef uint32			ublock;
+		typedef int                sblock;
+		typedef unsigned int       ublock;
+		typedef unsigned int       sizet;
+		typedef int                ssizet;
 	#endif
-	typedef sblock*				nakedbuffer;
-	typedef ublock*				buffer;
+	typedef sblock*                nakedbuffer;
+	typedef ublock*                buffer;
 
     // About Platform API
     typedef sint32				api_autorun;
@@ -162,16 +166,17 @@ namespace Px
 
 #if __APPLE__ == 1
 	#define PTR_TO_SBLOCK(VALUE) ((sblock)(sint64) VALUE)
-	#define __SIZE_T__ unsigned long
 #else
 	#define PTR_TO_SBLOCK(VALUE) ((sblock) VALUE)
-	#define __SIZE_T__ unsigned int
 #endif
 
-inline void* operator new(__SIZE_T__, sblock ptr) {return (void*) ptr;}
-inline void* operator new[](__SIZE_T__, sblock ptr) {return (void*) ptr;}
-inline void operator delete(void*, sblock) {}
-inline void operator delete[](void*, sblock) {}
+#ifndef _BX_OPERATOR_NEW_
+#define _BX_OPERATOR_NEW_
+	inline void* operator new(sizet, sblock ptr) {return (void*) ptr;}
+	inline void* operator new[](sizet, sblock ptr) {return (void*) ptr;}
+	inline void operator delete(void*, sblock) {}
+	inline void operator delete[](void*, sblock) {}
+#endif
 
 #ifdef __BX_APPLICATION
 	#include <BxCore.hpp>

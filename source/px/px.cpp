@@ -2,16 +2,12 @@
 #include "../px/file.hpp"
 #include "../px/string.hpp"
 
+#include <stdio.h>
+
 #ifdef ANDROID
     #include <jni.h>
 #endif
 
-extern "C"
-{
-    extern void* memcpy(void*, const void*, ublock);
-	extern int printf(const char*, ...);
-	extern int sprintf(const char*, const char*, ...);
-}
 #define PX_MEMCPY(DST, SRC, SIZE) memcpy(DST, SRC, SIZE)
 #define PX_PRINTF(DST, ...) printf(DST, __VA_ARGS__)
 #define PX_SPRINTF(DST, SRC, ...) sprintf(DST, SRC, __VA_ARGS__)
